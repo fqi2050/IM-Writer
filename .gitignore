@@ -13,3 +13,6 @@ runs/
 
 # Use GitHub's source download instead of committing a duplicate demo archive.
 /mna-im-starter-kit.zip
+
+# Local Python environments for portable builds
+.venv/

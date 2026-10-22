@@ -1,0 +1,35 @@
+{
+  "passed": {
+    "slides": 10,
+    "native_tables": 14,
+    "native_charts": 2,
+    "native_text_elements": 106,
+    "source_notes": 10,
+    "embedded_chart_workbooks": 2
+  },
+  "sha256": "20646bc16187dac81168429859e06dae7f6f08d296d45ce62de14fefbd538aac",
+  "renderer": "pptxgenjs",
+  "limitations": [
+    "Structural/content checks only. Render and inspect all pages separately.",
+    "Windows desktop PowerPoint edit/save/reopen has not been tested.",
+    "Charts contain editable snapshots, not live source-workbook connections."
+  ],
+  "visual_review": {
+    "host": "macOS",
+    "renderer": "Codex development preview via imported final PPTX, not a portable runtime dependency",
+    "pages_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "result": "No clipping or content overlap observed",
+    "windows_desktop_tested": false
+  }
+}

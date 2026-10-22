@@ -19,10 +19,10 @@ def chart_svg(e):
 
 def render(data):
  assets=Path(__file__).resolve().parents[1]/'assets'
- base=(assets/'viewport-base.css').read_text()
+ base=(assets/'viewport-base.css').read_text(encoding='utf-8')
  profile=data.get('style_profile','advisory-dense')
  if profile!='advisory-dense':raise ValueError('This skill requires style_profile advisory-dense; received '+str(profile))
- theme=json.loads((assets/(profile+'.json')).read_text())
+ theme=json.loads((assets/(profile+'.json')).read_text(encoding='utf-8'))
  default_text=theme.get('text','#00338D')
  default_chart=theme.get('primary','#00338D')
  css='''/* === IM TYPOGRAPHY AND LAYOUT === */
@@ -78,4 +78,4 @@ window.deck=new SlidePresentation();document.querySelector('#prev').onclick=()=>
  return f'''<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{E(data['title'])}</title><style>{base}\n{css}</style></head><body><div class="deck-viewport"><main class="deck-stage">{''.join(sections)}</main></div><nav class="deck-controls" aria-label="Presentation controls"><button id="prev" aria-label="Previous slide">←</button><span id="count"></span><button id="next" aria-label="Next slide">→</button><button id="edit">Edit text (E)</button><button id="save">Save HTML</button><button id="sources">Sources</button></nav><aside id="sourcePanel" hidden></aside><script>{js}</script></body></html>'''
 if __name__=='__main__':
  if len(sys.argv)!=3:raise SystemExit('Usage: render_html.py STORYBOARD_JSON OUTPUT_HTML')
- p=Path(sys.argv[2]);p.parent.mkdir(parents=True,exist_ok=True);p.write_text(render(json.loads(Path(sys.argv[1]).read_text())));print(p)
+ p=Path(sys.argv[2]);p.parent.mkdir(parents=True,exist_ok=True);p.write_text(render(json.loads(Path(sys.argv[1]).read_text(encoding='utf-8'))),encoding='utf-8');print(p)

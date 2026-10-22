@@ -2,7 +2,7 @@
 import json,math,re,sys
 from pathlib import Path
 root=Path(__file__).resolve().parents[1]
-ex=json.loads((root/'working/extracted.json').read_text());sources=ex['sources'];by={s['id']:s for s in sources}
+ex=json.loads((root/'working/extracted.json').read_text(encoding='utf-8'));sources=ex['sources'];by={s['id']:s for s in sources}
 for s in sources:
  if s['status']!='extracted':raise ValueError('Unreviewed input '+s['path'])
 def cell(loc):
@@ -266,8 +266,8 @@ for n,s in enumerate(slides,1):
  for cid in sorted(cu):notes.append(cid+': '+json.dumps(cmap[cid],ensure_ascii=False))
  s['notes']=notes
 ledger={'synthetic':True,'sources':[{k:v for k,v in s.items() if k!='items'} for s in sources],'facts':facts,'calculations':calcs,'issues':issues,'slide_claims':claims}
-(root/'working/evidence-ledger.json').write_text(json.dumps(ledger,ensure_ascii=False,indent=2))
-(root/'working/storyboard.json').write_text(json.dumps({'title':'Project Northbridge — Information Memorandum','synthetic':True,'style_profile':'advisory-dense','slides':slides},ensure_ascii=False,indent=2))
-(root/'working/issue-register.json').write_text(json.dumps(issues,indent=2))
-(root/'working/input-manifest.json').write_text(json.dumps(ledger['sources'],indent=2))
+(root/'working/evidence-ledger.json').write_text(json.dumps(ledger,ensure_ascii=False,indent=2),encoding="utf-8")
+(root/'working/storyboard.json').write_text(json.dumps({'title':'Project Northbridge — Information Memorandum','synthetic':True,'style_profile':'advisory-dense','slides':slides},ensure_ascii=False,indent=2),encoding="utf-8")
+(root/'working/issue-register.json').write_text(json.dumps(issues,indent=2),encoding="utf-8")
+(root/'working/input-manifest.json').write_text(json.dumps(ledger['sources'],indent=2),encoding="utf-8")
 print(f'Built {len(slides)} slides, {len(facts)} facts, {len(calcs)} calculations, {len(claims)} claim mappings')

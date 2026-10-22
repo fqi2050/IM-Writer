@@ -1,0 +1,25 @@
+"""Build HTML + native PPT from a semantic storyboard using public dependencies only."""
+import argparse,importlib.util,os,shutil,subprocess,sys,json
+from pathlib import Path
+p=argparse.ArgumentParser();p.add_argument('storyboard');p.add_argument('output_dir');p.add_argument('--check',action='store_true');a=p.parse_args()
+skill=Path(__file__).resolve().parents[1];scripts=skill/'scripts';source=Path(a.storyboard).resolve();out=Path(a.output_dir).resolve()
+if sys.version_info<(3,12):raise SystemExit('Use Python 3.12 or newer (Windows: py -3.12).')
+missing=[name for name in ['PIL','openpyxl'] if importlib.util.find_spec(name) is None]
+if missing:raise SystemExit('Missing Python packages: '+', '.join(missing)+'. Install with python -m pip install -r <skill-folder>/requirements.txt')
+node=os.environ.get('IM_NODE') or shutil.which('node')
+if not node:raise SystemExit('Node.js not found. Install Node.js 20+ and reopen the terminal, or set IM_NODE to node.exe.')
+version=subprocess.check_output([node,'-p','process.versions.node'],text=True).strip()
+if int(version.split('.')[0])<20:raise SystemExit('Node.js 20+ required; found '+version)
+subprocess.run([node,str(scripts/'storyboard_to_pptx.cjs'),'--check'],check=True)
+if not source.is_file():raise SystemExit('Storyboard not found: '+str(source))
+if a.check:print('Portable dependency check passed. Font fit is checked during build.');sys.exit(0)
+if out.exists():raise SystemExit('Choose a new output directory: '+str(out))
+(out/'working').mkdir(parents=True);(out/'outputs').mkdir()
+measured=out/'working/storyboard.json';shutil.copy2(source,measured)
+def run(*args):subprocess.run([str(x) for x in args],check=True)
+run(sys.executable,scripts/'prepare_layout.py',measured,skill/'assets/advisory-dense.json')
+run(sys.executable,scripts/'render_html.py',measured,out/'outputs/im.html')
+run(node,scripts/'storyboard_to_pptx.cjs',measured,out/'outputs/im-editable.pptx')
+run(sys.executable,scripts/'validate_native.py',measured,out/'outputs/im-editable.pptx',out/'outputs/validation.json')
+(out/'outputs/build-info.json').write_text(json.dumps({'mode':'portable-storyboard','node':version,'python':sys.version.split()[0],'html_dom_converted':False,'browser_preview_tested':False,'desktop_powerpoint_tested':False},indent=2),encoding='utf-8')
+print('Outputs: '+str(out/'outputs')+'\nOpen the HTML in a browser and inspect every PPT page in PowerPoint before delivery.')

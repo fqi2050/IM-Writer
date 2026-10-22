@@ -2,15 +2,15 @@
 
 将客户的非结构化资料整理成有来源依据的 Information Memorandum 初稿，输出 HTML 和可编辑 PowerPoint。
 
-仓库包含可复用的 Codex skill，以及虚构公司 **Northbridge Field Services 的 10 页英文 sell-side IM**。所有示例公司、人物和业务数据均为虚构。
+仓库包含可在 Codex 或 GitHub Copilot 使用的 skill，以及虚构公司 **Northbridge Field Services 的 10 页英文 sell-side IM**。所有示例公司、人物和业务数据均为虚构。
 
 ## 先选择你要做的事
 
 | 目的 | 从这里开始 | 需要什么 |
 | --- | --- | --- |
 | 查看新版完整 10 页 demo | 下载后打开 `START_HERE.html` | 浏览器；查看 PPT 需要 PowerPoint 或兼容软件 |
-| 用自己的资料制作 IM | [Skill 安装与使用](docs/skill-usage.md) | Codex，以及文档与 PPT 生成所需运行环境 |
-| 修改程序或重跑模拟案例 | [开发与复跑说明](docs/development.md) | Python、Node、Codex 配套库及 Presentations skill |
+| 用自己的资料制作 IM | [Skill 安装与使用](docs/skill-usage.md) | Codex 或 Copilot，以及所选导出器的运行依赖 |
+| 修改程序或重跑模拟案例 | [开发与复跑说明](docs/development.md) | Python、Node；Copilot 路径使用公开 PptxGenJS |
 
 ## 查看 demo：下载、解压、打开
 
@@ -36,7 +36,7 @@ GitHub 文件页显示 HTML 源码，下载到本地后才是演示页面。修�
 
 客户资料 → 文件清单与提取 → 事实库及冲突清单 → IM 故事线 → HTML → 可编辑 PPTX → 质量检查。
 
-**当前是依赖 Codex 环境的原型。** 下载仓库或安装 skill 不会自动安装转换运行时；生成 PPT 依赖 `@oai/artifact-tool` 等配套组件，不能仅通过 `npm install` 启动。环境要求见 [开发说明](docs/development.md)。
+**Windows + GitHub Copilot 请使用公开依赖路径。** 按 [Copilot / Windows 设置](skills/mna-information-memo/references/portable-runtime.md) 安装 Python、Node 和 PptxGenJS，无需 `@oai/artifact-tool` 或 Codex runtime。原有 Codex 转换器仍保留。两种方式的区别见 [开发说明](docs/development.md)。
 
 ## 目录说明
 

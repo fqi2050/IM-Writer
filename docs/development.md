@@ -2,13 +2,28 @@
 
 [返回首页](../README.md) · [Skill 使用指南](skill-usage.md) · [模拟案例说明](../demo-northbridge/README.md)
 
-## 运行环境
+## Windows / GitHub Copilot
+
+推荐先按 [公开依赖路径](../skills/mna-information-memo/references/portable-runtime.md) 安装。此路径不需要 Codex runtime、Presentations skill、浏览器自动化或 Windows 符号链接权限。
+
+在仓库根目录的 PowerShell 中：
+
+```powershell
+py -3.12 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r skills\mna-information-memo\requirements.txt
+npm.cmd ci --prefix skills\mna-information-memo --ignore-scripts --no-audit --no-fund
+.\.venv\Scripts\python.exe demo-northbridge\scripts\rebuild.py --backend portable --output-dir "demo-northbridge\runs\copilot-01"
+```
+
+`--backend auto` 为默认：Codex 环境变量齐备时使用 Codex，否则使用 portable。可显式指定 `--backend codex` 或 `--backend portable`。portable 从同一份故事板生成 HTML/PPT，不转换手工编辑过的 HTML。只安装 skill、不下载 demo 时，直接使用 skill 内的 `build_portable.py`。
+
+## Codex 专用运行环境
 
 仅打开现有 HTML/PPT 不需要下列依赖。重新生成时，需要在 Codex 环境中取得实际路径：
 
 | 组件 | 用途 |
 | --- | --- |
-| Python，含 `python-docx`、`openpyxl`、`Pillow` | 读取 Word/Excel，建立工作文件，渲染 HTML |
+| Python 3.12+，含 `python-docx`、`openpyxl`、`Pillow` | 读取 Word/Excel，建立工作文件，渲染 HTML |
 | Node.js，含 `@oai/artifact-tool`、`playwright` | HTML 转原生可编辑 PPT，渲染检查 |
 | Google Chrome 或兼容 Chromium | 读取并检查 HTML 页面 |
 | 已安装的 Presentations skill | 图表字体辅助、最终检查与工作簿打包 |
@@ -66,6 +81,6 @@ demo-northbridge/runs/run-01/outputs/northbridge-im-editable.pptx
 
 在获准浏览器不可用时，给 `rebuild.py` 添加 `--native-from-storyboard`。此模式将同一份已测量故事板分别渲染为 HTML 和原生 PPT，不读取 HTML DOM，因此不会转换用户手工修改过的 HTML。默认方式仍为 HTML 转 PPT。
 
-`prepare_layout.py` 使用 Arial 字体度量来检查文本并分配表格行高，随后将行高同时用于 HTML 和 PPT。默认字体路径为 macOS 系统 Arial；其他环境通过 `IM_FONT_REGULAR` 和 `IM_FONT_BOLD` 指向合法安装的 Arial 字体文件。
+`prepare_layout.py` 使用 Arial 字体度量来检查文本并分配表格行高，随后将行高同时用于 HTML 和 PPT。自动识别 Windows 和 macOS 系统 Arial；其他环境通过 `IM_FONT_REGULAR` 和 `IM_FONT_BOLD` 指向合法安装的 Arial 字体文件。
 
 当前高密度版使用无浏览器模式。HTML 已做源代码和结构检查，本轮未进行浏览器视觉或交互复测；`browser-test-results.json` 标记保留的上一版测试。最终 PPT 已重新导入生成工具并逐页查看，桌面 PowerPoint 未实测。

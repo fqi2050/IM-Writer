@@ -35,3 +35,5 @@ Northbridge Field Services 是虚构的英国 B2B 维护服务公司。所有人
 `tests/test_evidence.py` 检查来源及输入变更能否正确触发重算/报错；`check_package.py` 检查 PPT 原生对象、备注和工作簿；`test_full_deck.py` 逐项比较成品与故事板并验证必需风格；`test_browser.mjs` 检查导航、移动端比例、编辑保存及转换。
 
 新客户须重新建立证据库和故事线，不能仅替换输入后运行固定案例脚本。完整 demo 无须安装到 skills 目录。当前样式用 Arial 替代参考专用字体，尚未应用正式 PPTX 母版，桌面 PowerPoint 编辑/保存/重开尚未实测。
+
+Windows / GitHub Copilot 复跑请看 [公开依赖设置](../skills/mna-information-memo/references/portable-runtime.md)，在仓库根目录按 [PowerShell 命令](../docs/development.md#windows--github-copilot) 使用 `--backend portable`。无需 Codex runtime。

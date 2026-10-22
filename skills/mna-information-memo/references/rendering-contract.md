@@ -20,7 +20,7 @@ CLI:
 "<node>" "<skill-directory>/scripts/html_to_pptx.mjs" "<run-directory>/outputs/im.html" "<run-directory>/.build/draft.pptx" "<run-directory>/.build/previews"
 ```
 
-Use the host's bundled runtimes/package path. The converter defaults to an isolated headless Google Chrome process; set IM_BROWSER_PATH for another compatible Chromium executable. Set IM_PRESENTATIONS_SKILL to the installed Presentations skill folder so chart fonts use its shared helper. Build a fresh evidence ledger and storyboard from the client inputs. The skill does not require a repository demo or a demo rebuild script.
+The commands in this section are for the Codex HTML DOM exporter. For Copilot or a missing private runtime, use [portable-runtime.md](portable-runtime.md) instead. Use the host's bundled runtimes/package path only when available. The converter defaults to an isolated headless Google Chrome process; set IM_BROWSER_PATH for another compatible Chromium executable. Set IM_PRESENTATIONS_SKILL to the installed Presentations skill folder so chart fonts use its shared helper. Build a fresh evidence ledger and storyboard from the client inputs. The skill does not require a repository demo or a demo rebuild script.
 
 ## Bundled format example
 

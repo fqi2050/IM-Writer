@@ -1,0 +1,10 @@
+{
+  "passed": [
+    "Standalone bundled example produces native text, table, chart, notes and embedded workbook.",
+    "Native chart cache corruption is rejected against the storyboard.",
+    "Paths with spaces and Chinese characters succeed."
+  ],
+  "host_platform": "darwin",
+  "windows_desktop_tested": false,
+  "dependencies": "Public Python packages and local npm PptxGenJS; no artifact-tool import or private finalizer."
+}

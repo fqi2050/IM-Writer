@@ -6,7 +6,7 @@
 
 只看 demo：完整解压仓库后打开 [START_HERE.html](../START_HERE.html)，无需安装。
 
-制作新 IM：需要可访问本地文件的 Codex 环境，以及本项目要求的文档、浏览器和 PPT 运行依赖。先让 Codex 按 [环境清单](development.md#运行环境) 检查依赖是否可用，再执行生成。
+制作新 IM：需要可访问本地文件并运行命令的 Codex 或 GitHub Copilot。Windows / Copilot 先使用 [公开依赖安装说明](../skills/mna-information-memo/references/portable-runtime.md)，无需 Codex 专用 runtime。先让助手 按 [环境清单](development.md#运行环境) 检查依赖是否可用，再执行生成。
 
 ## 安装完整 skill 文件夹
 
@@ -74,3 +74,17 @@ Northbridge 的 `rebuild.py` 只重放既定模拟案例。新客户需要重新
 无需另行选择。Skill 每次生成都必须读取内置 [设计规则](../skills/mna-information-memo/references/advisory-design.md)，在故事板使用 `style_profile: "advisory-dense"`，并按报告的配色、表格、页脚、信息密度和阅读式布局编写内容。渲染器缺省采用此风格，并拒绝其他配置名。具体布局仍需根据证据编写，不能只换颜色。
 
 有获准使用的原始 KPMG PPTX 模板时，进一步遵循其母版及字体。当前使用 Arial 替代专用字体，不包含原始报告、Logo 或专用字体，也不宣称官方认可。内置规则及最小格式示例随 skill 安装，不需要复制完整 demo 或原始参考 PDF。
+
+## 在 VS Code 的 GitHub Copilot 中使用
+
+无需依赖 `$mna-information-memo` 的 Codex 调用语法。将完整 skill 文件夹放在可访问的位置，完成其 [Windows 设置](../skills/mna-information-memo/references/portable-runtime.md)，再向 Copilot Agent 明确提供路径：
+
+```text
+请读取 C:\IM-Writer\skills\mna-information-memo\SKILL.md，并按其中的 portable / Copilot 路径工作。
+不要调用 Codex 专用工具或寻找 @oai/artifact-tool。
+先检查 Python、Node 和公开依赖；资料位于 <客户目录>。
+根据资料建立证据库和故事板，再生成 HTML 和原生可编辑 PPT。
+遵循 mandatory advisory-dense 风格。修改 HTML 后先同步故事板再重新生成 PPT。
+```
+
+具体是否自动发现 skill 取决于 Copilot 设置；上述方式直接指定文件，不依赖自动发现。仅查看已有 demo 不需要安装运行依赖。

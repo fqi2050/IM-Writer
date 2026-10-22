@@ -34,4 +34,4 @@ def extract(folder):
  return sources
 if __name__=='__main__':
  if len(sys.argv)!=3:raise SystemExit('Usage: extract_sources.py INPUT_DIR OUTPUT_JSON')
- dest=Path(sys.argv[2]);dest.parent.mkdir(parents=True,exist_ok=True);result=extract(sys.argv[1]);dest.write_text(json.dumps({'sources':result},indent=2,ensure_ascii=False));print(f'Extracted {sum(s["status"]=="extracted" for s in result)} / {len(result)} files -> {dest}')
+ dest=Path(sys.argv[2]);dest.parent.mkdir(parents=True,exist_ok=True);result=extract(sys.argv[1]);dest.write_text(json.dumps({'sources':result},indent=2,ensure_ascii=False),encoding='utf-8');print(f'Extracted {sum(s["status"]=="extracted" for s in result)} / {len(result)} files -> {dest}')
