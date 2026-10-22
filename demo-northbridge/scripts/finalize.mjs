@@ -9,7 +9,7 @@ const owners=type=>storyboard.slides.flatMap((s,i)=>s.elements.some(e=>e.type===
 const finalPath=path.join(root,'outputs/northbridge-im-editable.pptx');
 const result=await finalizePresentation({workspaceDir:root,candidatePath:path.join(root,'.build/draft.pptx'),finalPath,pythonExecutable:process.env.IM_PYTHON,integrityValidatorPath:path.join(skill,'container_tools/inspect_presentation_package_integrity.py'),layoutValidatorPath:path.join(skill,'container_tools/inspect_presentation_layout_geometry.py'),layoutArgs:['--expected-slide-size-emu','12192000,6858000','--validate-bullet-geometry','--validate-heading-fit',...owners('table').flatMap(n=>['--require-native-table-slide',String(n)])],explicitTotalSlideCount:10,tableArithmeticContracts:[
  {slide:4,table:1,label_column:0,total_row:4,value_columns:[1],component_rows:[1,2,3]},
- {slide:6,table:1,label_column:0,total_row:4,value_columns:[1,2,3],component_rows:[1,2,3]},
+ {slide:6,table:1,label_column:0,total_row:4,value_columns:[1,3,4],component_rows:[1,2,3]},
  {slide:7,table:1,label_column:0,total_row:3,value_columns:[1,2,3],component_rows:[1,2]},
  {slide:7,table:1,label_column:0,total_row:5,value_columns:[1,2,3],component_rows:[3,4]},
  {slide:7,table:2,label_column:0,total_row:5,value_columns:[1,2],component_rows:[1,2,3,4]},

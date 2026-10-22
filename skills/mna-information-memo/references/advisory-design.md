@@ -26,7 +26,7 @@ Colors below are rounded RGB values extracted from PDF vector/text objects. They
 | Light grey | `#F2F2F2` | Neutral grouping |
 | Black / white | `#000000` / `#FFFFFF` | Body text / background |
 
-The executable defaults are in `assets/advisory-dense.json`. At this project's 1280 × 720 design scale, start with Arial title 32–36, body/table 16–19, subsection 20–22, source notes 12–13. These are implementation choices for an available substitute, not measured KPMG font sizes. Keep the header within about the top 18% and reserve a source/footer band. Use 64–80 side margins and 24–32 gutters as starting points. Allow a supported takeaway title two lines; don't force every title to be a claim.
+The executable defaults are in `assets/advisory-dense.json`. At this project's 1280 × 720 design scale, start with Arial title 28–30, body/table 16–17, subsection 18–20, source notes 10.5–12. These are implementation choices for an available substitute, not measured KPMG font sizes. Keep the header within about the top 14% and reserve a source/footer band. Use 56–64 side margins and 24–32 gutters as starting points. Allow a supported takeaway title two lines; don't force every title to be a claim.
 
 Never extract or distribute proprietary fonts from a PDF. Use a supplied authorized font when available, otherwise disclose the substitute. Do not invent a KPMG logo, confidentiality wording, copyright footer or claim of approval. Label any synthetic examples visibly as fictional.
 
@@ -54,3 +54,9 @@ For each page, ask: what can the reader verify, compare or decide? Remove repeat
 Always set storyboard `style_profile` to `advisory-dense`; use the profile's roles for explicit text colors/sizes and chart colors. The renderer uses the profile for default table styling and otherwise unspecified text/chart colors. It does not replace explicit old colors, move objects, write analysis or populate source footers automatically.
 
 First validate investment case, business overview and financial analysis layouts against the user's materials. Use the bundled [format example](../assets/storyboard-example.json) when checking the semantic schema; author actual project layouts from the client evidence. Inspect rendered HTML and native PPT at the intended reading size. Before shrinking text, shorten repetition or rebalance columns. Keep all important financial rows, qualifications and source mappings. Native PPTX master matching remains a separate task once the original template is available.
+
+## Reading density after full-deck feedback
+
+The user found the first 10-page revision too sparse. Use compact title bands, narrower page margins and table padding, then spend the recovered space on supported analysis: margin/expense movements, quarterly contribution, contract exposure and forecast composition. Keep body text at a readable 16–17 on the 1280 canvas. Do not fill space by repeating diligence boilerplate, creating decorative KPI blocks or inventing operating facts. Keep each added calculation in the evidence ledger.
+
+Bottom browser navigation must vertically center its page counter and reserve a stable width with tabular digits, so 9 / 10 to 10 / 10 does not move the arrows. Slide footer page numbers align right to the same page edge.

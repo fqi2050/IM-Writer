@@ -28,7 +28,7 @@ Northbridge Field Services 是虚构的英国 B2B 维护服务公司。所有人
 
 ## 文件与重跑
 
-`inputs/` 是输入，`working/` 是提取结果、30 条事实、16 项计算、问题清单及故事板，`outputs/` 是成品。`scripts/` 和 `tests/` 用于重放及检查本虚构案例。
+`inputs/` 是输入，`working/` 是提取结果、30 条事实、25 项计算、问题清单及故事板，`outputs/` 是成品。`scripts/` 和 `tests/` 用于重放及检查本虚构案例。
 
 按 [开发说明](../docs/development.md) 运行 `rebuild.py`，每次写入新目录。`create_enrichment.py` 可重建 05–13 的原始虚构材料，执行会覆盖这些模拟文件，手动改过资料时请先保留自己的版本。无需为了重跑成品而重新创建输入文件。
 

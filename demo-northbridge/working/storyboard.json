@@ -10,28 +10,30 @@
         {
           "id": "cover-label",
           "type": "text",
-          "x": 72,
-          "y": 62,
-          "w": 1136,
-          "h": 28,
+          "x": 56,
+          "y": 40,
+          "w": 1168,
+          "h": 24,
           "text": "FICTIONAL TRANSACTION CASE",
-          "size": 18,
+          "size": 14,
           "color": "#00338D",
           "bold": true,
+          "align": "left",
           "fact_ids": [],
           "calc_ids": []
         },
         {
           "id": "cover-title",
           "type": "text",
-          "x": 72,
-          "y": 198,
-          "w": 1136,
-          "h": 90,
+          "x": 56,
+          "y": 137,
+          "w": 1168,
+          "h": 69,
           "text": "Project Northbridge",
-          "size": 54,
+          "size": 46,
           "color": "#00338D",
           "bold": true,
+          "align": "left",
           "fact_ids": [
             "BUS"
           ],
@@ -40,23 +42,24 @@
         {
           "id": "cover-subtitle",
           "type": "text",
-          "x": 72,
-          "y": 304,
-          "w": 1136,
-          "h": 54,
+          "x": 56,
+          "y": 221,
+          "w": 1168,
+          "h": 43,
           "text": "Information memorandum",
-          "size": 34,
+          "size": 28,
           "color": "#00338D",
           "bold": false,
+          "align": "left",
           "fact_ids": [],
           "calc_ids": []
         },
         {
           "id": "cover-rule",
           "type": "rule",
-          "x": 72,
-          "y": 389,
-          "w": 1136,
+          "x": 56,
+          "y": 288,
+          "w": 1168,
           "h": 1,
           "color": "#00338D",
           "fact_ids": []
@@ -64,14 +67,15 @@
         {
           "id": "cover-company",
           "type": "text",
-          "x": 72,
-          "y": 423,
-          "w": 1000,
-          "h": 82,
-          "text": "Northbridge Field Services Ltd\nEquipment maintenance and technical field support in the UK",
+          "x": 56,
+          "y": 319,
+          "w": 1168,
+          "h": 65,
+          "text": "Northbridge Field Services Ltd\nUK equipment maintenance and technical field support",
           "size": 23,
           "color": "#000000",
           "bold": false,
+          "align": "left",
           "fact_ids": [
             "BUS",
             "SERVICES"
@@ -79,312 +83,90 @@
           "calc_ids": []
         },
         {
+          "id": "cover-description",
+          "type": "text",
+          "x": 56,
+          "y": 411,
+          "w": 720,
+          "h": 109,
+          "text": "Founded in 2012, Northbridge provides scheduled maintenance, reactive repairs and installation services from three UK hubs. FY2025 management revenue is a provisional £25.0m, including £17.5m of maintenance activity. Shareholders are considering a sale of 70%–100% of the equity.",
+          "size": 16.5,
+          "color": "#000000",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "BUS",
+            "OPS",
+            "SERVICES",
+            "FIN25",
+            "MIX",
+            "DEAL"
+          ],
+          "calc_ids": []
+        },
+        {
           "id": "cover-date",
           "type": "text",
-          "x": 72,
-          "y": 554,
-          "w": 900,
-          "h": 56,
-          "text": "January 2026\nDraft for discussion",
-          "size": 19,
+          "x": 858,
+          "y": 411,
+          "w": 366,
+          "h": 80,
+          "text": "January 2026\nDraft for discussion\nStandalone UK company",
+          "size": 18,
+          "color": "#00338D",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "DEAL"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "cover-agenda-rule",
+          "type": "rule",
+          "x": 56,
+          "y": 548,
+          "w": 1168,
+          "h": 1,
+          "color": "#B8C7DF",
+          "fact_ids": []
+        },
+        {
+          "id": "cover-agenda",
+          "type": "text",
+          "x": 56,
+          "y": 571,
+          "w": 1168,
+          "h": 69,
+          "text": "02 Overview      03 Investment case      04 Services      05 Customers\n06 Operations      07 Financials      08 Forecast      09 Transaction      10 Diligence",
+          "size": 16,
           "color": "#595959",
           "bold": false,
+          "align": "left",
           "fact_ids": [],
           "calc_ids": []
         },
         {
           "id": "cover-fiction",
           "type": "text",
-          "x": 72,
-          "y": 665,
-          "w": 1136,
-          "h": 35,
-          "text": "All companies, people and figures are fictional. Management information is unaudited.",
-          "size": 12,
-          "color": "#595959",
-          "bold": false,
-          "fact_ids": [],
-          "calc_ids": []
-        }
-      ],
-      "notes": [
-        "FICTIONAL TRAINING CASE. All company and financial data are synthetic.",
-        "BUS: Business and founding [source_supported]\n01_company_brief.docx / paragraph 4 — Northbridge Field Services Ltd was founded in 2012. The UK business provides equipment maintenance and technical field support to industrial and logistics customers. Its headquarters are in Birmingham. The transaction perimeter is the entire standalone UK company.",
-        "SERVICES: Services and contract terms [source_supported]\n01_company_brief.docx / paragraph 6 — The business supplies scheduled maintenance under annual service contracts, reactive repairs and installation projects. Contracts generally run for one to three years and renew by agreement. Scheduled maintenance provides the contracted revenue stream. No assumption should be made that renewals are automatic. Customers include logistics operators, manufacturers and facilities managers."
-      ]
-    },
-    {
-      "title": "Business and transaction overview",
-      "background": "#FFFFFF",
-      "elements": [
-        {
-          "id": "s2-section",
-          "type": "text",
-          "x": 72,
-          "y": 28,
-          "w": 1136,
-          "h": 22,
-          "text": "Executive summary",
-          "size": 16,
-          "color": "#00338D",
-          "bold": true,
-          "fact_ids": [],
-          "calc_ids": []
-        },
-        {
-          "id": "s2-title",
-          "type": "text",
-          "x": 72,
-          "y": 61,
-          "w": 1136,
-          "h": 78,
-          "text": "Business and transaction overview",
-          "size": 34,
-          "color": "#00338D",
-          "bold": true,
-          "fact_ids": [
-            "BUS",
-            "SERVICES",
-            "FIN25",
-            "MIX",
-            "OPS",
-            "DEAL",
-            "CONFLICT",
-            "FIN_UPDATE",
-            "PROCESS"
-          ],
-          "calc_ids": []
-        },
-        {
-          "id": "s2-source",
-          "type": "text",
-          "x": 72,
-          "y": 650,
-          "w": 1136,
-          "h": 34,
-          "text": "Sources: 01 company brief; 02 management model, PnL and ServiceMix; 10 CFO follow-up; 13 transaction workshop.\nA = management actuals. FY2025 revenue remains provisional. Full locators are in slide notes.",
-          "size": 12,
-          "color": "#00338D",
-          "bold": false,
-          "fact_ids": [
-            "BUS",
-            "SERVICES",
-            "FIN25",
-            "MIX",
-            "OPS",
-            "DEAL",
-            "CONFLICT",
-            "FIN_UPDATE",
-            "PROCESS"
-          ],
-          "calc_ids": []
-        },
-        {
-          "id": "s2-footer-rule",
-          "type": "rule",
-          "x": 72,
-          "y": 691,
-          "w": 1136,
-          "h": 1,
-          "color": "#B8C7DF",
-          "fact_ids": []
-        },
-        {
-          "id": "s2-footer",
-          "type": "text",
-          "x": 72,
-          "y": 697,
-          "w": 1050,
-          "h": 18,
-          "text": "NORTHBRIDGE     FICTIONAL TRAINING CASE     January 2026",
+          "x": 56,
+          "y": 666,
+          "w": 1168,
+          "h": 30,
+          "text": "All companies, people and figures are fictional. Management financial information is unaudited.\nFY2025 revenue remains subject to reconciliation with the earlier company brief.",
           "size": 11,
           "color": "#595959",
           "bold": false,
-          "fact_ids": [],
-          "calc_ids": []
-        },
-        {
-          "id": "s2-number",
-          "type": "text",
-          "x": 1170,
-          "y": 697,
-          "w": 38,
-          "h": 18,
-          "text": "2",
-          "size": 11,
-          "color": "#00338D",
-          "bold": false,
-          "fact_ids": [],
-          "calc_ids": []
-        },
-        {
-          "id": "s2-intro",
-          "type": "text",
-          "x": 72,
-          "y": 147,
-          "w": 1136,
-          "h": 64,
-          "text": "Northbridge provides planned equipment maintenance, reactive repairs and installation services to UK industrial and commercial sites. The company operates through three regional hubs.",
-          "size": 20,
-          "color": "#000000",
-          "bold": false,
+          "align": "left",
           "fact_ids": [
-            "BUS",
-            "SERVICES",
-            "OPS"
-          ],
-          "calc_ids": []
-        },
-        {
-          "id": "s2-profile",
-          "type": "table",
-          "x": 72,
-          "y": 236,
-          "w": 695,
-          "h": 292,
-          "rows": [
-            [
-              "Company profile",
-              "Current position"
-            ],
-            [
-              "Founded / headquarters",
-              "2012 / Birmingham"
-            ],
-            [
-              "FY2025 revenue / EBITDA",
-              "£25.0m / £5.0m (management-reported)"
-            ],
-            [
-              "Revenue mix",
-              "Maintenance 70%, repairs 20%, projects 10%"
-            ],
-            [
-              "Employees / field engineers",
-              "120 / 85 at 31 December 2025"
-            ],
-            [
-              "Proposed sale",
-              "70%–100% of equity in the standalone UK company"
-            ]
-          ],
-          "widths": [
-            2.7,
-            4.6
-          ],
-          "size": 17,
-          "fact_ids": [
-            "BUS",
-            "FIN25",
-            "MIX",
-            "OPS",
-            "DEAL"
-          ],
-          "calc_ids": [
-            "MIX_SHARE"
-          ],
-          "column_align": [
-            "left",
-            "left"
-          ],
-          "emphasis_rows": []
-        },
-        {
-          "id": "s2-transaction-head",
-          "type": "text",
-          "x": 807,
-          "y": 236,
-          "w": 401,
-          "h": 29,
-          "text": "Transaction preparation",
-          "size": 21,
-          "color": "#00338D",
-          "bold": true,
-          "fact_ids": [
-            "PROCESS"
-          ],
-          "calc_ids": []
-        },
-        {
-          "id": "s2-transaction",
-          "type": "text",
-          "x": 807,
-          "y": 278,
-          "w": 401,
-          "h": 126,
-          "text": "The proposed perimeter includes the three hubs, operating assets and customer contracts. Shareholders have not agreed valuation, rollover or a timetable.",
-          "size": 18,
-          "color": "#000000",
-          "bold": false,
-          "fact_ids": [
-            "PROCESS"
-          ],
-          "calc_ids": []
-        },
-        {
-          "id": "s2-status-head",
-          "type": "text",
-          "x": 807,
-          "y": 431,
-          "w": 401,
-          "h": 29,
-          "text": "Financial status",
-          "size": 21,
-          "color": "#00338D",
-          "bold": true,
-          "fact_ids": [
+            "CONFLICT",
             "FIN_UPDATE"
           ],
           "calc_ids": []
-        },
-        {
-          "id": "s2-status",
-          "type": "text",
-          "x": 807,
-          "y": 473,
-          "w": 401,
-          "h": 151,
-          "text": "Draft quarterly and balance-sheet schedules are available. No QoE report or verified EBITDA adjustments support the earnings presented. Contract and legal review remains outstanding.",
-          "size": 18,
-          "color": "#000000",
-          "bold": false,
-          "fact_ids": [
-            "FIN_UPDATE",
-            "BALANCE",
-            "PROCESS"
-          ],
-          "calc_ids": []
-        },
-        {
-          "id": "s2-rule",
-          "type": "rule",
-          "x": 72,
-          "y": 558,
-          "w": 695,
-          "h": 1,
-          "color": "#B8C7DF",
-          "fact_ids": []
-        },
-        {
-          "id": "s2-reconciliation",
-          "type": "text",
-          "x": 72,
-          "y": 578,
-          "w": 695,
-          "h": 62,
-          "text": "The £26.2m earlier briefing differs from the £25.0m model. The CFO supports provisional use of the model while reconciliation remains open.",
-          "size": 18,
-          "color": "#00338D",
-          "bold": false,
-          "fact_ids": [
-            "CONFLICT"
-          ],
-          "calc_ids": []
         }
       ],
       "notes": [
         "FICTIONAL TRAINING CASE. All company and financial data are synthetic.",
-        "BALANCE: Draft limited balance-sheet schedule [source_supported]\n10_cfo_follow_up.eml / line 8 — At 31 December 2025, our draft schedule shows cash 2.4 and bank term debt 4.8. Lease liabilities, tax balances, debt-like items and restricted cash have not been assessed. These figures alone are insufficient for an enterprise-to-equity bridge.\n10_cfo_follow_up.eml / line 9 — Draft trade receivables are 4.2, inventory 0.6 and trade payables 2.1 at 31 December 2025. Other working-capital items and monthly seasonality are missing. This limited snapshot is not normalised working capital.\nLimitations: Missing leases, tax, debt-like items, restricted cash and other working-capital items. No normalised working capital.",
         "BUS: Business and founding [source_supported]\n01_company_brief.docx / paragraph 4 — Northbridge Field Services Ltd was founded in 2012. The UK business provides equipment maintenance and technical field support to industrial and logistics customers. Its headquarters are in Birmingham. The transaction perimeter is the entire standalone UK company.",
         "CONFLICT: FY2025 revenue difference [provisional_conflict]\n02_management_model.xlsx / PnL!D6 — 25\n01_company_brief.docx / paragraph 8 — The preliminary FY2025 revenue estimate is GBP 26.2 million. This briefing does not provide a reconciliation to the finance model. Financial years end on 31 December. All revenue figures exclude VAT.\n04_cfo_email.eml / line 8 — Please use the attached management model as the provisional basis for the draft. The GBP 1.2m difference against the briefing remains unresolved and must remain visible in the draft. This is not confirmation that the model has been audited.\nLimitations: Use model provisionally under CFO instruction; do not call reconciled.",
         "DEAL: Ownership and proposed sale [source_supported]\n01_company_brief.docx / paragraph 14 — The founder holds 70%, management holds 20% and a seed investor holds 10% of ordinary equity. Shareholders are considering a sale of 70% to 100% of the company. Management rollover, valuation, timing and financing remain to be agreed. No debt, cash or working-capital schedule has been provided.",
@@ -392,85 +174,455 @@
         "FIN_UPDATE: Updated financial diligence status [source_supported]\n10_cfo_follow_up.eml / line 7 — Please continue to use the FY2025 revenue of 25.0 in the management model provisionally. The earlier 26.2 briefing figure remains unreconciled. We have identified 0.8 of possible orders relating to services scheduled for 2026, but have not verified this against invoices and the ledger. Do not deduct this amount and describe the difference as resolved.\n10_cfo_follow_up.eml / line 10 — Management has proposed EBITDA adjustments of 0.18 for founder remuneration and 0.12 for systems implementation. We have not substantiated either adjustment. Retain management-reported EBITDA of 5.0 with no add-backs.\n10_cfo_follow_up.eml / line 11 — The quarterly revenue and EBITDA schedule ties to the annual model. All figures remain unaudited. No quality-of-earnings report is available.\n10_cfo_follow_up.eml / line 12 — The supplemental forecast bridge explains group-level movements only. No customer-level bridge, signed pipeline, recruitment cost schedule or timing of engineer productivity is available.\nLimitations: Revenue conflict remains open. No verified EBITDA add-backs, QoE or customer-level forecast support.",
         "MIX: FY2025 service revenue [source_supported]\n02_management_model.xlsx / ServiceMix!A5 — Scheduled maintenance\n02_management_model.xlsx / ServiceMix!B5 — 17500\n02_management_model.xlsx / ServiceMix!C5 — Annual service contracts\n02_management_model.xlsx / ServiceMix!A6 — Reactive repairs\n02_management_model.xlsx / ServiceMix!B6 — 5000\n02_management_model.xlsx / ServiceMix!C6 — Call-out and materials\n02_management_model.xlsx / ServiceMix!A7 — Installation projects\n02_management_model.xlsx / ServiceMix!B7 — 2500\n02_management_model.xlsx / ServiceMix!C7 — Project-based work",
         "OPS: People, hubs and management [source_supported]\n01_company_brief.docx / paragraph 10 — At 31 December 2025, Northbridge has 120 employees including 85 field engineers. It operates hubs in Birmingham, Manchester and Bristol. Maya Reed is founder and CEO, Daniel Cole is CFO and Aisha Patel is COO. These names and all company details are fictitious. The founder continues to lead major customer relationships.",
-        "PROCESS: Proposed transaction perimeter and preparation responsibilities [source_supported]\n13_transaction_workshop.txt / line 1 — FICTIONAL TRAINING CASE. Invented transaction workshop notes, 26 January 2026.\n13_transaction_workshop.txt / line 2 — Shareholders are considering a sale of 70% to 100% of the equity in the standalone UK company. The current ownership remains founder 70%, management 20%, seed investor 10%.\n13_transaction_workshop.txt / line 3 — The proposed perimeter includes all three hubs, operating assets and customer contracts of the company. No excluded business has been identified. Legal entity, asset ownership and contract transferability require legal diligence.\n13_transaction_workshop.txt / line 4 — No valuation, management rollover, financing structure or transaction timetable has been agreed. The process remains at preparation stage. No offers or signed sale terms exist in this fictional case.\n13_transaction_workshop.txt / line 5 — Daniel Cole (CFO) owns revenue reconciliation, QoE preparation and balance-sheet schedules. Aisha Patel (COO) owns job-level KPI evidence, engineer recruitment and capacity planning. Maya Reed (CEO) owns key-account continuity and pipeline evidence. External legal counsel, not yet appointed, would review title, consents and change-of-control clauses. The strategy team owns independent market work.\nLimitations: Unaudited synthetic management submission.",
-        "SERVICES: Services and contract terms [source_supported]\n01_company_brief.docx / paragraph 6 — The business supplies scheduled maintenance under annual service contracts, reactive repairs and installation projects. Contracts generally run for one to three years and renew by agreement. Scheduled maintenance provides the contracted revenue stream. No assumption should be made that renewals are automatic. Customers include logistics operators, manufacturers and facilities managers.",
-        "MIX_SHARE: {\"id\": \"MIX_SHARE\", \"formula\": \"ServiceMix!B5:B7 / sum(ServiceMix!B5:B7)\", \"input_ids\": [\"MIX\"], \"result\": [0.7, 0.2, 0.1], \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}"
+        "SERVICES: Services and contract terms [source_supported]\n01_company_brief.docx / paragraph 6 — The business supplies scheduled maintenance under annual service contracts, reactive repairs and installation projects. Contracts generally run for one to three years and renew by agreement. Scheduled maintenance provides the contracted revenue stream. No assumption should be made that renewals are automatic. Customers include logistics operators, manufacturers and facilities managers."
       ]
     },
     {
-      "title": "Investment case and supporting evidence",
+      "title": "Company overview and proposed transaction",
+      "background": "#FFFFFF",
+      "elements": [
+        {
+          "id": "s2-section",
+          "type": "text",
+          "x": 56,
+          "y": 20,
+          "w": 1168,
+          "h": 20,
+          "text": "EXECUTIVE SUMMARY",
+          "size": 13,
+          "color": "#00338D",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s2-title",
+          "type": "text",
+          "x": 56,
+          "y": 47,
+          "w": 1168,
+          "h": 42,
+          "text": "Company overview and proposed transaction",
+          "size": 28,
+          "color": "#00338D",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [
+            "BUS",
+            "SERVICES",
+            "FIN25",
+            "MIX",
+            "OPS",
+            "DEAL",
+            "CONFLICT",
+            "FIN_UPDATE",
+            "PROCESS",
+            "RENEWALS"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s2-header-rule",
+          "type": "rule",
+          "x": 56,
+          "y": 98,
+          "w": 1168,
+          "h": 1,
+          "color": "#00338D",
+          "fact_ids": []
+        },
+        {
+          "id": "s2-source",
+          "type": "text",
+          "x": 56,
+          "y": 656,
+          "w": 1168,
+          "h": 29,
+          "text": "Sources: 01 company brief; 02 model, PnL / ServiceMix / CustomerSales; 05 commercial interview; 10 CFO follow-up; 13 transaction workshop.\nA = unaudited management actuals. FY2025 revenue is provisional. Detailed source locators are in notes.",
+          "size": 10.5,
+          "color": "#00338D",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "BUS",
+            "SERVICES",
+            "FIN25",
+            "MIX",
+            "OPS",
+            "DEAL",
+            "CONFLICT",
+            "FIN_UPDATE",
+            "PROCESS",
+            "RENEWALS"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s2-footer-rule",
+          "type": "rule",
+          "x": 56,
+          "y": 691,
+          "w": 1168,
+          "h": 1,
+          "color": "#B8C7DF",
+          "fact_ids": []
+        },
+        {
+          "id": "s2-footer",
+          "type": "text",
+          "x": 56,
+          "y": 697,
+          "w": 1080,
+          "h": 17,
+          "text": "NORTHBRIDGE     FICTIONAL TRAINING CASE     January 2026",
+          "size": 10,
+          "color": "#595959",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s2-number",
+          "type": "text",
+          "x": 1184,
+          "y": 697,
+          "w": 40,
+          "h": 17,
+          "text": "2",
+          "size": 10,
+          "color": "#00338D",
+          "bold": false,
+          "align": "right",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s2-intro",
+          "type": "text",
+          "x": 56,
+          "y": 113,
+          "w": 1168,
+          "h": 63,
+          "text": "Northbridge provides equipment maintenance and technical field support to UK logistics, manufacturing and facilities-management customers. The business combines planned visits under annual service arrangements with reactive repairs and separately scoped installation work.",
+          "size": 16.5,
+          "color": "#000000",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "BUS",
+            "COMMERCIAL",
+            "SECTORS"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s2-profile",
+          "type": "table",
+          "x": 56,
+          "y": 191,
+          "w": 650,
+          "h": 264,
+          "rows": [
+            [
+              "Business profile",
+              "FY2025 / current position"
+            ],
+            [
+              "Founded / headquarters",
+              "2012 / Birmingham"
+            ],
+            [
+              "Revenue / EBITDA",
+              "£25.0m / £5.0m, before any proposed add-backs"
+            ],
+            [
+              "Historical development",
+              "FY2023–25 revenue CAGR 17.9%; EBITDA margin 20.0%"
+            ],
+            [
+              "Service revenue",
+              "Maintenance £17.5m; repairs £5.0m; projects £2.5m"
+            ],
+            [
+              "People and footprint",
+              "120 employees, including 85 field engineers; three UK hubs"
+            ],
+            [
+              "Customer exposure",
+              "Largest customer 12%; top five 42% of revenue"
+            ]
+          ],
+          "widths": [
+            2.1,
+            4.4
+          ],
+          "size": 16,
+          "fact_ids": [
+            "BUS",
+            "FIN25",
+            "FIN23",
+            "MIX",
+            "OPS",
+            "CUSTOMERS"
+          ],
+          "calc_ids": [
+            "CAGR",
+            "MARGINS",
+            "NORMALIZE",
+            "TOP5",
+            "LARGEST"
+          ],
+          "column_align": [
+            "left",
+            "left"
+          ],
+          "emphasis_rows": [],
+          "row_heights": [
+            32.137142857142855,
+            32.137142857142855,
+            32.137142857142855,
+            51.65714285714286,
+            32.137142857142855,
+            51.65714285714286,
+            32.137142857142855
+          ]
+        },
+        {
+          "id": "s2-business-head",
+          "type": "text",
+          "x": 738,
+          "y": 191,
+          "w": 486,
+          "h": 25,
+          "text": "Revenue characteristics",
+          "size": 19,
+          "color": "#00338D",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [
+            "COMMERCIAL",
+            "RENEWALS"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s2-business",
+          "type": "text",
+          "x": 738,
+          "y": 224,
+          "w": 486,
+          "h": 149,
+          "text": "Maintenance accounts for 70% of revenue. Agreements generally last one to three years, with renewal by agreement and price reviews subject to terms and customer acceptance.\n\nIn the FY2025 due-for-renewal cohort, 23 of 25 agreements renewed. Retained annual value was £3.72m on a £4.00m starting base, before price or scope changes.",
+          "size": 16.5,
+          "color": "#000000",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "MIX",
+            "COMMERCIAL",
+            "RENEWALS"
+          ],
+          "calc_ids": [
+            "MIX_SHARE",
+            "RENEWAL_RATES"
+          ]
+        },
+        {
+          "id": "s2-sale-head",
+          "type": "text",
+          "x": 738,
+          "y": 391,
+          "w": 486,
+          "h": 25,
+          "text": "Ownership and sale scope",
+          "size": 19,
+          "color": "#00338D",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [
+            "DEAL",
+            "PROCESS"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s2-sale",
+          "type": "text",
+          "x": 738,
+          "y": 424,
+          "w": 486,
+          "h": 214,
+          "text": "Founder ownership is 70%, management 20% and the seed investor 10%. The proposed sale is 70%–100% of the standalone UK company, including its hubs, operating assets and customer contracts.\nThe process is at preparation stage. No valuation, rollover, financing structure or timetable has been agreed. Contract consents and legal title require review.\nThe FY2027 forecast depends on contract wins and hiring. Pipeline remains unsigned.",
+          "size": 16.5,
+          "color": "#000000",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "DEAL",
+            "PROCESS",
+            "BRIDGE",
+            "PIPELINE"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s2-reporting-head",
+          "type": "text",
+          "x": 56,
+          "y": 478,
+          "w": 650,
+          "h": 25,
+          "text": "Reporting basis and unresolved revenue difference",
+          "size": 19,
+          "color": "#00338D",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [
+            "CONFLICT",
+            "FIN_UPDATE"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s2-reporting",
+          "type": "text",
+          "x": 56,
+          "y": 511,
+          "w": 650,
+          "h": 127,
+          "text": "The CFO supports provisional use of the £25.0m management model. The earlier briefing reports £26.2m, a £1.2m difference. A possible £0.8m order-timing item has not been reconciled to invoices or the ledger.\n\nQuarterly figures agree to the annual model. Cash and bank debt drafts are available. No QoE or verified add-backs support normalised earnings.",
+          "size": 16.5,
+          "color": "#000000",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "CONFLICT",
+            "FIN_UPDATE",
+            "BALANCE",
+            "QUARTERS"
+          ],
+          "calc_ids": [
+            "REVENUE_GAP"
+          ]
+        }
+      ],
+      "notes": [
+        "FICTIONAL TRAINING CASE. All company and financial data are synthetic.",
+        "BALANCE: Draft limited balance-sheet schedule [source_supported]\n10_cfo_follow_up.eml / line 8 — At 31 December 2025, our draft schedule shows cash 2.4 and bank term debt 4.8. Lease liabilities, tax balances, debt-like items and restricted cash have not been assessed. These figures alone are insufficient for an enterprise-to-equity bridge.\n10_cfo_follow_up.eml / line 9 — Draft trade receivables are 4.2, inventory 0.6 and trade payables 2.1 at 31 December 2025. Other working-capital items and monthly seasonality are missing. This limited snapshot is not normalised working capital.\nLimitations: Missing leases, tax, debt-like items, restricted cash and other working-capital items. No normalised working capital.",
+        "BRIDGE: Group-level forecast revenue bridge and engineer plan [source_supported]\n11_forecast_bridge.csv / line 1 — # FICTIONAL TRAINING CASE; management submission 26 January 2026; unaudited\n11_forecast_bridge.csv / line 2 — component,fy2026_gbp_m,fy2027_gbp_m,basis\n11_forecast_bridge.csv / line 3 — Opening revenue,25,29,Prior year actual or forecast\n11_forecast_bridge.csv / line 4 — Price,1,1.16,Management assumption; customer acceptance required\n11_forecast_bridge.csv / line 5 — New contracts,2,2.4,Management assumption; unsigned pipeline\n11_forecast_bridge.csv / line 6 — Cross-sell,1.6,1.74,Management assumption; conversion required\n11_forecast_bridge.csv / line 7 — Attrition,-0.6,-0.7,Management assumption\n11_forecast_bridge.csv / line 8 — Closing revenue,29,33.6,Management forecast\n11_forecast_bridge.csv / line 9 — Year-end field engineers,95,105,Headcount; excludes attrition/replacement hiring; net growth from 85\nLimitations: Group-level management assumptions. No customer bridge, signed pipeline or recruitment cost schedule.",
+        "BUS: Business and founding [source_supported]\n01_company_brief.docx / paragraph 4 — Northbridge Field Services Ltd was founded in 2012. The UK business provides equipment maintenance and technical field support to industrial and logistics customers. Its headquarters are in Birmingham. The transaction perimeter is the entire standalone UK company.",
+        "COMMERCIAL: Service scope, pricing and account relationships [source_supported]\n05_commercial_interview.txt / line 1 — FICTIONAL TRAINING CASE. All statements and figures are invented for workflow testing.\n05_commercial_interview.txt / line 2 — Commercial director interview, 26 January 2026. Period: FY2025 unless specified.\n05_commercial_interview.txt / line 3 — Scheduled maintenance covers planned inspections and preventive servicing. Most contracts specify scheduled visits and an annual fee. Reactive repairs charge call-out, labour and materials. Installation projects use a separately agreed scope and price.\n05_commercial_interview.txt / line 4 — Contracts generally run for one to three years. Renewal requires agreement. Annual price reviews depend on contract terms and customer acceptance. Maintenance revenue should not be described as guaranteed future revenue or ARR.\n05_commercial_interview.txt / line 5 — The FY2025 renewal cohort comprised 25 maintenance agreements due for renewal, with GBP 4.00 million of annual contract value immediately before expiry. 23 agreements renewed. The annual value retained on those same agreements, before price changes or additional scope, was GBP 3.72 million. These are management-prepared counts and values, not independently verified customer retention.\n05_commercial_interview.txt / line 6 — The earlier 94% retention estimate remains undefined. It uses no documented customer cohort and cannot be reconciled to this contract-level renewal schedule.\n05_commercial_interview.txt / line 7 — Pipeline at 26 January 2026 totals GBP 4.8 million of indicative annual revenue: proposals GBP 2.4 million, negotiations GBP 1.5 million and preferred supplier GBP 0.9 million. All are unsigned. Stage values are unweighted and are not forecast revenue or backlog.\n05_commercial_interview.txt / line 8 — Maya Reed remains the primary executive contact on the largest customer accounts. The commercial team needs to document deputy account ownership and review change-of-control provisions.\n05_commercial_interview.txt / line 9 — No independent market-size, market-share or competitor study has been submitted.\nLimitations: Unaudited synthetic management submission.",
+        "CONFLICT: FY2025 revenue difference [provisional_conflict]\n02_management_model.xlsx / PnL!D6 — 25\n01_company_brief.docx / paragraph 8 — The preliminary FY2025 revenue estimate is GBP 26.2 million. This briefing does not provide a reconciliation to the finance model. Financial years end on 31 December. All revenue figures exclude VAT.\n04_cfo_email.eml / line 8 — Please use the attached management model as the provisional basis for the draft. The GBP 1.2m difference against the briefing remains unresolved and must remain visible in the draft. This is not confirmation that the model has been audited.\nLimitations: Use model provisionally under CFO instruction; do not call reconciled.",
+        "CUSTOMERS: FY2025 customer sales [source_supported]\n02_management_model.xlsx / CustomerSales!A5 — C001\n02_management_model.xlsx / CustomerSales!B5 — Customer A\n02_management_model.xlsx / CustomerSales!C5 — 3000\n02_management_model.xlsx / CustomerSales!A6 — C002\n02_management_model.xlsx / CustomerSales!B6 — Customer B\n02_management_model.xlsx / CustomerSales!C6 — 2250\n02_management_model.xlsx / CustomerSales!A7 — C003\n02_management_model.xlsx / CustomerSales!B7 — Customer C\n02_management_model.xlsx / CustomerSales!C7 — 2000\n02_management_model.xlsx / CustomerSales!A8 — C004\n02_management_model.xlsx / CustomerSales!B8 — Customer D\n02_management_model.xlsx / CustomerSales!C8 — 1750\n02_management_model.xlsx / CustomerSales!A9 — C005\n02_management_model.xlsx / CustomerSales!B9 — Customer E\n02_management_model.xlsx / CustomerSales!C9 — 1500\n02_management_model.xlsx / CustomerSales!A10 — OTHER\n02_management_model.xlsx / CustomerSales!B10 — All other customers (aggregate)\n02_management_model.xlsx / CustomerSales!C10 — 14500\nLimitations: OTHER is an aggregate.",
+        "DEAL: Ownership and proposed sale [source_supported]\n01_company_brief.docx / paragraph 14 — The founder holds 70%, management holds 20% and a seed investor holds 10% of ordinary equity. Shareholders are considering a sale of 70% to 100% of the company. Management rollover, valuation, timing and financing remain to be agreed. No debt, cash or working-capital schedule has been provided.",
+        "FIN23: FY2023 financial statements [source_supported]\n02_management_model.xlsx / PnL!B5 — FY2023A\n02_management_model.xlsx / PnL!B6 — 18\n02_management_model.xlsx / PnL!B7 — -10.8\n02_management_model.xlsx / PnL!B8 — 7.199999999999999\n02_management_model.xlsx / PnL!B9 — -4.5\n02_management_model.xlsx / PnL!B10 — 2.6999999999999993\n02_management_model.xlsx / PnL!B11 — 0.14999999999999997\nLimitations: Unaudited management figures; FY2025 revenue conflict remains open.",
+        "FIN25: FY2025 financial statements [provisional_conflict]\n02_management_model.xlsx / PnL!D5 — FY2025A\n02_management_model.xlsx / PnL!D6 — 25\n02_management_model.xlsx / PnL!D7 — -14.5\n02_management_model.xlsx / PnL!D8 — 10.5\n02_management_model.xlsx / PnL!D9 — -5.5\n02_management_model.xlsx / PnL!D10 — 5\n02_management_model.xlsx / PnL!D11 — 0.2\nLimitations: Unaudited management figures; FY2025 revenue conflict remains open.",
+        "FIN_UPDATE: Updated financial diligence status [source_supported]\n10_cfo_follow_up.eml / line 7 — Please continue to use the FY2025 revenue of 25.0 in the management model provisionally. The earlier 26.2 briefing figure remains unreconciled. We have identified 0.8 of possible orders relating to services scheduled for 2026, but have not verified this against invoices and the ledger. Do not deduct this amount and describe the difference as resolved.\n10_cfo_follow_up.eml / line 10 — Management has proposed EBITDA adjustments of 0.18 for founder remuneration and 0.12 for systems implementation. We have not substantiated either adjustment. Retain management-reported EBITDA of 5.0 with no add-backs.\n10_cfo_follow_up.eml / line 11 — The quarterly revenue and EBITDA schedule ties to the annual model. All figures remain unaudited. No quality-of-earnings report is available.\n10_cfo_follow_up.eml / line 12 — The supplemental forecast bridge explains group-level movements only. No customer-level bridge, signed pipeline, recruitment cost schedule or timing of engineer productivity is available.\nLimitations: Revenue conflict remains open. No verified EBITDA add-backs, QoE or customer-level forecast support.",
+        "MIX: FY2025 service revenue [source_supported]\n02_management_model.xlsx / ServiceMix!A5 — Scheduled maintenance\n02_management_model.xlsx / ServiceMix!B5 — 17500\n02_management_model.xlsx / ServiceMix!C5 — Annual service contracts\n02_management_model.xlsx / ServiceMix!A6 — Reactive repairs\n02_management_model.xlsx / ServiceMix!B6 — 5000\n02_management_model.xlsx / ServiceMix!C6 — Call-out and materials\n02_management_model.xlsx / ServiceMix!A7 — Installation projects\n02_management_model.xlsx / ServiceMix!B7 — 2500\n02_management_model.xlsx / ServiceMix!C7 — Project-based work",
+        "OPS: People, hubs and management [source_supported]\n01_company_brief.docx / paragraph 10 — At 31 December 2025, Northbridge has 120 employees including 85 field engineers. It operates hubs in Birmingham, Manchester and Bristol. Maya Reed is founder and CEO, Daniel Cole is CFO and Aisha Patel is COO. These names and all company details are fictitious. The founder continues to lead major customer relationships.",
+        "PIPELINE: Unsigned unweighted opportunity pipeline [source_supported]\n05_commercial_interview.txt / line 7 — Pipeline at 26 January 2026 totals GBP 4.8 million of indicative annual revenue: proposals GBP 2.4 million, negotiations GBP 1.5 million and preferred supplier GBP 0.9 million. All are unsigned. Stage values are unweighted and are not forecast revenue or backlog.\nLimitations: All unsigned. Not backlog or forecast revenue.",
+        "PROCESS: Proposed transaction perimeter and preparation responsibilities [source_supported]\n13_transaction_workshop.txt / line 1 — FICTIONAL TRAINING CASE. Invented transaction workshop notes, 26 January 2026.\n13_transaction_workshop.txt / line 2 — Shareholders are considering a sale of 70% to 100% of the equity in the standalone UK company. The current ownership remains founder 70%, management 20%, seed investor 10%.\n13_transaction_workshop.txt / line 3 — The proposed perimeter includes all three hubs, operating assets and customer contracts of the company. No excluded business has been identified. Legal entity, asset ownership and contract transferability require legal diligence.\n13_transaction_workshop.txt / line 4 — No valuation, management rollover, financing structure or transaction timetable has been agreed. The process remains at preparation stage. No offers or signed sale terms exist in this fictional case.\n13_transaction_workshop.txt / line 5 — Daniel Cole (CFO) owns revenue reconciliation, QoE preparation and balance-sheet schedules. Aisha Patel (COO) owns job-level KPI evidence, engineer recruitment and capacity planning. Maya Reed (CEO) owns key-account continuity and pipeline evidence. External legal counsel, not yet appointed, would review title, consents and change-of-control clauses. The strategy team owns independent market work.\nLimitations: Unaudited synthetic management submission.",
+        "QUARTERS: Quarterly revenue and management EBITDA [source_supported]\n09_quarterly_accounts.csv / line 1 — # FICTIONAL TRAINING CASE; management submission 26 January 2026; unaudited\n09_quarterly_accounts.csv / line 2 — quarter,revenue_gbp_m,ebitda_gbp_m,basis\n09_quarterly_accounts.csv / line 3 — Q1 2025,5.7,0.9,Unaudited provisional management actuals\n09_quarterly_accounts.csv / line 4 — Q2 2025,6.1,1.15,Unaudited provisional management actuals\n09_quarterly_accounts.csv / line 5 — Q3 2025,6.4,1.3,Unaudited provisional management actuals\n09_quarterly_accounts.csv / line 6 — Q4 2025,6.8,1.65,Unaudited provisional management actuals\nLimitations: Unaudited synthetic management submission.",
+        "RENEWALS: Defined maintenance agreement renewal cohort [source_supported]\n05_commercial_interview.txt / line 5 — The FY2025 renewal cohort comprised 25 maintenance agreements due for renewal, with GBP 4.00 million of annual contract value immediately before expiry. 23 agreements renewed. The annual value retained on those same agreements, before price changes or additional scope, was GBP 3.72 million. These are management-prepared counts and values, not independently verified customer retention.\n05_commercial_interview.txt / line 6 — The earlier 94% retention estimate remains undefined. It uses no documented customer cohort and cannot be reconciled to this contract-level renewal schedule.\nLimitations: Contract-level management cohort. Excludes price changes and additional scope. Not customer retention and not independently verified.",
+        "SECTORS: Revenue by customer industry [source_supported]\n12_sector_mix.csv / line 1 — # FICTIONAL TRAINING CASE; management submission 26 January 2026; unaudited\n12_sector_mix.csv / line 2 — sector,fy2025_revenue_gbp_m\n12_sector_mix.csv / line 3 — Logistics,11.25\n12_sector_mix.csv / line 4 — Manufacturing,8.75\n12_sector_mix.csv / line 5 — Facilities management,5\nLimitations: Unaudited synthetic management submission.",
+        "SERVICES: Services and contract terms [source_supported]\n01_company_brief.docx / paragraph 6 — The business supplies scheduled maintenance under annual service contracts, reactive repairs and installation projects. Contracts generally run for one to three years and renew by agreement. Scheduled maintenance provides the contracted revenue stream. No assumption should be made that renewals are automatic. Customers include logistics operators, manufacturers and facilities managers.",
+        "CAGR: {\"id\": \"CAGR\", \"formula\": \"(FY2025 revenue / FY2023 revenue)^(1/2) - 1\", \"input_ids\": [\"FIN23\", \"FIN25\"], \"result\": 0.17851130197757925, \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}",
+        "LARGEST: {\"id\": \"LARGEST\", \"formula\": \"max(CustomerSales!C5:C9) / sum(CustomerSales!C5:C10)\", \"input_ids\": [\"CUSTOMERS\"], \"result\": 0.12, \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}",
+        "MARGINS: {\"id\": \"MARGINS\", \"formula\": \"Each period EBITDA / same period revenue\", \"input_ids\": [\"FIN23\", \"FIN24\", \"FIN25\", \"FIN26\", \"FIN27\"], \"result\": [0.14999999999999997, 0.1813953488372093, 0.2, 0.21034482758620687, 0.22023809523809523], \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}",
+        "MIX_SHARE: {\"id\": \"MIX_SHARE\", \"formula\": \"ServiceMix!B5:B7 / sum(ServiceMix!B5:B7)\", \"input_ids\": [\"MIX\"], \"result\": [0.7, 0.2, 0.1], \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}",
+        "NORMALIZE: {\"id\": \"NORMALIZE\", \"formula\": \"GBP thousand / 1000\", \"input_ids\": [\"MIX\", \"CUSTOMERS\", \"UNITS\"], \"result\": {\"services_m\": [17.5, 5.0, 2.5], \"customers_m\": [3.0, 2.25, 2.0, 1.75, 1.5, 14.5]}, \"unit\": \"GBP million\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}",
+        "RENEWAL_RATES: {\"id\": \"RENEWAL_RATES\", \"formula\": \"Renewed contracts / due contracts; retained pre-price value / due annual value\", \"input_ids\": [\"RENEWALS\"], \"result\": [0.92, 0.93], \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}",
+        "REVENUE_GAP: {\"id\": \"REVENUE_GAP\", \"formula\": \"Briefing FY2025 revenue minus model FY2025 revenue\", \"input_ids\": [\"CONFLICT\"], \"result\": 1.1999999999999993, \"unit\": \"GBP million\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}",
+        "TOP5: {\"id\": \"TOP5\", \"formula\": \"sum(CustomerSales!C5:C9) / sum(CustomerSales!C5:C10)\", \"input_ids\": [\"CUSTOMERS\"], \"result\": 0.42, \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}"
+      ]
+    },
+    {
+      "title": "Investment considerations",
       "background": "#FFFFFF",
       "elements": [
         {
           "id": "s3-section",
           "type": "text",
-          "x": 72,
-          "y": 28,
-          "w": 1136,
-          "h": 22,
-          "text": "Investment case",
-          "size": 16,
+          "x": 56,
+          "y": 20,
+          "w": 1168,
+          "h": 20,
+          "text": "INVESTMENT CASE",
+          "size": 13,
           "color": "#00338D",
           "bold": true,
+          "align": "left",
           "fact_ids": [],
           "calc_ids": []
         },
         {
           "id": "s3-title",
           "type": "text",
-          "x": 72,
-          "y": 61,
-          "w": 1136,
-          "h": 78,
-          "text": "Investment case and supporting evidence",
-          "size": 34,
+          "x": 56,
+          "y": 47,
+          "w": 1168,
+          "h": 42,
+          "text": "Investment considerations",
+          "size": 28,
           "color": "#00338D",
           "bold": true,
+          "align": "left",
           "fact_ids": [
             "MIX",
-            "SERVICES",
+            "RENEWALS",
             "FIN23",
             "FIN25",
-            "OPS",
-            "GROWTH",
-            "RENEWALS",
-            "CONFLICT",
-            "FIN_UPDATE",
-            "BRIDGE"
+            "HUBS",
+            "KPIS",
+            "EXPIRIES",
+            "BRIDGE",
+            "FIN_UPDATE"
           ],
           "calc_ids": []
         },
         {
+          "id": "s3-header-rule",
+          "type": "rule",
+          "x": 56,
+          "y": 98,
+          "w": 1168,
+          "h": 1,
+          "color": "#00338D",
+          "fact_ids": []
+        },
+        {
           "id": "s3-source",
           "type": "text",
-          "x": 72,
-          "y": 650,
-          "w": 1136,
-          "h": 34,
-          "text": "Sources: 02 management model; 05 commercial interview; 06 hub schedule; 10 CFO follow-up; 11 forecast bridge.\nAll figures are synthetic management submissions. Renewal metrics refer to agreements, not customers.",
-          "size": 12,
+          "x": 56,
+          "y": 656,
+          "w": 1168,
+          "h": 29,
+          "text": "Sources: 02 management model; 05 commercial interview; 06 hubs; 07 KPIs; 08 expiries; 10 CFO follow-up; 11 forecast bridge.\nAnalysis uses provisional, unaudited management data. Agreement renewal is distinct from customer retention.",
+          "size": 10.5,
           "color": "#00338D",
           "bold": false,
+          "align": "left",
           "fact_ids": [
             "MIX",
-            "SERVICES",
+            "RENEWALS",
             "FIN23",
             "FIN25",
-            "OPS",
-            "GROWTH",
-            "RENEWALS",
-            "CONFLICT",
-            "FIN_UPDATE",
-            "BRIDGE"
+            "HUBS",
+            "KPIS",
+            "EXPIRIES",
+            "BRIDGE",
+            "FIN_UPDATE"
           ],
           "calc_ids": []
         },
         {
           "id": "s3-footer-rule",
           "type": "rule",
-          "x": 72,
+          "x": 56,
           "y": 691,
-          "w": 1136,
+          "w": 1168,
           "h": 1,
           "color": "#B8C7DF",
           "fact_ids": []
@@ -478,105 +630,116 @@
         {
           "id": "s3-footer",
           "type": "text",
-          "x": 72,
+          "x": 56,
           "y": 697,
-          "w": 1050,
-          "h": 18,
+          "w": 1080,
+          "h": 17,
           "text": "NORTHBRIDGE     FICTIONAL TRAINING CASE     January 2026",
-          "size": 11,
+          "size": 10,
           "color": "#595959",
           "bold": false,
+          "align": "left",
           "fact_ids": [],
           "calc_ids": []
         },
         {
           "id": "s3-number",
           "type": "text",
-          "x": 1170,
+          "x": 1184,
           "y": 697,
-          "w": 38,
-          "h": 18,
+          "w": 40,
+          "h": 17,
           "text": "3",
-          "size": 11,
+          "size": 10,
           "color": "#00338D",
           "bold": false,
+          "align": "right",
           "fact_ids": [],
           "calc_ids": []
         },
         {
           "id": "s3-case",
           "type": "table",
-          "x": 72,
-          "y": 148,
-          "w": 1136,
-          "h": 347,
+          "x": 56,
+          "y": 115,
+          "w": 1168,
+          "h": 381,
           "rows": [
             [
-              "Investment theme",
-              "Supporting evidence",
-              "Qualification / diligence focus"
+              "Investment consideration",
+              "Evidence and commercial interpretation",
+              "Qualification"
             ],
             [
-              "Maintenance activity",
-              "£17.5m maintenance revenue, or 70% of FY2025 sales. Agreements typically run one to three years.",
-              "Renewal requires agreement. Validate contract scope, expiry profile and pricing clauses."
+              "Maintenance-led service mix",
+              "£17.5m of maintenance revenue (70% of sales) provides an established base of planned service activity. One-to-three-year agreements define visit scope and annual fees.",
+              "£6.0m of FY2025 maintenance revenue relates to agreements expiring in 2026. Continued revenue depends on renewal and agreed scope."
             ],
             [
-              "Historical development",
-              "Revenue grew from £18.0m in FY2023 to a provisional £25.0m in FY2025 (17.9% CAGR).",
-              "The earlier briefing reports a different FY2025 revenue figure. Earnings remain unaudited."
+              "Historical earnings growth",
+              "Revenue rose from £18.0m to £25.0m in FY2023–25. Gross profit increased by £3.3m, while operating expenses increased by £1.0m. Management EBITDA rose by £2.3m.",
+              "The P&L shows arithmetic improvement in gross margin and expense ratios. It does not establish the underlying operational causes. FY2025 revenue remains provisional."
             ],
             [
-              "Delivery footprint",
-              "85 engineers across Birmingham, Manchester and Bristol. Total employees: 120.",
-              "Validate service KPIs against job records and test engineer capacity by region."
+              "Regional delivery capacity",
+              "85 field engineers across three hubs support customer service. Management reports 93.5% urgent-response compliance and 88.0% first-time fix rates, with defined job denominators.",
+              "KPI records have not been independently tested. Founder-led major accounts and local engineer capacity need review alongside renewal exposure."
             ],
             [
-              "Management expansion plan",
-              "Forecast revenue of £33.6m in FY2027, supported by pricing, new contracts and cross-sell.",
-              "Pipeline remains unsigned. Hiring costs and customer-level forecast support are missing."
+              "Identified expansion assumptions",
+              "FY2026 revenue growth of £4.0m comprises £1.0m pricing, £2.0m new contracts, £1.6m cross-sell and £0.6m attrition. Engineers increase to 95 at year end.",
+              "The £4.8m opportunity pipeline is unsigned and unweighted. Customer-level forecast support, recruitment costs and engineer ramp-up timing remain outstanding."
             ]
           ],
           "widths": [
-            1.6,
-            3.5,
-            3.55
+            1.8,
+            4.6,
+            4.2
           ],
-          "size": 17,
+          "size": 16,
           "fact_ids": [
             "MIX",
-            "SERVICES",
+            "COMMERCIAL",
+            "EXPIRIES",
             "FIN23",
             "FIN25",
             "OPS",
+            "KPIS",
             "BRIDGE",
-            "FIN27",
-            "CONFLICT",
-            "FIN_UPDATE",
-            "PIPELINE"
+            "PIPELINE",
+            "FIN_UPDATE"
           ],
           "calc_ids": [
             "MIX_SHARE",
-            "CAGR"
+            "PROFIT_BRIDGE",
+            "KPI_RATES"
           ],
           "column_align": [
             "left",
             "left",
             "left"
           ],
-          "emphasis_rows": []
+          "emphasis_rows": [],
+          "row_heights": [
+            60.58399999999999,
+            80.104,
+            80.104,
+            80.104,
+            80.104
+          ]
         },
         {
           "id": "s3-renewal-head",
           "type": "text",
-          "x": 72,
-          "y": 525,
-          "w": 535,
-          "h": 29,
+          "x": 56,
+          "y": 517,
+          "w": 568,
+          "h": 25,
           "text": "Renewal evidence",
-          "size": 21,
+          "size": 19,
           "color": "#00338D",
           "bold": true,
+          "align": "left",
           "fact_ids": [
             "RENEWALS"
           ],
@@ -585,146 +748,170 @@
         {
           "id": "s3-renewal",
           "type": "text",
-          "x": 72,
-          "y": 566,
-          "w": 535,
-          "h": 70,
-          "text": "23 of 25 agreements due in FY2025 renewed (92%). Retained annual value was 93%, excluding price changes and additional scope.",
-          "size": 18,
+          "x": 56,
+          "y": 550,
+          "w": 568,
+          "h": 91,
+          "text": "23 of 25 agreements renewed (92%). The £0.28m reduction in annual value represents 7% of the starting cohort. This measure excludes price changes and new scope. The earlier 94% customer-retention estimate remains undefined.",
+          "size": 16.5,
           "color": "#000000",
           "bold": false,
+          "align": "left",
           "fact_ids": [
-            "RENEWALS"
+            "RENEWALS",
+            "RETENTION"
           ],
           "calc_ids": [
-            "RENEWAL_RATES"
+            "RENEWAL_RATES",
+            "RENEWAL_LOSS"
           ]
         },
         {
           "id": "s3-concentration-head",
           "type": "text",
-          "x": 647,
-          "y": 525,
-          "w": 561,
-          "h": 29,
-          "text": "Customer and earnings exposure",
-          "size": 21,
+          "x": 656,
+          "y": 517,
+          "w": 568,
+          "h": 25,
+          "text": "Concentration and positioning",
+          "size": 19,
           "color": "#00338D",
           "bold": true,
+          "align": "left",
           "fact_ids": [
             "CUSTOMERS",
-            "FIN_UPDATE"
+            "SECTORS",
+            "MARKET"
           ],
           "calc_ids": []
         },
         {
           "id": "s3-concentration",
           "type": "text",
-          "x": 647,
-          "y": 566,
-          "w": 561,
-          "h": 70,
-          "text": "The five largest customers account for 42% of revenue. No unverified add-backs are included in the £5.0m management EBITDA.",
-          "size": 18,
+          "x": 656,
+          "y": 550,
+          "w": 568,
+          "h": 91,
+          "text": "The top five customers account for 42% of revenue. Logistics and manufacturing account for £20.0m combined. The information supplied does not substantiate market share, a leadership position or the size of the addressable market.",
+          "size": 16.5,
           "color": "#000000",
           "bold": false,
+          "align": "left",
           "fact_ids": [
             "CUSTOMERS",
-            "FIN_UPDATE",
-            "FIN25"
+            "SECTORS",
+            "MARKET"
           ],
           "calc_ids": [
-            "TOP5"
+            "TOP5",
+            "SECTOR_COMBINATION"
           ]
         }
       ],
       "notes": [
         "FICTIONAL TRAINING CASE. All company and financial data are synthetic.",
         "BRIDGE: Group-level forecast revenue bridge and engineer plan [source_supported]\n11_forecast_bridge.csv / line 1 — # FICTIONAL TRAINING CASE; management submission 26 January 2026; unaudited\n11_forecast_bridge.csv / line 2 — component,fy2026_gbp_m,fy2027_gbp_m,basis\n11_forecast_bridge.csv / line 3 — Opening revenue,25,29,Prior year actual or forecast\n11_forecast_bridge.csv / line 4 — Price,1,1.16,Management assumption; customer acceptance required\n11_forecast_bridge.csv / line 5 — New contracts,2,2.4,Management assumption; unsigned pipeline\n11_forecast_bridge.csv / line 6 — Cross-sell,1.6,1.74,Management assumption; conversion required\n11_forecast_bridge.csv / line 7 — Attrition,-0.6,-0.7,Management assumption\n11_forecast_bridge.csv / line 8 — Closing revenue,29,33.6,Management forecast\n11_forecast_bridge.csv / line 9 — Year-end field engineers,95,105,Headcount; excludes attrition/replacement hiring; net growth from 85\nLimitations: Group-level management assumptions. No customer bridge, signed pipeline or recruitment cost schedule.",
-        "CONFLICT: FY2025 revenue difference [provisional_conflict]\n02_management_model.xlsx / PnL!D6 — 25\n01_company_brief.docx / paragraph 8 — The preliminary FY2025 revenue estimate is GBP 26.2 million. This briefing does not provide a reconciliation to the finance model. Financial years end on 31 December. All revenue figures exclude VAT.\n04_cfo_email.eml / line 8 — Please use the attached management model as the provisional basis for the draft. The GBP 1.2m difference against the briefing remains unresolved and must remain visible in the draft. This is not confirmation that the model has been audited.\nLimitations: Use model provisionally under CFO instruction; do not call reconciled.",
+        "COMMERCIAL: Service scope, pricing and account relationships [source_supported]\n05_commercial_interview.txt / line 1 — FICTIONAL TRAINING CASE. All statements and figures are invented for workflow testing.\n05_commercial_interview.txt / line 2 — Commercial director interview, 26 January 2026. Period: FY2025 unless specified.\n05_commercial_interview.txt / line 3 — Scheduled maintenance covers planned inspections and preventive servicing. Most contracts specify scheduled visits and an annual fee. Reactive repairs charge call-out, labour and materials. Installation projects use a separately agreed scope and price.\n05_commercial_interview.txt / line 4 — Contracts generally run for one to three years. Renewal requires agreement. Annual price reviews depend on contract terms and customer acceptance. Maintenance revenue should not be described as guaranteed future revenue or ARR.\n05_commercial_interview.txt / line 5 — The FY2025 renewal cohort comprised 25 maintenance agreements due for renewal, with GBP 4.00 million of annual contract value immediately before expiry. 23 agreements renewed. The annual value retained on those same agreements, before price changes or additional scope, was GBP 3.72 million. These are management-prepared counts and values, not independently verified customer retention.\n05_commercial_interview.txt / line 6 — The earlier 94% retention estimate remains undefined. It uses no documented customer cohort and cannot be reconciled to this contract-level renewal schedule.\n05_commercial_interview.txt / line 7 — Pipeline at 26 January 2026 totals GBP 4.8 million of indicative annual revenue: proposals GBP 2.4 million, negotiations GBP 1.5 million and preferred supplier GBP 0.9 million. All are unsigned. Stage values are unweighted and are not forecast revenue or backlog.\n05_commercial_interview.txt / line 8 — Maya Reed remains the primary executive contact on the largest customer accounts. The commercial team needs to document deputy account ownership and review change-of-control provisions.\n05_commercial_interview.txt / line 9 — No independent market-size, market-share or competitor study has been submitted.\nLimitations: Unaudited synthetic management submission.",
         "CUSTOMERS: FY2025 customer sales [source_supported]\n02_management_model.xlsx / CustomerSales!A5 — C001\n02_management_model.xlsx / CustomerSales!B5 — Customer A\n02_management_model.xlsx / CustomerSales!C5 — 3000\n02_management_model.xlsx / CustomerSales!A6 — C002\n02_management_model.xlsx / CustomerSales!B6 — Customer B\n02_management_model.xlsx / CustomerSales!C6 — 2250\n02_management_model.xlsx / CustomerSales!A7 — C003\n02_management_model.xlsx / CustomerSales!B7 — Customer C\n02_management_model.xlsx / CustomerSales!C7 — 2000\n02_management_model.xlsx / CustomerSales!A8 — C004\n02_management_model.xlsx / CustomerSales!B8 — Customer D\n02_management_model.xlsx / CustomerSales!C8 — 1750\n02_management_model.xlsx / CustomerSales!A9 — C005\n02_management_model.xlsx / CustomerSales!B9 — Customer E\n02_management_model.xlsx / CustomerSales!C9 — 1500\n02_management_model.xlsx / CustomerSales!A10 — OTHER\n02_management_model.xlsx / CustomerSales!B10 — All other customers (aggregate)\n02_management_model.xlsx / CustomerSales!C10 — 14500\nLimitations: OTHER is an aggregate.",
+        "EXPIRIES: Maintenance revenue by agreement expiry year [source_supported]\n08_contract_expiries.csv / line 1 — # FICTIONAL TRAINING CASE; management submission 26 January 2026; unaudited\n08_contract_expiries.csv / line 2 — expiry_year,fy2025_maintenance_revenue_gbp_m,basis\n08_contract_expiries.csv / line 3 — 2026,6.0,FY2025 revenue attributed to current agreement expiry year; not backlog\n08_contract_expiries.csv / line 4 — 2027,7.5,FY2025 revenue attributed to current agreement expiry year; not backlog\n08_contract_expiries.csv / line 5 — 2028,4.0,FY2025 revenue attributed to current agreement expiry year; not backlog\nLimitations: FY2025 recognised revenue assigned to expiry cohorts. Not future contracted backlog.",
         "FIN23: FY2023 financial statements [source_supported]\n02_management_model.xlsx / PnL!B5 — FY2023A\n02_management_model.xlsx / PnL!B6 — 18\n02_management_model.xlsx / PnL!B7 — -10.8\n02_management_model.xlsx / PnL!B8 — 7.199999999999999\n02_management_model.xlsx / PnL!B9 — -4.5\n02_management_model.xlsx / PnL!B10 — 2.6999999999999993\n02_management_model.xlsx / PnL!B11 — 0.14999999999999997\nLimitations: Unaudited management figures; FY2025 revenue conflict remains open.",
         "FIN25: FY2025 financial statements [provisional_conflict]\n02_management_model.xlsx / PnL!D5 — FY2025A\n02_management_model.xlsx / PnL!D6 — 25\n02_management_model.xlsx / PnL!D7 — -14.5\n02_management_model.xlsx / PnL!D8 — 10.5\n02_management_model.xlsx / PnL!D9 — -5.5\n02_management_model.xlsx / PnL!D10 — 5\n02_management_model.xlsx / PnL!D11 — 0.2\nLimitations: Unaudited management figures; FY2025 revenue conflict remains open.",
-        "FIN27: FY2027 financial statements [source_supported]\n02_management_model.xlsx / PnL!F5 — FY2027F\n02_management_model.xlsx / PnL!F6 — 33.6\n02_management_model.xlsx / PnL!F7 — -18.6\n02_management_model.xlsx / PnL!F8 — 15\n02_management_model.xlsx / PnL!F9 — -7.6\n02_management_model.xlsx / PnL!F10 — 7.4\n02_management_model.xlsx / PnL!F11 — 0.22023809523809523\nLimitations: Unaudited management figures; FY2025 revenue conflict remains open.",
         "FIN_UPDATE: Updated financial diligence status [source_supported]\n10_cfo_follow_up.eml / line 7 — Please continue to use the FY2025 revenue of 25.0 in the management model provisionally. The earlier 26.2 briefing figure remains unreconciled. We have identified 0.8 of possible orders relating to services scheduled for 2026, but have not verified this against invoices and the ledger. Do not deduct this amount and describe the difference as resolved.\n10_cfo_follow_up.eml / line 10 — Management has proposed EBITDA adjustments of 0.18 for founder remuneration and 0.12 for systems implementation. We have not substantiated either adjustment. Retain management-reported EBITDA of 5.0 with no add-backs.\n10_cfo_follow_up.eml / line 11 — The quarterly revenue and EBITDA schedule ties to the annual model. All figures remain unaudited. No quality-of-earnings report is available.\n10_cfo_follow_up.eml / line 12 — The supplemental forecast bridge explains group-level movements only. No customer-level bridge, signed pipeline, recruitment cost schedule or timing of engineer productivity is available.\nLimitations: Revenue conflict remains open. No verified EBITDA add-backs, QoE or customer-level forecast support.",
-        "GROWTH: Management growth plan [source_supported]\n01_company_brief.docx / paragraph 12 — Management plans to add 20 net field engineers by the end of FY2027, cross-sell scheduled maintenance to repair customers and expand service coverage from existing hubs. The plan assumes sufficient technician recruitment and contract renewals. No signed pipeline or customer-cohort evidence accompanies this briefing.\n03_management_interview.txt / line 10 — [00:28] CEO: Growth depends on technician recruitment, renewals and converting more repair customers to maintenance contracts. We plan 20 net new engineers by FY2027.",
+        "HUBS: Hub revenue and year-end headcount [source_supported]\n06_hub_schedule.csv / line 1 — # FICTIONAL TRAINING CASE; management submission 26 January 2026; unaudited\n06_hub_schedule.csv / line 2 — hub,fy2025_revenue_gbp_m,employees_20251231,field_engineers_20251231\n06_hub_schedule.csv / line 3 — Birmingham,11.5,55,40\n06_hub_schedule.csv / line 4 — Manchester,8.0,38,27\n06_hub_schedule.csv / line 5 — Bristol,5.5,27,18\nLimitations: Unaudited synthetic management submission.",
+        "KPIS: Defined service delivery measures [source_supported]\n07_service_kpis.csv / line 1 — # FICTIONAL TRAINING CASE; management submission 26 January 2026; unaudited\n07_service_kpis.csv / line 2 — metric,numerator,denominator,period,definition\n07_service_kpis.csv / line 3 — Urgent response SLA,561,600,FY2025,Eligible urgent jobs attended within four hours / all eligible urgent jobs\n07_service_kpis.csv / line 4 — First-time fix,2200,2500,FY2025,Closed reactive jobs resolved on first visit / all closed reactive jobs\n07_service_kpis.csv / line 5 — Productive hours,126480,170000,FY2025,Recorded productive engineer hours / recorded available engineer hours; not billing utilisation\nLimitations: Unaudited synthetic management submission.",
+        "MARKET: Market size and share unavailable [missing]\n01_company_brief.docx / paragraph 16 — Management describes the UK equipment-maintenance market as fragmented. No independent market-size study, market-share estimate or competitor benchmarking has been provided.\nLimitations: Fragmentation is a management assertion without independent support.",
         "MIX: FY2025 service revenue [source_supported]\n02_management_model.xlsx / ServiceMix!A5 — Scheduled maintenance\n02_management_model.xlsx / ServiceMix!B5 — 17500\n02_management_model.xlsx / ServiceMix!C5 — Annual service contracts\n02_management_model.xlsx / ServiceMix!A6 — Reactive repairs\n02_management_model.xlsx / ServiceMix!B6 — 5000\n02_management_model.xlsx / ServiceMix!C6 — Call-out and materials\n02_management_model.xlsx / ServiceMix!A7 — Installation projects\n02_management_model.xlsx / ServiceMix!B7 — 2500\n02_management_model.xlsx / ServiceMix!C7 — Project-based work",
         "OPS: People, hubs and management [source_supported]\n01_company_brief.docx / paragraph 10 — At 31 December 2025, Northbridge has 120 employees including 85 field engineers. It operates hubs in Birmingham, Manchester and Bristol. Maya Reed is founder and CEO, Daniel Cole is CFO and Aisha Patel is COO. These names and all company details are fictitious. The founder continues to lead major customer relationships.",
         "PIPELINE: Unsigned unweighted opportunity pipeline [source_supported]\n05_commercial_interview.txt / line 7 — Pipeline at 26 January 2026 totals GBP 4.8 million of indicative annual revenue: proposals GBP 2.4 million, negotiations GBP 1.5 million and preferred supplier GBP 0.9 million. All are unsigned. Stage values are unweighted and are not forecast revenue or backlog.\nLimitations: All unsigned. Not backlog or forecast revenue.",
         "RENEWALS: Defined maintenance agreement renewal cohort [source_supported]\n05_commercial_interview.txt / line 5 — The FY2025 renewal cohort comprised 25 maintenance agreements due for renewal, with GBP 4.00 million of annual contract value immediately before expiry. 23 agreements renewed. The annual value retained on those same agreements, before price changes or additional scope, was GBP 3.72 million. These are management-prepared counts and values, not independently verified customer retention.\n05_commercial_interview.txt / line 6 — The earlier 94% retention estimate remains undefined. It uses no documented customer cohort and cannot be reconciled to this contract-level renewal schedule.\nLimitations: Contract-level management cohort. Excludes price changes and additional scope. Not customer retention and not independently verified.",
-        "SERVICES: Services and contract terms [source_supported]\n01_company_brief.docx / paragraph 6 — The business supplies scheduled maintenance under annual service contracts, reactive repairs and installation projects. Contracts generally run for one to three years and renew by agreement. Scheduled maintenance provides the contracted revenue stream. No assumption should be made that renewals are automatic. Customers include logistics operators, manufacturers and facilities managers.",
-        "CAGR: {\"id\": \"CAGR\", \"formula\": \"(FY2025 revenue / FY2023 revenue)^(1/2) - 1\", \"input_ids\": [\"FIN23\", \"FIN25\"], \"result\": 0.17851130197757925, \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}",
+        "RETENTION: Retention estimate lacks defined basis [management_unverified]\n03_management_interview.txt / line 7 — [00:17] CEO: We estimate customer retention at 94% in FY2025, but have not supplied the cohort calculation or defined whether that refers to customers or revenue.\nLimitations: No definition or cohort data; excluded from quantitative investment highlights.",
+        "SECTORS: Revenue by customer industry [source_supported]\n12_sector_mix.csv / line 1 — # FICTIONAL TRAINING CASE; management submission 26 January 2026; unaudited\n12_sector_mix.csv / line 2 — sector,fy2025_revenue_gbp_m\n12_sector_mix.csv / line 3 — Logistics,11.25\n12_sector_mix.csv / line 4 — Manufacturing,8.75\n12_sector_mix.csv / line 5 — Facilities management,5\nLimitations: Unaudited synthetic management submission.",
+        "KPI_RATES: {\"id\": \"KPI_RATES\", \"formula\": \"Numerator / denominator for each defined service KPI\", \"input_ids\": [\"KPIS\"], \"result\": [0.935, 0.88, 0.744], \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}",
         "MIX_SHARE: {\"id\": \"MIX_SHARE\", \"formula\": \"ServiceMix!B5:B7 / sum(ServiceMix!B5:B7)\", \"input_ids\": [\"MIX\"], \"result\": [0.7, 0.2, 0.1], \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}",
+        "PROFIT_BRIDGE: {\"id\": \"PROFIT_BRIDGE\", \"formula\": \"FY2025 minus FY2023: revenue, gross profit, operating expenses and EBITDA\", \"input_ids\": [\"FIN23\", \"FIN25\"], \"result\": {\"revenue\": 7.0, \"gross_profit\": 3.3000000000000007, \"opex\": 1.0, \"ebitda\": 2.3000000000000007}, \"unit\": \"GBP million\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}",
+        "RENEWAL_LOSS: {\"id\": \"RENEWAL_LOSS\", \"formula\": \"Due agreements minus renewed; due annual value minus retained value\", \"input_ids\": [\"RENEWALS\"], \"result\": {\"agreements\": 2, \"annual_value\": 0.2799999999999998}, \"unit\": \"count / GBP million\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}",
         "RENEWAL_RATES: {\"id\": \"RENEWAL_RATES\", \"formula\": \"Renewed contracts / due contracts; retained pre-price value / due annual value\", \"input_ids\": [\"RENEWALS\"], \"result\": [0.92, 0.93], \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}",
+        "SECTOR_COMBINATION: {\"id\": \"SECTOR_COMBINATION\", \"formula\": \"Logistics revenue + manufacturing revenue\", \"input_ids\": [\"SECTORS\"], \"result\": 20.0, \"unit\": \"GBP million\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}",
         "TOP5: {\"id\": \"TOP5\", \"formula\": \"sum(CustomerSales!C5:C9) / sum(CustomerSales!C5:C10)\", \"input_ids\": [\"CUSTOMERS\"], \"result\": 0.42, \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}"
       ]
     },
     {
-      "title": "Service portfolio and customer applications",
+      "title": "Service portfolio and customer sectors",
       "background": "#FFFFFF",
       "elements": [
         {
           "id": "s4-section",
           "type": "text",
-          "x": 72,
-          "y": 28,
-          "w": 1136,
-          "h": 22,
-          "text": "Business overview",
-          "size": 16,
+          "x": 56,
+          "y": 20,
+          "w": 1168,
+          "h": 20,
+          "text": "BUSINESS OVERVIEW",
+          "size": 13,
           "color": "#00338D",
           "bold": true,
+          "align": "left",
           "fact_ids": [],
           "calc_ids": []
         },
         {
           "id": "s4-title",
           "type": "text",
-          "x": 72,
-          "y": 61,
-          "w": 1136,
-          "h": 78,
-          "text": "Service portfolio and customer applications",
-          "size": 34,
+          "x": 56,
+          "y": 47,
+          "w": 1168,
+          "h": 42,
+          "text": "Service portfolio and customer sectors",
+          "size": 28,
           "color": "#00338D",
           "bold": true,
+          "align": "left",
           "fact_ids": [
             "MIX",
-            "SERVICES",
             "COMMERCIAL",
             "SECTORS",
-            "FIN25",
-            "UNITS"
+            "UNITS",
+            "FIN25"
           ],
           "calc_ids": []
         },
         {
+          "id": "s4-header-rule",
+          "type": "rule",
+          "x": 56,
+          "y": 98,
+          "w": 1168,
+          "h": 1,
+          "color": "#00338D",
+          "fact_ids": []
+        },
+        {
           "id": "s4-source",
           "type": "text",
-          "x": 72,
-          "y": 650,
-          "w": 1136,
-          "h": 34,
-          "text": "Sources: 02 management model, ServiceMix!A5:C7; 05 commercial interview; 12 sector mix.\nRevenue is FY2025 provisional management actuals. GBP thousand schedules are converted to GBP million.",
-          "size": 12,
+          "x": 56,
+          "y": 656,
+          "w": 1168,
+          "h": 29,
+          "text": "Sources: 02 model, ServiceMix!A5:C7; 05 commercial interview; 12 sector mix; 04 CFO units confirmation.\nFY2025 provisional management actuals. Service figures converted from GBP thousand to GBP million.",
+          "size": 10.5,
           "color": "#00338D",
           "bold": false,
+          "align": "left",
           "fact_ids": [
             "MIX",
-            "SERVICES",
             "COMMERCIAL",
             "SECTORS",
-            "FIN25",
-            "UNITS"
+            "UNITS",
+            "FIN25"
           ],
           "calc_ids": []
         },
         {
           "id": "s4-footer-rule",
           "type": "rule",
-          "x": 72,
+          "x": 56,
           "y": 691,
-          "w": 1136,
+          "w": 1168,
           "h": 1,
           "color": "#B8C7DF",
           "fact_ids": []
@@ -732,82 +919,91 @@
         {
           "id": "s4-footer",
           "type": "text",
-          "x": 72,
+          "x": 56,
           "y": 697,
-          "w": 1050,
-          "h": 18,
+          "w": 1080,
+          "h": 17,
           "text": "NORTHBRIDGE     FICTIONAL TRAINING CASE     January 2026",
-          "size": 11,
+          "size": 10,
           "color": "#595959",
           "bold": false,
+          "align": "left",
           "fact_ids": [],
           "calc_ids": []
         },
         {
           "id": "s4-number",
           "type": "text",
-          "x": 1170,
+          "x": 1184,
           "y": 697,
-          "w": 38,
-          "h": 18,
+          "w": 40,
+          "h": 17,
           "text": "4",
-          "size": 11,
+          "size": 10,
           "color": "#00338D",
           "bold": false,
+          "align": "right",
           "fact_ids": [],
           "calc_ids": []
         },
         {
           "id": "s4-services",
           "type": "table",
-          "x": 72,
-          "y": 148,
-          "w": 1136,
-          "h": 235,
+          "x": 56,
+          "y": 115,
+          "w": 1168,
+          "h": 247,
           "rows": [
             [
               "Service",
-              "FY2025 £m",
+              "£m",
               "Share",
-              "Delivery and commercial basis"
+              "Scope and pricing",
+              "Commercial characteristics"
             ],
             [
               "Scheduled maintenance",
               "17.5",
               "70%",
-              "Planned visits and preventive servicing"
+              "Planned inspections and preventive servicing, with scheduled visits and an annual fee.",
+              "One-to-three-year agreements. Renewal and price reviews depend on terms and customer acceptance."
             ],
             [
               "Reactive repairs",
               "5.0",
               "20%",
-              "Call-out, labour and materials"
+              "Call-out, labour and materials charges for reactive equipment support.",
+              "Management plans to convert repair customers to maintenance agreements. Conversion is assumed."
             ],
             [
               "Installation projects",
               "2.5",
               "10%",
-              "Separately agreed scope and project price"
+              "Separately agreed project scope and price.",
+              "Project-specific timing and scope. No project backlog schedule supplied."
             ],
             [
               "Total",
               "25.0",
               "100%",
-              "Provisional management revenue"
+              "Recognised revenue for the same UK company.",
+              "Excludes VAT. Agrees to the provisional model."
             ]
           ],
           "widths": [
-            2.8,
-            1.2,
-            1,
-            4.2
+            2.1,
+            0.7,
+            0.7,
+            4.0,
+            4.3
           ],
-          "size": 17,
+          "size": 16,
           "fact_ids": [
             "MIX",
-            "FIN25",
             "COMMERCIAL",
-            "UNITS"
+            "FIN25",
+            "UNITS",
+            "FORECAST_BASIS"
           ],
           "calc_ids": [
             "MIX_SHARE",
@@ -817,23 +1013,32 @@
             "left",
             "right",
             "right",
+            "left",
             "left"
           ],
           "emphasis_rows": [
             4
+          ],
+          "row_heights": [
+            37.688,
+            57.208,
+            57.208,
+            57.208,
+            37.688
           ]
         },
         {
           "id": "s4-sector-head",
           "type": "text",
-          "x": 72,
-          "y": 410,
-          "w": 535,
-          "h": 29,
-          "text": "Customer industry mix",
-          "size": 21,
+          "x": 56,
+          "y": 381,
+          "w": 480,
+          "h": 25,
+          "text": "Industry revenue profile",
+          "size": 19,
           "color": "#00338D",
           "bold": true,
+          "align": "left",
           "fact_ids": [
             "SECTORS"
           ],
@@ -842,14 +1047,14 @@
         {
           "id": "s4-sector",
           "type": "table",
-          "x": 72,
-          "y": 450,
-          "w": 535,
-          "h": 174,
+          "x": 56,
+          "y": 414,
+          "w": 480,
+          "h": 151,
           "rows": [
             [
-              "Industry",
-              "FY2025 £m",
+              "Customer sector",
+              "£m",
               "Share"
             ],
             [
@@ -869,11 +1074,11 @@
             ]
           ],
           "widths": [
-            3,
-            1.25,
+            3.1,
+            1,
             1
           ],
-          "size": 17,
+          "size": 16,
           "fact_ids": [
             "SECTORS",
             "FIN25"
@@ -886,49 +1091,85 @@
             "right",
             "right"
           ],
-          "emphasis_rows": []
+          "emphasis_rows": [],
+          "row_heights": [
+            37.75,
+            37.75,
+            37.75,
+            37.75
+          ]
         },
         {
-          "id": "s4-terms-head",
+          "id": "s4-sector-comment",
           "type": "text",
-          "x": 647,
-          "y": 410,
-          "w": 561,
-          "h": 29,
-          "text": "Commercial terms",
-          "size": 21,
-          "color": "#00338D",
-          "bold": true,
-          "fact_ids": [
-            "COMMERCIAL"
-          ],
-          "calc_ids": []
-        },
-        {
-          "id": "s4-terms",
-          "type": "text",
-          "x": 647,
-          "y": 451,
-          "w": 561,
-          "h": 170,
-          "text": "Maintenance agreements typically run one to three years and require renewal by agreement. Annual price reviews depend on contract terms and customer acceptance.\n\nMaintenance revenue describes historical service mix. Future revenue depends on renewals and contracted scope.",
-          "size": 18,
+          "x": 56,
+          "y": 582,
+          "w": 480,
+          "h": 59,
+          "text": "Industry totals describe the current customer base. They do not establish the size of the wider market or a market-share position.",
+          "size": 16.5,
           "color": "#000000",
           "bold": false,
+          "align": "left",
           "fact_ids": [
-            "COMMERCIAL",
-            "SERVICES"
+            "SECTORS",
+            "MARKET"
           ],
           "calc_ids": []
+        },
+        {
+          "id": "s4-commercial-head",
+          "type": "text",
+          "x": 568,
+          "y": 381,
+          "w": 656,
+          "h": 25,
+          "text": "Revenue durability and cross-sell",
+          "size": 19,
+          "color": "#00338D",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [
+            "COMMERCIAL",
+            "BRIDGE"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s4-commercial",
+          "type": "text",
+          "x": 568,
+          "y": 414,
+          "w": 656,
+          "h": 227,
+          "text": "Maintenance revenue is the value of services recognised during FY2025. Neither its 70% share nor the current agreement term establishes guaranteed future revenue. Contract expiry, visit scope and renewal terms determine the relevant commercial exposure.\n\nManagement’s FY2026 bridge includes £1.6m of cross-sell and £1.0m of pricing. The interview identifies repair customers as a route to additional maintenance agreements, but no customer-level conversion schedule links these assumptions to specific accounts.\n\nSector and service schedules are separate views of the same £25.0m revenue. A combined service-by-sector matrix has not been supplied, so the data cannot show which industries generate each service line.",
+          "size": 16.5,
+          "color": "#000000",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "COMMERCIAL",
+            "MIX",
+            "BRIDGE",
+            "FIN_UPDATE",
+            "SECTORS",
+            "FIN25"
+          ],
+          "calc_ids": [
+            "MIX_SHARE"
+          ]
         }
       ],
       "notes": [
         "FICTIONAL TRAINING CASE. All company and financial data are synthetic.",
+        "BRIDGE: Group-level forecast revenue bridge and engineer plan [source_supported]\n11_forecast_bridge.csv / line 1 — # FICTIONAL TRAINING CASE; management submission 26 January 2026; unaudited\n11_forecast_bridge.csv / line 2 — component,fy2026_gbp_m,fy2027_gbp_m,basis\n11_forecast_bridge.csv / line 3 — Opening revenue,25,29,Prior year actual or forecast\n11_forecast_bridge.csv / line 4 — Price,1,1.16,Management assumption; customer acceptance required\n11_forecast_bridge.csv / line 5 — New contracts,2,2.4,Management assumption; unsigned pipeline\n11_forecast_bridge.csv / line 6 — Cross-sell,1.6,1.74,Management assumption; conversion required\n11_forecast_bridge.csv / line 7 — Attrition,-0.6,-0.7,Management assumption\n11_forecast_bridge.csv / line 8 — Closing revenue,29,33.6,Management forecast\n11_forecast_bridge.csv / line 9 — Year-end field engineers,95,105,Headcount; excludes attrition/replacement hiring; net growth from 85\nLimitations: Group-level management assumptions. No customer bridge, signed pipeline or recruitment cost schedule.",
         "COMMERCIAL: Service scope, pricing and account relationships [source_supported]\n05_commercial_interview.txt / line 1 — FICTIONAL TRAINING CASE. All statements and figures are invented for workflow testing.\n05_commercial_interview.txt / line 2 — Commercial director interview, 26 January 2026. Period: FY2025 unless specified.\n05_commercial_interview.txt / line 3 — Scheduled maintenance covers planned inspections and preventive servicing. Most contracts specify scheduled visits and an annual fee. Reactive repairs charge call-out, labour and materials. Installation projects use a separately agreed scope and price.\n05_commercial_interview.txt / line 4 — Contracts generally run for one to three years. Renewal requires agreement. Annual price reviews depend on contract terms and customer acceptance. Maintenance revenue should not be described as guaranteed future revenue or ARR.\n05_commercial_interview.txt / line 5 — The FY2025 renewal cohort comprised 25 maintenance agreements due for renewal, with GBP 4.00 million of annual contract value immediately before expiry. 23 agreements renewed. The annual value retained on those same agreements, before price changes or additional scope, was GBP 3.72 million. These are management-prepared counts and values, not independently verified customer retention.\n05_commercial_interview.txt / line 6 — The earlier 94% retention estimate remains undefined. It uses no documented customer cohort and cannot be reconciled to this contract-level renewal schedule.\n05_commercial_interview.txt / line 7 — Pipeline at 26 January 2026 totals GBP 4.8 million of indicative annual revenue: proposals GBP 2.4 million, negotiations GBP 1.5 million and preferred supplier GBP 0.9 million. All are unsigned. Stage values are unweighted and are not forecast revenue or backlog.\n05_commercial_interview.txt / line 8 — Maya Reed remains the primary executive contact on the largest customer accounts. The commercial team needs to document deputy account ownership and review change-of-control provisions.\n05_commercial_interview.txt / line 9 — No independent market-size, market-share or competitor study has been submitted.\nLimitations: Unaudited synthetic management submission.",
         "FIN25: FY2025 financial statements [provisional_conflict]\n02_management_model.xlsx / PnL!D5 — FY2025A\n02_management_model.xlsx / PnL!D6 — 25\n02_management_model.xlsx / PnL!D7 — -14.5\n02_management_model.xlsx / PnL!D8 — 10.5\n02_management_model.xlsx / PnL!D9 — -5.5\n02_management_model.xlsx / PnL!D10 — 5\n02_management_model.xlsx / PnL!D11 — 0.2\nLimitations: Unaudited management figures; FY2025 revenue conflict remains open.",
+        "FIN_UPDATE: Updated financial diligence status [source_supported]\n10_cfo_follow_up.eml / line 7 — Please continue to use the FY2025 revenue of 25.0 in the management model provisionally. The earlier 26.2 briefing figure remains unreconciled. We have identified 0.8 of possible orders relating to services scheduled for 2026, but have not verified this against invoices and the ledger. Do not deduct this amount and describe the difference as resolved.\n10_cfo_follow_up.eml / line 10 — Management has proposed EBITDA adjustments of 0.18 for founder remuneration and 0.12 for systems implementation. We have not substantiated either adjustment. Retain management-reported EBITDA of 5.0 with no add-backs.\n10_cfo_follow_up.eml / line 11 — The quarterly revenue and EBITDA schedule ties to the annual model. All figures remain unaudited. No quality-of-earnings report is available.\n10_cfo_follow_up.eml / line 12 — The supplemental forecast bridge explains group-level movements only. No customer-level bridge, signed pipeline, recruitment cost schedule or timing of engineer productivity is available.\nLimitations: Revenue conflict remains open. No verified EBITDA add-backs, QoE or customer-level forecast support.",
+        "FORECAST_BASIS: Forecast bridge unavailable [missing]\n04_cfo_email.eml / line 12 — The model is version 2.0, dated 21 January 2026. The forecast is management's base case. There is no customer-level forecast bridge or recruitment cost schedule yet.\nLimitations:  Historical submission. See FIN_UPDATE, BALANCE and BRIDGE for supplemental evidence dated 26 January 2026.",
+        "MARKET: Market size and share unavailable [missing]\n01_company_brief.docx / paragraph 16 — Management describes the UK equipment-maintenance market as fragmented. No independent market-size study, market-share estimate or competitor benchmarking has been provided.\nLimitations: Fragmentation is a management assertion without independent support.",
         "MIX: FY2025 service revenue [source_supported]\n02_management_model.xlsx / ServiceMix!A5 — Scheduled maintenance\n02_management_model.xlsx / ServiceMix!B5 — 17500\n02_management_model.xlsx / ServiceMix!C5 — Annual service contracts\n02_management_model.xlsx / ServiceMix!A6 — Reactive repairs\n02_management_model.xlsx / ServiceMix!B6 — 5000\n02_management_model.xlsx / ServiceMix!C6 — Call-out and materials\n02_management_model.xlsx / ServiceMix!A7 — Installation projects\n02_management_model.xlsx / ServiceMix!B7 — 2500\n02_management_model.xlsx / ServiceMix!C7 — Project-based work",
         "SECTORS: Revenue by customer industry [source_supported]\n12_sector_mix.csv / line 1 — # FICTIONAL TRAINING CASE; management submission 26 January 2026; unaudited\n12_sector_mix.csv / line 2 — sector,fy2025_revenue_gbp_m\n12_sector_mix.csv / line 3 — Logistics,11.25\n12_sector_mix.csv / line 4 — Manufacturing,8.75\n12_sector_mix.csv / line 5 — Facilities management,5\nLimitations: Unaudited synthetic management submission.",
-        "SERVICES: Services and contract terms [source_supported]\n01_company_brief.docx / paragraph 6 — The business supplies scheduled maintenance under annual service contracts, reactive repairs and installation projects. Contracts generally run for one to three years and renew by agreement. Scheduled maintenance provides the contracted revenue stream. No assumption should be made that renewals are automatic. Customers include logistics operators, manufacturers and facilities managers.",
         "UNITS: Financial and sales schedule units [source_supported]\n04_cfo_email.eml / line 10 — The P&L tab is in GBP millions. The CustomerSales and ServiceMix tabs are in GBP thousands. They cover FY2025 recognised revenue, excluding VAT, for the same UK company. CustomerSales contains the five largest customers plus one aggregate row for all others. Do not treat that aggregate as a single customer.",
         "MIX_SHARE: {\"id\": \"MIX_SHARE\", \"formula\": \"ServiceMix!B5:B7 / sum(ServiceMix!B5:B7)\", \"input_ids\": [\"MIX\"], \"result\": [0.7, 0.2, 0.1], \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}",
         "NORMALIZE: {\"id\": \"NORMALIZE\", \"formula\": \"GBP thousand / 1000\", \"input_ids\": [\"MIX\", \"CUSTOMERS\", \"UNITS\"], \"result\": {\"services_m\": [17.5, 5.0, 2.5], \"customers_m\": [3.0, 2.25, 2.0, 1.75, 1.5, 14.5]}, \"unit\": \"GBP million\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}",
@@ -936,69 +1177,82 @@
       ]
     },
     {
-      "title": "Customer concentration and contract renewal",
+      "title": "Customer exposure, expiry profile and renewals",
       "background": "#FFFFFF",
       "elements": [
         {
           "id": "s5-section",
           "type": "text",
-          "x": 72,
-          "y": 28,
-          "w": 1136,
-          "h": 22,
-          "text": "Customer quality",
-          "size": 16,
+          "x": 56,
+          "y": 20,
+          "w": 1168,
+          "h": 20,
+          "text": "CUSTOMER QUALITY",
+          "size": 13,
           "color": "#00338D",
           "bold": true,
+          "align": "left",
           "fact_ids": [],
           "calc_ids": []
         },
         {
           "id": "s5-title",
           "type": "text",
-          "x": 72,
-          "y": 61,
-          "w": 1136,
-          "h": 78,
-          "text": "Customer concentration and contract renewal",
-          "size": 34,
+          "x": 56,
+          "y": 47,
+          "w": 1168,
+          "h": 42,
+          "text": "Customer exposure, expiry profile and renewals",
+          "size": 28,
           "color": "#00338D",
           "bold": true,
+          "align": "left",
           "fact_ids": [
             "CUSTOMERS",
+            "EXPIRIES",
             "RENEWALS",
             "RETENTION",
-            "EXPIRIES",
-            "MIX"
+            "COMMERCIAL"
           ],
           "calc_ids": []
         },
         {
+          "id": "s5-header-rule",
+          "type": "rule",
+          "x": 56,
+          "y": 98,
+          "w": 1168,
+          "h": 1,
+          "color": "#00338D",
+          "fact_ids": []
+        },
+        {
           "id": "s5-source",
           "type": "text",
-          "x": 72,
-          "y": 650,
-          "w": 1136,
-          "h": 34,
-          "text": "Sources: 02 management model, CustomerSales!A5:C10; 05 commercial interview; 08 contract expiry schedule.\nExpiry cohorts allocate FY2025 maintenance revenue by current agreement expiry year. They are not backlog.",
-          "size": 12,
+          "x": 56,
+          "y": 656,
+          "w": 1168,
+          "h": 29,
+          "text": "Sources: 02 model, CustomerSales!A5:C10; 05 commercial interview; 08 contract expiries.\nExpiry cohorts allocate FY2025 maintenance revenue, not future backlog. Renewal measures cover agreements due in FY2025.",
+          "size": 10.5,
           "color": "#00338D",
           "bold": false,
+          "align": "left",
           "fact_ids": [
             "CUSTOMERS",
+            "EXPIRIES",
             "RENEWALS",
             "RETENTION",
-            "EXPIRIES",
-            "MIX"
+            "COMMERCIAL"
           ],
           "calc_ids": []
         },
         {
           "id": "s5-footer-rule",
           "type": "rule",
-          "x": 72,
+          "x": 56,
           "y": 691,
-          "w": 1136,
+          "w": 1168,
           "h": 1,
           "color": "#B8C7DF",
           "fact_ids": []
@@ -1006,42 +1260,45 @@
         {
           "id": "s5-footer",
           "type": "text",
-          "x": 72,
+          "x": 56,
           "y": 697,
-          "w": 1050,
-          "h": 18,
+          "w": 1080,
+          "h": 17,
           "text": "NORTHBRIDGE     FICTIONAL TRAINING CASE     January 2026",
-          "size": 11,
+          "size": 10,
           "color": "#595959",
           "bold": false,
+          "align": "left",
           "fact_ids": [],
           "calc_ids": []
         },
         {
           "id": "s5-number",
           "type": "text",
-          "x": 1170,
+          "x": 1184,
           "y": 697,
-          "w": 38,
-          "h": 18,
+          "w": 40,
+          "h": 17,
           "text": "5",
-          "size": 11,
+          "size": 10,
           "color": "#00338D",
           "bold": false,
+          "align": "right",
           "fact_ids": [],
           "calc_ids": []
         },
         {
           "id": "s5-chart-head",
           "type": "text",
-          "x": 72,
-          "y": 148,
-          "w": 570,
-          "h": 29,
+          "x": 56,
+          "y": 115,
+          "w": 548,
+          "h": 25,
           "text": "Largest customers: FY2025 revenue share",
-          "size": 21,
+          "size": 19,
           "color": "#00338D",
           "bold": true,
+          "align": "left",
           "fact_ids": [
             "CUSTOMERS"
           ],
@@ -1050,10 +1307,10 @@
         {
           "id": "s5-chart",
           "type": "chart",
-          "x": 72,
-          "y": 191,
-          "w": 570,
-          "h": 258,
+          "x": 56,
+          "y": 151,
+          "w": 548,
+          "h": 212,
           "categories": [
             "A",
             "B",
@@ -1084,34 +1341,75 @@
         {
           "id": "s5-exposure",
           "type": "text",
-          "x": 72,
-          "y": 465,
-          "w": 570,
-          "h": 76,
-          "text": "Top five: 42%. Largest customer: 12%. Other customers together represent 58%. The founder remains the executive contact for major accounts.",
-          "size": 18,
+          "x": 56,
+          "y": 376,
+          "w": 548,
+          "h": 105,
+          "text": "The largest customer contributes £3.00m (12% of revenue). The five largest together contribute £10.50m (42%). The remaining £14.50m is an aggregate across other customers.\nMaya Reed remains the primary executive contact on major accounts. Deputy account ownership has not been documented.",
+          "size": 16.5,
           "color": "#000000",
           "bold": false,
+          "align": "left",
           "fact_ids": [
             "CUSTOMERS",
             "COMMERCIAL"
           ],
           "calc_ids": [
             "TOP5",
-            "LARGEST"
+            "LARGEST",
+            "NORMALIZE"
+          ]
+        },
+        {
+          "id": "s5-renewal-head",
+          "type": "text",
+          "x": 56,
+          "y": 502,
+          "w": 548,
+          "h": 25,
+          "text": "What the renewal cohort measures",
+          "size": 19,
+          "color": "#00338D",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [
+            "RENEWALS"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s5-renewal",
+          "type": "text",
+          "x": 56,
+          "y": 535,
+          "w": 548,
+          "h": 106,
+          "text": "23 of 25 agreements renewed (92%). Retained annual value was £3.72m / £4.00m (93%), excluding price and scope changes. The difference is £0.28m.\nAn agreement cohort may contain multiple contracts per customer. It cannot validate the earlier undefined 94% customer-retention estimate.",
+          "size": 16.5,
+          "color": "#000000",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "RENEWALS",
+            "RETENTION"
+          ],
+          "calc_ids": [
+            "RENEWAL_RATES",
+            "RENEWAL_LOSS"
           ]
         },
         {
           "id": "s5-expiry-head",
           "type": "text",
-          "x": 682,
-          "y": 148,
-          "w": 526,
-          "h": 29,
-          "text": "Maintenance agreement expiry profile",
-          "size": 21,
+          "x": 636,
+          "y": 115,
+          "w": 588,
+          "h": 25,
+          "text": "Maintenance agreements by expiry year",
+          "size": 19,
           "color": "#00338D",
           "bold": true,
+          "align": "left",
           "fact_ids": [
             "EXPIRIES"
           ],
@@ -1120,15 +1418,15 @@
         {
           "id": "s5-expiry",
           "type": "table",
-          "x": 682,
-          "y": 191,
-          "w": 526,
-          "h": 181,
+          "x": 636,
+          "y": 151,
+          "w": 588,
+          "h": 159,
           "rows": [
             [
-              "Expiry",
+              "Expiry year",
               "FY2025 £m",
-              "Share of maintenance"
+              "Maintenance share"
             ],
             [
               "2026",
@@ -1147,11 +1445,11 @@
             ]
           ],
           "widths": [
-            1,
-            1.2,
-            2.4
+            1.7,
+            1.3,
+            2.7
           ],
-          "size": 17,
+          "size": 16,
           "fact_ids": [
             "EXPIRIES",
             "MIX"
@@ -1164,58 +1462,70 @@
             "right",
             "right"
           ],
-          "emphasis_rows": []
+          "emphasis_rows": [],
+          "row_heights": [
+            39.75,
+            39.75,
+            39.75,
+            39.75
+          ]
         },
         {
-          "id": "s5-renewal-head",
+          "id": "s5-expiry-comment",
           "type": "text",
-          "x": 682,
-          "y": 397,
-          "w": 526,
-          "h": 29,
-          "text": "FY2025 renewal cohort",
-          "size": 21,
+          "x": 636,
+          "y": 327,
+          "w": 588,
+          "h": 105,
+          "text": "Agreements expiring in 2026 account for £6.0m of FY2025 revenue, equivalent to 24% of total company revenue. This is the amount associated with the expiry cohort, rather than an estimate of revenue loss.\nThe schedule does not establish signed future revenue, renewal timing or the amount already renegotiated.",
+          "size": 16.5,
+          "color": "#000000",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "EXPIRIES",
+            "MIX",
+            "FIN25"
+          ],
+          "calc_ids": [
+            "EXPIRY_TOTAL_SHARE"
+          ]
+        },
+        {
+          "id": "s5-review-head",
+          "type": "text",
+          "x": 636,
+          "y": 454,
+          "w": 588,
+          "h": 25,
+          "text": "Contract review priorities",
+          "size": 19,
           "color": "#00338D",
           "bold": true,
+          "align": "left",
           "fact_ids": [
-            "RENEWALS"
+            "COMMERCIAL",
+            "PROCESS"
           ],
           "calc_ids": []
         },
         {
-          "id": "s5-renewal",
-          "type": "text",
-          "x": 682,
-          "y": 439,
-          "w": 526,
-          "h": 183,
-          "text": "Agreements renewed: 23 / 25 (92%).\nAnnual value retained: £3.72m / £4.00m (93%), before price or scope changes.\n\nThe earlier 94% retention estimate lacks a defined customer cohort and remains excluded.",
-          "size": 18,
-          "color": "#000000",
-          "bold": false,
-          "fact_ids": [
-            "RENEWALS",
-            "RETENTION"
-          ],
-          "calc_ids": [
-            "RENEWAL_RATES"
-          ]
-        },
-        {
           "id": "s5-review",
           "type": "text",
-          "x": 72,
-          "y": 566,
-          "w": 570,
-          "h": 59,
-          "text": "Commercial review should validate renewal cohorts, pricing provisions and change-of-control requirements.",
-          "size": 18,
-          "color": "#00338D",
+          "x": 636,
+          "y": 487,
+          "w": 588,
+          "h": 154,
+          "text": "Commercial review needs to link each expiry to its customer, service scope and renewal status, then test pricing clauses and termination rights against the signed agreement.\nReview of change-of-control provisions is also required for the proposed sale. No conclusion on transferability or consent requirements is available. The supplied concentration schedule and expiry schedule do not identify which major accounts sit in the 2026 expiry cohort.",
+          "size": 16.5,
+          "color": "#000000",
           "bold": false,
+          "align": "left",
           "fact_ids": [
             "COMMERCIAL",
             "PROCESS",
-            "RENEWALS"
+            "CUSTOMERS",
+            "EXPIRIES"
           ],
           "calc_ids": []
         }
@@ -1225,45 +1535,51 @@
         "COMMERCIAL: Service scope, pricing and account relationships [source_supported]\n05_commercial_interview.txt / line 1 — FICTIONAL TRAINING CASE. All statements and figures are invented for workflow testing.\n05_commercial_interview.txt / line 2 — Commercial director interview, 26 January 2026. Period: FY2025 unless specified.\n05_commercial_interview.txt / line 3 — Scheduled maintenance covers planned inspections and preventive servicing. Most contracts specify scheduled visits and an annual fee. Reactive repairs charge call-out, labour and materials. Installation projects use a separately agreed scope and price.\n05_commercial_interview.txt / line 4 — Contracts generally run for one to three years. Renewal requires agreement. Annual price reviews depend on contract terms and customer acceptance. Maintenance revenue should not be described as guaranteed future revenue or ARR.\n05_commercial_interview.txt / line 5 — The FY2025 renewal cohort comprised 25 maintenance agreements due for renewal, with GBP 4.00 million of annual contract value immediately before expiry. 23 agreements renewed. The annual value retained on those same agreements, before price changes or additional scope, was GBP 3.72 million. These are management-prepared counts and values, not independently verified customer retention.\n05_commercial_interview.txt / line 6 — The earlier 94% retention estimate remains undefined. It uses no documented customer cohort and cannot be reconciled to this contract-level renewal schedule.\n05_commercial_interview.txt / line 7 — Pipeline at 26 January 2026 totals GBP 4.8 million of indicative annual revenue: proposals GBP 2.4 million, negotiations GBP 1.5 million and preferred supplier GBP 0.9 million. All are unsigned. Stage values are unweighted and are not forecast revenue or backlog.\n05_commercial_interview.txt / line 8 — Maya Reed remains the primary executive contact on the largest customer accounts. The commercial team needs to document deputy account ownership and review change-of-control provisions.\n05_commercial_interview.txt / line 9 — No independent market-size, market-share or competitor study has been submitted.\nLimitations: Unaudited synthetic management submission.",
         "CUSTOMERS: FY2025 customer sales [source_supported]\n02_management_model.xlsx / CustomerSales!A5 — C001\n02_management_model.xlsx / CustomerSales!B5 — Customer A\n02_management_model.xlsx / CustomerSales!C5 — 3000\n02_management_model.xlsx / CustomerSales!A6 — C002\n02_management_model.xlsx / CustomerSales!B6 — Customer B\n02_management_model.xlsx / CustomerSales!C6 — 2250\n02_management_model.xlsx / CustomerSales!A7 — C003\n02_management_model.xlsx / CustomerSales!B7 — Customer C\n02_management_model.xlsx / CustomerSales!C7 — 2000\n02_management_model.xlsx / CustomerSales!A8 — C004\n02_management_model.xlsx / CustomerSales!B8 — Customer D\n02_management_model.xlsx / CustomerSales!C8 — 1750\n02_management_model.xlsx / CustomerSales!A9 — C005\n02_management_model.xlsx / CustomerSales!B9 — Customer E\n02_management_model.xlsx / CustomerSales!C9 — 1500\n02_management_model.xlsx / CustomerSales!A10 — OTHER\n02_management_model.xlsx / CustomerSales!B10 — All other customers (aggregate)\n02_management_model.xlsx / CustomerSales!C10 — 14500\nLimitations: OTHER is an aggregate.",
         "EXPIRIES: Maintenance revenue by agreement expiry year [source_supported]\n08_contract_expiries.csv / line 1 — # FICTIONAL TRAINING CASE; management submission 26 January 2026; unaudited\n08_contract_expiries.csv / line 2 — expiry_year,fy2025_maintenance_revenue_gbp_m,basis\n08_contract_expiries.csv / line 3 — 2026,6.0,FY2025 revenue attributed to current agreement expiry year; not backlog\n08_contract_expiries.csv / line 4 — 2027,7.5,FY2025 revenue attributed to current agreement expiry year; not backlog\n08_contract_expiries.csv / line 5 — 2028,4.0,FY2025 revenue attributed to current agreement expiry year; not backlog\nLimitations: FY2025 recognised revenue assigned to expiry cohorts. Not future contracted backlog.",
+        "FIN25: FY2025 financial statements [provisional_conflict]\n02_management_model.xlsx / PnL!D5 — FY2025A\n02_management_model.xlsx / PnL!D6 — 25\n02_management_model.xlsx / PnL!D7 — -14.5\n02_management_model.xlsx / PnL!D8 — 10.5\n02_management_model.xlsx / PnL!D9 — -5.5\n02_management_model.xlsx / PnL!D10 — 5\n02_management_model.xlsx / PnL!D11 — 0.2\nLimitations: Unaudited management figures; FY2025 revenue conflict remains open.",
         "MIX: FY2025 service revenue [source_supported]\n02_management_model.xlsx / ServiceMix!A5 — Scheduled maintenance\n02_management_model.xlsx / ServiceMix!B5 — 17500\n02_management_model.xlsx / ServiceMix!C5 — Annual service contracts\n02_management_model.xlsx / ServiceMix!A6 — Reactive repairs\n02_management_model.xlsx / ServiceMix!B6 — 5000\n02_management_model.xlsx / ServiceMix!C6 — Call-out and materials\n02_management_model.xlsx / ServiceMix!A7 — Installation projects\n02_management_model.xlsx / ServiceMix!B7 — 2500\n02_management_model.xlsx / ServiceMix!C7 — Project-based work",
         "PROCESS: Proposed transaction perimeter and preparation responsibilities [source_supported]\n13_transaction_workshop.txt / line 1 — FICTIONAL TRAINING CASE. Invented transaction workshop notes, 26 January 2026.\n13_transaction_workshop.txt / line 2 — Shareholders are considering a sale of 70% to 100% of the equity in the standalone UK company. The current ownership remains founder 70%, management 20%, seed investor 10%.\n13_transaction_workshop.txt / line 3 — The proposed perimeter includes all three hubs, operating assets and customer contracts of the company. No excluded business has been identified. Legal entity, asset ownership and contract transferability require legal diligence.\n13_transaction_workshop.txt / line 4 — No valuation, management rollover, financing structure or transaction timetable has been agreed. The process remains at preparation stage. No offers or signed sale terms exist in this fictional case.\n13_transaction_workshop.txt / line 5 — Daniel Cole (CFO) owns revenue reconciliation, QoE preparation and balance-sheet schedules. Aisha Patel (COO) owns job-level KPI evidence, engineer recruitment and capacity planning. Maya Reed (CEO) owns key-account continuity and pipeline evidence. External legal counsel, not yet appointed, would review title, consents and change-of-control clauses. The strategy team owns independent market work.\nLimitations: Unaudited synthetic management submission.",
         "RENEWALS: Defined maintenance agreement renewal cohort [source_supported]\n05_commercial_interview.txt / line 5 — The FY2025 renewal cohort comprised 25 maintenance agreements due for renewal, with GBP 4.00 million of annual contract value immediately before expiry. 23 agreements renewed. The annual value retained on those same agreements, before price changes or additional scope, was GBP 3.72 million. These are management-prepared counts and values, not independently verified customer retention.\n05_commercial_interview.txt / line 6 — The earlier 94% retention estimate remains undefined. It uses no documented customer cohort and cannot be reconciled to this contract-level renewal schedule.\nLimitations: Contract-level management cohort. Excludes price changes and additional scope. Not customer retention and not independently verified.",
         "RETENTION: Retention estimate lacks defined basis [management_unverified]\n03_management_interview.txt / line 7 — [00:17] CEO: We estimate customer retention at 94% in FY2025, but have not supplied the cohort calculation or defined whether that refers to customers or revenue.\nLimitations: No definition or cohort data; excluded from quantitative investment highlights.",
         "EXPIRY_SHARE: {\"id\": \"EXPIRY_SHARE\", \"formula\": \"FY2025 revenue in each expiry cohort / FY2025 maintenance revenue\", \"input_ids\": [\"EXPIRIES\", \"MIX\"], \"result\": [0.34285714285714286, 0.42857142857142855, 0.22857142857142856], \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}",
+        "EXPIRY_TOTAL_SHARE: {\"id\": \"EXPIRY_TOTAL_SHARE\", \"formula\": \"FY2025 revenue attributed to 2026 expiries / total FY2025 revenue\", \"input_ids\": [\"EXPIRIES\", \"FIN25\"], \"result\": 0.24, \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}",
         "LARGEST: {\"id\": \"LARGEST\", \"formula\": \"max(CustomerSales!C5:C9) / sum(CustomerSales!C5:C10)\", \"input_ids\": [\"CUSTOMERS\"], \"result\": 0.12, \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}",
+        "NORMALIZE: {\"id\": \"NORMALIZE\", \"formula\": \"GBP thousand / 1000\", \"input_ids\": [\"MIX\", \"CUSTOMERS\", \"UNITS\"], \"result\": {\"services_m\": [17.5, 5.0, 2.5], \"customers_m\": [3.0, 2.25, 2.0, 1.75, 1.5, 14.5]}, \"unit\": \"GBP million\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}",
+        "RENEWAL_LOSS: {\"id\": \"RENEWAL_LOSS\", \"formula\": \"Due agreements minus renewed; due annual value minus retained value\", \"input_ids\": [\"RENEWALS\"], \"result\": {\"agreements\": 2, \"annual_value\": 0.2799999999999998}, \"unit\": \"count / GBP million\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}",
         "RENEWAL_RATES: {\"id\": \"RENEWAL_RATES\", \"formula\": \"Renewed contracts / due contracts; retained pre-price value / due annual value\", \"input_ids\": [\"RENEWALS\"], \"result\": [0.92, 0.93], \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}",
         "TOP5: {\"id\": \"TOP5\", \"formula\": \"sum(CustomerSales!C5:C9) / sum(CustomerSales!C5:C10)\", \"input_ids\": [\"CUSTOMERS\"], \"result\": 0.42, \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}"
       ]
     },
     {
-      "title": "Regional delivery capacity and service performance",
+      "title": "Operating footprint and delivery capacity",
       "background": "#FFFFFF",
       "elements": [
         {
           "id": "s6-section",
           "type": "text",
-          "x": 72,
-          "y": 28,
-          "w": 1136,
-          "h": 22,
-          "text": "Operations",
-          "size": 16,
+          "x": 56,
+          "y": 20,
+          "w": 1168,
+          "h": 20,
+          "text": "OPERATIONS",
+          "size": 13,
           "color": "#00338D",
           "bold": true,
+          "align": "left",
           "fact_ids": [],
           "calc_ids": []
         },
         {
           "id": "s6-title",
           "type": "text",
-          "x": 72,
-          "y": 61,
-          "w": 1136,
-          "h": 78,
-          "text": "Regional delivery capacity and service performance",
-          "size": 34,
+          "x": 56,
+          "y": 47,
+          "w": 1168,
+          "h": 42,
+          "text": "Operating footprint and delivery capacity",
+          "size": 28,
           "color": "#00338D",
           "bold": true,
+          "align": "left",
           "fact_ids": [
             "OPS",
             "HUBS",
@@ -1274,16 +1590,27 @@
           "calc_ids": []
         },
         {
+          "id": "s6-header-rule",
+          "type": "rule",
+          "x": 56,
+          "y": 98,
+          "w": 1168,
+          "h": 1,
+          "color": "#00338D",
+          "fact_ids": []
+        },
+        {
           "id": "s6-source",
           "type": "text",
-          "x": 72,
-          "y": 650,
-          "w": 1136,
-          "h": 34,
-          "text": "Sources: 01 company brief; 06 hub schedule; 07 service KPIs; 11 forecast bridge; 13 transaction workshop.\nHeadcount at 31 December 2025. Service KPIs cover FY2025 and await job-level validation.",
-          "size": 12,
+          "x": 56,
+          "y": 656,
+          "w": 1168,
+          "h": 29,
+          "text": "Sources: 01 company brief; 06 hub schedule; 07 service KPIs; 11 forecast bridge; 13 transaction workshop.\nHeadcount at 31 December 2025. KPIs are management-reported FY2025 measures with defined denominators.",
+          "size": 10.5,
           "color": "#00338D",
           "bold": false,
+          "align": "left",
           "fact_ids": [
             "OPS",
             "HUBS",
@@ -1296,9 +1623,9 @@
         {
           "id": "s6-footer-rule",
           "type": "rule",
-          "x": 72,
+          "x": 56,
           "y": 691,
-          "w": 1136,
+          "w": 1168,
           "h": 1,
           "color": "#B8C7DF",
           "fact_ids": []
@@ -1306,104 +1633,123 @@
         {
           "id": "s6-footer",
           "type": "text",
-          "x": 72,
+          "x": 56,
           "y": 697,
-          "w": 1050,
-          "h": 18,
+          "w": 1080,
+          "h": 17,
           "text": "NORTHBRIDGE     FICTIONAL TRAINING CASE     January 2026",
-          "size": 11,
+          "size": 10,
           "color": "#595959",
           "bold": false,
+          "align": "left",
           "fact_ids": [],
           "calc_ids": []
         },
         {
           "id": "s6-number",
           "type": "text",
-          "x": 1170,
+          "x": 1184,
           "y": 697,
-          "w": 38,
-          "h": 18,
+          "w": 40,
+          "h": 17,
           "text": "6",
-          "size": 11,
+          "size": 10,
           "color": "#00338D",
           "bold": false,
+          "align": "right",
           "fact_ids": [],
           "calc_ids": []
         },
         {
           "id": "s6-hubs",
           "type": "table",
-          "x": 72,
-          "y": 148,
+          "x": 56,
+          "y": 115,
           "w": 664,
-          "h": 229,
+          "h": 195,
           "rows": [
             [
               "Hub",
-              "FY2025 £m",
+              "Revenue £m",
+              "Revenue share",
               "Employees",
               "Engineers"
             ],
             [
               "Birmingham",
               "11.5",
+              "46%",
               "55",
               "40"
             ],
             [
               "Manchester",
               "8.0",
+              "32%",
               "38",
               "27"
             ],
             [
               "Bristol",
               "5.5",
+              "22%",
               "27",
               "18"
             ],
             [
               "Total",
               "25.0",
+              "100%",
               "120",
               "85"
             ]
           ],
           "widths": [
-            2.2,
+            2,
             1.25,
-            1.25,
-            1.25
+            1.5,
+            1.2,
+            1.2
           ],
-          "size": 17,
+          "size": 16,
           "fact_ids": [
             "HUBS",
             "OPS",
             "FIN25"
           ],
-          "calc_ids": [],
+          "calc_ids": [
+            "HUB_SHARE"
+          ],
           "column_align": [
             "left",
+            "right",
             "right",
             "right",
             "right"
           ],
           "emphasis_rows": [
             4
+          ],
+          "row_heights": [
+            54.616,
+            35.096,
+            35.096,
+            35.096,
+            35.096
           ]
         },
         {
           "id": "s6-kpi-head",
           "type": "text",
-          "x": 776,
-          "y": 148,
-          "w": 432,
-          "h": 29,
-          "text": "Service delivery measures",
-          "size": 21,
+          "x": 752,
+          "y": 115,
+          "w": 472,
+          "h": 25,
+          "text": "Service KPIs and definitions",
+          "size": 19,
           "color": "#00338D",
           "bold": true,
+          "align": "left",
           "fact_ids": [
             "KPIS"
           ],
@@ -1412,14 +1758,15 @@
         {
           "id": "s6-kpi0",
           "type": "text",
-          "x": 776,
-          "y": 193,
-          "w": 432,
-          "h": 28,
+          "x": 752,
+          "y": 151,
+          "w": 472,
+          "h": 24,
           "text": "Urgent response SLA: 93.5%",
-          "size": 20,
+          "size": 18,
           "color": "#00338D",
           "bold": true,
+          "align": "left",
           "fact_ids": [
             "KPIS"
           ],
@@ -1430,14 +1777,15 @@
         {
           "id": "s6-definition0",
           "type": "text",
-          "x": 776,
-          "y": 225,
-          "w": 432,
-          "h": 47,
+          "x": 752,
+          "y": 180,
+          "w": 472,
+          "h": 52,
           "text": "561 of 600 eligible urgent jobs attended within four hours.",
-          "size": 17,
+          "size": 16.5,
           "color": "#000000",
           "bold": false,
+          "align": "left",
           "fact_ids": [
             "KPIS"
           ],
@@ -1446,14 +1794,15 @@
         {
           "id": "s6-kpi1",
           "type": "text",
-          "x": 776,
-          "y": 280,
-          "w": 432,
-          "h": 28,
+          "x": 752,
+          "y": 237,
+          "w": 472,
+          "h": 24,
           "text": "First-time fix: 88.0%",
-          "size": 20,
+          "size": 18,
           "color": "#00338D",
           "bold": true,
+          "align": "left",
           "fact_ids": [
             "KPIS"
           ],
@@ -1464,14 +1813,15 @@
         {
           "id": "s6-definition1",
           "type": "text",
-          "x": 776,
-          "y": 312,
-          "w": 432,
-          "h": 47,
+          "x": 752,
+          "y": 266,
+          "w": 472,
+          "h": 52,
           "text": "2,200 of 2,500 closed reactive jobs resolved on the first visit.",
-          "size": 17,
+          "size": 16.5,
           "color": "#000000",
           "bold": false,
+          "align": "left",
           "fact_ids": [
             "KPIS"
           ],
@@ -1480,14 +1830,15 @@
         {
           "id": "s6-kpi2",
           "type": "text",
-          "x": 776,
-          "y": 367,
-          "w": 432,
-          "h": 28,
+          "x": 752,
+          "y": 323,
+          "w": 472,
+          "h": 24,
           "text": "Productive hours: 74.4%",
-          "size": 20,
+          "size": 18,
           "color": "#00338D",
           "bold": true,
+          "align": "left",
           "fact_ids": [
             "KPIS"
           ],
@@ -1498,32 +1849,71 @@
         {
           "id": "s6-definition2",
           "type": "text",
-          "x": 776,
-          "y": 399,
-          "w": 432,
-          "h": 47,
-          "text": "126,480 productive / 170,000 available hours. Not billing utilisation.",
-          "size": 17,
+          "x": 752,
+          "y": 352,
+          "w": 472,
+          "h": 52,
+          "text": "126,480 productive / 170,000 available engineer hours. Recorded hours are not billing utilisation.",
+          "size": 16.5,
           "color": "#000000",
           "bold": false,
+          "align": "left",
           "fact_ids": [
             "KPIS"
           ],
           "calc_ids": []
         },
         {
-          "id": "s6-management-head",
+          "id": "s6-footprint-head",
           "type": "text",
-          "x": 72,
-          "y": 410,
+          "x": 56,
+          "y": 330,
           "w": 664,
-          "h": 29,
-          "text": "Management and account continuity",
-          "size": 21,
+          "h": 25,
+          "text": "Staffing and regional mix",
+          "size": 19,
           "color": "#00338D",
           "bold": true,
+          "align": "left",
           "fact_ids": [
             "OPS",
+            "HUBS"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s6-footprint",
+          "type": "text",
+          "x": 56,
+          "y": 363,
+          "w": 664,
+          "h": 86,
+          "text": "Birmingham is the largest hub by revenue and engineers. Engineers account for 70.8% of employees. The remaining 35 roles lack a functional breakdown.\nYear-end headcount does not establish average deployed capacity or utilisation by hub.",
+          "size": 16.5,
+          "color": "#000000",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "HUBS",
+            "OPS"
+          ],
+          "calc_ids": [
+            "ENGINEER_MIX"
+          ]
+        },
+        {
+          "id": "s6-management-head",
+          "type": "text",
+          "x": 56,
+          "y": 470,
+          "w": 664,
+          "h": 25,
+          "text": "Management responsibilities",
+          "size": 19,
+          "color": "#00338D",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [
             "PROCESS"
           ],
           "calc_ids": []
@@ -1531,33 +1921,33 @@
         {
           "id": "s6-team",
           "type": "table",
-          "x": 72,
-          "y": 451,
+          "x": 56,
+          "y": 503,
           "w": 664,
-          "h": 172,
+          "h": 138,
           "rows": [
             [
               "Executive",
-              "Responsibility"
+              "Current responsibility"
             ],
             [
               "Maya Reed, CEO",
-              "Key accounts and commercial evidence"
+              "Key accounts and pipeline evidence"
             ],
             [
               "Daniel Cole, CFO",
-              "Financial reporting and transaction preparation"
+              "Financial reporting and QoE preparation"
             ],
             [
               "Aisha Patel, COO",
-              "Service delivery, recruitment and capacity"
+              "Service delivery and engineer recruitment"
             ]
           ],
           "widths": [
-            2.2,
-            3.7
+            2.3,
+            4.3
           ],
-          "size": 17,
+          "size": 16,
           "fact_ids": [
             "OPS",
             "PROCESS"
@@ -1567,86 +1957,104 @@
             "left",
             "left"
           ],
-          "emphasis_rows": []
+          "emphasis_rows": [],
+          "row_heights": [
+            34.5,
+            34.5,
+            34.5,
+            34.5
+          ]
         },
         {
-          "id": "s6-capacity-head",
+          "id": "s6-plan-head",
           "type": "text",
-          "x": 776,
-          "y": 484,
-          "w": 432,
-          "h": 29,
-          "text": "Capacity plan",
-          "size": 21,
+          "x": 752,
+          "y": 422,
+          "w": 472,
+          "h": 25,
+          "text": "Engineer plan and execution requirements",
+          "size": 19,
           "color": "#00338D",
           "bold": true,
+          "align": "left",
           "fact_ids": [
-            "BRIDGE",
-            "GROWTH"
+            "BRIDGE"
           ],
           "calc_ids": []
         },
         {
-          "id": "s6-capacity",
+          "id": "s6-plan",
           "type": "text",
-          "x": 776,
-          "y": 525,
-          "w": 432,
-          "h": 98,
-          "text": "Year-end engineers: 85 in 2025, 95 in 2026F and 105 in 2027F. Recruitment costs and productivity ramp-up require support.",
-          "size": 18,
+          "x": 752,
+          "y": 455,
+          "w": 472,
+          "h": 186,
+          "text": "The forecast increases year-end engineers from 85 to 95 in 2026F and 105 in 2027F. The first-year increase is 11.8%, compared with revenue growth of 16.0%.\n\nA hiring schedule is needed to explain start dates, replacement hires and time to productive deployment. KPI source records also require testing for job eligibility and incomplete records. Current data does not support a quantified productivity uplift.",
+          "size": 16.5,
           "color": "#000000",
           "bold": false,
+          "align": "left",
           "fact_ids": [
-            "BRIDGE",
             "OPS",
-            "FIN_UPDATE"
+            "BRIDGE",
+            "FIN25",
+            "FIN26",
+            "FIN_UPDATE",
+            "KPIS"
           ],
-          "calc_ids": []
+          "calc_ids": [
+            "ENGINEER_MIX",
+            "REVENUE_GROWTH"
+          ]
         }
       ],
       "notes": [
         "FICTIONAL TRAINING CASE. All company and financial data are synthetic.",
         "BRIDGE: Group-level forecast revenue bridge and engineer plan [source_supported]\n11_forecast_bridge.csv / line 1 — # FICTIONAL TRAINING CASE; management submission 26 January 2026; unaudited\n11_forecast_bridge.csv / line 2 — component,fy2026_gbp_m,fy2027_gbp_m,basis\n11_forecast_bridge.csv / line 3 — Opening revenue,25,29,Prior year actual or forecast\n11_forecast_bridge.csv / line 4 — Price,1,1.16,Management assumption; customer acceptance required\n11_forecast_bridge.csv / line 5 — New contracts,2,2.4,Management assumption; unsigned pipeline\n11_forecast_bridge.csv / line 6 — Cross-sell,1.6,1.74,Management assumption; conversion required\n11_forecast_bridge.csv / line 7 — Attrition,-0.6,-0.7,Management assumption\n11_forecast_bridge.csv / line 8 — Closing revenue,29,33.6,Management forecast\n11_forecast_bridge.csv / line 9 — Year-end field engineers,95,105,Headcount; excludes attrition/replacement hiring; net growth from 85\nLimitations: Group-level management assumptions. No customer bridge, signed pipeline or recruitment cost schedule.",
         "FIN25: FY2025 financial statements [provisional_conflict]\n02_management_model.xlsx / PnL!D5 — FY2025A\n02_management_model.xlsx / PnL!D6 — 25\n02_management_model.xlsx / PnL!D7 — -14.5\n02_management_model.xlsx / PnL!D8 — 10.5\n02_management_model.xlsx / PnL!D9 — -5.5\n02_management_model.xlsx / PnL!D10 — 5\n02_management_model.xlsx / PnL!D11 — 0.2\nLimitations: Unaudited management figures; FY2025 revenue conflict remains open.",
+        "FIN26: FY2026 financial statements [source_supported]\n02_management_model.xlsx / PnL!E5 — FY2026F\n02_management_model.xlsx / PnL!E6 — 29\n02_management_model.xlsx / PnL!E7 — -16.5\n02_management_model.xlsx / PnL!E8 — 12.5\n02_management_model.xlsx / PnL!E9 — -6.4\n02_management_model.xlsx / PnL!E10 — 6.1\n02_management_model.xlsx / PnL!E11 — 0.21034482758620687\nLimitations: Unaudited management figures; FY2025 revenue conflict remains open.",
         "FIN_UPDATE: Updated financial diligence status [source_supported]\n10_cfo_follow_up.eml / line 7 — Please continue to use the FY2025 revenue of 25.0 in the management model provisionally. The earlier 26.2 briefing figure remains unreconciled. We have identified 0.8 of possible orders relating to services scheduled for 2026, but have not verified this against invoices and the ledger. Do not deduct this amount and describe the difference as resolved.\n10_cfo_follow_up.eml / line 10 — Management has proposed EBITDA adjustments of 0.18 for founder remuneration and 0.12 for systems implementation. We have not substantiated either adjustment. Retain management-reported EBITDA of 5.0 with no add-backs.\n10_cfo_follow_up.eml / line 11 — The quarterly revenue and EBITDA schedule ties to the annual model. All figures remain unaudited. No quality-of-earnings report is available.\n10_cfo_follow_up.eml / line 12 — The supplemental forecast bridge explains group-level movements only. No customer-level bridge, signed pipeline, recruitment cost schedule or timing of engineer productivity is available.\nLimitations: Revenue conflict remains open. No verified EBITDA add-backs, QoE or customer-level forecast support.",
-        "GROWTH: Management growth plan [source_supported]\n01_company_brief.docx / paragraph 12 — Management plans to add 20 net field engineers by the end of FY2027, cross-sell scheduled maintenance to repair customers and expand service coverage from existing hubs. The plan assumes sufficient technician recruitment and contract renewals. No signed pipeline or customer-cohort evidence accompanies this briefing.\n03_management_interview.txt / line 10 — [00:28] CEO: Growth depends on technician recruitment, renewals and converting more repair customers to maintenance contracts. We plan 20 net new engineers by FY2027.",
         "HUBS: Hub revenue and year-end headcount [source_supported]\n06_hub_schedule.csv / line 1 — # FICTIONAL TRAINING CASE; management submission 26 January 2026; unaudited\n06_hub_schedule.csv / line 2 — hub,fy2025_revenue_gbp_m,employees_20251231,field_engineers_20251231\n06_hub_schedule.csv / line 3 — Birmingham,11.5,55,40\n06_hub_schedule.csv / line 4 — Manchester,8.0,38,27\n06_hub_schedule.csv / line 5 — Bristol,5.5,27,18\nLimitations: Unaudited synthetic management submission.",
         "KPIS: Defined service delivery measures [source_supported]\n07_service_kpis.csv / line 1 — # FICTIONAL TRAINING CASE; management submission 26 January 2026; unaudited\n07_service_kpis.csv / line 2 — metric,numerator,denominator,period,definition\n07_service_kpis.csv / line 3 — Urgent response SLA,561,600,FY2025,Eligible urgent jobs attended within four hours / all eligible urgent jobs\n07_service_kpis.csv / line 4 — First-time fix,2200,2500,FY2025,Closed reactive jobs resolved on first visit / all closed reactive jobs\n07_service_kpis.csv / line 5 — Productive hours,126480,170000,FY2025,Recorded productive engineer hours / recorded available engineer hours; not billing utilisation\nLimitations: Unaudited synthetic management submission.",
         "OPS: People, hubs and management [source_supported]\n01_company_brief.docx / paragraph 10 — At 31 December 2025, Northbridge has 120 employees including 85 field engineers. It operates hubs in Birmingham, Manchester and Bristol. Maya Reed is founder and CEO, Daniel Cole is CFO and Aisha Patel is COO. These names and all company details are fictitious. The founder continues to lead major customer relationships.",
         "PROCESS: Proposed transaction perimeter and preparation responsibilities [source_supported]\n13_transaction_workshop.txt / line 1 — FICTIONAL TRAINING CASE. Invented transaction workshop notes, 26 January 2026.\n13_transaction_workshop.txt / line 2 — Shareholders are considering a sale of 70% to 100% of the equity in the standalone UK company. The current ownership remains founder 70%, management 20%, seed investor 10%.\n13_transaction_workshop.txt / line 3 — The proposed perimeter includes all three hubs, operating assets and customer contracts of the company. No excluded business has been identified. Legal entity, asset ownership and contract transferability require legal diligence.\n13_transaction_workshop.txt / line 4 — No valuation, management rollover, financing structure or transaction timetable has been agreed. The process remains at preparation stage. No offers or signed sale terms exist in this fictional case.\n13_transaction_workshop.txt / line 5 — Daniel Cole (CFO) owns revenue reconciliation, QoE preparation and balance-sheet schedules. Aisha Patel (COO) owns job-level KPI evidence, engineer recruitment and capacity planning. Maya Reed (CEO) owns key-account continuity and pipeline evidence. External legal counsel, not yet appointed, would review title, consents and change-of-control clauses. The strategy team owns independent market work.\nLimitations: Unaudited synthetic management submission.",
-        "KPI_RATES: {\"id\": \"KPI_RATES\", \"formula\": \"Numerator / denominator for each defined service KPI\", \"input_ids\": [\"KPIS\"], \"result\": [0.935, 0.88, 0.744], \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}"
+        "ENGINEER_MIX: {\"id\": \"ENGINEER_MIX\", \"formula\": \"Total headcount minus engineers; engineers / headcount; future year-end engineer growth\", \"input_ids\": [\"OPS\", \"BRIDGE\"], \"result\": {\"non_engineers\": 35, \"share\": 0.7083333333333334, \"growth_2026\": 0.11764705882352944, \"growth_2027\": 0.10526315789473695}, \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}",
+        "HUB_SHARE: {\"id\": \"HUB_SHARE\", \"formula\": \"Hub revenue / FY2025 total revenue\", \"input_ids\": [\"HUBS\", \"FIN25\"], \"result\": [0.46, 0.32, 0.22], \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}",
+        "KPI_RATES: {\"id\": \"KPI_RATES\", \"formula\": \"Numerator / denominator for each defined service KPI\", \"input_ids\": [\"KPIS\"], \"result\": [0.935, 0.88, 0.744], \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}",
+        "REVENUE_GROWTH: {\"id\": \"REVENUE_GROWTH\", \"formula\": \"Current revenue / prior year revenue - 1\", \"input_ids\": [\"FIN23\", \"FIN24\", \"FIN25\", \"FIN26\", \"FIN27\"], \"result\": [0.19444444444444442, 0.16279069767441867, 0.15999999999999992, 0.1586206896551725], \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}"
       ]
     },
     {
-      "title": "Historical financial performance",
+      "title": "Historical earnings and quarterly trading",
       "background": "#FFFFFF",
       "elements": [
         {
           "id": "s7-section",
           "type": "text",
-          "x": 72,
-          "y": 28,
-          "w": 1136,
-          "h": 22,
-          "text": "Financial analysis",
-          "size": 16,
+          "x": 56,
+          "y": 20,
+          "w": 1168,
+          "h": 20,
+          "text": "FINANCIAL ANALYSIS",
+          "size": 13,
           "color": "#00338D",
           "bold": true,
+          "align": "left",
           "fact_ids": [],
           "calc_ids": []
         },
         {
           "id": "s7-title",
           "type": "text",
-          "x": 72,
-          "y": 61,
-          "w": 1136,
-          "h": 78,
-          "text": "Historical financial performance",
-          "size": 34,
+          "x": 56,
+          "y": 47,
+          "w": 1168,
+          "h": 42,
+          "text": "Historical earnings and quarterly trading",
+          "size": 28,
           "color": "#00338D",
           "bold": true,
+          "align": "left",
           "fact_ids": [
             "FIN23",
             "FIN24",
@@ -1658,16 +2066,27 @@
           "calc_ids": []
         },
         {
+          "id": "s7-header-rule",
+          "type": "rule",
+          "x": 56,
+          "y": 98,
+          "w": 1168,
+          "h": 1,
+          "color": "#00338D",
+          "fact_ids": []
+        },
+        {
           "id": "s7-source",
           "type": "text",
-          "x": 72,
-          "y": 650,
-          "w": 1136,
-          "h": 34,
-          "text": "Sources: 02 management model, PnL!B5:D11; 09 quarterly accounts; 10 CFO follow-up; 01 earlier company brief.\nGBP million unless stated. Year ending 31 December. A = unaudited management actuals.",
-          "size": 12,
+          "x": 56,
+          "y": 656,
+          "w": 1168,
+          "h": 29,
+          "text": "Sources: 02 model, PnL!B5:D11; 09 quarterly accounts; 10 CFO follow-up; 01 company brief.\nGBP million unless stated. Year ending 31 December. A = unaudited management actuals. FY2025 revenue is provisional.",
+          "size": 10.5,
           "color": "#00338D",
           "bold": false,
+          "align": "left",
           "fact_ids": [
             "FIN23",
             "FIN24",
@@ -1681,9 +2100,9 @@
         {
           "id": "s7-footer-rule",
           "type": "rule",
-          "x": 72,
+          "x": 56,
           "y": 691,
-          "w": 1136,
+          "w": 1168,
           "h": 1,
           "color": "#B8C7DF",
           "fact_ids": []
@@ -1691,38 +2110,40 @@
         {
           "id": "s7-footer",
           "type": "text",
-          "x": 72,
+          "x": 56,
           "y": 697,
-          "w": 1050,
-          "h": 18,
+          "w": 1080,
+          "h": 17,
           "text": "NORTHBRIDGE     FICTIONAL TRAINING CASE     January 2026",
-          "size": 11,
+          "size": 10,
           "color": "#595959",
           "bold": false,
+          "align": "left",
           "fact_ids": [],
           "calc_ids": []
         },
         {
           "id": "s7-number",
           "type": "text",
-          "x": 1170,
+          "x": 1184,
           "y": 697,
-          "w": 38,
-          "h": 18,
+          "w": 40,
+          "h": 17,
           "text": "7",
-          "size": 11,
+          "size": 10,
           "color": "#00338D",
           "bold": false,
+          "align": "right",
           "fact_ids": [],
           "calc_ids": []
         },
         {
           "id": "s7-pnl",
           "type": "table",
-          "x": 72,
-          "y": 148,
-          "w": 704,
-          "h": 300,
+          "x": 56,
+          "y": 115,
+          "w": 684,
+          "h": 305,
           "rows": [
             [
               "",
@@ -1765,22 +2186,35 @@
               "15.0%",
               "18.1%",
               "20.0%"
+            ],
+            [
+              "Gross margin",
+              "40.0%",
+              "40.9%",
+              "42.0%"
+            ],
+            [
+              "Operating expenses / revenue",
+              "25.0%",
+              "22.8%",
+              "22.0%"
             ]
           ],
           "widths": [
-            2.5,
-            1.2,
-            1.2,
-            1.2
+            3.1,
+            1.25,
+            1.25,
+            1.25
           ],
-          "size": 17,
+          "size": 16,
           "fact_ids": [
             "FIN23",
             "FIN24",
             "FIN25"
           ],
           "calc_ids": [
-            "MARGINS"
+            "MARGINS",
+            "COST_RATIOS"
           ],
           "column_align": [
             "left",
@@ -1790,21 +2224,33 @@
           ],
           "emphasis_rows": [
             1,
-            5,
-            6
+            3,
+            5
+          ],
+          "row_heights": [
+            33.888888888888886,
+            33.888888888888886,
+            33.888888888888886,
+            33.888888888888886,
+            33.888888888888886,
+            33.888888888888886,
+            33.888888888888886,
+            33.888888888888886,
+            33.888888888888886
           ]
         },
         {
           "id": "s7-quarter-head",
           "type": "text",
-          "x": 816,
-          "y": 148,
-          "w": 392,
-          "h": 29,
+          "x": 772,
+          "y": 115,
+          "w": 452,
+          "h": 25,
           "text": "FY2025 quarterly detail",
-          "size": 21,
+          "size": 19,
           "color": "#00338D",
           "bold": true,
+          "align": "left",
           "fact_ids": [
             "QUARTERS"
           ],
@@ -1813,73 +2259,114 @@
         {
           "id": "s7-quarter",
           "type": "table",
-          "x": 816,
-          "y": 191,
-          "w": 392,
-          "h": 213,
+          "x": 772,
+          "y": 151,
+          "w": 452,
+          "h": 207,
           "rows": [
             [
               "£m",
               "Revenue",
-              "EBITDA"
+              "EBITDA",
+              "Margin"
             ],
             [
               "Q1",
               "5.70",
-              "0.90"
+              "0.90",
+              "15.8%"
             ],
             [
               "Q2",
               "6.10",
-              "1.15"
+              "1.15",
+              "18.9%"
             ],
             [
               "Q3",
               "6.40",
-              "1.30"
+              "1.30",
+              "20.3%"
             ],
             [
               "Q4",
               "6.80",
-              "1.65"
+              "1.65",
+              "24.3%"
             ],
             [
               "FY2025",
               "25.00",
-              "5.00"
+              "5.00",
+              "20.0%"
             ]
           ],
           "widths": [
             1.2,
             1.2,
+            1.2,
             1.2
           ],
-          "size": 17,
+          "size": 16,
           "fact_ids": [
             "QUARTERS",
             "FIN25"
           ],
-          "calc_ids": [],
+          "calc_ids": [
+            "QUARTER_MARGINS",
+            "MARGINS"
+          ],
           "column_align": [
             "left",
+            "right",
             "right",
             "right"
           ],
           "emphasis_rows": [
             5
+          ],
+          "row_heights": [
+            34.5,
+            34.5,
+            34.5,
+            34.5,
+            34.5,
+            34.5
           ]
         },
         {
-          "id": "s7-trend-head",
+          "id": "s7-quarter-comment",
           "type": "text",
-          "x": 72,
-          "y": 478,
-          "w": 704,
-          "h": 29,
-          "text": "Revenue and profitability",
-          "size": 21,
+          "x": 772,
+          "y": 375,
+          "w": 452,
+          "h": 112,
+          "text": "Q4 accounts for 27.2% of annual revenue and 33.0% of EBITDA. Its 24.3% margin exceeds the 20.0% full-year result.\nOne year of quarterly data does not establish a recurring seasonal pattern.",
+          "size": 16.5,
+          "color": "#000000",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "QUARTERS",
+            "FIN25"
+          ],
+          "calc_ids": [
+            "QUARTER_MARGINS",
+            "MARGINS"
+          ]
+        },
+        {
+          "id": "s7-bridge-head",
+          "type": "text",
+          "x": 56,
+          "y": 440,
+          "w": 684,
+          "h": 25,
+          "text": "Arithmetic explanation of EBITDA growth",
+          "size": 19,
           "color": "#00338D",
           "bold": true,
+          "align": "left",
           "fact_ids": [
             "FIN23",
             "FIN25"
@@ -1887,16 +2374,17 @@
           "calc_ids": []
         },
         {
-          "id": "s7-trend",
+          "id": "s7-bridge",
           "type": "text",
-          "x": 72,
-          "y": 520,
-          "w": 704,
-          "h": 104,
-          "text": "Revenue grew at 17.9% CAGR from FY2023 to FY2025. Management EBITDA increased from £2.7m to £5.0m. EBITDA margin rose from 15.0% to 20.0%.\n\nThe £26.2m earlier revenue estimate remains unreconciled to the £25.0m model.",
-          "size": 18,
+          "x": 56,
+          "y": 473,
+          "w": 684,
+          "h": 168,
+          "text": "FY2023–25 revenue increased by £7.0m (17.9% CAGR). Gross profit increased by £3.3m, against £1.0m of additional operating expenses, resulting in £2.3m of EBITDA growth.\n\nGross margin increased from 40.0% to 42.0%. Operating expenses fell from 25.0% to 22.0% of revenue. These ratios explain the P&L movement but do not identify the effects of pricing, labour rates or service mix.\n\nThe £26.2m earlier revenue estimate remains unreconciled to the £25.0m model.",
+          "size": 16.5,
           "color": "#000000",
           "bold": false,
+          "align": "left",
           "fact_ids": [
             "FIN23",
             "FIN25",
@@ -1904,41 +2392,42 @@
           ],
           "calc_ids": [
             "CAGR",
-            "MARGINS"
+            "PROFIT_BRIDGE",
+            "COST_RATIOS"
           ]
         },
         {
-          "id": "s7-quality-head",
+          "id": "s7-earnings-head",
           "type": "text",
-          "x": 816,
-          "y": 435,
-          "w": 392,
-          "h": 29,
-          "text": "Earnings quality",
-          "size": 21,
+          "x": 772,
+          "y": 510,
+          "w": 452,
+          "h": 25,
+          "text": "Reported earnings basis",
+          "size": 19,
           "color": "#00338D",
           "bold": true,
+          "align": "left",
           "fact_ids": [
             "FIN_UPDATE"
           ],
           "calc_ids": []
         },
         {
-          "id": "s7-quality",
+          "id": "s7-earnings",
           "type": "text",
-          "x": 816,
-          "y": 478,
-          "w": 392,
-          "h": 145,
-          "text": "Quarterly totals agree to the annual model. This arithmetic check does not resolve the earlier revenue discrepancy.\n\nNo proposed EBITDA add-backs are included. A QoE report is outstanding.",
-          "size": 18,
+          "x": 772,
+          "y": 543,
+          "w": 452,
+          "h": 98,
+          "text": "Management proposed £0.18m of founder-remuneration and £0.12m of systems adjustments. Neither is substantiated. The £5.0m EBITDA shown includes no add-backs. QoE and revenue cut-off work remain outstanding.",
+          "size": 16.5,
           "color": "#000000",
           "bold": false,
+          "align": "left",
           "fact_ids": [
-            "QUARTERS",
-            "FIN25",
             "FIN_UPDATE",
-            "CONFLICT"
+            "FIN25"
           ],
           "calc_ids": []
         }
@@ -1952,38 +2441,43 @@
         "FIN_UPDATE: Updated financial diligence status [source_supported]\n10_cfo_follow_up.eml / line 7 — Please continue to use the FY2025 revenue of 25.0 in the management model provisionally. The earlier 26.2 briefing figure remains unreconciled. We have identified 0.8 of possible orders relating to services scheduled for 2026, but have not verified this against invoices and the ledger. Do not deduct this amount and describe the difference as resolved.\n10_cfo_follow_up.eml / line 10 — Management has proposed EBITDA adjustments of 0.18 for founder remuneration and 0.12 for systems implementation. We have not substantiated either adjustment. Retain management-reported EBITDA of 5.0 with no add-backs.\n10_cfo_follow_up.eml / line 11 — The quarterly revenue and EBITDA schedule ties to the annual model. All figures remain unaudited. No quality-of-earnings report is available.\n10_cfo_follow_up.eml / line 12 — The supplemental forecast bridge explains group-level movements only. No customer-level bridge, signed pipeline, recruitment cost schedule or timing of engineer productivity is available.\nLimitations: Revenue conflict remains open. No verified EBITDA add-backs, QoE or customer-level forecast support.",
         "QUARTERS: Quarterly revenue and management EBITDA [source_supported]\n09_quarterly_accounts.csv / line 1 — # FICTIONAL TRAINING CASE; management submission 26 January 2026; unaudited\n09_quarterly_accounts.csv / line 2 — quarter,revenue_gbp_m,ebitda_gbp_m,basis\n09_quarterly_accounts.csv / line 3 — Q1 2025,5.7,0.9,Unaudited provisional management actuals\n09_quarterly_accounts.csv / line 4 — Q2 2025,6.1,1.15,Unaudited provisional management actuals\n09_quarterly_accounts.csv / line 5 — Q3 2025,6.4,1.3,Unaudited provisional management actuals\n09_quarterly_accounts.csv / line 6 — Q4 2025,6.8,1.65,Unaudited provisional management actuals\nLimitations: Unaudited synthetic management submission.",
         "CAGR: {\"id\": \"CAGR\", \"formula\": \"(FY2025 revenue / FY2023 revenue)^(1/2) - 1\", \"input_ids\": [\"FIN23\", \"FIN25\"], \"result\": 0.17851130197757925, \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}",
-        "MARGINS: {\"id\": \"MARGINS\", \"formula\": \"Each period EBITDA / same period revenue\", \"input_ids\": [\"FIN23\", \"FIN24\", \"FIN25\", \"FIN26\", \"FIN27\"], \"result\": [0.14999999999999997, 0.1813953488372093, 0.2, 0.21034482758620687, 0.22023809523809523], \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}"
+        "COST_RATIOS: {\"id\": \"COST_RATIOS\", \"formula\": \"Gross profit / revenue; operating expenses / revenue\", \"input_ids\": [\"FIN23\", \"FIN24\", \"FIN25\", \"FIN26\", \"FIN27\"], \"result\": {\"gross_margin\": [0.39999999999999997, 0.4093023255813954, 0.42, 0.43103448275862066, 0.4464285714285714], \"opex_ratio\": [0.25, 0.22790697674418606, 0.22, 0.22068965517241382, 0.22619047619047616]}, \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}",
+        "MARGINS: {\"id\": \"MARGINS\", \"formula\": \"Each period EBITDA / same period revenue\", \"input_ids\": [\"FIN23\", \"FIN24\", \"FIN25\", \"FIN26\", \"FIN27\"], \"result\": [0.14999999999999997, 0.1813953488372093, 0.2, 0.21034482758620687, 0.22023809523809523], \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}",
+        "PROFIT_BRIDGE: {\"id\": \"PROFIT_BRIDGE\", \"formula\": \"FY2025 minus FY2023: revenue, gross profit, operating expenses and EBITDA\", \"input_ids\": [\"FIN23\", \"FIN25\"], \"result\": {\"revenue\": 7.0, \"gross_profit\": 3.3000000000000007, \"opex\": 1.0, \"ebitda\": 2.3000000000000007}, \"unit\": \"GBP million\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}",
+        "QUARTER_MARGINS: {\"id\": \"QUARTER_MARGINS\", \"formula\": \"Quarter EBITDA / quarter revenue; Q4 / full year\", \"input_ids\": [\"QUARTERS\", \"FIN25\"], \"result\": {\"margins\": [0.15789473684210525, 0.1885245901639344, 0.203125, 0.2426470588235294], \"q4_revenue_share\": 0.272, \"q4_ebitda_share\": 0.32999999999999996}, \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}"
       ]
     },
     {
-      "title": "Management forecast and growth assumptions",
+      "title": "Management forecast and revenue bridge",
       "background": "#FFFFFF",
       "elements": [
         {
           "id": "s8-section",
           "type": "text",
-          "x": 72,
-          "y": 28,
-          "w": 1136,
-          "h": 22,
-          "text": "Management outlook",
-          "size": 16,
+          "x": 56,
+          "y": 20,
+          "w": 1168,
+          "h": 20,
+          "text": "MANAGEMENT OUTLOOK",
+          "size": 13,
           "color": "#00338D",
           "bold": true,
+          "align": "left",
           "fact_ids": [],
           "calc_ids": []
         },
         {
           "id": "s8-title",
           "type": "text",
-          "x": 72,
-          "y": 61,
-          "w": 1136,
-          "h": 78,
-          "text": "Management forecast and growth assumptions",
-          "size": 34,
+          "x": 56,
+          "y": 47,
+          "w": 1168,
+          "h": 42,
+          "text": "Management forecast and revenue bridge",
+          "size": 28,
           "color": "#00338D",
           "bold": true,
+          "align": "left",
           "fact_ids": [
             "FIN25",
             "FIN26",
@@ -1995,16 +2489,27 @@
           "calc_ids": []
         },
         {
+          "id": "s8-header-rule",
+          "type": "rule",
+          "x": 56,
+          "y": 98,
+          "w": 1168,
+          "h": 1,
+          "color": "#00338D",
+          "fact_ids": []
+        },
+        {
           "id": "s8-source",
           "type": "text",
-          "x": 72,
-          "y": 650,
-          "w": 1136,
-          "h": 34,
-          "text": "Sources: 02 management model, PnL!D6:F11; 05 commercial interview; 10 CFO follow-up; 11 forecast bridge.\nA = management actuals, F = management forecast. Pipeline is unsigned and unweighted.",
-          "size": 12,
+          "x": 56,
+          "y": 656,
+          "w": 1168,
+          "h": 29,
+          "text": "Sources: 02 model, PnL!D6:F11; 05 commercial interview; 10 CFO follow-up; 11 forecast bridge.\nA = provisional management actuals. F = management forecast. Pipeline amounts are unsigned, unweighted annual revenue opportunities.",
+          "size": 10.5,
           "color": "#00338D",
           "bold": false,
+          "align": "left",
           "fact_ids": [
             "FIN25",
             "FIN26",
@@ -2018,9 +2523,9 @@
         {
           "id": "s8-footer-rule",
           "type": "rule",
-          "x": 72,
+          "x": 56,
           "y": 691,
-          "w": 1136,
+          "w": 1168,
           "h": 1,
           "color": "#B8C7DF",
           "fact_ids": []
@@ -2028,42 +2533,45 @@
         {
           "id": "s8-footer",
           "type": "text",
-          "x": 72,
+          "x": 56,
           "y": 697,
-          "w": 1050,
-          "h": 18,
+          "w": 1080,
+          "h": 17,
           "text": "NORTHBRIDGE     FICTIONAL TRAINING CASE     January 2026",
-          "size": 11,
+          "size": 10,
           "color": "#595959",
           "bold": false,
+          "align": "left",
           "fact_ids": [],
           "calc_ids": []
         },
         {
           "id": "s8-number",
           "type": "text",
-          "x": 1170,
+          "x": 1184,
           "y": 697,
-          "w": 38,
-          "h": 18,
+          "w": 40,
+          "h": 17,
           "text": "8",
-          "size": 11,
+          "size": 10,
           "color": "#00338D",
           "bold": false,
+          "align": "right",
           "fact_ids": [],
           "calc_ids": []
         },
         {
           "id": "s8-chart-head",
           "type": "text",
-          "x": 72,
-          "y": 148,
-          "w": 430,
-          "h": 29,
-          "text": "Revenue (£m)",
-          "size": 21,
+          "x": 56,
+          "y": 115,
+          "w": 432,
+          "h": 25,
+          "text": "Revenue trajectory (£m)",
+          "size": 19,
           "color": "#00338D",
           "bold": true,
+          "align": "left",
           "fact_ids": [
             "FIN25",
             "FIN26",
@@ -2074,10 +2582,10 @@
         {
           "id": "s8-chart",
           "type": "chart",
-          "x": 72,
-          "y": 189,
-          "w": 430,
-          "h": 237,
+          "x": 56,
+          "y": 151,
+          "w": 432,
+          "h": 203,
           "categories": [
             "2025A",
             "2026F",
@@ -2103,41 +2611,49 @@
         {
           "id": "s8-profit",
           "type": "table",
-          "x": 72,
-          "y": 444,
-          "w": 430,
-          "h": 113,
+          "x": 56,
+          "y": 371,
+          "w": 432,
+          "h": 145,
           "rows": [
             [
-              "£m",
+              "",
               "2025A",
               "2026F",
               "2027F"
             ],
             [
-              "EBITDA",
+              "EBITDA £m",
               "5.0",
               "6.1",
               "7.4"
             ],
             [
-              "Margin",
+              "EBITDA margin",
               "20.0%",
               "21.0%",
               "22.0%"
+            ],
+            [
+              "YE engineers",
+              "85",
+              "95",
+              "105"
             ]
           ],
           "widths": [
-            1.5,
+            1.9,
             1,
             1,
             1
           ],
-          "size": 17,
+          "size": 16,
           "fact_ids": [
             "FIN25",
             "FIN26",
-            "FIN27"
+            "FIN27",
+            "OPS",
+            "BRIDGE"
           ],
           "calc_ids": [
             "MARGINS"
@@ -2148,33 +2664,45 @@
             "right",
             "right"
           ],
-          "emphasis_rows": []
+          "emphasis_rows": [],
+          "row_heights": [
+            36.25,
+            36.25,
+            36.25,
+            36.25
+          ]
         },
         {
-          "id": "s8-hiring",
+          "id": "s8-capacity",
           "type": "text",
-          "x": 72,
-          "y": 580,
-          "w": 430,
-          "h": 49,
-          "text": "Engineer plan: 85 to 105 by 2027F. Hiring costs and ramp-up require validation.",
-          "size": 18,
+          "x": 56,
+          "y": 535,
+          "w": 432,
+          "h": 106,
+          "text": "Revenue increases by 16.0% in 2026F and 15.9% in 2027F. EBITDA margins reach 22.0% by 2027F. Hiring costs, staff start dates and productivity ramp-up have not been supplied to support delivery of these outcomes.",
+          "size": 16.5,
           "color": "#000000",
           "bold": false,
+          "align": "left",
           "fact_ids": [
-            "OPS",
-            "BRIDGE",
-            "FIN_UPDATE"
+            "FIN25",
+            "FIN26",
+            "FIN27",
+            "FIN_UPDATE",
+            "BRIDGE"
           ],
-          "calc_ids": []
+          "calc_ids": [
+            "REVENUE_GROWTH",
+            "MARGINS"
+          ]
         },
         {
           "id": "s8-bridge",
           "type": "table",
-          "x": 542,
-          "y": 148,
-          "w": 666,
-          "h": 282,
+          "x": 520,
+          "y": 115,
+          "w": 704,
+          "h": 259,
           "rows": [
             [
               "Revenue bridge (£m)",
@@ -2213,11 +2741,11 @@
             ]
           ],
           "widths": [
-            3.5,
-            1.3,
-            1.3
+            4.2,
+            1.4,
+            1.4
           ],
-          "size": 17,
+          "size": 16,
           "fact_ids": [
             "BRIDGE"
           ],
@@ -2232,109 +2760,142 @@
           "emphasis_rows": [
             1,
             6
+          ],
+          "row_heights": [
+            37.0,
+            37.0,
+            37.0,
+            37.0,
+            37.0,
+            37.0,
+            37.0
           ]
         },
         {
-          "id": "s8-pipeline-head",
+          "id": "s8-assumptions-head",
           "type": "text",
-          "x": 542,
-          "y": 458,
-          "w": 666,
-          "h": 29,
-          "text": "Commercial support and dependencies",
-          "size": 21,
+          "x": 520,
+          "y": 395,
+          "w": 704,
+          "h": 25,
+          "text": "Growth composition and commercial support",
+          "size": 19,
           "color": "#00338D",
           "bold": true,
+          "align": "left",
           "fact_ids": [
-            "PIPELINE",
-            "BRIDGE"
+            "BRIDGE",
+            "PIPELINE"
           ],
           "calc_ids": []
         },
         {
-          "id": "s8-pipeline",
+          "id": "s8-assumptions",
           "type": "text",
-          "x": 542,
-          "y": 500,
-          "w": 666,
-          "h": 127,
-          "text": "Unsigned pipeline: £4.8m of indicative annual revenue, comprising proposals (£2.4m), negotiations (£1.5m) and preferred supplier positions (£0.9m).\n\nPricing and cross-sell assumptions require customer acceptance. The group bridge has no supporting customer-level forecast.",
-          "size": 18,
+          "x": 520,
+          "y": 428,
+          "w": 704,
+          "h": 213,
+          "text": "FY2026 growth of £4.0m comprises £1.0m pricing, £2.0m new contracts and £1.6m cross-sell, less £0.6m attrition. New contracts provide 50% of the net increase.\n\nThe £4.8m pipeline comprises proposals (£2.4m), negotiations (£1.5m) and preferred-supplier positions (£0.9m). All opportunities are unsigned. Stage labels do not establish award probability, delivery timing or recognised revenue.\n\nPricing requires customer acceptance. Cross-sell depends on converting repair customers to maintenance agreements. The bridge reconciles at group level, but no customer-level schedule links the forecast to renewal exposure, opportunity timing or engineer capacity.",
+          "size": 16.5,
           "color": "#000000",
           "bold": false,
+          "align": "left",
           "fact_ids": [
-            "PIPELINE",
             "BRIDGE",
+            "PIPELINE",
+            "FIN25",
+            "FIN26",
+            "COMMERCIAL",
             "FIN_UPDATE"
           ],
-          "calc_ids": []
+          "calc_ids": [
+            "FORECAST_CONTRIBUTION",
+            "FORECAST_TIE"
+          ]
         }
       ],
       "notes": [
         "FICTIONAL TRAINING CASE. All company and financial data are synthetic.",
         "BRIDGE: Group-level forecast revenue bridge and engineer plan [source_supported]\n11_forecast_bridge.csv / line 1 — # FICTIONAL TRAINING CASE; management submission 26 January 2026; unaudited\n11_forecast_bridge.csv / line 2 — component,fy2026_gbp_m,fy2027_gbp_m,basis\n11_forecast_bridge.csv / line 3 — Opening revenue,25,29,Prior year actual or forecast\n11_forecast_bridge.csv / line 4 — Price,1,1.16,Management assumption; customer acceptance required\n11_forecast_bridge.csv / line 5 — New contracts,2,2.4,Management assumption; unsigned pipeline\n11_forecast_bridge.csv / line 6 — Cross-sell,1.6,1.74,Management assumption; conversion required\n11_forecast_bridge.csv / line 7 — Attrition,-0.6,-0.7,Management assumption\n11_forecast_bridge.csv / line 8 — Closing revenue,29,33.6,Management forecast\n11_forecast_bridge.csv / line 9 — Year-end field engineers,95,105,Headcount; excludes attrition/replacement hiring; net growth from 85\nLimitations: Group-level management assumptions. No customer bridge, signed pipeline or recruitment cost schedule.",
+        "COMMERCIAL: Service scope, pricing and account relationships [source_supported]\n05_commercial_interview.txt / line 1 — FICTIONAL TRAINING CASE. All statements and figures are invented for workflow testing.\n05_commercial_interview.txt / line 2 — Commercial director interview, 26 January 2026. Period: FY2025 unless specified.\n05_commercial_interview.txt / line 3 — Scheduled maintenance covers planned inspections and preventive servicing. Most contracts specify scheduled visits and an annual fee. Reactive repairs charge call-out, labour and materials. Installation projects use a separately agreed scope and price.\n05_commercial_interview.txt / line 4 — Contracts generally run for one to three years. Renewal requires agreement. Annual price reviews depend on contract terms and customer acceptance. Maintenance revenue should not be described as guaranteed future revenue or ARR.\n05_commercial_interview.txt / line 5 — The FY2025 renewal cohort comprised 25 maintenance agreements due for renewal, with GBP 4.00 million of annual contract value immediately before expiry. 23 agreements renewed. The annual value retained on those same agreements, before price changes or additional scope, was GBP 3.72 million. These are management-prepared counts and values, not independently verified customer retention.\n05_commercial_interview.txt / line 6 — The earlier 94% retention estimate remains undefined. It uses no documented customer cohort and cannot be reconciled to this contract-level renewal schedule.\n05_commercial_interview.txt / line 7 — Pipeline at 26 January 2026 totals GBP 4.8 million of indicative annual revenue: proposals GBP 2.4 million, negotiations GBP 1.5 million and preferred supplier GBP 0.9 million. All are unsigned. Stage values are unweighted and are not forecast revenue or backlog.\n05_commercial_interview.txt / line 8 — Maya Reed remains the primary executive contact on the largest customer accounts. The commercial team needs to document deputy account ownership and review change-of-control provisions.\n05_commercial_interview.txt / line 9 — No independent market-size, market-share or competitor study has been submitted.\nLimitations: Unaudited synthetic management submission.",
         "FIN25: FY2025 financial statements [provisional_conflict]\n02_management_model.xlsx / PnL!D5 — FY2025A\n02_management_model.xlsx / PnL!D6 — 25\n02_management_model.xlsx / PnL!D7 — -14.5\n02_management_model.xlsx / PnL!D8 — 10.5\n02_management_model.xlsx / PnL!D9 — -5.5\n02_management_model.xlsx / PnL!D10 — 5\n02_management_model.xlsx / PnL!D11 — 0.2\nLimitations: Unaudited management figures; FY2025 revenue conflict remains open.",
         "FIN26: FY2026 financial statements [source_supported]\n02_management_model.xlsx / PnL!E5 — FY2026F\n02_management_model.xlsx / PnL!E6 — 29\n02_management_model.xlsx / PnL!E7 — -16.5\n02_management_model.xlsx / PnL!E8 — 12.5\n02_management_model.xlsx / PnL!E9 — -6.4\n02_management_model.xlsx / PnL!E10 — 6.1\n02_management_model.xlsx / PnL!E11 — 0.21034482758620687\nLimitations: Unaudited management figures; FY2025 revenue conflict remains open.",
         "FIN27: FY2027 financial statements [source_supported]\n02_management_model.xlsx / PnL!F5 — FY2027F\n02_management_model.xlsx / PnL!F6 — 33.6\n02_management_model.xlsx / PnL!F7 — -18.6\n02_management_model.xlsx / PnL!F8 — 15\n02_management_model.xlsx / PnL!F9 — -7.6\n02_management_model.xlsx / PnL!F10 — 7.4\n02_management_model.xlsx / PnL!F11 — 0.22023809523809523\nLimitations: Unaudited management figures; FY2025 revenue conflict remains open.",
         "FIN_UPDATE: Updated financial diligence status [source_supported]\n10_cfo_follow_up.eml / line 7 — Please continue to use the FY2025 revenue of 25.0 in the management model provisionally. The earlier 26.2 briefing figure remains unreconciled. We have identified 0.8 of possible orders relating to services scheduled for 2026, but have not verified this against invoices and the ledger. Do not deduct this amount and describe the difference as resolved.\n10_cfo_follow_up.eml / line 10 — Management has proposed EBITDA adjustments of 0.18 for founder remuneration and 0.12 for systems implementation. We have not substantiated either adjustment. Retain management-reported EBITDA of 5.0 with no add-backs.\n10_cfo_follow_up.eml / line 11 — The quarterly revenue and EBITDA schedule ties to the annual model. All figures remain unaudited. No quality-of-earnings report is available.\n10_cfo_follow_up.eml / line 12 — The supplemental forecast bridge explains group-level movements only. No customer-level bridge, signed pipeline, recruitment cost schedule or timing of engineer productivity is available.\nLimitations: Revenue conflict remains open. No verified EBITDA add-backs, QoE or customer-level forecast support.",
         "OPS: People, hubs and management [source_supported]\n01_company_brief.docx / paragraph 10 — At 31 December 2025, Northbridge has 120 employees including 85 field engineers. It operates hubs in Birmingham, Manchester and Bristol. Maya Reed is founder and CEO, Daniel Cole is CFO and Aisha Patel is COO. These names and all company details are fictitious. The founder continues to lead major customer relationships.",
         "PIPELINE: Unsigned unweighted opportunity pipeline [source_supported]\n05_commercial_interview.txt / line 7 — Pipeline at 26 January 2026 totals GBP 4.8 million of indicative annual revenue: proposals GBP 2.4 million, negotiations GBP 1.5 million and preferred supplier GBP 0.9 million. All are unsigned. Stage values are unweighted and are not forecast revenue or backlog.\nLimitations: All unsigned. Not backlog or forecast revenue.",
+        "FORECAST_CONTRIBUTION: {\"id\": \"FORECAST_CONTRIBUTION\", \"formula\": \"Each forecast movement / net revenue increase\", \"input_ids\": [\"BRIDGE\"], \"result\": {\"fy2026_gbp_m\": [0.25, 0.5, 0.4, -0.15], \"fy2027_gbp_m\": [0.2521739130434782, 0.5217391304347825, 0.37826086956521726, -0.15217391304347822]}, \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}",
         "FORECAST_TIE: {\"id\": \"FORECAST_TIE\", \"formula\": \"Opening revenue + price + new contracts + cross-sell + attrition\", \"input_ids\": [\"BRIDGE\"], \"result\": [29.0, 33.6], \"unit\": \"GBP million\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}",
-        "MARGINS: {\"id\": \"MARGINS\", \"formula\": \"Each period EBITDA / same period revenue\", \"input_ids\": [\"FIN23\", \"FIN24\", \"FIN25\", \"FIN26\", \"FIN27\"], \"result\": [0.14999999999999997, 0.1813953488372093, 0.2, 0.21034482758620687, 0.22023809523809523], \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}"
+        "MARGINS: {\"id\": \"MARGINS\", \"formula\": \"Each period EBITDA / same period revenue\", \"input_ids\": [\"FIN23\", \"FIN24\", \"FIN25\", \"FIN26\", \"FIN27\"], \"result\": [0.14999999999999997, 0.1813953488372093, 0.2, 0.21034482758620687, 0.22023809523809523], \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}",
+        "REVENUE_GROWTH: {\"id\": \"REVENUE_GROWTH\", \"formula\": \"Current revenue / prior year revenue - 1\", \"input_ids\": [\"FIN23\", \"FIN24\", \"FIN25\", \"FIN26\", \"FIN27\"], \"result\": [0.19444444444444442, 0.16279069767441867, 0.15999999999999992, 0.1586206896551725], \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}"
       ]
     },
     {
-      "title": "Proposed transaction and financial position",
+      "title": "Transaction perimeter and draft financial position",
       "background": "#FFFFFF",
       "elements": [
         {
           "id": "s9-section",
           "type": "text",
-          "x": 72,
-          "y": 28,
-          "w": 1136,
-          "h": 22,
-          "text": "Transaction overview",
-          "size": 16,
+          "x": 56,
+          "y": 20,
+          "w": 1168,
+          "h": 20,
+          "text": "TRANSACTION OVERVIEW",
+          "size": 13,
           "color": "#00338D",
           "bold": true,
+          "align": "left",
           "fact_ids": [],
           "calc_ids": []
         },
         {
           "id": "s9-title",
           "type": "text",
-          "x": 72,
-          "y": 61,
-          "w": 1136,
-          "h": 78,
-          "text": "Proposed transaction and financial position",
-          "size": 34,
+          "x": 56,
+          "y": 47,
+          "w": 1168,
+          "h": 42,
+          "text": "Transaction perimeter and draft financial position",
+          "size": 28,
           "color": "#00338D",
           "bold": true,
+          "align": "left",
           "fact_ids": [
             "DEAL",
-            "BALANCE",
             "PROCESS",
+            "BALANCE",
             "FIN_UPDATE"
           ],
           "calc_ids": []
         },
         {
+          "id": "s9-header-rule",
+          "type": "rule",
+          "x": 56,
+          "y": 98,
+          "w": 1168,
+          "h": 1,
+          "color": "#00338D",
+          "fact_ids": []
+        },
+        {
           "id": "s9-source",
           "type": "text",
-          "x": 72,
-          "y": 650,
-          "w": 1136,
-          "h": 34,
-          "text": "Sources: 01 company brief; 10 CFO follow-up; 13 transaction workshop.\nGBP million. Draft balances at 31 December 2025. Equity sale proposal remains subject to agreement.",
-          "size": 12,
+          "x": 56,
+          "y": 656,
+          "w": 1168,
+          "h": 29,
+          "text": "Sources: 01 company brief; 10 CFO follow-up; 13 transaction workshop.\nGBP million. Draft balances at 31 December 2025. Sale scope and transaction terms remain proposals.",
+          "size": 10.5,
           "color": "#00338D",
           "bold": false,
+          "align": "left",
           "fact_ids": [
             "DEAL",
-            "BALANCE",
             "PROCESS",
+            "BALANCE",
             "FIN_UPDATE"
           ],
           "calc_ids": []
@@ -2342,9 +2903,9 @@
         {
           "id": "s9-footer-rule",
           "type": "rule",
-          "x": 72,
+          "x": 56,
           "y": 691,
-          "w": 1136,
+          "w": 1168,
           "h": 1,
           "color": "#B8C7DF",
           "fact_ids": []
@@ -2352,38 +2913,40 @@
         {
           "id": "s9-footer",
           "type": "text",
-          "x": 72,
+          "x": 56,
           "y": 697,
-          "w": 1050,
-          "h": 18,
+          "w": 1080,
+          "h": 17,
           "text": "NORTHBRIDGE     FICTIONAL TRAINING CASE     January 2026",
-          "size": 11,
+          "size": 10,
           "color": "#595959",
           "bold": false,
+          "align": "left",
           "fact_ids": [],
           "calc_ids": []
         },
         {
           "id": "s9-number",
           "type": "text",
-          "x": 1170,
+          "x": 1184,
           "y": 697,
-          "w": 38,
-          "h": 18,
+          "w": 40,
+          "h": 17,
           "text": "9",
-          "size": 11,
+          "size": 10,
           "color": "#00338D",
           "bold": false,
+          "align": "right",
           "fact_ids": [],
           "calc_ids": []
         },
         {
           "id": "s9-ownership",
           "type": "table",
-          "x": 72,
-          "y": 148,
-          "w": 442,
-          "h": 174,
+          "x": 56,
+          "y": 115,
+          "w": 424,
+          "h": 151,
           "rows": [
             [
               "Shareholder",
@@ -2404,9 +2967,9 @@
           ],
           "widths": [
             2.8,
-            1.5
+            1.4
           ],
-          "size": 17,
+          "size": 16,
           "fact_ids": [
             "DEAL"
           ],
@@ -2415,19 +2978,26 @@
             "left",
             "right"
           ],
-          "emphasis_rows": []
+          "emphasis_rows": [],
+          "row_heights": [
+            37.75,
+            37.75,
+            37.75,
+            37.75
+          ]
         },
         {
           "id": "s9-perimeter-head",
           "type": "text",
-          "x": 72,
-          "y": 355,
-          "w": 442,
-          "h": 29,
-          "text": "Proposed perimeter",
-          "size": 21,
+          "x": 56,
+          "y": 285,
+          "w": 424,
+          "h": 25,
+          "text": "Proposed equity sale",
+          "size": 19,
           "color": "#00338D",
           "bold": true,
+          "align": "left",
           "fact_ids": [
             "PROCESS",
             "DEAL"
@@ -2437,14 +3007,15 @@
         {
           "id": "s9-perimeter",
           "type": "text",
-          "x": 72,
-          "y": 396,
-          "w": 442,
-          "h": 228,
-          "text": "Shareholders are considering a 70%–100% equity sale. The proposed perimeter includes the company’s operating assets, hubs and customer contracts.\n\nValuation, rollover, financing and timing remain unagreed. Legal review must confirm title and required consents.",
-          "size": 18,
+          "x": 56,
+          "y": 318,
+          "w": 424,
+          "h": 176,
+          "text": "Shareholders are considering a 70%–100% sale of the standalone UK company. The proposed perimeter includes all three hubs, operating assets and customer contracts. No excluded business has been identified.\n\nLegal entity scope, asset ownership and contract transferability require confirmation. No offers or signed sale terms exist in this fictional case.",
+          "size": 16.5,
           "color": "#000000",
           "bold": false,
+          "align": "left",
           "fact_ids": [
             "PROCESS",
             "DEAL"
@@ -2452,47 +3023,94 @@
           "calc_ids": []
         },
         {
+          "id": "s9-process-head",
+          "type": "text",
+          "x": 56,
+          "y": 515,
+          "w": 424,
+          "h": 25,
+          "text": "Preparation status",
+          "size": 19,
+          "color": "#00338D",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [
+            "PROCESS"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s9-process",
+          "type": "text",
+          "x": 56,
+          "y": 548,
+          "w": 424,
+          "h": 93,
+          "text": "Valuation, rollover, financing and timing remain unagreed. The CFO owns financial preparation, the COO owns capacity evidence and the CEO owns key-account continuity. Legal counsel has not been appointed.",
+          "size": 16.5,
+          "color": "#000000",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "PROCESS"
+          ],
+          "calc_ids": []
+        },
+        {
           "id": "s9-balances",
           "type": "table",
-          "x": 554,
-          "y": 148,
-          "w": 654,
-          "h": 281,
+          "x": 512,
+          "y": 115,
+          "w": 712,
+          "h": 270,
           "rows": [
             [
               "Draft balance / subtotal",
-              "£m"
+              "£m",
+              "Interpretation"
             ],
             [
               "Cash",
-              "2.4"
+              "2.4",
+              "Restricted cash has not been assessed"
             ],
             [
               "Bank term debt",
-              "4.8"
+              "4.8",
+              "Other debt-like items have not been assessed"
             ],
             [
-              "Bank debt less cash only",
-              "2.4"
+              "Bank debt less cash",
+              "2.4",
+              "Limited arithmetic subtotal only"
             ],
             [
-              "Trade receivables / inventory",
-              "4.2 / 0.6"
+              "Trade receivables",
+              "4.2",
+              "No ageing or collectability schedule supplied"
+            ],
+            [
+              "Inventory",
+              "0.6",
+              "No inventory quality review supplied"
             ],
             [
               "Trade payables",
-              "2.1"
+              "2.1",
+              "Other working-capital balances are missing"
             ],
             [
-              "Trade working capital only",
-              "2.7"
+              "Trade working capital",
+              "2.7",
+              "Receivables + inventory − trade payables"
             ]
           ],
           "widths": [
-            4.1,
-            1.6
+            3.0,
+            0.7,
+            4.4
           ],
-          "size": 17,
+          "size": 16,
           "fact_ids": [
             "BALANCE"
           ],
@@ -2502,45 +3120,62 @@
           ],
           "column_align": [
             "left",
-            "right"
+            "right",
+            "left"
           ],
           "emphasis_rows": [
             3,
-            6
+            7
+          ],
+          "row_heights": [
+            33.75,
+            33.75,
+            33.75,
+            33.75,
+            33.75,
+            33.75,
+            33.75,
+            33.75
           ]
         },
         {
-          "id": "s9-limits-head",
+          "id": "s9-bridge-head",
           "type": "text",
-          "x": 554,
-          "y": 460,
-          "w": 654,
-          "h": 29,
-          "text": "Limitations of the draft balances",
-          "size": 21,
+          "x": 512,
+          "y": 407,
+          "w": 712,
+          "h": 25,
+          "text": "Requirements for an enterprise-to-equity bridge",
+          "size": 19,
           "color": "#00338D",
           "bold": true,
+          "align": "left",
           "fact_ids": [
-            "BALANCE"
+            "BALANCE",
+            "PROCESS"
           ],
           "calc_ids": []
         },
         {
-          "id": "s9-limits",
+          "id": "s9-bridge",
           "type": "text",
-          "x": 554,
-          "y": 502,
-          "w": 654,
-          "h": 123,
-          "text": "Lease liabilities, tax, debt-like items and restricted cash have not been assessed. Monthly working-capital seasonality and other balances are missing.\n\nThe limited subtotals do not establish transaction net debt, normalised working capital or an enterprise-to-equity bridge.",
-          "size": 18,
+          "x": 512,
+          "y": 440,
+          "w": 712,
+          "h": 201,
+          "text": "Bank term debt less reported cash is £2.4m. This is not a concluded transaction net-debt figure: leases, tax balances, debt-like items and restricted cash have not been assessed. No enterprise value has been agreed.\nThe £2.7m trade working-capital snapshot excludes other balances and does not describe monthly seasonality. A normalised working-capital target cannot be established from a single year-end balance.\nThe deal team needs complete balance schedules and agreed transaction definitions before preparing an enterprise-to-equity bridge. Management’s draft figures are inputs to that work, rather than an equity-value conclusion.",
+          "size": 16.5,
           "color": "#000000",
           "bold": false,
+          "align": "left",
           "fact_ids": [
             "BALANCE",
-            "FIN_UPDATE"
+            "PROCESS"
           ],
-          "calc_ids": []
+          "calc_ids": [
+            "LIMITED_NET_DEBT",
+            "TRADE_WC"
+          ]
         }
       ],
       "notes": [
@@ -2554,34 +3189,36 @@
       ]
     },
     {
-      "title": "Outstanding diligence and preparation priorities",
+      "title": "Diligence workplan and evidence gaps",
       "background": "#FFFFFF",
       "elements": [
         {
           "id": "s10-section",
           "type": "text",
-          "x": 72,
-          "y": 28,
-          "w": 1136,
-          "h": 22,
-          "text": "Diligence agenda",
-          "size": 16,
+          "x": 56,
+          "y": 20,
+          "w": 1168,
+          "h": 20,
+          "text": "PREPARATION PRIORITIES",
+          "size": 13,
           "color": "#00338D",
           "bold": true,
+          "align": "left",
           "fact_ids": [],
           "calc_ids": []
         },
         {
           "id": "s10-title",
           "type": "text",
-          "x": 72,
-          "y": 61,
-          "w": 1136,
-          "h": 78,
-          "text": "Outstanding diligence and preparation priorities",
-          "size": 34,
+          "x": 56,
+          "y": 47,
+          "w": 1168,
+          "h": 42,
+          "text": "Diligence workplan and evidence gaps",
+          "size": 28,
           "color": "#00338D",
           "bold": true,
+          "align": "left",
           "fact_ids": [
             "CONFLICT",
             "FIN_UPDATE",
@@ -2595,16 +3232,27 @@
           "calc_ids": []
         },
         {
+          "id": "s10-header-rule",
+          "type": "rule",
+          "x": 56,
+          "y": 98,
+          "w": 1168,
+          "h": 1,
+          "color": "#00338D",
+          "fact_ids": []
+        },
+        {
           "id": "s10-source",
           "type": "text",
-          "x": 72,
-          "y": 650,
-          "w": 1136,
-          "h": 34,
-          "text": "Sources: 05 commercial interview; 07 service KPIs; 10 CFO follow-up; 11 forecast bridge; 13 transaction workshop.\nResponsibility indicates management preparation ownership. External diligence appointments remain open.",
-          "size": 12,
+          "x": 56,
+          "y": 656,
+          "w": 1168,
+          "h": 29,
+          "text": "Sources: 05 commercial interview; 07 service KPIs; 10 CFO follow-up; 11 forecast bridge; 13 transaction workshop.\nWorkplan interpretation is based on identified evidence gaps. Named owners reflect management preparation responsibilities.",
+          "size": 10.5,
           "color": "#00338D",
           "bold": false,
+          "align": "left",
           "fact_ids": [
             "CONFLICT",
             "FIN_UPDATE",
@@ -2620,9 +3268,9 @@
         {
           "id": "s10-footer-rule",
           "type": "rule",
-          "x": 72,
+          "x": 56,
           "y": 691,
-          "w": 1136,
+          "w": 1168,
           "h": 1,
           "color": "#B8C7DF",
           "fact_ids": []
@@ -2630,89 +3278,91 @@
         {
           "id": "s10-footer",
           "type": "text",
-          "x": 72,
+          "x": 56,
           "y": 697,
-          "w": 1050,
-          "h": 18,
+          "w": 1080,
+          "h": 17,
           "text": "NORTHBRIDGE     FICTIONAL TRAINING CASE     January 2026",
-          "size": 11,
+          "size": 10,
           "color": "#595959",
           "bold": false,
+          "align": "left",
           "fact_ids": [],
           "calc_ids": []
         },
         {
           "id": "s10-number",
           "type": "text",
-          "x": 1170,
+          "x": 1184,
           "y": 697,
-          "w": 38,
-          "h": 18,
+          "w": 40,
+          "h": 17,
           "text": "10",
-          "size": 11,
+          "size": 10,
           "color": "#00338D",
           "bold": false,
+          "align": "right",
           "fact_ids": [],
           "calc_ids": []
         },
         {
           "id": "s10-diligence",
           "type": "table",
-          "x": 72,
-          "y": 148,
-          "w": 1136,
-          "h": 441,
+          "x": 56,
+          "y": 115,
+          "w": 1168,
+          "h": 450,
           "rows": [
             [
               "Workstream",
-              "Evidence now available",
-              "Next evidence required",
+              "Current evidence / issue",
+              "Next deliverable and purpose",
               "Owner"
             ],
             [
-              "Revenue and QoE",
-              "Annual and quarterly figures agree. Earlier revenue discrepancy remains.",
-              "Ledger reconciliation, cut-off evidence and support for any adjustments.",
+              "Revenue and earnings",
+              "Annual and quarterly schedules agree to £25.0m. The £26.2m briefing remains unreconciled. Proposed EBITDA add-backs are unsupported.",
+              "Revenue ledger-to-invoice reconciliation with cut-off testing. QoE review and item-level adjustment support to establish the earnings basis.",
               "CFO"
             ],
             [
-              "Balance sheet",
-              "Draft cash, bank debt and trade balances.",
-              "Full cash/debt-like schedules and monthly working capital.",
+              "Net debt and working capital",
+              "Cash, bank debt and trade balances are preliminary. Leases, debt-like items and monthly seasonality are missing.",
+              "Full balance schedules, restricted-cash assessment and monthly working-capital history to define transaction adjustments.",
               "CFO"
             ],
             [
-              "Customer quality",
-              "Defined 25-agreement renewal cohort and expiry schedule.",
-              "Contract review, cohort validation and customer retention definition.",
+              "Customers and renewals",
+              "A defined 25-agreement cohort and expiry allocation are available. The earlier customer-retention estimate remains undefined.",
+              "Matched agreement-level renewal records, expiry status and account coverage. Review pricing and termination terms to assess revenue exposure.",
               "CEO"
             ],
             [
-              "Operations",
-              "Hub staffing and KPIs with stated denominators.",
-              "Job records, staffing capacity, hiring costs and productivity timing.",
+              "Service delivery and capacity",
+              "Hub headcount and three KPIs have stated denominators. No job-level validation or detailed hiring/ramp-up plan is available.",
+              "Job record extracts and eligibility rules. Engineer recruitment dates, replacement needs and cost assumptions to test delivery capacity.",
               "COO"
             ],
             [
-              "Forecast",
-              "Group revenue bridge and unsigned opportunity pipeline.",
-              "Customer bridge, signed awards and evidence for pricing/cross-sell.",
+              "Forecast conversion",
+              "Group revenue bridge reconciles. All pipeline stages remain unsigned and customer-level support is absent.",
+              "Customer-by-customer revenue bridge, opportunity timing and signed awards. Link growth to renewals, cross-sell and engineer availability.",
               "CFO / CEO"
             ],
             [
-              "Legal and market",
-              "Proposed operating perimeter. No independent market study.",
-              "Title, consent and change-of-control review. Independent market work.",
+              "Legal perimeter and market",
+              "The proposal includes operating assets and contracts. Consents and title are unreviewed. Independent market evidence is absent.",
+              "Legal perimeter and consent schedule. Separate independent market work before using market-size, share or leadership claims.",
               "Legal / strategy"
             ]
           ],
           "widths": [
-            1.45,
-            3.1,
-            3.5,
-            1.1
+            1.55,
+            3.8,
+            4.5,
+            1.0
           ],
-          "size": 17,
+          "size": 16,
           "fact_ids": [
             "CONFLICT",
             "FIN_UPDATE",
@@ -2732,22 +3382,52 @@
             "left",
             "left"
           ],
-          "emphasis_rows": []
+          "emphasis_rows": [],
+          "row_heights": [
+            30.822857142857142,
+            69.86285714285715,
+            69.86285714285715,
+            69.86285714285715,
+            69.86285714285715,
+            69.86285714285715,
+            69.86285714285715
+          ]
         },
         {
-          "id": "s10-close",
+          "id": "s10-sequence-head",
           "type": "text",
-          "x": 72,
-          "y": 608,
-          "w": 1136,
-          "h": 27,
-          "text": "Transaction preparation remains subject to financial, commercial and legal diligence.",
-          "size": 18,
+          "x": 56,
+          "y": 578,
+          "w": 1168,
+          "h": 25,
+          "text": "Implications for transaction preparation",
+          "size": 19,
           "color": "#00338D",
           "bold": true,
+          "align": "left",
           "fact_ids": [
             "PROCESS",
             "FIN_UPDATE"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s10-sequence",
+          "type": "text",
+          "x": 56,
+          "y": 610,
+          "w": 1168,
+          "h": 42,
+          "text": "The unresolved revenue basis affects historical performance, forecast opening balances and earnings analysis. Contract and capacity work must then test whether the management plan can convert into recognised revenue. Timing remains to be agreed.",
+          "size": 16.5,
+          "color": "#000000",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "CONFLICT",
+            "FIN_UPDATE",
+            "BRIDGE",
+            "PROCESS"
           ],
           "calc_ids": []
         }

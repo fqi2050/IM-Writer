@@ -2,7 +2,7 @@
 import os,sys,shutil,subprocess,argparse
 from pathlib import Path
 from datetime import datetime
-p=argparse.ArgumentParser();p.add_argument('--output-dir');a=p.parse_args()
+p=argparse.ArgumentParser();p.add_argument('--output-dir');p.add_argument('--native-from-storyboard',action='store_true',help='Browser-free fallback: author HTML and native PPT from the same measured storyboard');a=p.parse_args()
 root=Path(__file__).resolve().parents[1];skill=root.parent/'skills/mna-information-memo'
 node=os.environ.get('IM_NODE');modules=os.environ.get('RUNTIME_NODE_MODULES');pskill=os.environ.get('IM_PRESENTATIONS_SKILL')
 if not all([node,modules,pskill]):raise SystemExit('Set IM_NODE, RUNTIME_NODE_MODULES and IM_PRESENTATIONS_SKILL from the Codex workspace dependency loader. Run this script with the bundled Python runtime.')
@@ -10,15 +10,19 @@ out=Path(a.output_dir).resolve() if a.output_dir else root/'runs'/datetime.now()
 if out.exists():raise SystemExit('Output directory already exists. Choose a new directory.')
 for folder in ['.build','working','outputs']:(out/folder).mkdir(parents=True,exist_ok=True)
 shutil.copytree(root/'inputs',out/'inputs')
-for name in ['build_storyboard.py','finalize.mjs','build_review.py']:shutil.copy(root/'scripts'/name,out/'.build'/name)
+for name in ['build_storyboard.py','finalize.mjs','build_review.py','prepare_layout.py','render_native.mjs']:shutil.copy(root/'scripts'/name,out/'.build'/name)
 shutil.copy(skill/'scripts/html_to_pptx.mjs',out/'.build/html_to_pptx.mjs')
 (out/'.build/node_modules').symlink_to(Path(modules),target_is_directory=True)
 env=dict(os.environ,IM_PYTHON=sys.executable)
 def run(args):subprocess.run([str(x) for x in args],check=True,env=env)
 run([sys.executable,skill/'scripts/extract_sources.py',out/'inputs',out/'working/extracted.json'])
 run([sys.executable,out/'.build/build_storyboard.py'])
+run([sys.executable,out/'.build/prepare_layout.py',out/'working/storyboard.json',skill/'assets/advisory-dense.json'])
 run([sys.executable,skill/'scripts/render_html.py',out/'working/storyboard.json',out/'outputs/northbridge-im.html'])
-run([node,out/'.build/html_to_pptx.mjs',out/'outputs/northbridge-im.html',out/'.build/draft.pptx',out/'.build/previews'])
+if a.native_from_storyboard:
+ run([node,out/'.build/render_native.mjs',out/'working/storyboard.json',out/'.build/draft.pptx',out/'.build/previews',skill/'assets/advisory-dense.json'])
+else:
+ run([node,out/'.build/html_to_pptx.mjs',out/'outputs/northbridge-im.html',out/'.build/draft.pptx',out/'.build/previews'])
 run([node,out/'.build/finalize.mjs'])
 run([sys.executable,out/'.build/build_review.py'])
 print('Rebuilt example:',out/'outputs')

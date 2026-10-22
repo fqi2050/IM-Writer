@@ -37,3 +37,5 @@ From any working directory, use absolute paths (replace placeholders):
 The renderer reads its CSS and design profile from the installed skill assets. The generated HTML is standalone. Do not write run outputs into the installed skill folder.
 
 The `advisory-dense` style is mandatory. The renderer applies it when the field is omitted and rejects null or alternative profile names. Authors must still use the prescribed palette and page layouts for explicit element styles.
+
+Optional table `row_heights` lists positive heights in storyboard units, one per row, totalling the declared table height. Use measured content fit to allocate rows. HTML preserves these authored row heights; its DOM converter measures the resulting table. Native storyboard authoring must apply the same row heights.

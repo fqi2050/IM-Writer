@@ -1,9 +1,15 @@
 {
-  "passed": [
-    "Arrow-key navigation advances the deck.",
-    "Source panel resolves slide-specific PnL cell references.",
-    "Phone viewport preserves 16:9 stage without reflow.",
-    "Inline text edit survives Save HTML and reload.",
-    "Edited HTML text reaches native PowerPoint XML."
-  ]
+  "current_revision": "dense-reading-v2",
+  "current_revision_tested": false,
+  "reason": "Approved browser surface could not access file://. No browser workaround attempted.",
+  "prior_revision_commit": "ed29e9a13af73f8c2d5effc1437fd727389216a9",
+  "prior_revision_results": {
+    "passed": [
+      "Arrow-key navigation advances the deck.",
+      "Source panel resolves slide-specific PnL cell references.",
+      "Phone viewport preserves 16:9 stage without reflow.",
+      "Inline text edit survives Save HTML and reload.",
+      "Edited HTML text reaches native PowerPoint XML."
+    ]
+  }
 }

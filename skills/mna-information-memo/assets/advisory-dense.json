@@ -14,7 +14,20 @@
   "table_band": "#DBE8F8",
   "table_border": "#B8C7DF",
   "table_padding_x": 10,
-  "table_padding_y": 7,
-  "sizes": {"title": 34, "subheading": 21, "body": 18, "table": 17, "source": 12},
-  "frame": {"width": 1280, "height": 720, "margin": 72, "gutter": 28, "body_top": 144, "source_top": 654}
+  "table_padding_y": 5,
+  "sizes": {
+    "title": 28,
+    "subheading": 19,
+    "body": 16.5,
+    "table": 16,
+    "source": 10.5
+  },
+  "frame": {
+    "width": 1280,
+    "height": 720,
+    "margin": 56,
+    "gutter": 28,
+    "body_top": 115,
+    "source_top": 656
+  }
 }

@@ -1,10 +1,10 @@
 {
   "passed": {
     "native_tables": 14,
-    "text_elements": 94
+    "text_elements": 106
   },
   "slide_count": 10,
-  "sha256": "2e448560c2779a2d2edfb8796fce5ccab6926037862eae59dfafc5d34322ac29",
+  "sha256": "7842247dc98773bfc0cfa492f53fa82b00920e51823be785dbbee2dccd54abde",
   "checks": [
     "Every native table cell and text element matches storyboard.",
     "All 10 pages use the required report design and retain source notes.",

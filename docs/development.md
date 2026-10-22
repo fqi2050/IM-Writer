@@ -8,7 +8,7 @@
 
 | 组件 | 用途 |
 | --- | --- |
-| Python，含 `python-docx`、`openpyxl` | 读取 Word/Excel，建立工作文件，渲染 HTML |
+| Python，含 `python-docx`、`openpyxl`、`Pillow` | 读取 Word/Excel，建立工作文件，渲染 HTML |
 | Node.js，含 `@oai/artifact-tool`、`playwright` | HTML 转原生可编辑 PPT，渲染检查 |
 | Google Chrome 或兼容 Chromium | 读取并检查 HTML 页面 |
 | 已安装的 Presentations skill | 图表字体辅助、最终检查与工作簿打包 |
@@ -61,3 +61,11 @@ demo-northbridge/runs/run-01/outputs/northbridge-im-editable.pptx
 仓库已包含 13 份输入，无需先重新生成。`create_enrichment.py` 仅重建编号 05–13 的虚构资料；它会覆盖这些固定模拟文件。`rebuild.py` 会输出 HTML、最终 PPT、复核说明及工作文件。
 
 数据口径及来源检查：`test_evidence.py`；完整成品和强制风格检查：`test_full_deck.py`；原生 PPT 包检查：`check_package.py`；浏览器检查：`test_browser.mjs`。Python 检查使用上述 bundled Python，浏览器检查使用 bundled Node 并设置 `IM_PYTHON`。测试脚本旁需链接运行时 `node_modules`，链接不提交到 Git。
+
+## 无浏览器生成方式
+
+在获准浏览器不可用时，给 `rebuild.py` 添加 `--native-from-storyboard`。此模式将同一份已测量故事板分别渲染为 HTML 和原生 PPT，不读取 HTML DOM，因此不会转换用户手工修改过的 HTML。默认方式仍为 HTML 转 PPT。
+
+`prepare_layout.py` 使用 Arial 字体度量来检查文本并分配表格行高，随后将行高同时用于 HTML 和 PPT。默认字体路径为 macOS 系统 Arial；其他环境通过 `IM_FONT_REGULAR` 和 `IM_FONT_BOLD` 指向合法安装的 Arial 字体文件。
+
+当前高密度版使用无浏览器模式。HTML 已做源代码和结构检查，本轮未进行浏览器视觉或交互复测；`browser-test-results.json` 标记保留的上一版测试。最终 PPT 已重新导入生成工具并逐页查看，桌面 PowerPoint 未实测。

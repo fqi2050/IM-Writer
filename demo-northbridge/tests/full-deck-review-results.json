@@ -1,17 +1,7 @@
 {
-  "final_sha256": "2e448560c2779a2d2edfb8796fce5ccab6926037862eae59dfafc5d34322ac29",
-  "html_pages_reviewed": [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10
-  ],
+  "final_sha256": "7842247dc98773bfc0cfa492f53fa82b00920e51823be785dbbee2dccd54abde",
+  "html_pages_reviewed": [],
+  "html_validation": "Static structure and shared font measurements only. Browser visual and interaction checks were not run for this revision.",
   "final_ppt_pages_reviewed": [
     1,
     2,
@@ -24,14 +14,22 @@
     9,
     10
   ],
-  "review": "Each HTML page and re-imported final PPT page inspected at 1920x1080. No clipping or overlap observed.",
+  "review": "All final PPT pages re-imported and inspected at 1920x1080. No clipping or overlap observed.",
+  "render_mode": "HTML and native PPT authored from the same measured storyboard. No HTML DOM conversion in this run.",
   "native_table_arithmetic": {
     "passed": true,
-    "checked_columns": 17
+    "checked_columns": 14
   },
   "native_chart_workbooks": 2,
   "package_integrity": "pass",
   "layout_findings": 0,
+  "layout_warnings": [
+    {
+      "slide": 10,
+      "kind": "native_table_overflow_estimate",
+      "review": "Conservative estimated table height warning. Final imported slide inspected: table ends above the following heading and source footer, with all text visible."
+    }
+  ],
   "desktop_powerpoint_tested": false,
   "font_substitution": "Arial replaces proprietary reference title font",
   "reference_report_uploaded": false
