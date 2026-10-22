@@ -1,0 +1,5 @@
+# FICTIONAL TRAINING CASE; management submission 26 January 2026; unaudited
+metric,numerator,denominator,period,definition
+Urgent response SLA,561,600,FY2025,Eligible urgent jobs attended within four hours / all eligible urgent jobs
+First-time fix,2200,2500,FY2025,Closed reactive jobs resolved on first visit / all closed reactive jobs
+Productive hours,126480,170000,FY2025,Recorded productive engineer hours / recorded available engineer hours; not billing utilisation

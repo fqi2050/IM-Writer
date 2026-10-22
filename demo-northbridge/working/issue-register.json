@@ -26,10 +26,11 @@
     "severity": "open",
     "topic": "Undefined retention",
     "facts": [
-      "RETENTION"
+      "RETENTION",
+      "RENEWALS"
     ],
-    "treatment": "94% excluded from numerical investment highlights.",
-    "request": "Define customer or revenue retention and provide matched cohorts.",
+    "treatment": "94% customer retention remains excluded. Separate management contract-cohort renewal rates are disclosed with definitions.",
+    "request": "Verify the 25-agreement cohort and define the earlier customer retention claim.",
     "owner_role": "Commercial diligence"
   },
   {
@@ -48,10 +49,11 @@
     "severity": "high",
     "topic": "Financial diligence",
     "facts": [
-      "QOE"
+      "FIN_UPDATE",
+      "BALANCE"
     ],
-    "treatment": "EBITDA labelled management-reported and unaudited.",
-    "request": "Provide QoE, normalisation, debt, cash and working capital schedules.",
+    "treatment": "Draft cash, bank debt and trade balances received. No EBITDA add-backs applied.",
+    "request": "Obtain QoE, full debt-like and cash schedules, and monthly normalised working capital.",
     "owner_role": "Financial diligence"
   },
   {
@@ -59,11 +61,24 @@
     "severity": "open",
     "topic": "Forecast support",
     "facts": [
-      "FORECAST_BASIS",
+      "BRIDGE",
+      "PIPELINE",
       "GROWTH"
     ],
-    "treatment": "Forecasts explicitly labelled F, subject to hiring and renewals.",
-    "request": "Provide customer-level revenue bridge, signed pipeline and recruitment costs.",
+    "treatment": "Group-level bridge supplied and tied to model. Pipeline remains unsigned.",
+    "request": "Provide customer-level bridge, signed awards, hiring costs and engineer ramp-up timing.",
     "owner_role": "CFO / COO"
+  },
+  {
+    "id": "I07",
+    "severity": "open",
+    "topic": "Operational evidence and consents",
+    "facts": [
+      "KPIS",
+      "PROCESS"
+    ],
+    "treatment": "Management KPIs have defined denominators. Contract consents remain unreviewed.",
+    "request": "Validate job records and contract change-of-control provisions.",
+    "owner_role": "COO / legal counsel"
   }
 ]

@@ -1,6 +1,6 @@
 ---
 name: mna-information-memo
-description: Draft a sell-side M&A information memorandum from mixed client documents, maintain claim-level sources and unresolved issues, and produce HTML plus an editable PowerPoint using the supported semantic slide format.
+description: Draft a sell-side M&A information memorandum from mixed client documents, maintain claim-level sources and unresolved issues, and produce HTML plus an editable PowerPoint using the supported semantic slide format and mandatory KPMG-report-inspired design.
 ---
 
 # M&A Information Memorandum
@@ -23,7 +23,9 @@ For a concrete semantic-format example, use [storyboard-example.json](assets/sto
 
 ## Render and convert
 
-When the user requests a consulting-report style, higher information density, or the bundled KPMG-report-inspired profile, read [advisory-design.md](references/advisory-design.md). Use its measured palette, content-dependent layouts and density guidance. Set `style_profile: "advisory-dense"` in the storyboard to enable the shared rendering tokens; author the layout and evidence explicitly, because selecting a profile alone does not restructure a page. Follow a subsequently supplied native PPTX template over this PDF-derived approximation. Do not carry reference-company facts or source labels into a new client's IM.
+Always read [advisory-design.md](references/advisory-design.md) before authoring. **The KPMG-report-inspired design is mandatory for this skill**, as requested by its owner. Use the included blue palette, white reading pages, flat analytical tables, source/footer bands and evidence-led information density for every IM. Set `style_profile: "advisory-dense"` in every storyboard. Do not offer a generic, teal or card-based design as an alternative. Selecting the profile alone does not restructure a page: author each layout and its analysis from the evidence.
+
+A subsequently supplied authorized native KPMG PPTX template takes precedence for exact masters, typography and layout. Until then, use the bundled PDF-derived rules and disclose the Arial substitution. This is a report-inspired implementation, not an approved KPMG template. Do not copy the reference report's company facts, source labels, logo or proprietary fonts. The original PDF and repository demo are not runtime dependencies.
 
 6. Run `scripts/render_html.py STORYBOARD_JSON OUTPUT_HTML`. It produces a standalone 16:9 reading deck with native HTML text/tables and data-driven charts. Preview every slide. The HTML includes optional text editing and save, navigation, and source notes.
 7. Use `scripts/html_to_pptx.mjs INPUT_HTML DRAFT_PPTX PREVIEW_DIR` with the bundled Node runtime, `@oai/artifact-tool` and Playwright. The converter reads actual DOM text, table cells and chart metadata. It supports only the documented semantic format, not arbitrary websites. It fails on unsupported element types, overflowing text, invalid chart data and unknown layout styles rather than silently taking screenshots.

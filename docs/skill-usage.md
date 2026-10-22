@@ -67,8 +67,10 @@ Northbridge 的 `rebuild.py` 只重放既定模拟案例。新客户需要重新
 
 ## 使用团队模板
 
-提供原始 PPTX 模板与获准使用的参考 IM 页，并说明适用团队/地区版本。当前渲染器支持的布局有限，应用完整模板可能需要扩展转换程序。KPMG 改版先做投资亮点、业务概览和财务分析三页样张，再扩展到完整 10 页；详见 [Issue #1](https://github.com/fqi2050/IM-Writer/issues/1)。
+提供原始 PPTX 模板与获准使用的参考 IM 页，并说明适用团队/地区版本。当前渲染器支持的布局有限，应用完整模板可能需要扩展转换程序。三页样张和完整 10 页的 PDF 参考风格改版现已完成，原始 PPTX 母版匹配仍待模板提供；详见 [Issue #1](https://github.com/fqi2050/IM-Writer/issues/1)。
 
-## 选择咨询报告式布局
+## 必遵循的 KPMG 报告参考风格
 
-需要更接近用户参考报告的配色和信息密度时，明确要求“使用 advisory-dense 配置，并按咨询报告式布局编写”。先阅读 [设计规则](../skills/mna-information-memo/references/advisory-design.md)，再在故事板设置 `style_profile: "advisory-dense"`。配置会改变默认配色和表格样式；正文布局、字号、证据和来源脚注仍需编写。可查看 [三页样张](../demo-northbridge/style-pilot/README.md)。
+无需另行选择。Skill 每次生成都必须读取内置 [设计规则](../skills/mna-information-memo/references/advisory-design.md)，在故事板使用 `style_profile: "advisory-dense"`，并按报告的配色、表格、页脚、信息密度和阅读式布局编写内容。渲染器缺省采用此风格，并拒绝其他配置名。具体布局仍需根据证据编写，不能只换颜色。
+
+有获准使用的原始 KPMG PPTX 模板时，进一步遵循其母版及字体。当前使用 Arial 替代专用字体，不包含原始报告、Logo 或专用字体，也不宣称官方认可。内置规则及最小格式示例随 skill 安装，不需要复制完整 demo 或原始参考 PDF。

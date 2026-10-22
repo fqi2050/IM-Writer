@@ -7,26 +7,26 @@ def chart_svg(e):
  w,h=e['w']*1.5,e['h']*1.5;left,top,right,bottom=65,40,20,65;pw,ph=w-left-right,h-top-bottom
  vals=e['values']; mx=e['max']; n=len(vals); gap=pw/n;bw=gap*.54
  pct=e.get('format')=='0.0%'
- fmt=lambda v:f'{v*100:.0f}%' if pct else f'{v:.1f}'
+ fmt=lambda v:f'{v*100:.1f}%' if pct else f'{v:.1f}'
  parts=[f'<svg viewBox="0 0 {w} {h}" role="img" aria-label="{E(e["series_name"])}">']
  for j in range(5):
   y=top+ph-j*ph/4; v=mx*j/4
-  parts.append(f'<line x1="{left}" y1="{y}" x2="{w-right}" y2="{y}" stroke="#DCE4E8"/><text x="{left-12}" y="{y+6}" text-anchor="end" fill="#5A6D7D" font-size="20">{fmt(v)}</text>')
+  parts.append(f'<line x1="{left}" y1="{y}" x2="{w-right}" y2="{y}" stroke="#DCE4E8"/><text x="{left-12}" y="{y+6}" text-anchor="end" fill="#595959" font-size="20">{fmt(v)}</text>')
  for i,(v,cat) in enumerate(zip(vals,e['categories'])):
   bh=v/mx*ph;x=left+gap*(i+.5)-bw/2;y=top+ph-bh
-  parts.append(f'<rect x="{x}" y="{y}" width="{bw}" height="{bh}" fill="{e.get("color","#117F79")}"/><text x="{x+bw/2}" y="{y-12}" text-anchor="middle" font-size="25" fill="#132E42" font-weight="700">{fmt(v)}</text><text x="{x+bw/2}" y="{top+ph+35}" text-anchor="middle" font-size="20" fill="#5A6D7D">{E(str(cat))}</text>')
+  parts.append(f'<rect x="{x}" y="{y}" width="{bw}" height="{bh}" fill="{e.get("color","#00338D")}"/><text x="{x+bw/2}" y="{y-12}" text-anchor="middle" font-size="25" fill="#00338D" font-weight="700">{fmt(v)}</text><text x="{x+bw/2}" y="{top+ph+35}" text-anchor="middle" font-size="20" fill="#595959">{E(str(cat))}</text>')
  return ''.join(parts)+'</svg>'
 
 def render(data):
  assets=Path(__file__).resolve().parents[1]/'assets'
  base=(assets/'viewport-base.css').read_text()
- profile=data.get('style_profile')
- if profile not in (None,'advisory-dense'):raise ValueError('Unknown style_profile: '+str(profile))
- theme=json.loads((assets/(profile+'.json')).read_text()) if profile else {}
- default_text=theme.get('text','#132E42')
- default_chart=theme.get('primary','#117F79')
+ profile=data.get('style_profile','advisory-dense')
+ if profile!='advisory-dense':raise ValueError('This skill requires style_profile advisory-dense; received '+str(profile))
+ theme=json.loads((assets/(profile+'.json')).read_text())
+ default_text=theme.get('text','#00338D')
+ default_chart=theme.get('primary','#00338D')
  css='''/* === IM TYPOGRAPHY AND LAYOUT === */
-*{box-sizing:border-box} :root{--stage-bg:#081925;--slide-bg:#FFFFFF} body{font-family:Arial,sans-serif} .slide{transition:opacity .2s} [data-pptx]{position:absolute;margin:0} .text{white-space:pre-wrap;line-height:1.18;overflow:visible} table{border-collapse:collapse;table-layout:fixed;width:100%;height:100%;color:#132E42} th,td{padding:12px 18px;white-space:pre-wrap;border-bottom:1px solid #DCE4E8;text-align:left;vertical-align:middle;line-height:1.18} th{background:#132E42;color:white;font-weight:700} tr:nth-child(2n+1) td{background:#F2F6F7} .deck-controls{display:flex;flex-wrap:wrap;justify-content:center;max-width:calc(100vw - 20px);gap:10px;background:#132E42;padding:8px 12px;border-radius:6px;color:#FFF;font-size:13px;bottom:6px} button{cursor:pointer;background:transparent;border:1px solid #5A6D7D;color:white;padding:5px 9px} button:focus-visible{outline:2px solid #61D6C6} [contenteditable=true]{outline:2px dashed #117F79} #sourcePanel{position:fixed;right:16px;top:16px;max-width:480px;max-height:70vh;overflow:auto;background:#FFFFFF;color:#132E42;padding:22px;z-index:1001;white-space:pre-wrap;font-size:13px;box-shadow:0 8px 40px #0006} #sourcePanel[hidden]{display:none} @media print{#sourcePanel{display:none!important}.deck-controls{display:none!important}@page{size:16in 9in;margin:0}}
+*{box-sizing:border-box} :root{--stage-bg:#081925;--slide-bg:#FFFFFF} body{font-family:Arial,sans-serif} .slide{transition:opacity .2s} [data-pptx]{position:absolute;margin:0} .text{white-space:pre-wrap;line-height:1.18;overflow:visible} table{border-collapse:collapse;table-layout:fixed;width:100%;height:100%;color:#00338D} th,td{padding:12px 18px;white-space:pre-wrap;border-bottom:1px solid #DCE4E8;text-align:left;vertical-align:middle;line-height:1.18} th{background:#00338D;color:white;font-weight:700} tr:nth-child(2n+1) td{background:#F2F6F7} .deck-controls{display:flex;flex-wrap:wrap;justify-content:center;max-width:calc(100vw - 20px);gap:10px;background:#00338D;padding:8px 12px;border-radius:6px;color:#FFF;font-size:13px;bottom:6px} button{cursor:pointer;background:transparent;border:1px solid #595959;color:white;padding:5px 9px} button:focus-visible{outline:2px solid #00B8F5} [contenteditable=true]{outline:2px dashed #00338D} #sourcePanel{position:fixed;right:16px;top:16px;max-width:480px;max-height:70vh;overflow:auto;background:#FFFFFF;color:#00338D;padding:22px;z-index:1001;white-space:pre-wrap;font-size:13px;box-shadow:0 8px 40px #0006} #sourcePanel[hidden]{display:none} @media print{#sourcePanel{display:none!important}.deck-controls{display:none!important}@page{size:16in 9in;margin:0}}
 '''
  if theme:
   css+=f'''table{{color:{theme['text']}}} th,td{{padding:{theme['table_padding_y']*1.5}px {theme['table_padding_x']*1.5}px;border-bottom-color:{theme['table_border']}}} th{{background:{theme['table_header']};color:{theme['table_header_text']}}} tr:nth-child(2n+1) td{{background:{theme['table_band']}}}'''

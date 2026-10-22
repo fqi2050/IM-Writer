@@ -11,3 +11,9 @@ Verify PPT package slide count, text runs, native table and chart objects, embed
 When a design profile or reference is used, compare representative HTML and PPT pages with the reference: palette roles, body readability, table density, numeric alignment, footer/source placement and layout variety. Confirm table fills, font weights and column alignments survive conversion. Check table cell overflow as well as the outer table bounds. Assess density by page purpose; word counts are review signals, never quotas. Every additional analytical statement still needs evidence. Distinguish a PDF-inspired approximation from reuse of an original PPTX master. Keep full source documents and rendered reference pages out of distributable skill assets.
 
 When changing extraction or calculations, verify in a copy of the current project that a source-value change affects the derived result or triggers reconciliation failure. Verify that an HTML text edit reaches the converted PPT. Use the current project's expected issues and figures; do not substitute another client or repository demo's test data.
+
+## Mandatory report design
+
+- Confirm `advisory-dense` on the storyboard and KPMG-report-derived colors throughout, including explicit chart and text colors.
+- Inspect all HTML and PPT pages for white reading layouts, aligned analytical tables, visible project source footers, and content-dependent density. Remove repeated KPI cards, generic slogans and decorative filler.
+- Disclose font substitutions and template status. Do not include the original report, proprietary fonts or branding assets in published packages.

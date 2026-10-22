@@ -4,6 +4,10 @@
     "Top-five concentration excludes OTHER aggregate; margins and unit conversion reconcile.",
     "Changing customer revenue by GBP 100k triggers a reconciliation failure before rendering.",
     "Changing the briefing to GBP 26.6m updates conflict disclosure and the GBP 1.6m gap.",
+    "Source mutation rejected: Quarterly revenue fails tie-out",
+    "Source mutation rejected: Forecast bridge fails tie-out",
+    "Source mutation rejected: Engineer count fails tie-out",
+    "Renewal cohort edits propagate to calculations and slide copy without changing the undefined retention claim.",
     "Undefined retention and missing market evidence remain unverified/missing; revenue remains provisional."
   ]
 }

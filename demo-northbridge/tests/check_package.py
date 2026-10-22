@@ -12,7 +12,9 @@ with zipfile.ZipFile(p) as z:
  images=sum(len(E.fromstring(z.read(n)).findall('.//p:pic',ns)) for n in slides)
  notes=[n for n in names if re.fullmatch(r'ppt/notesSlides/notesSlide\d+.xml',n)]
  workbooks=[n for n in names if n.startswith('ppt/embeddings/') and n.endswith('.xlsx')]
- assert tables==6 and len(charts)==2 and len(notes)==10 and images==0
+ story=json.loads((root/'working/storyboard.json').read_text())
+ expected_tables=sum(e['type']=='table' for s in story['slides'] for e in s['elements'])
+ assert tables==expected_tables and len(charts)==2 and len(notes)==10 and images==0
  assert len(workbooks)==2,workbooks
  values=[]
  for n in workbooks:

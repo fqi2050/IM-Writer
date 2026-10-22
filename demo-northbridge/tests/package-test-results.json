@@ -1,12 +1,12 @@
 {
   "passed": {
     "slides": 10,
-    "native_tables": 6,
+    "native_tables": 14,
     "native_charts": 2,
     "embedded_chart_workbooks": 2,
     "source_notes": 10,
     "raster_pictures": 0,
-    "sha256": "5451fd90f1d990ab5514c6ea1f12d25ecd95f9384ad91b152bacb96e451ad50b"
+    "sha256": "2e448560c2779a2d2edfb8796fce5ccab6926037862eae59dfafc5d34322ac29"
   },
   "embedded_data": [
     [
@@ -44,15 +44,15 @@
           "GBP million"
         ],
         [
-          "FY2025A",
+          "2025A",
           25
         ],
         [
-          "FY2026F",
+          "2026F",
           29
         ],
         [
-          "FY2027F",
+          "2027F",
           33.6
         ]
       ]

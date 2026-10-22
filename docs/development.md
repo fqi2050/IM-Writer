@@ -54,4 +54,10 @@ demo-northbridge/runs/run-01/outputs/northbridge-im-editable.pptx
 - 图表工作簿是可编辑快照，不保留客户 Excel 的实时连接。
 - HTML、PPT 与事实库之间不自动双向同步；内容变更后要核对并重新生成相关交付物。
 - 现有示例已做文件结构、页面边界、来源追溯和回归检查；桌面 Microsoft PowerPoint 的实际编辑、保存和重开尚未实测。
-- KPMG 模板尚未提供，后续改版由 [Issue #1](https://github.com/fqi2050/IM-Writer/issues/1) 跟踪。
+- 完整 10 页已采用强制的 KPMG 报告参考风格；正式 PPTX 母版尚未提供，后续匹配由 [Issue #1](https://github.com/fqi2050/IM-Writer/issues/1) 跟踪。
+
+## 丰富版资料与检查
+
+仓库已包含 13 份输入，无需先重新生成。`create_enrichment.py` 仅重建编号 05–13 的虚构资料；它会覆盖这些固定模拟文件。`rebuild.py` 会输出 HTML、最终 PPT、复核说明及工作文件。
+
+数据口径及来源检查：`test_evidence.py`；完整成品和强制风格检查：`test_full_deck.py`；原生 PPT 包检查：`check_package.py`；浏览器检查：`test_browser.mjs`。Python 检查使用上述 bundled Python，浏览器检查使用 bundled Node 并设置 `IM_PYTHON`。测试脚本旁需链接运行时 `node_modules`，链接不提交到 Git。

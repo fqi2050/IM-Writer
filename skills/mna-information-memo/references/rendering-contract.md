@@ -35,3 +35,5 @@ From any working directory, use absolute paths (replace placeholders):
 ```
 
 The renderer reads its CSS and design profile from the installed skill assets. The generated HTML is standalone. Do not write run outputs into the installed skill folder.
+
+The `advisory-dense` style is mandatory. The renderer applies it when the field is omitted and rejects null or alternative profile names. Authors must still use the prescribed palette and page layouts for explicit element styles.

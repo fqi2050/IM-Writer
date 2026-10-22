@@ -34,6 +34,20 @@ with td:
  updated=json.loads((d/'working/evidence-ledger.json').read_text());gap=next(c['result'] for c in updated['calculations'] if c['id']=='REVENUE_GAP');assert abs(gap-1.6)<1e-10
  story=(d/'working/storyboard.json').read_text();assert '26.6' in story
  reports.append('Changing the briefing to GBP 26.6m updates conflict disclosure and the GBP 1.6m gap.')
+for filename,old,new,message in [
+ ('09_quarterly_accounts.csv','Q4 2025,6.8','Q4 2025,6.9','Quarterly revenue fails tie-out'),
+ ('11_forecast_bridge.csv','Cross-sell,1.6,','Cross-sell,1.7,','Forecast bridge fails tie-out'),
+ ('06_hub_schedule.csv','Bristol,5.5,27,18','Bristol,5.5,27,19','Engineer count fails tie-out')]:
+ td,d=fixture()
+ with td:
+  p=d/'inputs'/filename;content=p.read_text();assert old in content;p.write_text(content.replace(old,new));r=run(d);assert r.returncode!=0 and message in r.stderr,r.stderr
+ reports.append('Source mutation rejected: '+message)
+td,d=fixture()
+with td:
+ p=d/'inputs/05_commercial_interview.txt';p.write_text(p.read_text().replace('23 agreements renewed','22 agreements renewed'));r=run(d);assert r.returncode==0,r.stderr
+ revised=json.loads((d/'working/evidence-ledger.json').read_text());value=next(c['result'] for c in revised['calculations'] if c['id']=='RENEWAL_RATES');assert abs(value[0]-.88)<1e-10
+ assert '22 of 25' in (d/'working/storyboard.json').read_text()
+ reports.append('Renewal cohort edits propagate to calculations and slide copy without changing the undefined retention claim.')
 status={f['id']:f['status'] for f in ledger['facts']};assert status['RETENTION']=='management_unverified' and status['MARKET']=='missing' and status['CONFLICT']=='provisional_conflict'
 reports.append('Undefined retention and missing market evidence remain unverified/missing; revenue remains provisional.')
 (root/'tests/evidence-test-results.json').write_text(json.dumps({'passed':reports},indent=2));print('\n'.join(reports))

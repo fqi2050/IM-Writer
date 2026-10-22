@@ -1,6 +1,6 @@
 # Consulting report design: PDF-derived profile
 
-Use this reference when the user requests the bundled KPMG-report-inspired palette, information density or reading-oriented layout. The rules and profile are included in this skill; the original reference PDF and repository pilot are not required at runtime. It is an optional design profile, not a universal rule for all clients or a KPMG brand manual. A native approved template takes precedence.
+This is the mandatory design reference for IMs created with this skill. Apply it on every run, including when the user only supplies source materials and does not repeat the style request. The rules and profile are bundled inside the skill; the original PDF and repository pilot are not required at runtime. These are rules derived from the user-selected KPMG report, not an official brand manual. A supplied authorized native KPMG template takes precedence for exact master/layout matching.
 
 ## What was observed
 
@@ -51,6 +51,6 @@ For each page, ask: what can the reader verify, compare or decide? Remove repeat
 
 ## Apply and verify
 
-Set storyboard `style_profile` to `advisory-dense`; use the profile's roles for explicit text colors/sizes and chart colors. The renderer uses the profile for default table styling and otherwise unspecified text/chart colors. It does not replace explicit old colors, move objects, write analysis or populate source footers automatically.
+Always set storyboard `style_profile` to `advisory-dense`; use the profile's roles for explicit text colors/sizes and chart colors. The renderer uses the profile for default table styling and otherwise unspecified text/chart colors. It does not replace explicit old colors, move objects, write analysis or populate source footers automatically.
 
 First validate investment case, business overview and financial analysis layouts against the user's materials. Use the bundled [format example](../assets/storyboard-example.json) when checking the semantic schema; author actual project layouts from the client evidence. Inspect rendered HTML and native PPT at the intended reading size. Before shrinking text, shorten repetition or rebalance columns. Keep all important financial rows, qualifications and source mappings. Native PPTX master matching remains a separate task once the original template is available.

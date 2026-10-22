@@ -22,5 +22,59 @@
     "path": "04_cfo_email.eml",
     "sha256": "89646b9c91b67f06eb1c82c750840df82b61729b5200c862c3fe1fac708cae9a",
     "status": "extracted"
+  },
+  {
+    "id": "05",
+    "path": "05_commercial_interview.txt",
+    "sha256": "955689dd850d7065ce86f6fe9e0fc723510d8bde429c4233065bc446181d76fc",
+    "status": "extracted"
+  },
+  {
+    "id": "06",
+    "path": "06_hub_schedule.csv",
+    "sha256": "0026eaeec46f6482457feb80cddab68a7a050ad646ef59b809cb538830738260",
+    "status": "extracted"
+  },
+  {
+    "id": "07",
+    "path": "07_service_kpis.csv",
+    "sha256": "2a436a7efa8048d9f6199b5da765e86ed977eaa158b84a4be946a204770beb89",
+    "status": "extracted"
+  },
+  {
+    "id": "08",
+    "path": "08_contract_expiries.csv",
+    "sha256": "07090103b6e9928dd8c8f072c1b3ce944d1f43820e0abdabe0fc225c4ab21ff6",
+    "status": "extracted"
+  },
+  {
+    "id": "09",
+    "path": "09_quarterly_accounts.csv",
+    "sha256": "1f0d7c952a45e441efc764784d756c70e2dd10e482199e87a9133b3ed2c83461",
+    "status": "extracted"
+  },
+  {
+    "id": "10",
+    "path": "10_cfo_follow_up.eml",
+    "sha256": "d49160fe7328b9aeaec8c392df434bfe12442f041a9956c94946fe16d6cb1f66",
+    "status": "extracted"
+  },
+  {
+    "id": "11",
+    "path": "11_forecast_bridge.csv",
+    "sha256": "f3bc5beffc833e7d8d3bea00aa82dd21232f6bb61185dac3ba394cae8c39cb61",
+    "status": "extracted"
+  },
+  {
+    "id": "12",
+    "path": "12_sector_mix.csv",
+    "sha256": "46ad696f346c9f1dbd37281b544dada33cdc730e76c27f0d854242c5d880ff7d",
+    "status": "extracted"
+  },
+  {
+    "id": "13",
+    "path": "13_transaction_workshop.txt",
+    "sha256": "db05e3563e78d2689a0cf01170f28f4dc2ec2cdfedea623f3e7c8b22531ab81a",
+    "status": "extracted"
   }
 ]

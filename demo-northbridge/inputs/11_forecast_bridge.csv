@@ -1,0 +1,9 @@
+# FICTIONAL TRAINING CASE; management submission 26 January 2026; unaudited
+component,fy2026_gbp_m,fy2027_gbp_m,basis
+Opening revenue,25,29,Prior year actual or forecast
+Price,1,1.16,Management assumption; customer acceptance required
+New contracts,2,2.4,Management assumption; unsigned pipeline
+Cross-sell,1.6,1.74,Management assumption; conversion required
+Attrition,-0.6,-0.7,Management assumption
+Closing revenue,29,33.6,Management forecast
+Year-end field engineers,95,105,Headcount; excludes attrition/replacement hiring; net growth from 85
