@@ -60,3 +60,5 @@ First validate investment case, business overview and financial analysis layouts
 The user found the first 10-page revision too sparse. Use compact title bands, narrower page margins and table padding, then spend the recovered space on supported analysis: margin/expense movements, quarterly contribution, contract exposure and forecast composition. Keep body text at a readable 16–17 on the 1280 canvas. Do not fill space by repeating diligence boilerplate, creating decorative KPI blocks or inventing operating facts. Keep each added calculation in the evidence ledger.
 
 Bottom browser navigation must vertically center its page counter and reserve a stable width with tabular digits, so 9 / 10 to 10 / 10 does not move the arrows. Slide footer page numbers align right to the same page edge.
+
+Place browser navigation in a separate layout row outside the slide viewport. Scale the 16:9 stage to the remaining viewport width and height, and observe viewport resizing so wrapped buttons or editing labels cannot cover slide content or footers.
