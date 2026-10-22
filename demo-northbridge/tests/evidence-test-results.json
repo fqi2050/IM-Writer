@@ -1,0 +1,9 @@
+{
+  "passed": [
+    "All input hashes and fact source locators match delivered inputs.",
+    "Top-five concentration excludes OTHER aggregate; margins and unit conversion reconcile.",
+    "Changing customer revenue by GBP 100k triggers a reconciliation failure before rendering.",
+    "Changing the briefing to GBP 26.6m updates conflict disclosure and the GBP 1.6m gap.",
+    "Undefined retention and missing market evidence remain unverified/missing; revenue remains provisional."
+  ]
+}

@@ -1,0 +1,69 @@
+[
+  {
+    "id": "I01",
+    "severity": "high",
+    "topic": "Revenue conflict",
+    "facts": [
+      "CONFLICT"
+    ],
+    "treatment": "GBP 25.0m model used provisionally, GBP 26.2m alternative disclosed.",
+    "request": "Reconcile recognised revenue to orders, invoices and general ledger.",
+    "owner_role": "CFO"
+  },
+  {
+    "id": "I02",
+    "severity": "resolved_normalization",
+    "topic": "Unit mismatch",
+    "facts": [
+      "UNITS"
+    ],
+    "treatment": "GBP 000 divided by 1,000; service and customer totals tie to GBP 25.0m.",
+    "request": "Retain source units and normalization formula.",
+    "owner_role": "Deal analyst"
+  },
+  {
+    "id": "I03",
+    "severity": "open",
+    "topic": "Undefined retention",
+    "facts": [
+      "RETENTION"
+    ],
+    "treatment": "94% excluded from numerical investment highlights.",
+    "request": "Define customer or revenue retention and provide matched cohorts.",
+    "owner_role": "Commercial diligence"
+  },
+  {
+    "id": "I04",
+    "severity": "open",
+    "topic": "Market evidence",
+    "facts": [
+      "MARKET"
+    ],
+    "treatment": "No market size, market share or leadership claim.",
+    "request": "Provide independent market study and competitor analysis.",
+    "owner_role": "Strategy team"
+  },
+  {
+    "id": "I05",
+    "severity": "high",
+    "topic": "Financial diligence",
+    "facts": [
+      "QOE"
+    ],
+    "treatment": "EBITDA labelled management-reported and unaudited.",
+    "request": "Provide QoE, normalisation, debt, cash and working capital schedules.",
+    "owner_role": "Financial diligence"
+  },
+  {
+    "id": "I06",
+    "severity": "open",
+    "topic": "Forecast support",
+    "facts": [
+      "FORECAST_BASIS",
+      "GROWTH"
+    ],
+    "treatment": "Forecasts explicitly labelled F, subject to hiring and renewals.",
+    "request": "Provide customer-level revenue bridge, signed pipeline and recruitment costs.",
+    "owner_role": "CFO / COO"
+  }
+]

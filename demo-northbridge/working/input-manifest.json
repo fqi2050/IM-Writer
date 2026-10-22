@@ -1,0 +1,26 @@
+[
+  {
+    "id": "01",
+    "path": "01_company_brief.docx",
+    "sha256": "69f0caace2b96b4398540b320778a470d0dd2aea42c2da7e4a81fe3fbba14fd9",
+    "status": "extracted"
+  },
+  {
+    "id": "02",
+    "path": "02_management_model.xlsx",
+    "sha256": "fa90fd1b4bdc6ccee4f18f6a3407062fa3af51aef44598edfcf020f429dec951",
+    "status": "extracted"
+  },
+  {
+    "id": "03",
+    "path": "03_management_interview.txt",
+    "sha256": "ff1b17f37f70f3d9ce63a9b2c9dbc9aa7023ff0d5dbf7dbfa26fbe8f8198c670",
+    "status": "extracted"
+  },
+  {
+    "id": "04",
+    "path": "04_cfo_email.eml",
+    "sha256": "89646b9c91b67f06eb1c82c750840df82b61729b5200c862c3fe1fac708cae9a",
+    "status": "extracted"
+  }
+]

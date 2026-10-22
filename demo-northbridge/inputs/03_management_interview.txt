@@ -1,0 +1,11 @@
+FICTIONAL TRAINING MATERIAL
+Northbridge management interview, 20 January 2026
+
+[00:03] CEO: The business was founded in 2012. Our headquarters are Birmingham. We serve UK industrial and logistics customers.
+[00:08] CFO: The FY2025 management P&L model shows revenue of GBP 25.0m and EBITDA of GBP 5.0m. The earlier company briefing shows GBP 26.2m. The difference may involve orders that were not recognised as revenue. We have not completed the reconciliation.
+[00:12] COO: At year end we had 120 employees, including 85 engineers, across Birmingham, Manchester and Bristol.
+[00:17] CEO: We estimate customer retention at 94% in FY2025, but have not supplied the cohort calculation or defined whether that refers to customers or revenue.
+[00:21] CEO: We believe the market is fragmented. We have not commissioned a market-sizing study and cannot substantiate a market-share percentage.
+[00:25] CFO: FY2026 and FY2027 are management forecasts, not contracted revenue. Revenue is expected to reach GBP 29.0m and GBP 33.6m, with EBITDA of GBP 6.1m and GBP 7.4m respectively.
+[00:28] CEO: Growth depends on technician recruitment, renewals and converting more repair customers to maintenance contracts. We plan 20 net new engineers by FY2027.
+[00:31] CFO: EBITDA is management-reported and unaudited. No normalisation bridge or quality-of-earnings report is available. We have not supplied cash, debt or normalised working capital.

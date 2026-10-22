@@ -1,0 +1,4619 @@
+{
+  "synthetic": true,
+  "sources": [
+    {
+      "id": "01",
+      "path": "01_company_brief.docx",
+      "sha256": "69f0caace2b96b4398540b320778a470d0dd2aea42c2da7e4a81fe3fbba14fd9",
+      "status": "extracted"
+    },
+    {
+      "id": "02",
+      "path": "02_management_model.xlsx",
+      "sha256": "fa90fd1b4bdc6ccee4f18f6a3407062fa3af51aef44598edfcf020f429dec951",
+      "status": "extracted"
+    },
+    {
+      "id": "03",
+      "path": "03_management_interview.txt",
+      "sha256": "ff1b17f37f70f3d9ce63a9b2c9dbc9aa7023ff0d5dbf7dbfa26fbe8f8198c670",
+      "status": "extracted"
+    },
+    {
+      "id": "04",
+      "path": "04_cfo_email.eml",
+      "sha256": "89646b9c91b67f06eb1c82c750840df82b61729b5200c862c3fe1fac708cae9a",
+      "status": "extracted"
+    }
+  ],
+  "facts": [
+    {
+      "id": "FIN23",
+      "claim": "FY2023 financial statements",
+      "raw_value": {
+        "revenue": 18.0,
+        "cost": -10.8,
+        "gross_profit": 7.199999999999999,
+        "opex": -4.5,
+        "ebitda": 2.6999999999999993,
+        "margin": 0.14999999999999997
+      },
+      "value": {
+        "revenue": 18.0,
+        "cost": -10.8,
+        "gross_profit": 7.199999999999999,
+        "opex": -4.5,
+        "ebitda": 2.6999999999999993,
+        "margin": 0.14999999999999997
+      },
+      "unit": "GBP million / ratio",
+      "period": "FY2023",
+      "basis": "actual",
+      "scope": "Northbridge standalone UK company",
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B5",
+          "excerpt": "FY2023A"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B6",
+          "excerpt": "18"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B7",
+          "excerpt": "-10.8"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B8",
+          "excerpt": "7.199999999999999"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B9",
+          "excerpt": "-4.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B10",
+          "excerpt": "2.6999999999999993"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B11",
+          "excerpt": "0.14999999999999997"
+        }
+      ],
+      "status": "source_supported",
+      "limitations": "Unaudited management figures; FY2025 revenue conflict remains open.",
+      "synthetic": true
+    },
+    {
+      "id": "FIN24",
+      "claim": "FY2024 financial statements",
+      "raw_value": {
+        "revenue": 21.5,
+        "cost": -12.7,
+        "gross_profit": 8.8,
+        "opex": -4.9,
+        "ebitda": 3.9000000000000004,
+        "margin": 0.1813953488372093
+      },
+      "value": {
+        "revenue": 21.5,
+        "cost": -12.7,
+        "gross_profit": 8.8,
+        "opex": -4.9,
+        "ebitda": 3.9000000000000004,
+        "margin": 0.1813953488372093
+      },
+      "unit": "GBP million / ratio",
+      "period": "FY2024",
+      "basis": "actual",
+      "scope": "Northbridge standalone UK company",
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!C5",
+          "excerpt": "FY2024A"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!C6",
+          "excerpt": "21.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!C7",
+          "excerpt": "-12.7"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!C8",
+          "excerpt": "8.8"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!C9",
+          "excerpt": "-4.9"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!C10",
+          "excerpt": "3.9000000000000004"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!C11",
+          "excerpt": "0.1813953488372093"
+        }
+      ],
+      "status": "source_supported",
+      "limitations": "Unaudited management figures; FY2025 revenue conflict remains open.",
+      "synthetic": true
+    },
+    {
+      "id": "FIN25",
+      "claim": "FY2025 financial statements",
+      "raw_value": {
+        "revenue": 25.0,
+        "cost": -14.5,
+        "gross_profit": 10.5,
+        "opex": -5.5,
+        "ebitda": 5.0,
+        "margin": 0.2
+      },
+      "value": {
+        "revenue": 25.0,
+        "cost": -14.5,
+        "gross_profit": 10.5,
+        "opex": -5.5,
+        "ebitda": 5.0,
+        "margin": 0.2
+      },
+      "unit": "GBP million / ratio",
+      "period": "FY2025",
+      "basis": "actual",
+      "scope": "Northbridge standalone UK company",
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D5",
+          "excerpt": "FY2025A"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D6",
+          "excerpt": "25"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D7",
+          "excerpt": "-14.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D8",
+          "excerpt": "10.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D9",
+          "excerpt": "-5.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D10",
+          "excerpt": "5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D11",
+          "excerpt": "0.2"
+        }
+      ],
+      "status": "provisional_conflict",
+      "limitations": "Unaudited management figures; FY2025 revenue conflict remains open.",
+      "synthetic": true
+    },
+    {
+      "id": "FIN26",
+      "claim": "FY2026 financial statements",
+      "raw_value": {
+        "revenue": 29.0,
+        "cost": -16.5,
+        "gross_profit": 12.5,
+        "opex": -6.4,
+        "ebitda": 6.1,
+        "margin": 0.21034482758620687
+      },
+      "value": {
+        "revenue": 29.0,
+        "cost": -16.5,
+        "gross_profit": 12.5,
+        "opex": -6.4,
+        "ebitda": 6.1,
+        "margin": 0.21034482758620687
+      },
+      "unit": "GBP million / ratio",
+      "period": "FY2026",
+      "basis": "forecast",
+      "scope": "Northbridge standalone UK company",
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!E5",
+          "excerpt": "FY2026F"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!E6",
+          "excerpt": "29"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!E7",
+          "excerpt": "-16.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!E8",
+          "excerpt": "12.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!E9",
+          "excerpt": "-6.4"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!E10",
+          "excerpt": "6.1"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!E11",
+          "excerpt": "0.21034482758620687"
+        }
+      ],
+      "status": "source_supported",
+      "limitations": "Unaudited management figures; FY2025 revenue conflict remains open.",
+      "synthetic": true
+    },
+    {
+      "id": "FIN27",
+      "claim": "FY2027 financial statements",
+      "raw_value": {
+        "revenue": 33.6,
+        "cost": -18.6,
+        "gross_profit": 15.0,
+        "opex": -7.6,
+        "ebitda": 7.4,
+        "margin": 0.22023809523809523
+      },
+      "value": {
+        "revenue": 33.6,
+        "cost": -18.6,
+        "gross_profit": 15.0,
+        "opex": -7.6,
+        "ebitda": 7.4,
+        "margin": 0.22023809523809523
+      },
+      "unit": "GBP million / ratio",
+      "period": "FY2027",
+      "basis": "forecast",
+      "scope": "Northbridge standalone UK company",
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!F5",
+          "excerpt": "FY2027F"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!F6",
+          "excerpt": "33.6"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!F7",
+          "excerpt": "-18.6"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!F8",
+          "excerpt": "15"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!F9",
+          "excerpt": "-7.6"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!F10",
+          "excerpt": "7.4"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!F11",
+          "excerpt": "0.22023809523809523"
+        }
+      ],
+      "status": "source_supported",
+      "limitations": "Unaudited management figures; FY2025 revenue conflict remains open.",
+      "synthetic": true
+    },
+    {
+      "id": "CONFLICT",
+      "claim": "FY2025 revenue difference",
+      "raw_value": {
+        "model": 25.0,
+        "briefing": 26.2
+      },
+      "value": {
+        "model": 25.0,
+        "briefing": 26.2
+      },
+      "unit": "GBP million",
+      "period": "FY2025",
+      "basis": "actual",
+      "scope": "Northbridge standalone UK company",
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D6",
+          "excerpt": "25"
+        },
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 8",
+          "excerpt": "The preliminary FY2025 revenue estimate is GBP 26.2 million. This briefing does not provide a reconciliation to the finance model. Financial years end on 31 December. All revenue figures exclude VAT."
+        },
+        {
+          "source_id": "04",
+          "path": "04_cfo_email.eml",
+          "locator": "line 8",
+          "excerpt": "Please use the attached management model as the provisional basis for the draft. The GBP 1.2m difference against the briefing remains unresolved and must remain visible in the draft. This is not confirmation that the model has been audited."
+        }
+      ],
+      "status": "provisional_conflict",
+      "limitations": "Use model provisionally under CFO instruction; do not call reconciled.",
+      "synthetic": true
+    },
+    {
+      "id": "BUS",
+      "claim": "Business and founding",
+      "raw_value": 2012,
+      "value": 2012,
+      "unit": "year",
+      "period": "January 2026",
+      "basis": "management assertion",
+      "scope": "Northbridge standalone UK company",
+      "source_refs": [
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 4",
+          "excerpt": "Northbridge Field Services Ltd was founded in 2012. The UK business provides equipment maintenance and technical field support to industrial and logistics customers. Its headquarters are in Birmingham. The transaction perimeter is the entire standalone UK company."
+        }
+      ],
+      "status": "source_supported",
+      "limitations": "",
+      "synthetic": true
+    },
+    {
+      "id": "SERVICES",
+      "claim": "Services and contract terms",
+      "raw_value": null,
+      "value": null,
+      "unit": "text",
+      "period": "FY2025",
+      "basis": "management assertion",
+      "scope": "Northbridge standalone UK company",
+      "source_refs": [
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 6",
+          "excerpt": "The business supplies scheduled maintenance under annual service contracts, reactive repairs and installation projects. Contracts generally run for one to three years and renew by agreement. Scheduled maintenance provides the contracted revenue stream. No assumption should be made that renewals are automatic. Customers include logistics operators, manufacturers and facilities managers."
+        }
+      ],
+      "status": "source_supported",
+      "limitations": "",
+      "synthetic": true
+    },
+    {
+      "id": "MIX",
+      "claim": "FY2025 service revenue",
+      "raw_value": [
+        17500.0,
+        5000.0,
+        2500.0
+      ],
+      "value": [
+        17500.0,
+        5000.0,
+        2500.0
+      ],
+      "unit": "GBP thousand",
+      "period": "FY2025",
+      "basis": "actual",
+      "scope": "Northbridge standalone UK company",
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!A5",
+          "excerpt": "Scheduled maintenance"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!B5",
+          "excerpt": "17500"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!C5",
+          "excerpt": "Annual service contracts"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!A6",
+          "excerpt": "Reactive repairs"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!B6",
+          "excerpt": "5000"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!C6",
+          "excerpt": "Call-out and materials"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!A7",
+          "excerpt": "Installation projects"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!B7",
+          "excerpt": "2500"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!C7",
+          "excerpt": "Project-based work"
+        }
+      ],
+      "status": "source_supported",
+      "limitations": "",
+      "synthetic": true
+    },
+    {
+      "id": "CUSTOMERS",
+      "claim": "FY2025 customer sales",
+      "raw_value": [
+        3000.0,
+        2250.0,
+        2000.0,
+        1750.0,
+        1500.0,
+        14500.0
+      ],
+      "value": [
+        3000.0,
+        2250.0,
+        2000.0,
+        1750.0,
+        1500.0,
+        14500.0
+      ],
+      "unit": "GBP thousand",
+      "period": "FY2025",
+      "basis": "actual",
+      "scope": "Northbridge standalone UK company",
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A5",
+          "excerpt": "C001"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B5",
+          "excerpt": "Customer A"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C5",
+          "excerpt": "3000"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A6",
+          "excerpt": "C002"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B6",
+          "excerpt": "Customer B"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C6",
+          "excerpt": "2250"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A7",
+          "excerpt": "C003"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B7",
+          "excerpt": "Customer C"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C7",
+          "excerpt": "2000"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A8",
+          "excerpt": "C004"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B8",
+          "excerpt": "Customer D"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C8",
+          "excerpt": "1750"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A9",
+          "excerpt": "C005"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B9",
+          "excerpt": "Customer E"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C9",
+          "excerpt": "1500"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A10",
+          "excerpt": "OTHER"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B10",
+          "excerpt": "All other customers (aggregate)"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C10",
+          "excerpt": "14500"
+        }
+      ],
+      "status": "source_supported",
+      "limitations": "OTHER is an aggregate.",
+      "synthetic": true
+    },
+    {
+      "id": "OPS",
+      "claim": "People, hubs and management",
+      "raw_value": {
+        "employees": 120,
+        "engineers": 85,
+        "hubs": [
+          "Birmingham",
+          "Manchester",
+          "Bristol"
+        ]
+      },
+      "value": {
+        "employees": 120,
+        "engineers": 85,
+        "hubs": [
+          "Birmingham",
+          "Manchester",
+          "Bristol"
+        ]
+      },
+      "unit": "headcount / places",
+      "period": "31 December 2025",
+      "basis": "management assertion",
+      "scope": "Northbridge standalone UK company",
+      "source_refs": [
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 10",
+          "excerpt": "At 31 December 2025, Northbridge has 120 employees including 85 field engineers. It operates hubs in Birmingham, Manchester and Bristol. Maya Reed is founder and CEO, Daniel Cole is CFO and Aisha Patel is COO. These names and all company details are fictitious. The founder continues to lead major customer relationships."
+        }
+      ],
+      "status": "source_supported",
+      "limitations": "",
+      "synthetic": true
+    },
+    {
+      "id": "GROWTH",
+      "claim": "Management growth plan",
+      "raw_value": 20,
+      "value": 20,
+      "unit": "net engineers added",
+      "period": "by FY2027",
+      "basis": "forecast",
+      "scope": "Northbridge standalone UK company",
+      "source_refs": [
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 12",
+          "excerpt": "Management plans to add 20 net field engineers by the end of FY2027, cross-sell scheduled maintenance to repair customers and expand service coverage from existing hubs. The plan assumes sufficient technician recruitment and contract renewals. No signed pipeline or customer-cohort evidence accompanies this briefing."
+        },
+        {
+          "source_id": "03",
+          "path": "03_management_interview.txt",
+          "locator": "line 10",
+          "excerpt": "[00:28] CEO: Growth depends on technician recruitment, renewals and converting more repair customers to maintenance contracts. We plan 20 net new engineers by FY2027."
+        }
+      ],
+      "status": "source_supported",
+      "limitations": "",
+      "synthetic": true
+    },
+    {
+      "id": "MARKET",
+      "claim": "Market size and share unavailable",
+      "raw_value": null,
+      "value": null,
+      "unit": "not available",
+      "period": "January 2026",
+      "basis": "management assertion",
+      "scope": "Northbridge standalone UK company",
+      "source_refs": [
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 16",
+          "excerpt": "Management describes the UK equipment-maintenance market as fragmented. No independent market-size study, market-share estimate or competitor benchmarking has been provided."
+        }
+      ],
+      "status": "missing",
+      "limitations": "Fragmentation is a management assertion without independent support.",
+      "synthetic": true
+    },
+    {
+      "id": "RETENTION",
+      "claim": "Retention estimate lacks defined basis",
+      "raw_value": 0.94,
+      "value": 0.94,
+      "unit": "ratio",
+      "period": "FY2025",
+      "basis": "management assertion",
+      "scope": "Northbridge standalone UK company",
+      "source_refs": [
+        {
+          "source_id": "03",
+          "path": "03_management_interview.txt",
+          "locator": "line 7",
+          "excerpt": "[00:17] CEO: We estimate customer retention at 94% in FY2025, but have not supplied the cohort calculation or defined whether that refers to customers or revenue."
+        }
+      ],
+      "status": "management_unverified",
+      "limitations": "No definition or cohort data; excluded from quantitative investment highlights.",
+      "synthetic": true
+    },
+    {
+      "id": "DEAL",
+      "claim": "Ownership and proposed sale",
+      "raw_value": {
+        "founder": 0.7,
+        "management": 0.2,
+        "seed": 0.1,
+        "sale_min": 0.7,
+        "sale_max": 1
+      },
+      "value": {
+        "founder": 0.7,
+        "management": 0.2,
+        "seed": 0.1,
+        "sale_min": 0.7,
+        "sale_max": 1
+      },
+      "unit": "equity fraction",
+      "period": "January 2026",
+      "basis": "proposal",
+      "scope": "Northbridge standalone UK company",
+      "source_refs": [
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 14",
+          "excerpt": "The founder holds 70%, management holds 20% and a seed investor holds 10% of ordinary equity. Shareholders are considering a sale of 70% to 100% of the company. Management rollover, valuation, timing and financing remain to be agreed. No debt, cash or working-capital schedule has been provided."
+        }
+      ],
+      "status": "source_supported",
+      "limitations": "",
+      "synthetic": true
+    },
+    {
+      "id": "QOE",
+      "claim": "Financial diligence evidence unavailable",
+      "raw_value": null,
+      "value": null,
+      "unit": "not available",
+      "period": "January 2026",
+      "basis": "management assertion",
+      "scope": "Northbridge standalone UK company",
+      "source_refs": [
+        {
+          "source_id": "03",
+          "path": "03_management_interview.txt",
+          "locator": "line 11",
+          "excerpt": "[00:31] CFO: EBITDA is management-reported and unaudited. No normalisation bridge or quality-of-earnings report is available. We have not supplied cash, debt or normalised working capital."
+        }
+      ],
+      "status": "missing",
+      "limitations": "No QoE, cash, debt or working-capital evidence.",
+      "synthetic": true
+    },
+    {
+      "id": "UNITS",
+      "claim": "Financial and sales schedule units",
+      "raw_value": {
+        "pnl": "GBP million",
+        "sales": "GBP thousand"
+      },
+      "value": {
+        "pnl": "GBP million",
+        "sales": "GBP thousand"
+      },
+      "unit": "text",
+      "period": "FY2025",
+      "basis": "management assertion",
+      "scope": "Northbridge standalone UK company",
+      "source_refs": [
+        {
+          "source_id": "04",
+          "path": "04_cfo_email.eml",
+          "locator": "line 10",
+          "excerpt": "The P&L tab is in GBP millions. The CustomerSales and ServiceMix tabs are in GBP thousands. They cover FY2025 recognised revenue, excluding VAT, for the same UK company. CustomerSales contains the five largest customers plus one aggregate row for all others. Do not treat that aggregate as a single customer."
+        }
+      ],
+      "status": "source_supported",
+      "limitations": "",
+      "synthetic": true
+    },
+    {
+      "id": "FORECAST_BASIS",
+      "claim": "Forecast bridge unavailable",
+      "raw_value": null,
+      "value": null,
+      "unit": "not available",
+      "period": "FY2026-FY2027",
+      "basis": "forecast",
+      "scope": "Northbridge standalone UK company",
+      "source_refs": [
+        {
+          "source_id": "04",
+          "path": "04_cfo_email.eml",
+          "locator": "line 12",
+          "excerpt": "The model is version 2.0, dated 21 January 2026. The forecast is management's base case. There is no customer-level forecast bridge or recruitment cost schedule yet."
+        }
+      ],
+      "status": "missing",
+      "limitations": "",
+      "synthetic": true
+    }
+  ],
+  "calculations": [
+    {
+      "id": "CAGR",
+      "formula": "(FY2025 revenue / FY2023 revenue)^(1/2) - 1",
+      "input_ids": [
+        "FIN23",
+        "FIN25"
+      ],
+      "result": 0.17851130197757925,
+      "unit": "ratio",
+      "rounding": "Full precision internally; one decimal for GBP million and most percentages"
+    },
+    {
+      "id": "FCAGR",
+      "formula": "(FY2027F revenue / FY2025A revenue)^(1/2) - 1",
+      "input_ids": [
+        "FIN25",
+        "FIN27"
+      ],
+      "result": 0.15931013969515506,
+      "unit": "ratio",
+      "rounding": "Full precision internally; one decimal for GBP million and most percentages"
+    },
+    {
+      "id": "TOP5",
+      "formula": "sum(CustomerSales!C5:C9) / sum(CustomerSales!C5:C10)",
+      "input_ids": [
+        "CUSTOMERS"
+      ],
+      "result": 0.42,
+      "unit": "ratio",
+      "rounding": "Full precision internally; one decimal for GBP million and most percentages"
+    },
+    {
+      "id": "LARGEST",
+      "formula": "max(CustomerSales!C5:C9) / sum(CustomerSales!C5:C10)",
+      "input_ids": [
+        "CUSTOMERS"
+      ],
+      "result": 0.12,
+      "unit": "ratio",
+      "rounding": "Full precision internally; one decimal for GBP million and most percentages"
+    },
+    {
+      "id": "MIX_SHARE",
+      "formula": "ServiceMix!B5:B7 / sum(ServiceMix!B5:B7)",
+      "input_ids": [
+        "MIX"
+      ],
+      "result": [
+        0.7,
+        0.2,
+        0.1
+      ],
+      "unit": "ratio",
+      "rounding": "Full precision internally; one decimal for GBP million and most percentages"
+    },
+    {
+      "id": "NORMALIZE",
+      "formula": "GBP thousand / 1000",
+      "input_ids": [
+        "MIX",
+        "CUSTOMERS",
+        "UNITS"
+      ],
+      "result": {
+        "services_m": [
+          17.5,
+          5.0,
+          2.5
+        ],
+        "customers_m": [
+          3.0,
+          2.25,
+          2.0,
+          1.75,
+          1.5,
+          14.5
+        ]
+      },
+      "unit": "GBP million",
+      "rounding": "Full precision internally; one decimal for GBP million and most percentages"
+    },
+    {
+      "id": "MARGINS",
+      "formula": "Each period EBITDA / same period revenue",
+      "input_ids": [
+        "FIN23",
+        "FIN24",
+        "FIN25",
+        "FIN26",
+        "FIN27"
+      ],
+      "result": [
+        0.14999999999999997,
+        0.1813953488372093,
+        0.2,
+        0.21034482758620687,
+        0.22023809523809523
+      ],
+      "unit": "ratio",
+      "rounding": "Full precision internally; one decimal for GBP million and most percentages"
+    },
+    {
+      "id": "REVENUE_GAP",
+      "formula": "Briefing FY2025 revenue minus model FY2025 revenue",
+      "input_ids": [
+        "CONFLICT"
+      ],
+      "result": 1.1999999999999993,
+      "unit": "GBP million",
+      "rounding": "Full precision internally; one decimal for GBP million and most percentages"
+    }
+  ],
+  "issues": [
+    {
+      "id": "I01",
+      "severity": "high",
+      "topic": "Revenue conflict",
+      "facts": [
+        "CONFLICT"
+      ],
+      "treatment": "GBP 25.0m model used provisionally, GBP 26.2m alternative disclosed.",
+      "request": "Reconcile recognised revenue to orders, invoices and general ledger.",
+      "owner_role": "CFO"
+    },
+    {
+      "id": "I02",
+      "severity": "resolved_normalization",
+      "topic": "Unit mismatch",
+      "facts": [
+        "UNITS"
+      ],
+      "treatment": "GBP 000 divided by 1,000; service and customer totals tie to GBP 25.0m.",
+      "request": "Retain source units and normalization formula.",
+      "owner_role": "Deal analyst"
+    },
+    {
+      "id": "I03",
+      "severity": "open",
+      "topic": "Undefined retention",
+      "facts": [
+        "RETENTION"
+      ],
+      "treatment": "94% excluded from numerical investment highlights.",
+      "request": "Define customer or revenue retention and provide matched cohorts.",
+      "owner_role": "Commercial diligence"
+    },
+    {
+      "id": "I04",
+      "severity": "open",
+      "topic": "Market evidence",
+      "facts": [
+        "MARKET"
+      ],
+      "treatment": "No market size, market share or leadership claim.",
+      "request": "Provide independent market study and competitor analysis.",
+      "owner_role": "Strategy team"
+    },
+    {
+      "id": "I05",
+      "severity": "high",
+      "topic": "Financial diligence",
+      "facts": [
+        "QOE"
+      ],
+      "treatment": "EBITDA labelled management-reported and unaudited.",
+      "request": "Provide QoE, normalisation, debt, cash and working capital schedules.",
+      "owner_role": "Financial diligence"
+    },
+    {
+      "id": "I06",
+      "severity": "open",
+      "topic": "Forecast support",
+      "facts": [
+        "FORECAST_BASIS",
+        "GROWTH"
+      ],
+      "treatment": "Forecasts explicitly labelled F, subject to hiring and renewals.",
+      "request": "Provide customer-level revenue bridge, signed pipeline and recruitment costs.",
+      "owner_role": "CFO / COO"
+    }
+  ],
+  "slide_claims": [
+    {
+      "slide": 1,
+      "element_id": "cover-title",
+      "fact_ids": [
+        "BUS"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 4",
+          "excerpt": "Northbridge Field Services Ltd was founded in 2012. The UK business provides equipment maintenance and technical field support to industrial and logistics customers. Its headquarters are in Birmingham. The transaction perimeter is the entire standalone UK company."
+        }
+      ]
+    },
+    {
+      "slide": 1,
+      "element_id": "cover-company",
+      "fact_ids": [
+        "BUS"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 4",
+          "excerpt": "Northbridge Field Services Ltd was founded in 2012. The UK business provides equipment maintenance and technical field support to industrial and logistics customers. Its headquarters are in Birmingham. The transaction perimeter is the entire standalone UK company."
+        }
+      ]
+    },
+    {
+      "slide": 2,
+      "element_id": "s2-kpi0",
+      "fact_ids": [
+        "FIN25"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D5",
+          "excerpt": "FY2025A"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D6",
+          "excerpt": "25"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D7",
+          "excerpt": "-14.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D8",
+          "excerpt": "10.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D9",
+          "excerpt": "-5.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D10",
+          "excerpt": "5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D11",
+          "excerpt": "0.2"
+        }
+      ]
+    },
+    {
+      "slide": 2,
+      "element_id": "s2-label0",
+      "fact_ids": [
+        "FIN25"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D5",
+          "excerpt": "FY2025A"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D6",
+          "excerpt": "25"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D7",
+          "excerpt": "-14.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D8",
+          "excerpt": "10.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D9",
+          "excerpt": "-5.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D10",
+          "excerpt": "5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D11",
+          "excerpt": "0.2"
+        }
+      ]
+    },
+    {
+      "slide": 2,
+      "element_id": "s2-kpi1",
+      "fact_ids": [
+        "FIN25"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D5",
+          "excerpt": "FY2025A"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D6",
+          "excerpt": "25"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D7",
+          "excerpt": "-14.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D8",
+          "excerpt": "10.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D9",
+          "excerpt": "-5.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D10",
+          "excerpt": "5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D11",
+          "excerpt": "0.2"
+        }
+      ]
+    },
+    {
+      "slide": 2,
+      "element_id": "s2-label1",
+      "fact_ids": [
+        "FIN25"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D5",
+          "excerpt": "FY2025A"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D6",
+          "excerpt": "25"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D7",
+          "excerpt": "-14.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D8",
+          "excerpt": "10.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D9",
+          "excerpt": "-5.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D10",
+          "excerpt": "5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D11",
+          "excerpt": "0.2"
+        }
+      ]
+    },
+    {
+      "slide": 2,
+      "element_id": "s2-kpi2",
+      "fact_ids": [
+        "FIN25"
+      ],
+      "calculation_ids": [
+        "MARGINS"
+      ],
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D5",
+          "excerpt": "FY2025A"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D6",
+          "excerpt": "25"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D7",
+          "excerpt": "-14.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D8",
+          "excerpt": "10.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D9",
+          "excerpt": "-5.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D10",
+          "excerpt": "5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D11",
+          "excerpt": "0.2"
+        }
+      ]
+    },
+    {
+      "slide": 2,
+      "element_id": "s2-label2",
+      "fact_ids": [
+        "FIN25"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D5",
+          "excerpt": "FY2025A"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D6",
+          "excerpt": "25"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D7",
+          "excerpt": "-14.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D8",
+          "excerpt": "10.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D9",
+          "excerpt": "-5.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D10",
+          "excerpt": "5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D11",
+          "excerpt": "0.2"
+        }
+      ]
+    },
+    {
+      "slide": 2,
+      "element_id": "s2-kpi3",
+      "fact_ids": [
+        "MIX"
+      ],
+      "calculation_ids": [
+        "MIX_SHARE"
+      ],
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!A5",
+          "excerpt": "Scheduled maintenance"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!B5",
+          "excerpt": "17500"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!C5",
+          "excerpt": "Annual service contracts"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!A6",
+          "excerpt": "Reactive repairs"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!B6",
+          "excerpt": "5000"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!C6",
+          "excerpt": "Call-out and materials"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!A7",
+          "excerpt": "Installation projects"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!B7",
+          "excerpt": "2500"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!C7",
+          "excerpt": "Project-based work"
+        }
+      ]
+    },
+    {
+      "slide": 2,
+      "element_id": "s2-label3",
+      "fact_ids": [
+        "MIX"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!A5",
+          "excerpt": "Scheduled maintenance"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!B5",
+          "excerpt": "17500"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!C5",
+          "excerpt": "Annual service contracts"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!A6",
+          "excerpt": "Reactive repairs"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!B6",
+          "excerpt": "5000"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!C6",
+          "excerpt": "Call-out and materials"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!A7",
+          "excerpt": "Installation projects"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!B7",
+          "excerpt": "2500"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!C7",
+          "excerpt": "Project-based work"
+        }
+      ]
+    },
+    {
+      "slide": 2,
+      "element_id": "s2-business",
+      "fact_ids": [
+        "BUS",
+        "SERVICES",
+        "OPS"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 4",
+          "excerpt": "Northbridge Field Services Ltd was founded in 2012. The UK business provides equipment maintenance and technical field support to industrial and logistics customers. Its headquarters are in Birmingham. The transaction perimeter is the entire standalone UK company."
+        },
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 6",
+          "excerpt": "The business supplies scheduled maintenance under annual service contracts, reactive repairs and installation projects. Contracts generally run for one to three years and renew by agreement. Scheduled maintenance provides the contracted revenue stream. No assumption should be made that renewals are automatic. Customers include logistics operators, manufacturers and facilities managers."
+        },
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 10",
+          "excerpt": "At 31 December 2025, Northbridge has 120 employees including 85 field engineers. It operates hubs in Birmingham, Manchester and Bristol. Maya Reed is founder and CEO, Daniel Cole is CFO and Aisha Patel is COO. These names and all company details are fictitious. The founder continues to lead major customer relationships."
+        }
+      ]
+    },
+    {
+      "slide": 2,
+      "element_id": "s2-sale",
+      "fact_ids": [
+        "DEAL"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 14",
+          "excerpt": "The founder holds 70%, management holds 20% and a seed investor holds 10% of ordinary equity. Shareholders are considering a sale of 70% to 100% of the company. Management rollover, valuation, timing and financing remain to be agreed. No debt, cash or working-capital schedule has been provided."
+        }
+      ]
+    },
+    {
+      "slide": 2,
+      "element_id": "s2-sale-detail",
+      "fact_ids": [
+        "DEAL"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 14",
+          "excerpt": "The founder holds 70%, management holds 20% and a seed investor holds 10% of ordinary equity. Shareholders are considering a sale of 70% to 100% of the company. Management rollover, valuation, timing and financing remain to be agreed. No debt, cash or working-capital schedule has been provided."
+        }
+      ]
+    },
+    {
+      "slide": 2,
+      "element_id": "s2-caveat",
+      "fact_ids": [
+        "CONFLICT",
+        "QOE"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D6",
+          "excerpt": "25"
+        },
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 8",
+          "excerpt": "The preliminary FY2025 revenue estimate is GBP 26.2 million. This briefing does not provide a reconciliation to the finance model. Financial years end on 31 December. All revenue figures exclude VAT."
+        },
+        {
+          "source_id": "04",
+          "path": "04_cfo_email.eml",
+          "locator": "line 8",
+          "excerpt": "Please use the attached management model as the provisional basis for the draft. The GBP 1.2m difference against the briefing remains unresolved and must remain visible in the draft. This is not confirmation that the model has been audited."
+        },
+        {
+          "source_id": "03",
+          "path": "03_management_interview.txt",
+          "locator": "line 11",
+          "excerpt": "[00:31] CFO: EBITDA is management-reported and unaudited. No normalisation bridge or quality-of-earnings report is available. We have not supplied cash, debt or normalised working capital."
+        }
+      ]
+    },
+    {
+      "slide": 3,
+      "element_id": "s3-head0",
+      "fact_ids": [
+        "MIX",
+        "SERVICES"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!A5",
+          "excerpt": "Scheduled maintenance"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!B5",
+          "excerpt": "17500"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!C5",
+          "excerpt": "Annual service contracts"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!A6",
+          "excerpt": "Reactive repairs"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!B6",
+          "excerpt": "5000"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!C6",
+          "excerpt": "Call-out and materials"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!A7",
+          "excerpt": "Installation projects"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!B7",
+          "excerpt": "2500"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!C7",
+          "excerpt": "Project-based work"
+        },
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 6",
+          "excerpt": "The business supplies scheduled maintenance under annual service contracts, reactive repairs and installation projects. Contracts generally run for one to three years and renew by agreement. Scheduled maintenance provides the contracted revenue stream. No assumption should be made that renewals are automatic. Customers include logistics operators, manufacturers and facilities managers."
+        }
+      ]
+    },
+    {
+      "slide": 3,
+      "element_id": "s3-body0",
+      "fact_ids": [
+        "MIX",
+        "SERVICES"
+      ],
+      "calculation_ids": [
+        "MIX_SHARE"
+      ],
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!A5",
+          "excerpt": "Scheduled maintenance"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!B5",
+          "excerpt": "17500"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!C5",
+          "excerpt": "Annual service contracts"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!A6",
+          "excerpt": "Reactive repairs"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!B6",
+          "excerpt": "5000"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!C6",
+          "excerpt": "Call-out and materials"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!A7",
+          "excerpt": "Installation projects"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!B7",
+          "excerpt": "2500"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!C7",
+          "excerpt": "Project-based work"
+        },
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 6",
+          "excerpt": "The business supplies scheduled maintenance under annual service contracts, reactive repairs and installation projects. Contracts generally run for one to three years and renew by agreement. Scheduled maintenance provides the contracted revenue stream. No assumption should be made that renewals are automatic. Customers include logistics operators, manufacturers and facilities managers."
+        }
+      ]
+    },
+    {
+      "slide": 3,
+      "element_id": "s3-head1",
+      "fact_ids": [
+        "FIN23",
+        "FIN25"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B5",
+          "excerpt": "FY2023A"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B6",
+          "excerpt": "18"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B7",
+          "excerpt": "-10.8"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B8",
+          "excerpt": "7.199999999999999"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B9",
+          "excerpt": "-4.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B10",
+          "excerpt": "2.6999999999999993"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B11",
+          "excerpt": "0.14999999999999997"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D5",
+          "excerpt": "FY2025A"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D6",
+          "excerpt": "25"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D7",
+          "excerpt": "-14.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D8",
+          "excerpt": "10.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D9",
+          "excerpt": "-5.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D10",
+          "excerpt": "5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D11",
+          "excerpt": "0.2"
+        }
+      ]
+    },
+    {
+      "slide": 3,
+      "element_id": "s3-body1",
+      "fact_ids": [
+        "FIN23",
+        "FIN25"
+      ],
+      "calculation_ids": [
+        "CAGR"
+      ],
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B5",
+          "excerpt": "FY2023A"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B6",
+          "excerpt": "18"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B7",
+          "excerpt": "-10.8"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B8",
+          "excerpt": "7.199999999999999"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B9",
+          "excerpt": "-4.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B10",
+          "excerpt": "2.6999999999999993"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B11",
+          "excerpt": "0.14999999999999997"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D5",
+          "excerpt": "FY2025A"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D6",
+          "excerpt": "25"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D7",
+          "excerpt": "-14.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D8",
+          "excerpt": "10.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D9",
+          "excerpt": "-5.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D10",
+          "excerpt": "5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D11",
+          "excerpt": "0.2"
+        }
+      ]
+    },
+    {
+      "slide": 3,
+      "element_id": "s3-head2",
+      "fact_ids": [
+        "OPS"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 10",
+          "excerpt": "At 31 December 2025, Northbridge has 120 employees including 85 field engineers. It operates hubs in Birmingham, Manchester and Bristol. Maya Reed is founder and CEO, Daniel Cole is CFO and Aisha Patel is COO. These names and all company details are fictitious. The founder continues to lead major customer relationships."
+        }
+      ]
+    },
+    {
+      "slide": 3,
+      "element_id": "s3-body2",
+      "fact_ids": [
+        "OPS"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 10",
+          "excerpt": "At 31 December 2025, Northbridge has 120 employees including 85 field engineers. It operates hubs in Birmingham, Manchester and Bristol. Maya Reed is founder and CEO, Daniel Cole is CFO and Aisha Patel is COO. These names and all company details are fictitious. The founder continues to lead major customer relationships."
+        }
+      ]
+    },
+    {
+      "slide": 3,
+      "element_id": "s3-head3",
+      "fact_ids": [
+        "GROWTH"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 12",
+          "excerpt": "Management plans to add 20 net field engineers by the end of FY2027, cross-sell scheduled maintenance to repair customers and expand service coverage from existing hubs. The plan assumes sufficient technician recruitment and contract renewals. No signed pipeline or customer-cohort evidence accompanies this briefing."
+        },
+        {
+          "source_id": "03",
+          "path": "03_management_interview.txt",
+          "locator": "line 10",
+          "excerpt": "[00:28] CEO: Growth depends on technician recruitment, renewals and converting more repair customers to maintenance contracts. We plan 20 net new engineers by FY2027."
+        }
+      ]
+    },
+    {
+      "slide": 3,
+      "element_id": "s3-body3",
+      "fact_ids": [
+        "GROWTH"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 12",
+          "excerpt": "Management plans to add 20 net field engineers by the end of FY2027, cross-sell scheduled maintenance to repair customers and expand service coverage from existing hubs. The plan assumes sufficient technician recruitment and contract renewals. No signed pipeline or customer-cohort evidence accompanies this briefing."
+        },
+        {
+          "source_id": "03",
+          "path": "03_management_interview.txt",
+          "locator": "line 10",
+          "excerpt": "[00:28] CEO: Growth depends on technician recruitment, renewals and converting more repair customers to maintenance contracts. We plan 20 net new engineers by FY2027."
+        }
+      ]
+    },
+    {
+      "slide": 3,
+      "element_id": "s3-caveat",
+      "fact_ids": [
+        "CONFLICT",
+        "FORECAST_BASIS"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D6",
+          "excerpt": "25"
+        },
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 8",
+          "excerpt": "The preliminary FY2025 revenue estimate is GBP 26.2 million. This briefing does not provide a reconciliation to the finance model. Financial years end on 31 December. All revenue figures exclude VAT."
+        },
+        {
+          "source_id": "04",
+          "path": "04_cfo_email.eml",
+          "locator": "line 8",
+          "excerpt": "Please use the attached management model as the provisional basis for the draft. The GBP 1.2m difference against the briefing remains unresolved and must remain visible in the draft. This is not confirmation that the model has been audited."
+        },
+        {
+          "source_id": "04",
+          "path": "04_cfo_email.eml",
+          "locator": "line 12",
+          "excerpt": "The model is version 2.0, dated 21 January 2026. The forecast is management's base case. There is no customer-level forecast bridge or recruitment cost schedule yet."
+        }
+      ]
+    },
+    {
+      "slide": 4,
+      "element_id": "s4-intro",
+      "fact_ids": [
+        "MIX",
+        "SERVICES"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!A5",
+          "excerpt": "Scheduled maintenance"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!B5",
+          "excerpt": "17500"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!C5",
+          "excerpt": "Annual service contracts"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!A6",
+          "excerpt": "Reactive repairs"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!B6",
+          "excerpt": "5000"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!C6",
+          "excerpt": "Call-out and materials"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!A7",
+          "excerpt": "Installation projects"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!B7",
+          "excerpt": "2500"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!C7",
+          "excerpt": "Project-based work"
+        },
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 6",
+          "excerpt": "The business supplies scheduled maintenance under annual service contracts, reactive repairs and installation projects. Contracts generally run for one to three years and renew by agreement. Scheduled maintenance provides the contracted revenue stream. No assumption should be made that renewals are automatic. Customers include logistics operators, manufacturers and facilities managers."
+        }
+      ]
+    },
+    {
+      "slide": 4,
+      "element_id": "s4-table",
+      "fact_ids": [
+        "MIX",
+        "SERVICES"
+      ],
+      "calculation_ids": [
+        "MIX_SHARE",
+        "NORMALIZE"
+      ],
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!A5",
+          "excerpt": "Scheduled maintenance"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!B5",
+          "excerpt": "17500"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!C5",
+          "excerpt": "Annual service contracts"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!A6",
+          "excerpt": "Reactive repairs"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!B6",
+          "excerpt": "5000"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!C6",
+          "excerpt": "Call-out and materials"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!A7",
+          "excerpt": "Installation projects"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!B7",
+          "excerpt": "2500"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "ServiceMix!C7",
+          "excerpt": "Project-based work"
+        },
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 6",
+          "excerpt": "The business supplies scheduled maintenance under annual service contracts, reactive repairs and installation projects. Contracts generally run for one to three years and renew by agreement. Scheduled maintenance provides the contracted revenue stream. No assumption should be made that renewals are automatic. Customers include logistics operators, manufacturers and facilities managers."
+        }
+      ]
+    },
+    {
+      "slide": 4,
+      "element_id": "s4-contract",
+      "fact_ids": [
+        "SERVICES"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 6",
+          "excerpt": "The business supplies scheduled maintenance under annual service contracts, reactive repairs and installation projects. Contracts generally run for one to three years and renew by agreement. Scheduled maintenance provides the contracted revenue stream. No assumption should be made that renewals are automatic. Customers include logistics operators, manufacturers and facilities managers."
+        }
+      ]
+    },
+    {
+      "slide": 4,
+      "element_id": "s4-customer",
+      "fact_ids": [
+        "SERVICES"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 6",
+          "excerpt": "The business supplies scheduled maintenance under annual service contracts, reactive repairs and installation projects. Contracts generally run for one to three years and renew by agreement. Scheduled maintenance provides the contracted revenue stream. No assumption should be made that renewals are automatic. Customers include logistics operators, manufacturers and facilities managers."
+        }
+      ]
+    },
+    {
+      "slide": 5,
+      "element_id": "s5-chart-title",
+      "fact_ids": [
+        "CUSTOMERS"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A5",
+          "excerpt": "C001"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B5",
+          "excerpt": "Customer A"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C5",
+          "excerpt": "3000"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A6",
+          "excerpt": "C002"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B6",
+          "excerpt": "Customer B"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C6",
+          "excerpt": "2250"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A7",
+          "excerpt": "C003"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B7",
+          "excerpt": "Customer C"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C7",
+          "excerpt": "2000"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A8",
+          "excerpt": "C004"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B8",
+          "excerpt": "Customer D"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C8",
+          "excerpt": "1750"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A9",
+          "excerpt": "C005"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B9",
+          "excerpt": "Customer E"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C9",
+          "excerpt": "1500"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A10",
+          "excerpt": "OTHER"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B10",
+          "excerpt": "All other customers (aggregate)"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C10",
+          "excerpt": "14500"
+        }
+      ]
+    },
+    {
+      "slide": 5,
+      "element_id": "s5-chart",
+      "fact_ids": [
+        "CUSTOMERS"
+      ],
+      "calculation_ids": [
+        "TOP5",
+        "LARGEST"
+      ],
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A5",
+          "excerpt": "C001"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B5",
+          "excerpt": "Customer A"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C5",
+          "excerpt": "3000"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A6",
+          "excerpt": "C002"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B6",
+          "excerpt": "Customer B"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C6",
+          "excerpt": "2250"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A7",
+          "excerpt": "C003"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B7",
+          "excerpt": "Customer C"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C7",
+          "excerpt": "2000"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A8",
+          "excerpt": "C004"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B8",
+          "excerpt": "Customer D"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C8",
+          "excerpt": "1750"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A9",
+          "excerpt": "C005"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B9",
+          "excerpt": "Customer E"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C9",
+          "excerpt": "1500"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A10",
+          "excerpt": "OTHER"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B10",
+          "excerpt": "All other customers (aggregate)"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C10",
+          "excerpt": "14500"
+        }
+      ]
+    },
+    {
+      "slide": 5,
+      "element_id": "s5-top",
+      "fact_ids": [
+        "CUSTOMERS"
+      ],
+      "calculation_ids": [
+        "TOP5"
+      ],
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A5",
+          "excerpt": "C001"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B5",
+          "excerpt": "Customer A"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C5",
+          "excerpt": "3000"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A6",
+          "excerpt": "C002"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B6",
+          "excerpt": "Customer B"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C6",
+          "excerpt": "2250"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A7",
+          "excerpt": "C003"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B7",
+          "excerpt": "Customer C"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C7",
+          "excerpt": "2000"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A8",
+          "excerpt": "C004"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B8",
+          "excerpt": "Customer D"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C8",
+          "excerpt": "1750"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A9",
+          "excerpt": "C005"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B9",
+          "excerpt": "Customer E"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C9",
+          "excerpt": "1500"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A10",
+          "excerpt": "OTHER"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B10",
+          "excerpt": "All other customers (aggregate)"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C10",
+          "excerpt": "14500"
+        }
+      ]
+    },
+    {
+      "slide": 5,
+      "element_id": "s5-top-label",
+      "fact_ids": [
+        "CUSTOMERS"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A5",
+          "excerpt": "C001"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B5",
+          "excerpt": "Customer A"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C5",
+          "excerpt": "3000"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A6",
+          "excerpt": "C002"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B6",
+          "excerpt": "Customer B"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C6",
+          "excerpt": "2250"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A7",
+          "excerpt": "C003"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B7",
+          "excerpt": "Customer C"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C7",
+          "excerpt": "2000"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A8",
+          "excerpt": "C004"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B8",
+          "excerpt": "Customer D"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C8",
+          "excerpt": "1750"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A9",
+          "excerpt": "C005"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B9",
+          "excerpt": "Customer E"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C9",
+          "excerpt": "1500"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A10",
+          "excerpt": "OTHER"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B10",
+          "excerpt": "All other customers (aggregate)"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C10",
+          "excerpt": "14500"
+        }
+      ]
+    },
+    {
+      "slide": 5,
+      "element_id": "s5-largest",
+      "fact_ids": [
+        "CUSTOMERS"
+      ],
+      "calculation_ids": [
+        "LARGEST"
+      ],
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A5",
+          "excerpt": "C001"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B5",
+          "excerpt": "Customer A"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C5",
+          "excerpt": "3000"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A6",
+          "excerpt": "C002"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B6",
+          "excerpt": "Customer B"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C6",
+          "excerpt": "2250"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A7",
+          "excerpt": "C003"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B7",
+          "excerpt": "Customer C"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C7",
+          "excerpt": "2000"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A8",
+          "excerpt": "C004"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B8",
+          "excerpt": "Customer D"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C8",
+          "excerpt": "1750"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A9",
+          "excerpt": "C005"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B9",
+          "excerpt": "Customer E"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C9",
+          "excerpt": "1500"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A10",
+          "excerpt": "OTHER"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B10",
+          "excerpt": "All other customers (aggregate)"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C10",
+          "excerpt": "14500"
+        }
+      ]
+    },
+    {
+      "slide": 5,
+      "element_id": "s5-largest-label",
+      "fact_ids": [
+        "CUSTOMERS"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A5",
+          "excerpt": "C001"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B5",
+          "excerpt": "Customer A"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C5",
+          "excerpt": "3000"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A6",
+          "excerpt": "C002"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B6",
+          "excerpt": "Customer B"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C6",
+          "excerpt": "2250"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A7",
+          "excerpt": "C003"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B7",
+          "excerpt": "Customer C"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C7",
+          "excerpt": "2000"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A8",
+          "excerpt": "C004"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B8",
+          "excerpt": "Customer D"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C8",
+          "excerpt": "1750"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A9",
+          "excerpt": "C005"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B9",
+          "excerpt": "Customer E"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C9",
+          "excerpt": "1500"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A10",
+          "excerpt": "OTHER"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B10",
+          "excerpt": "All other customers (aggregate)"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C10",
+          "excerpt": "14500"
+        }
+      ]
+    },
+    {
+      "slide": 5,
+      "element_id": "s5-caveat",
+      "fact_ids": [
+        "CUSTOMERS",
+        "RETENTION"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A5",
+          "excerpt": "C001"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B5",
+          "excerpt": "Customer A"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C5",
+          "excerpt": "3000"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A6",
+          "excerpt": "C002"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B6",
+          "excerpt": "Customer B"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C6",
+          "excerpt": "2250"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A7",
+          "excerpt": "C003"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B7",
+          "excerpt": "Customer C"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C7",
+          "excerpt": "2000"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A8",
+          "excerpt": "C004"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B8",
+          "excerpt": "Customer D"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C8",
+          "excerpt": "1750"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A9",
+          "excerpt": "C005"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B9",
+          "excerpt": "Customer E"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C9",
+          "excerpt": "1500"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A10",
+          "excerpt": "OTHER"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B10",
+          "excerpt": "All other customers (aggregate)"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C10",
+          "excerpt": "14500"
+        },
+        {
+          "source_id": "03",
+          "path": "03_management_interview.txt",
+          "locator": "line 7",
+          "excerpt": "[00:17] CEO: We estimate customer retention at 94% in FY2025, but have not supplied the cohort calculation or defined whether that refers to customers or revenue."
+        }
+      ]
+    },
+    {
+      "slide": 6,
+      "element_id": "s6-count",
+      "fact_ids": [
+        "OPS"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 10",
+          "excerpt": "At 31 December 2025, Northbridge has 120 employees including 85 field engineers. It operates hubs in Birmingham, Manchester and Bristol. Maya Reed is founder and CEO, Daniel Cole is CFO and Aisha Patel is COO. These names and all company details are fictitious. The founder continues to lead major customer relationships."
+        }
+      ]
+    },
+    {
+      "slide": 6,
+      "element_id": "s6-engineers",
+      "fact_ids": [
+        "OPS"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 10",
+          "excerpt": "At 31 December 2025, Northbridge has 120 employees including 85 field engineers. It operates hubs in Birmingham, Manchester and Bristol. Maya Reed is founder and CEO, Daniel Cole is CFO and Aisha Patel is COO. These names and all company details are fictitious. The founder continues to lead major customer relationships."
+        }
+      ]
+    },
+    {
+      "slide": 6,
+      "element_id": "s6-hubs-head",
+      "fact_ids": [
+        "OPS"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 10",
+          "excerpt": "At 31 December 2025, Northbridge has 120 employees including 85 field engineers. It operates hubs in Birmingham, Manchester and Bristol. Maya Reed is founder and CEO, Daniel Cole is CFO and Aisha Patel is COO. These names and all company details are fictitious. The founder continues to lead major customer relationships."
+        }
+      ]
+    },
+    {
+      "slide": 6,
+      "element_id": "s6-hubs",
+      "fact_ids": [
+        "OPS"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 10",
+          "excerpt": "At 31 December 2025, Northbridge has 120 employees including 85 field engineers. It operates hubs in Birmingham, Manchester and Bristol. Maya Reed is founder and CEO, Daniel Cole is CFO and Aisha Patel is COO. These names and all company details are fictitious. The founder continues to lead major customer relationships."
+        }
+      ]
+    },
+    {
+      "slide": 6,
+      "element_id": "s6-team",
+      "fact_ids": [
+        "OPS"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 10",
+          "excerpt": "At 31 December 2025, Northbridge has 120 employees including 85 field engineers. It operates hubs in Birmingham, Manchester and Bristol. Maya Reed is founder and CEO, Daniel Cole is CFO and Aisha Patel is COO. These names and all company details are fictitious. The founder continues to lead major customer relationships."
+        }
+      ]
+    },
+    {
+      "slide": 6,
+      "element_id": "s6-dependency",
+      "fact_ids": [
+        "OPS",
+        "GROWTH"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 10",
+          "excerpt": "At 31 December 2025, Northbridge has 120 employees including 85 field engineers. It operates hubs in Birmingham, Manchester and Bristol. Maya Reed is founder and CEO, Daniel Cole is CFO and Aisha Patel is COO. These names and all company details are fictitious. The founder continues to lead major customer relationships."
+        },
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 12",
+          "excerpt": "Management plans to add 20 net field engineers by the end of FY2027, cross-sell scheduled maintenance to repair customers and expand service coverage from existing hubs. The plan assumes sufficient technician recruitment and contract renewals. No signed pipeline or customer-cohort evidence accompanies this briefing."
+        },
+        {
+          "source_id": "03",
+          "path": "03_management_interview.txt",
+          "locator": "line 10",
+          "excerpt": "[00:28] CEO: Growth depends on technician recruitment, renewals and converting more repair customers to maintenance contracts. We plan 20 net new engineers by FY2027."
+        }
+      ]
+    },
+    {
+      "slide": 6,
+      "element_id": "s6-date",
+      "fact_ids": [
+        "OPS"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 10",
+          "excerpt": "At 31 December 2025, Northbridge has 120 employees including 85 field engineers. It operates hubs in Birmingham, Manchester and Bristol. Maya Reed is founder and CEO, Daniel Cole is CFO and Aisha Patel is COO. These names and all company details are fictitious. The founder continues to lead major customer relationships."
+        }
+      ]
+    },
+    {
+      "slide": 7,
+      "element_id": "s7-unit",
+      "fact_ids": [
+        "FIN23",
+        "FIN24",
+        "FIN25",
+        "UNITS"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B5",
+          "excerpt": "FY2023A"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B6",
+          "excerpt": "18"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B7",
+          "excerpt": "-10.8"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B8",
+          "excerpt": "7.199999999999999"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B9",
+          "excerpt": "-4.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B10",
+          "excerpt": "2.6999999999999993"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B11",
+          "excerpt": "0.14999999999999997"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!C5",
+          "excerpt": "FY2024A"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!C6",
+          "excerpt": "21.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!C7",
+          "excerpt": "-12.7"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!C8",
+          "excerpt": "8.8"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!C9",
+          "excerpt": "-4.9"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!C10",
+          "excerpt": "3.9000000000000004"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!C11",
+          "excerpt": "0.1813953488372093"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D5",
+          "excerpt": "FY2025A"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D6",
+          "excerpt": "25"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D7",
+          "excerpt": "-14.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D8",
+          "excerpt": "10.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D9",
+          "excerpt": "-5.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D10",
+          "excerpt": "5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D11",
+          "excerpt": "0.2"
+        },
+        {
+          "source_id": "04",
+          "path": "04_cfo_email.eml",
+          "locator": "line 10",
+          "excerpt": "The P&L tab is in GBP millions. The CustomerSales and ServiceMix tabs are in GBP thousands. They cover FY2025 recognised revenue, excluding VAT, for the same UK company. CustomerSales contains the five largest customers plus one aggregate row for all others. Do not treat that aggregate as a single customer."
+        }
+      ]
+    },
+    {
+      "slide": 7,
+      "element_id": "s7-table",
+      "fact_ids": [
+        "FIN23",
+        "FIN24",
+        "FIN25"
+      ],
+      "calculation_ids": [
+        "MARGINS"
+      ],
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B5",
+          "excerpt": "FY2023A"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B6",
+          "excerpt": "18"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B7",
+          "excerpt": "-10.8"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B8",
+          "excerpt": "7.199999999999999"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B9",
+          "excerpt": "-4.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B10",
+          "excerpt": "2.6999999999999993"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B11",
+          "excerpt": "0.14999999999999997"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!C5",
+          "excerpt": "FY2024A"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!C6",
+          "excerpt": "21.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!C7",
+          "excerpt": "-12.7"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!C8",
+          "excerpt": "8.8"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!C9",
+          "excerpt": "-4.9"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!C10",
+          "excerpt": "3.9000000000000004"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!C11",
+          "excerpt": "0.1813953488372093"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D5",
+          "excerpt": "FY2025A"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D6",
+          "excerpt": "25"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D7",
+          "excerpt": "-14.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D8",
+          "excerpt": "10.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D9",
+          "excerpt": "-5.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D10",
+          "excerpt": "5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D11",
+          "excerpt": "0.2"
+        }
+      ]
+    },
+    {
+      "slide": 7,
+      "element_id": "s7-cagr",
+      "fact_ids": [
+        "FIN23",
+        "FIN25"
+      ],
+      "calculation_ids": [
+        "CAGR"
+      ],
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B5",
+          "excerpt": "FY2023A"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B6",
+          "excerpt": "18"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B7",
+          "excerpt": "-10.8"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B8",
+          "excerpt": "7.199999999999999"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B9",
+          "excerpt": "-4.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B10",
+          "excerpt": "2.6999999999999993"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B11",
+          "excerpt": "0.14999999999999997"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D5",
+          "excerpt": "FY2025A"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D6",
+          "excerpt": "25"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D7",
+          "excerpt": "-14.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D8",
+          "excerpt": "10.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D9",
+          "excerpt": "-5.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D10",
+          "excerpt": "5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D11",
+          "excerpt": "0.2"
+        }
+      ]
+    },
+    {
+      "slide": 7,
+      "element_id": "s7-cagr-label",
+      "fact_ids": [
+        "FIN23",
+        "FIN25"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B5",
+          "excerpt": "FY2023A"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B6",
+          "excerpt": "18"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B7",
+          "excerpt": "-10.8"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B8",
+          "excerpt": "7.199999999999999"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B9",
+          "excerpt": "-4.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B10",
+          "excerpt": "2.6999999999999993"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!B11",
+          "excerpt": "0.14999999999999997"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D5",
+          "excerpt": "FY2025A"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D6",
+          "excerpt": "25"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D7",
+          "excerpt": "-14.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D8",
+          "excerpt": "10.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D9",
+          "excerpt": "-5.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D10",
+          "excerpt": "5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D11",
+          "excerpt": "0.2"
+        }
+      ]
+    },
+    {
+      "slide": 7,
+      "element_id": "s7-margin",
+      "fact_ids": [
+        "FIN25"
+      ],
+      "calculation_ids": [
+        "MARGINS"
+      ],
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D5",
+          "excerpt": "FY2025A"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D6",
+          "excerpt": "25"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D7",
+          "excerpt": "-14.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D8",
+          "excerpt": "10.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D9",
+          "excerpt": "-5.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D10",
+          "excerpt": "5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D11",
+          "excerpt": "0.2"
+        }
+      ]
+    },
+    {
+      "slide": 7,
+      "element_id": "s7-caveat",
+      "fact_ids": [
+        "CONFLICT",
+        "QOE"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D6",
+          "excerpt": "25"
+        },
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 8",
+          "excerpt": "The preliminary FY2025 revenue estimate is GBP 26.2 million. This briefing does not provide a reconciliation to the finance model. Financial years end on 31 December. All revenue figures exclude VAT."
+        },
+        {
+          "source_id": "04",
+          "path": "04_cfo_email.eml",
+          "locator": "line 8",
+          "excerpt": "Please use the attached management model as the provisional basis for the draft. The GBP 1.2m difference against the briefing remains unresolved and must remain visible in the draft. This is not confirmation that the model has been audited."
+        },
+        {
+          "source_id": "03",
+          "path": "03_management_interview.txt",
+          "locator": "line 11",
+          "excerpt": "[00:31] CFO: EBITDA is management-reported and unaudited. No normalisation bridge or quality-of-earnings report is available. We have not supplied cash, debt or normalised working capital."
+        }
+      ]
+    },
+    {
+      "slide": 8,
+      "element_id": "s8-chart-head",
+      "fact_ids": [
+        "FIN25",
+        "FIN26",
+        "FIN27"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D5",
+          "excerpt": "FY2025A"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D6",
+          "excerpt": "25"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D7",
+          "excerpt": "-14.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D8",
+          "excerpt": "10.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D9",
+          "excerpt": "-5.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D10",
+          "excerpt": "5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D11",
+          "excerpt": "0.2"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!E5",
+          "excerpt": "FY2026F"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!E6",
+          "excerpt": "29"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!E7",
+          "excerpt": "-16.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!E8",
+          "excerpt": "12.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!E9",
+          "excerpt": "-6.4"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!E10",
+          "excerpt": "6.1"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!E11",
+          "excerpt": "0.21034482758620687"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!F5",
+          "excerpt": "FY2027F"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!F6",
+          "excerpt": "33.6"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!F7",
+          "excerpt": "-18.6"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!F8",
+          "excerpt": "15"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!F9",
+          "excerpt": "-7.6"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!F10",
+          "excerpt": "7.4"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!F11",
+          "excerpt": "0.22023809523809523"
+        }
+      ]
+    },
+    {
+      "slide": 8,
+      "element_id": "s8-chart",
+      "fact_ids": [
+        "FIN25",
+        "FIN26",
+        "FIN27"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D5",
+          "excerpt": "FY2025A"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D6",
+          "excerpt": "25"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D7",
+          "excerpt": "-14.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D8",
+          "excerpt": "10.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D9",
+          "excerpt": "-5.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D10",
+          "excerpt": "5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D11",
+          "excerpt": "0.2"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!E5",
+          "excerpt": "FY2026F"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!E6",
+          "excerpt": "29"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!E7",
+          "excerpt": "-16.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!E8",
+          "excerpt": "12.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!E9",
+          "excerpt": "-6.4"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!E10",
+          "excerpt": "6.1"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!E11",
+          "excerpt": "0.21034482758620687"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!F5",
+          "excerpt": "FY2027F"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!F6",
+          "excerpt": "33.6"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!F7",
+          "excerpt": "-18.6"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!F8",
+          "excerpt": "15"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!F9",
+          "excerpt": "-7.6"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!F10",
+          "excerpt": "7.4"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!F11",
+          "excerpt": "0.22023809523809523"
+        }
+      ]
+    },
+    {
+      "slide": 8,
+      "element_id": "s8-ebitda",
+      "fact_ids": [
+        "FIN25",
+        "FIN26",
+        "FIN27"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D5",
+          "excerpt": "FY2025A"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D6",
+          "excerpt": "25"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D7",
+          "excerpt": "-14.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D8",
+          "excerpt": "10.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D9",
+          "excerpt": "-5.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D10",
+          "excerpt": "5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D11",
+          "excerpt": "0.2"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!E5",
+          "excerpt": "FY2026F"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!E6",
+          "excerpt": "29"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!E7",
+          "excerpt": "-16.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!E8",
+          "excerpt": "12.5"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!E9",
+          "excerpt": "-6.4"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!E10",
+          "excerpt": "6.1"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!E11",
+          "excerpt": "0.21034482758620687"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!F5",
+          "excerpt": "FY2027F"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!F6",
+          "excerpt": "33.6"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!F7",
+          "excerpt": "-18.6"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!F8",
+          "excerpt": "15"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!F9",
+          "excerpt": "-7.6"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!F10",
+          "excerpt": "7.4"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!F11",
+          "excerpt": "0.22023809523809523"
+        }
+      ]
+    },
+    {
+      "slide": 8,
+      "element_id": "s8-plan",
+      "fact_ids": [
+        "GROWTH"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 12",
+          "excerpt": "Management plans to add 20 net field engineers by the end of FY2027, cross-sell scheduled maintenance to repair customers and expand service coverage from existing hubs. The plan assumes sufficient technician recruitment and contract renewals. No signed pipeline or customer-cohort evidence accompanies this briefing."
+        },
+        {
+          "source_id": "03",
+          "path": "03_management_interview.txt",
+          "locator": "line 10",
+          "excerpt": "[00:28] CEO: Growth depends on technician recruitment, renewals and converting more repair customers to maintenance contracts. We plan 20 net new engineers by FY2027."
+        }
+      ]
+    },
+    {
+      "slide": 8,
+      "element_id": "s8-plan-body",
+      "fact_ids": [
+        "GROWTH"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 12",
+          "excerpt": "Management plans to add 20 net field engineers by the end of FY2027, cross-sell scheduled maintenance to repair customers and expand service coverage from existing hubs. The plan assumes sufficient technician recruitment and contract renewals. No signed pipeline or customer-cohort evidence accompanies this briefing."
+        },
+        {
+          "source_id": "03",
+          "path": "03_management_interview.txt",
+          "locator": "line 10",
+          "excerpt": "[00:28] CEO: Growth depends on technician recruitment, renewals and converting more repair customers to maintenance contracts. We plan 20 net new engineers by FY2027."
+        }
+      ]
+    },
+    {
+      "slide": 8,
+      "element_id": "s8-caveat",
+      "fact_ids": [
+        "FORECAST_BASIS",
+        "GROWTH",
+        "MARKET"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "04",
+          "path": "04_cfo_email.eml",
+          "locator": "line 12",
+          "excerpt": "The model is version 2.0, dated 21 January 2026. The forecast is management's base case. There is no customer-level forecast bridge or recruitment cost schedule yet."
+        },
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 12",
+          "excerpt": "Management plans to add 20 net field engineers by the end of FY2027, cross-sell scheduled maintenance to repair customers and expand service coverage from existing hubs. The plan assumes sufficient technician recruitment and contract renewals. No signed pipeline or customer-cohort evidence accompanies this briefing."
+        },
+        {
+          "source_id": "03",
+          "path": "03_management_interview.txt",
+          "locator": "line 10",
+          "excerpt": "[00:28] CEO: Growth depends on technician recruitment, renewals and converting more repair customers to maintenance contracts. We plan 20 net new engineers by FY2027."
+        },
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 16",
+          "excerpt": "Management describes the UK equipment-maintenance market as fragmented. No independent market-size study, market-share estimate or competitor benchmarking has been provided."
+        }
+      ]
+    },
+    {
+      "slide": 9,
+      "element_id": "s9-ownership",
+      "fact_ids": [
+        "DEAL"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 14",
+          "excerpt": "The founder holds 70%, management holds 20% and a seed investor holds 10% of ordinary equity. Shareholders are considering a sale of 70% to 100% of the company. Management rollover, valuation, timing and financing remain to be agreed. No debt, cash or working-capital schedule has been provided."
+        }
+      ]
+    },
+    {
+      "slide": 9,
+      "element_id": "s9-sale",
+      "fact_ids": [
+        "DEAL"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 14",
+          "excerpt": "The founder holds 70%, management holds 20% and a seed investor holds 10% of ordinary equity. Shareholders are considering a sale of 70% to 100% of the company. Management rollover, valuation, timing and financing remain to be agreed. No debt, cash or working-capital schedule has been provided."
+        }
+      ]
+    },
+    {
+      "slide": 9,
+      "element_id": "s9-sale-label",
+      "fact_ids": [
+        "DEAL"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 14",
+          "excerpt": "The founder holds 70%, management holds 20% and a seed investor holds 10% of ordinary equity. Shareholders are considering a sale of 70% to 100% of the company. Management rollover, valuation, timing and financing remain to be agreed. No debt, cash or working-capital schedule has been provided."
+        }
+      ]
+    },
+    {
+      "slide": 9,
+      "element_id": "s9-scope",
+      "fact_ids": [
+        "DEAL",
+        "BUS"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 14",
+          "excerpt": "The founder holds 70%, management holds 20% and a seed investor holds 10% of ordinary equity. Shareholders are considering a sale of 70% to 100% of the company. Management rollover, valuation, timing and financing remain to be agreed. No debt, cash or working-capital schedule has been provided."
+        },
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 4",
+          "excerpt": "Northbridge Field Services Ltd was founded in 2012. The UK business provides equipment maintenance and technical field support to industrial and logistics customers. Its headquarters are in Birmingham. The transaction perimeter is the entire standalone UK company."
+        }
+      ]
+    },
+    {
+      "slide": 9,
+      "element_id": "s9-caveat",
+      "fact_ids": [
+        "QOE",
+        "DEAL"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "03",
+          "path": "03_management_interview.txt",
+          "locator": "line 11",
+          "excerpt": "[00:31] CFO: EBITDA is management-reported and unaudited. No normalisation bridge or quality-of-earnings report is available. We have not supplied cash, debt or normalised working capital."
+        },
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 14",
+          "excerpt": "The founder holds 70%, management holds 20% and a seed investor holds 10% of ordinary equity. Shareholders are considering a sale of 70% to 100% of the company. Management rollover, valuation, timing and financing remain to be agreed. No debt, cash or working-capital schedule has been provided."
+        }
+      ]
+    },
+    {
+      "slide": 10,
+      "element_id": "s10-table",
+      "fact_ids": [
+        "CONFLICT",
+        "QOE",
+        "CUSTOMERS",
+        "RETENTION",
+        "GROWTH",
+        "FORECAST_BASIS",
+        "MARKET"
+      ],
+      "calculation_ids": [
+        "TOP5"
+      ],
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D6",
+          "excerpt": "25"
+        },
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 8",
+          "excerpt": "The preliminary FY2025 revenue estimate is GBP 26.2 million. This briefing does not provide a reconciliation to the finance model. Financial years end on 31 December. All revenue figures exclude VAT."
+        },
+        {
+          "source_id": "04",
+          "path": "04_cfo_email.eml",
+          "locator": "line 8",
+          "excerpt": "Please use the attached management model as the provisional basis for the draft. The GBP 1.2m difference against the briefing remains unresolved and must remain visible in the draft. This is not confirmation that the model has been audited."
+        },
+        {
+          "source_id": "03",
+          "path": "03_management_interview.txt",
+          "locator": "line 11",
+          "excerpt": "[00:31] CFO: EBITDA is management-reported and unaudited. No normalisation bridge or quality-of-earnings report is available. We have not supplied cash, debt or normalised working capital."
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A5",
+          "excerpt": "C001"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B5",
+          "excerpt": "Customer A"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C5",
+          "excerpt": "3000"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A6",
+          "excerpt": "C002"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B6",
+          "excerpt": "Customer B"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C6",
+          "excerpt": "2250"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A7",
+          "excerpt": "C003"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B7",
+          "excerpt": "Customer C"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C7",
+          "excerpt": "2000"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A8",
+          "excerpt": "C004"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B8",
+          "excerpt": "Customer D"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C8",
+          "excerpt": "1750"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A9",
+          "excerpt": "C005"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B9",
+          "excerpt": "Customer E"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C9",
+          "excerpt": "1500"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!A10",
+          "excerpt": "OTHER"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!B10",
+          "excerpt": "All other customers (aggregate)"
+        },
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "CustomerSales!C10",
+          "excerpt": "14500"
+        },
+        {
+          "source_id": "03",
+          "path": "03_management_interview.txt",
+          "locator": "line 7",
+          "excerpt": "[00:17] CEO: We estimate customer retention at 94% in FY2025, but have not supplied the cohort calculation or defined whether that refers to customers or revenue."
+        },
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 12",
+          "excerpt": "Management plans to add 20 net field engineers by the end of FY2027, cross-sell scheduled maintenance to repair customers and expand service coverage from existing hubs. The plan assumes sufficient technician recruitment and contract renewals. No signed pipeline or customer-cohort evidence accompanies this briefing."
+        },
+        {
+          "source_id": "03",
+          "path": "03_management_interview.txt",
+          "locator": "line 10",
+          "excerpt": "[00:28] CEO: Growth depends on technician recruitment, renewals and converting more repair customers to maintenance contracts. We plan 20 net new engineers by FY2027."
+        },
+        {
+          "source_id": "04",
+          "path": "04_cfo_email.eml",
+          "locator": "line 12",
+          "excerpt": "The model is version 2.0, dated 21 January 2026. The forecast is management's base case. There is no customer-level forecast bridge or recruitment cost schedule yet."
+        },
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 16",
+          "excerpt": "Management describes the UK equipment-maintenance market as fragmented. No independent market-size study, market-share estimate or competitor benchmarking has been provided."
+        }
+      ]
+    },
+    {
+      "slide": 10,
+      "element_id": "s10-close",
+      "fact_ids": [
+        "CONFLICT",
+        "QOE",
+        "MARKET",
+        "FORECAST_BASIS"
+      ],
+      "calculation_ids": [],
+      "source_refs": [
+        {
+          "source_id": "02",
+          "path": "02_management_model.xlsx",
+          "locator": "PnL!D6",
+          "excerpt": "25"
+        },
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 8",
+          "excerpt": "The preliminary FY2025 revenue estimate is GBP 26.2 million. This briefing does not provide a reconciliation to the finance model. Financial years end on 31 December. All revenue figures exclude VAT."
+        },
+        {
+          "source_id": "04",
+          "path": "04_cfo_email.eml",
+          "locator": "line 8",
+          "excerpt": "Please use the attached management model as the provisional basis for the draft. The GBP 1.2m difference against the briefing remains unresolved and must remain visible in the draft. This is not confirmation that the model has been audited."
+        },
+        {
+          "source_id": "03",
+          "path": "03_management_interview.txt",
+          "locator": "line 11",
+          "excerpt": "[00:31] CFO: EBITDA is management-reported and unaudited. No normalisation bridge or quality-of-earnings report is available. We have not supplied cash, debt or normalised working capital."
+        },
+        {
+          "source_id": "01",
+          "path": "01_company_brief.docx",
+          "locator": "paragraph 16",
+          "excerpt": "Management describes the UK equipment-maintenance market as fragmented. No independent market-size study, market-share estimate or competitor benchmarking has been provided."
+        },
+        {
+          "source_id": "04",
+          "path": "04_cfo_email.eml",
+          "locator": "line 12",
+          "excerpt": "The model is version 2.0, dated 21 January 2026. The forecast is management's base case. There is no customer-level forecast bridge or recruitment cost schedule yet."
+        }
+      ]
+    }
+  ]
+}

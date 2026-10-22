@@ -1,0 +1,9 @@
+{
+  "passed": [
+    "Arrow-key navigation advances the deck.",
+    "Source panel resolves slide-specific PnL cell references.",
+    "Phone viewport preserves 16:9 stage without reflow.",
+    "Inline text edit survives Save HTML and reload.",
+    "Edited HTML text reaches native PowerPoint XML."
+  ]
+}

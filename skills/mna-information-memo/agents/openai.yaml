@@ -1,0 +1,6 @@
+interface:
+  display_name: "M&A Information Memo"
+  short_description: "Traceable client evidence to HTML and editable PPT"
+  default_prompt: "Use $mna-information-memo to draft an evidence-backed information memorandum from my client files and produce HTML plus editable PowerPoint."
+policy:
+  allow_implicit_invocation: true

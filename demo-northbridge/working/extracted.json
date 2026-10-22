@@ -1,0 +1,716 @@
+{
+  "sources": [
+    {
+      "id": "01",
+      "path": "01_company_brief.docx",
+      "sha256": "69f0caace2b96b4398540b320778a470d0dd2aea42c2da7e4a81fe3fbba14fd9",
+      "status": "extracted",
+      "items": [
+        {
+          "locator": "paragraph 1",
+          "text": "Northbridge Field Services company briefing"
+        },
+        {
+          "locator": "paragraph 2",
+          "text": "FICTIONAL COMPANY AND DATA. Training simulation only. Prepared 15 January 2026. Preliminary management briefing, version 1.0."
+        },
+        {
+          "locator": "paragraph 3",
+          "text": "Company background"
+        },
+        {
+          "locator": "paragraph 4",
+          "text": "Northbridge Field Services Ltd was founded in 2012. The UK business provides equipment maintenance and technical field support to industrial and logistics customers. Its headquarters are in Birmingham. The transaction perimeter is the entire standalone UK company."
+        },
+        {
+          "locator": "paragraph 5",
+          "text": "Services and customers"
+        },
+        {
+          "locator": "paragraph 6",
+          "text": "The business supplies scheduled maintenance under annual service contracts, reactive repairs and installation projects. Contracts generally run for one to three years and renew by agreement. Scheduled maintenance provides the contracted revenue stream. No assumption should be made that renewals are automatic. Customers include logistics operators, manufacturers and facilities managers."
+        },
+        {
+          "locator": "paragraph 7",
+          "text": "Preliminary financial snapshot"
+        },
+        {
+          "locator": "paragraph 8",
+          "text": "The preliminary FY2025 revenue estimate is GBP 26.2 million. This briefing does not provide a reconciliation to the finance model. Financial years end on 31 December. All revenue figures exclude VAT."
+        },
+        {
+          "locator": "paragraph 9",
+          "text": "Operations and management"
+        },
+        {
+          "locator": "paragraph 10",
+          "text": "At 31 December 2025, Northbridge has 120 employees including 85 field engineers. It operates hubs in Birmingham, Manchester and Bristol. Maya Reed is founder and CEO, Daniel Cole is CFO and Aisha Patel is COO. These names and all company details are fictitious. The founder continues to lead major customer relationships."
+        },
+        {
+          "locator": "paragraph 11",
+          "text": "Growth plan"
+        },
+        {
+          "locator": "paragraph 12",
+          "text": "Management plans to add 20 net field engineers by the end of FY2027, cross-sell scheduled maintenance to repair customers and expand service coverage from existing hubs. The plan assumes sufficient technician recruitment and contract renewals. No signed pipeline or customer-cohort evidence accompanies this briefing."
+        },
+        {
+          "locator": "paragraph 13",
+          "text": "Ownership and proposed transaction"
+        },
+        {
+          "locator": "paragraph 14",
+          "text": "The founder holds 70%, management holds 20% and a seed investor holds 10% of ordinary equity. Shareholders are considering a sale of 70% to 100% of the company. Management rollover, valuation, timing and financing remain to be agreed. No debt, cash or working-capital schedule has been provided."
+        },
+        {
+          "locator": "paragraph 15",
+          "text": "Market positioning"
+        },
+        {
+          "locator": "paragraph 16",
+          "text": "Management describes the UK equipment-maintenance market as fragmented. No independent market-size study, market-share estimate or competitor benchmarking has been provided."
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "path": "02_management_model.xlsx",
+      "sha256": "fa90fd1b4bdc6ccee4f18f6a3407062fa3af51aef44598edfcf020f429dec951",
+      "status": "extracted",
+      "items": [
+        {
+          "locator": "PnL!A1",
+          "text": "Northbridge management P&L",
+          "value": "Northbridge management P&L",
+          "formula": null
+        },
+        {
+          "locator": "PnL!A2",
+          "text": "FICTIONAL DATA. GBP million. Year ending 31 December.",
+          "value": "FICTIONAL DATA. GBP million. Year ending 31 December.",
+          "formula": null
+        },
+        {
+          "locator": "PnL!A3",
+          "text": "Management model v2.0, 21 January 2026. Unaudited.",
+          "value": "Management model v2.0, 21 January 2026. Unaudited.",
+          "formula": null
+        },
+        {
+          "locator": "PnL!A5",
+          "text": "GBP million",
+          "value": "GBP million",
+          "formula": null
+        },
+        {
+          "locator": "PnL!B5",
+          "text": "FY2023A",
+          "value": "FY2023A",
+          "formula": null
+        },
+        {
+          "locator": "PnL!C5",
+          "text": "FY2024A",
+          "value": "FY2024A",
+          "formula": null
+        },
+        {
+          "locator": "PnL!D5",
+          "text": "FY2025A",
+          "value": "FY2025A",
+          "formula": null
+        },
+        {
+          "locator": "PnL!E5",
+          "text": "FY2026F",
+          "value": "FY2026F",
+          "formula": null
+        },
+        {
+          "locator": "PnL!F5",
+          "text": "FY2027F",
+          "value": "FY2027F",
+          "formula": null
+        },
+        {
+          "locator": "PnL!A6",
+          "text": "Revenue",
+          "value": "Revenue",
+          "formula": null
+        },
+        {
+          "locator": "PnL!B6",
+          "text": "18",
+          "value": 18,
+          "formula": null
+        },
+        {
+          "locator": "PnL!C6",
+          "text": "21.5",
+          "value": 21.5,
+          "formula": null
+        },
+        {
+          "locator": "PnL!D6",
+          "text": "25",
+          "value": 25,
+          "formula": null
+        },
+        {
+          "locator": "PnL!E6",
+          "text": "29",
+          "value": 29,
+          "formula": null
+        },
+        {
+          "locator": "PnL!F6",
+          "text": "33.6",
+          "value": 33.6,
+          "formula": null
+        },
+        {
+          "locator": "PnL!A7",
+          "text": "Cost of services",
+          "value": "Cost of services",
+          "formula": null
+        },
+        {
+          "locator": "PnL!B7",
+          "text": "-10.8",
+          "value": -10.8,
+          "formula": null
+        },
+        {
+          "locator": "PnL!C7",
+          "text": "-12.7",
+          "value": -12.7,
+          "formula": null
+        },
+        {
+          "locator": "PnL!D7",
+          "text": "-14.5",
+          "value": -14.5,
+          "formula": null
+        },
+        {
+          "locator": "PnL!E7",
+          "text": "-16.5",
+          "value": -16.5,
+          "formula": null
+        },
+        {
+          "locator": "PnL!F7",
+          "text": "-18.6",
+          "value": -18.6,
+          "formula": null
+        },
+        {
+          "locator": "PnL!A8",
+          "text": "Gross profit",
+          "value": "Gross profit",
+          "formula": null
+        },
+        {
+          "locator": "PnL!B8",
+          "text": "7.199999999999999",
+          "value": 7.199999999999999,
+          "formula": "=B6+B7"
+        },
+        {
+          "locator": "PnL!C8",
+          "text": "8.8",
+          "value": 8.8,
+          "formula": "=C6+C7"
+        },
+        {
+          "locator": "PnL!D8",
+          "text": "10.5",
+          "value": 10.5,
+          "formula": "=D6+D7"
+        },
+        {
+          "locator": "PnL!E8",
+          "text": "12.5",
+          "value": 12.5,
+          "formula": "=E6+E7"
+        },
+        {
+          "locator": "PnL!F8",
+          "text": "15",
+          "value": 15,
+          "formula": "=F6+F7"
+        },
+        {
+          "locator": "PnL!A9",
+          "text": "Operating expenses",
+          "value": "Operating expenses",
+          "formula": null
+        },
+        {
+          "locator": "PnL!B9",
+          "text": "-4.5",
+          "value": -4.5,
+          "formula": null
+        },
+        {
+          "locator": "PnL!C9",
+          "text": "-4.9",
+          "value": -4.9,
+          "formula": null
+        },
+        {
+          "locator": "PnL!D9",
+          "text": "-5.5",
+          "value": -5.5,
+          "formula": null
+        },
+        {
+          "locator": "PnL!E9",
+          "text": "-6.4",
+          "value": -6.4,
+          "formula": null
+        },
+        {
+          "locator": "PnL!F9",
+          "text": "-7.6",
+          "value": -7.6,
+          "formula": null
+        },
+        {
+          "locator": "PnL!A10",
+          "text": "EBITDA",
+          "value": "EBITDA",
+          "formula": null
+        },
+        {
+          "locator": "PnL!B10",
+          "text": "2.6999999999999993",
+          "value": 2.6999999999999993,
+          "formula": "=B8+B9"
+        },
+        {
+          "locator": "PnL!C10",
+          "text": "3.9000000000000004",
+          "value": 3.9000000000000004,
+          "formula": "=C8+C9"
+        },
+        {
+          "locator": "PnL!D10",
+          "text": "5",
+          "value": 5,
+          "formula": "=D8+D9"
+        },
+        {
+          "locator": "PnL!E10",
+          "text": "6.1",
+          "value": 6.1,
+          "formula": "=E8+E9"
+        },
+        {
+          "locator": "PnL!F10",
+          "text": "7.4",
+          "value": 7.4,
+          "formula": "=F8+F9"
+        },
+        {
+          "locator": "PnL!A11",
+          "text": "EBITDA margin",
+          "value": "EBITDA margin",
+          "formula": null
+        },
+        {
+          "locator": "PnL!B11",
+          "text": "0.14999999999999997",
+          "value": 0.14999999999999997,
+          "formula": "=B10/B6"
+        },
+        {
+          "locator": "PnL!C11",
+          "text": "0.1813953488372093",
+          "value": 0.1813953488372093,
+          "formula": "=C10/C6"
+        },
+        {
+          "locator": "PnL!D11",
+          "text": "0.2",
+          "value": 0.2,
+          "formula": "=D10/D6"
+        },
+        {
+          "locator": "PnL!E11",
+          "text": "0.21034482758620687",
+          "value": 0.21034482758620687,
+          "formula": "=E10/E6"
+        },
+        {
+          "locator": "PnL!F11",
+          "text": "0.22023809523809523",
+          "value": 0.22023809523809523,
+          "formula": "=F10/F6"
+        },
+        {
+          "locator": "PnL!A13",
+          "text": "A = management actual. F = management base-case forecast.",
+          "value": "A = management actual. F = management base-case forecast.",
+          "formula": null
+        },
+        {
+          "locator": "PnL!A14",
+          "text": "FY2025 revenue conflicts with the earlier briefing (GBP 26.2m).",
+          "value": "FY2025 revenue conflicts with the earlier briefing (GBP 26.2m).",
+          "formula": null
+        },
+        {
+          "locator": "PnL!A15",
+          "text": "No audit, EBITDA normalisation bridge or cash/debt schedules supplied.",
+          "value": "No audit, EBITDA normalisation bridge or cash/debt schedules supplied.",
+          "formula": null
+        },
+        {
+          "locator": "CustomerSales!A1",
+          "text": "FY2025 customer sales",
+          "value": "FY2025 customer sales",
+          "formula": null
+        },
+        {
+          "locator": "CustomerSales!A2",
+          "text": "FICTIONAL DATA. GBP thousand. Recognised revenue excluding VAT.",
+          "value": "FICTIONAL DATA. GBP thousand. Recognised revenue excluding VAT.",
+          "formula": null
+        },
+        {
+          "locator": "CustomerSales!A4",
+          "text": "Customer ID",
+          "value": "Customer ID",
+          "formula": null
+        },
+        {
+          "locator": "CustomerSales!B4",
+          "text": "Customer",
+          "value": "Customer",
+          "formula": null
+        },
+        {
+          "locator": "CustomerSales!C4",
+          "text": "Revenue (GBP 000)",
+          "value": "Revenue (GBP 000)",
+          "formula": null
+        },
+        {
+          "locator": "CustomerSales!A5",
+          "text": "C001",
+          "value": "C001",
+          "formula": null
+        },
+        {
+          "locator": "CustomerSales!B5",
+          "text": "Customer A",
+          "value": "Customer A",
+          "formula": null
+        },
+        {
+          "locator": "CustomerSales!C5",
+          "text": "3000",
+          "value": 3000,
+          "formula": null
+        },
+        {
+          "locator": "CustomerSales!A6",
+          "text": "C002",
+          "value": "C002",
+          "formula": null
+        },
+        {
+          "locator": "CustomerSales!B6",
+          "text": "Customer B",
+          "value": "Customer B",
+          "formula": null
+        },
+        {
+          "locator": "CustomerSales!C6",
+          "text": "2250",
+          "value": 2250,
+          "formula": null
+        },
+        {
+          "locator": "CustomerSales!A7",
+          "text": "C003",
+          "value": "C003",
+          "formula": null
+        },
+        {
+          "locator": "CustomerSales!B7",
+          "text": "Customer C",
+          "value": "Customer C",
+          "formula": null
+        },
+        {
+          "locator": "CustomerSales!C7",
+          "text": "2000",
+          "value": 2000,
+          "formula": null
+        },
+        {
+          "locator": "CustomerSales!A8",
+          "text": "C004",
+          "value": "C004",
+          "formula": null
+        },
+        {
+          "locator": "CustomerSales!B8",
+          "text": "Customer D",
+          "value": "Customer D",
+          "formula": null
+        },
+        {
+          "locator": "CustomerSales!C8",
+          "text": "1750",
+          "value": 1750,
+          "formula": null
+        },
+        {
+          "locator": "CustomerSales!A9",
+          "text": "C005",
+          "value": "C005",
+          "formula": null
+        },
+        {
+          "locator": "CustomerSales!B9",
+          "text": "Customer E",
+          "value": "Customer E",
+          "formula": null
+        },
+        {
+          "locator": "CustomerSales!C9",
+          "text": "1500",
+          "value": 1500,
+          "formula": null
+        },
+        {
+          "locator": "CustomerSales!A10",
+          "text": "OTHER",
+          "value": "OTHER",
+          "formula": null
+        },
+        {
+          "locator": "CustomerSales!B10",
+          "text": "All other customers (aggregate)",
+          "value": "All other customers (aggregate)",
+          "formula": null
+        },
+        {
+          "locator": "CustomerSales!C10",
+          "text": "14500",
+          "value": 14500,
+          "formula": null
+        },
+        {
+          "locator": "CustomerSales!A11",
+          "text": "Total",
+          "value": "Total",
+          "formula": null
+        },
+        {
+          "locator": "CustomerSales!C11",
+          "text": "25000",
+          "value": 25000,
+          "formula": "=SUM(C5:C10)"
+        },
+        {
+          "locator": "CustomerSales!A13",
+          "text": "OTHER represents multiple customers, not one customer.",
+          "value": "OTHER represents multiple customers, not one customer.",
+          "formula": null
+        },
+        {
+          "locator": "ServiceMix!A1",
+          "text": "FY2025 revenue by service",
+          "value": "FY2025 revenue by service",
+          "formula": null
+        },
+        {
+          "locator": "ServiceMix!A2",
+          "text": "FICTIONAL DATA. GBP thousand. Same perimeter as P&L.",
+          "value": "FICTIONAL DATA. GBP thousand. Same perimeter as P&L.",
+          "formula": null
+        },
+        {
+          "locator": "ServiceMix!A4",
+          "text": "Service",
+          "value": "Service",
+          "formula": null
+        },
+        {
+          "locator": "ServiceMix!B4",
+          "text": "Revenue (GBP 000)",
+          "value": "Revenue (GBP 000)",
+          "formula": null
+        },
+        {
+          "locator": "ServiceMix!C4",
+          "text": "Commercial basis",
+          "value": "Commercial basis",
+          "formula": null
+        },
+        {
+          "locator": "ServiceMix!A5",
+          "text": "Scheduled maintenance",
+          "value": "Scheduled maintenance",
+          "formula": null
+        },
+        {
+          "locator": "ServiceMix!B5",
+          "text": "17500",
+          "value": 17500,
+          "formula": null
+        },
+        {
+          "locator": "ServiceMix!C5",
+          "text": "Annual service contracts",
+          "value": "Annual service contracts",
+          "formula": null
+        },
+        {
+          "locator": "ServiceMix!A6",
+          "text": "Reactive repairs",
+          "value": "Reactive repairs",
+          "formula": null
+        },
+        {
+          "locator": "ServiceMix!B6",
+          "text": "5000",
+          "value": 5000,
+          "formula": null
+        },
+        {
+          "locator": "ServiceMix!C6",
+          "text": "Call-out and materials",
+          "value": "Call-out and materials",
+          "formula": null
+        },
+        {
+          "locator": "ServiceMix!A7",
+          "text": "Installation projects",
+          "value": "Installation projects",
+          "formula": null
+        },
+        {
+          "locator": "ServiceMix!B7",
+          "text": "2500",
+          "value": 2500,
+          "formula": null
+        },
+        {
+          "locator": "ServiceMix!C7",
+          "text": "Project-based work",
+          "value": "Project-based work",
+          "formula": null
+        },
+        {
+          "locator": "ServiceMix!A8",
+          "text": "Total",
+          "value": "Total",
+          "formula": null
+        },
+        {
+          "locator": "ServiceMix!B8",
+          "text": "25000",
+          "value": 25000,
+          "formula": "=SUM(B5:B7)"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "path": "03_management_interview.txt",
+      "sha256": "ff1b17f37f70f3d9ce63a9b2c9dbc9aa7023ff0d5dbf7dbfa26fbe8f8198c670",
+      "status": "extracted",
+      "items": [
+        {
+          "locator": "line 1",
+          "text": "FICTIONAL TRAINING MATERIAL"
+        },
+        {
+          "locator": "line 2",
+          "text": "Northbridge management interview, 20 January 2026"
+        },
+        {
+          "locator": "line 4",
+          "text": "[00:03] CEO: The business was founded in 2012. Our headquarters are Birmingham. We serve UK industrial and logistics customers."
+        },
+        {
+          "locator": "line 5",
+          "text": "[00:08] CFO: The FY2025 management P&L model shows revenue of GBP 25.0m and EBITDA of GBP 5.0m. The earlier company briefing shows GBP 26.2m. The difference may involve orders that were not recognised as revenue. We have not completed the reconciliation."
+        },
+        {
+          "locator": "line 6",
+          "text": "[00:12] COO: At year end we had 120 employees, including 85 engineers, across Birmingham, Manchester and Bristol."
+        },
+        {
+          "locator": "line 7",
+          "text": "[00:17] CEO: We estimate customer retention at 94% in FY2025, but have not supplied the cohort calculation or defined whether that refers to customers or revenue."
+        },
+        {
+          "locator": "line 8",
+          "text": "[00:21] CEO: We believe the market is fragmented. We have not commissioned a market-sizing study and cannot substantiate a market-share percentage."
+        },
+        {
+          "locator": "line 9",
+          "text": "[00:25] CFO: FY2026 and FY2027 are management forecasts, not contracted revenue. Revenue is expected to reach GBP 29.0m and GBP 33.6m, with EBITDA of GBP 6.1m and GBP 7.4m respectively."
+        },
+        {
+          "locator": "line 10",
+          "text": "[00:28] CEO: Growth depends on technician recruitment, renewals and converting more repair customers to maintenance contracts. We plan 20 net new engineers by FY2027."
+        },
+        {
+          "locator": "line 11",
+          "text": "[00:31] CFO: EBITDA is management-reported and unaudited. No normalisation bridge or quality-of-earnings report is available. We have not supplied cash, debt or normalised working capital."
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "path": "04_cfo_email.eml",
+      "sha256": "89646b9c91b67f06eb1c82c750840df82b61729b5200c862c3fe1fac708cae9a",
+      "status": "extracted",
+      "items": [
+        {
+          "locator": "line 1",
+          "text": "From: cfo@northbridge.example"
+        },
+        {
+          "locator": "line 2",
+          "text": "To: dealteam@example.invalid"
+        },
+        {
+          "locator": "line 3",
+          "text": "Date: Wed, 21 Jan 2026 09:00:00 +0000"
+        },
+        {
+          "locator": "line 4",
+          "text": "Subject: Fictional Northbridge financial model basis"
+        },
+        {
+          "locator": "line 5",
+          "text": "Content-Type: text/plain; charset=utf-8"
+        },
+        {
+          "locator": "line 7",
+          "text": "FICTIONAL TRAINING MATERIAL"
+        },
+        {
+          "locator": "line 8",
+          "text": "Please use the attached management model as the provisional basis for the draft. The GBP 1.2m difference against the briefing remains unresolved and must remain visible in the draft. This is not confirmation that the model has been audited."
+        },
+        {
+          "locator": "line 10",
+          "text": "The P&L tab is in GBP millions. The CustomerSales and ServiceMix tabs are in GBP thousands. They cover FY2025 recognised revenue, excluding VAT, for the same UK company. CustomerSales contains the five largest customers plus one aggregate row for all others. Do not treat that aggregate as a single customer."
+        },
+        {
+          "locator": "line 12",
+          "text": "The model is version 2.0, dated 21 January 2026. The forecast is management's base case. There is no customer-level forecast bridge or recruitment cost schedule yet."
+        }
+      ]
+    }
+  ]
+}

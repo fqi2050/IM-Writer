@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+node_modules/
+.build/
+runs/
+.codex-finalizer/
+.github-upload/
+*.inspect.ndjson
+.env
+.env.*
+!.env.example

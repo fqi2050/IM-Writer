@@ -1,0 +1,2210 @@
+{
+  "title": "Project Northbridge — Information Memorandum",
+  "synthetic": true,
+  "slides": [
+    {
+      "title": "Project Northbridge",
+      "background": "#132E42",
+      "elements": [
+        {
+          "id": "cover-label",
+          "type": "text",
+          "x": 70,
+          "y": 55,
+          "w": 1100,
+          "h": 30,
+          "text": "FICTIONAL TRANSACTION CASE",
+          "size": 18,
+          "color": "#83D3C6",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "cover-title",
+          "type": "text",
+          "x": 70,
+          "y": 180,
+          "w": 1120,
+          "h": 110,
+          "text": "Project Northbridge",
+          "size": 68,
+          "color": "#FFFFFF",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [
+            "BUS"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "cover-subtitle",
+          "type": "text",
+          "x": 74,
+          "y": 310,
+          "w": 1050,
+          "h": 58,
+          "text": "Information Memorandum",
+          "size": 38,
+          "color": "#FFFFFF",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "cover-company",
+          "type": "text",
+          "x": 74,
+          "y": 400,
+          "w": 1040,
+          "h": 70,
+          "text": "Northbridge Field Services Ltd\nUK equipment maintenance and technical field support",
+          "size": 25,
+          "color": "#BFD0D9",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "BUS"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "cover-date",
+          "type": "text",
+          "x": 74,
+          "y": 570,
+          "w": 1050,
+          "h": 55,
+          "text": "January 2026\nDraft for discussion",
+          "size": 20,
+          "color": "#BFD0D9",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "cover-fiction",
+          "type": "text",
+          "x": 74,
+          "y": 675,
+          "w": 1100,
+          "h": 22,
+          "text": "All companies, people and financial data in this case are fictional.",
+          "size": 14,
+          "color": "#BFD0D9",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [],
+          "calc_ids": []
+        }
+      ],
+      "notes": [
+        "FICTIONAL TRAINING CASE. All company and financial data are synthetic.",
+        "BUS: Business and founding [source_supported]\n01_company_brief.docx / paragraph 4 — Northbridge Field Services Ltd was founded in 2012. The UK business provides equipment maintenance and technical field support to industrial and logistics customers. Its headquarters are in Birmingham. The transaction perimeter is the entire standalone UK company."
+      ]
+    },
+    {
+      "title": "Executive summary",
+      "background": "#FFFFFF",
+      "elements": [
+        {
+          "id": "s2-section",
+          "type": "text",
+          "x": 60,
+          "y": 32,
+          "w": 1160,
+          "h": 22,
+          "text": "NORTHBRIDGE  /  OVERVIEW",
+          "size": 14,
+          "color": "#117F79",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s2-title",
+          "type": "text",
+          "x": 60,
+          "y": 76,
+          "w": 1160,
+          "h": 65,
+          "text": "Executive summary",
+          "size": 42,
+          "color": "#132E42",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s2-header-rule",
+          "type": "rule",
+          "x": 60,
+          "y": 154,
+          "w": 1160,
+          "h": 1,
+          "color": "#DCE4E8",
+          "fact_ids": []
+        },
+        {
+          "id": "s2-footer",
+          "type": "text",
+          "x": 60,
+          "y": 677,
+          "w": 1070,
+          "h": 21,
+          "text": "FICTIONAL TRAINING MATERIAL   •   Management information, January 2026",
+          "size": 13,
+          "color": "#586D7C",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s2-page",
+          "type": "text",
+          "x": 1170,
+          "y": 677,
+          "w": 50,
+          "h": 21,
+          "text": "02",
+          "size": 14,
+          "color": "#586D7C",
+          "bold": false,
+          "align": "right",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s2-kpi0",
+          "type": "text",
+          "x": 60,
+          "y": 192,
+          "w": 275,
+          "h": 65,
+          "text": "£25.0m",
+          "size": 48,
+          "color": "#117F79",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [
+            "FIN25"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s2-label0",
+          "type": "text",
+          "x": 60,
+          "y": 267,
+          "w": 275,
+          "h": 50,
+          "text": "FY2025 revenue",
+          "size": 20,
+          "color": "#586D7C",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "FIN25"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s2-kpi1",
+          "type": "text",
+          "x": 355,
+          "y": 192,
+          "w": 275,
+          "h": 65,
+          "text": "£5.0m",
+          "size": 48,
+          "color": "#117F79",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [
+            "FIN25"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s2-label1",
+          "type": "text",
+          "x": 355,
+          "y": 267,
+          "w": 275,
+          "h": 50,
+          "text": "FY2025 EBITDA",
+          "size": 20,
+          "color": "#586D7C",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "FIN25"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s2-kpi2",
+          "type": "text",
+          "x": 650,
+          "y": 192,
+          "w": 275,
+          "h": 65,
+          "text": "20%",
+          "size": 48,
+          "color": "#117F79",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [
+            "FIN25"
+          ],
+          "calc_ids": [
+            "MARGINS"
+          ]
+        },
+        {
+          "id": "s2-label2",
+          "type": "text",
+          "x": 650,
+          "y": 267,
+          "w": 275,
+          "h": 50,
+          "text": "FY2025 EBITDA margin",
+          "size": 20,
+          "color": "#586D7C",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "FIN25"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s2-kpi3",
+          "type": "text",
+          "x": 945,
+          "y": 192,
+          "w": 275,
+          "h": 65,
+          "text": "70%",
+          "size": 48,
+          "color": "#117F79",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [
+            "MIX"
+          ],
+          "calc_ids": [
+            "MIX_SHARE"
+          ]
+        },
+        {
+          "id": "s2-label3",
+          "type": "text",
+          "x": 945,
+          "y": 267,
+          "w": 275,
+          "h": 50,
+          "text": "Maintenance revenue share",
+          "size": 20,
+          "color": "#586D7C",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "MIX"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s2-midrule",
+          "type": "rule",
+          "x": 60,
+          "y": 338,
+          "w": 1160,
+          "h": 1,
+          "color": "#DCE4E8",
+          "fact_ids": []
+        },
+        {
+          "id": "s2-business",
+          "type": "text",
+          "x": 60,
+          "y": 372,
+          "w": 690,
+          "h": 174,
+          "text": "UK provider of scheduled maintenance, reactive repairs and installation projects.\n\nFounded in 2012, the company operates from three hubs with 85 field engineers.",
+          "size": 25,
+          "color": "#132E42",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "BUS",
+            "SERVICES",
+            "OPS"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s2-sale",
+          "type": "text",
+          "x": 820,
+          "y": 372,
+          "w": 400,
+          "h": 40,
+          "text": "Proposed majority sale",
+          "size": 27,
+          "color": "#132E42",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [
+            "DEAL"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s2-sale-detail",
+          "type": "text",
+          "x": 820,
+          "y": 430,
+          "w": 390,
+          "h": 124,
+          "text": "Shareholders are considering a sale of 70% to 100%. Management rollover remains to be agreed.",
+          "size": 24,
+          "color": "#132E42",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "DEAL"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s2-caveat",
+          "type": "text",
+          "x": 60,
+          "y": 590,
+          "w": 1160,
+          "h": 62,
+          "text": "Provisional revenue basis: the model shows £25.0m versus £26.2m in the earlier briefing.\nThe difference remains unresolved. EBITDA is management-reported and unaudited.",
+          "size": 18,
+          "color": "#99621B",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "CONFLICT",
+            "QOE"
+          ],
+          "calc_ids": []
+        }
+      ],
+      "notes": [
+        "FICTIONAL TRAINING CASE. All company and financial data are synthetic.",
+        "BUS: Business and founding [source_supported]\n01_company_brief.docx / paragraph 4 — Northbridge Field Services Ltd was founded in 2012. The UK business provides equipment maintenance and technical field support to industrial and logistics customers. Its headquarters are in Birmingham. The transaction perimeter is the entire standalone UK company.",
+        "CONFLICT: FY2025 revenue difference [provisional_conflict]\n02_management_model.xlsx / PnL!D6 — 25\n01_company_brief.docx / paragraph 8 — The preliminary FY2025 revenue estimate is GBP 26.2 million. This briefing does not provide a reconciliation to the finance model. Financial years end on 31 December. All revenue figures exclude VAT.\n04_cfo_email.eml / line 8 — Please use the attached management model as the provisional basis for the draft. The GBP 1.2m difference against the briefing remains unresolved and must remain visible in the draft. This is not confirmation that the model has been audited.\nLimitations: Use model provisionally under CFO instruction; do not call reconciled.",
+        "DEAL: Ownership and proposed sale [source_supported]\n01_company_brief.docx / paragraph 14 — The founder holds 70%, management holds 20% and a seed investor holds 10% of ordinary equity. Shareholders are considering a sale of 70% to 100% of the company. Management rollover, valuation, timing and financing remain to be agreed. No debt, cash or working-capital schedule has been provided.",
+        "FIN25: FY2025 financial statements [provisional_conflict]\n02_management_model.xlsx / PnL!D5 — FY2025A\n02_management_model.xlsx / PnL!D6 — 25\n02_management_model.xlsx / PnL!D7 — -14.5\n02_management_model.xlsx / PnL!D8 — 10.5\n02_management_model.xlsx / PnL!D9 — -5.5\n02_management_model.xlsx / PnL!D10 — 5\n02_management_model.xlsx / PnL!D11 — 0.2\nLimitations: Unaudited management figures; FY2025 revenue conflict remains open.",
+        "MIX: FY2025 service revenue [source_supported]\n02_management_model.xlsx / ServiceMix!A5 — Scheduled maintenance\n02_management_model.xlsx / ServiceMix!B5 — 17500\n02_management_model.xlsx / ServiceMix!C5 — Annual service contracts\n02_management_model.xlsx / ServiceMix!A6 — Reactive repairs\n02_management_model.xlsx / ServiceMix!B6 — 5000\n02_management_model.xlsx / ServiceMix!C6 — Call-out and materials\n02_management_model.xlsx / ServiceMix!A7 — Installation projects\n02_management_model.xlsx / ServiceMix!B7 — 2500\n02_management_model.xlsx / ServiceMix!C7 — Project-based work",
+        "OPS: People, hubs and management [source_supported]\n01_company_brief.docx / paragraph 10 — At 31 December 2025, Northbridge has 120 employees including 85 field engineers. It operates hubs in Birmingham, Manchester and Bristol. Maya Reed is founder and CEO, Daniel Cole is CFO and Aisha Patel is COO. These names and all company details are fictitious. The founder continues to lead major customer relationships.",
+        "QOE: Financial diligence evidence unavailable [missing]\n03_management_interview.txt / line 11 — [00:31] CFO: EBITDA is management-reported and unaudited. No normalisation bridge or quality-of-earnings report is available. We have not supplied cash, debt or normalised working capital.\nLimitations: No QoE, cash, debt or working-capital evidence.",
+        "SERVICES: Services and contract terms [source_supported]\n01_company_brief.docx / paragraph 6 — The business supplies scheduled maintenance under annual service contracts, reactive repairs and installation projects. Contracts generally run for one to three years and renew by agreement. Scheduled maintenance provides the contracted revenue stream. No assumption should be made that renewals are automatic. Customers include logistics operators, manufacturers and facilities managers.",
+        "MARGINS: {\"id\": \"MARGINS\", \"formula\": \"Each period EBITDA / same period revenue\", \"input_ids\": [\"FIN23\", \"FIN24\", \"FIN25\", \"FIN26\", \"FIN27\"], \"result\": [0.14999999999999997, 0.1813953488372093, 0.2, 0.21034482758620687, 0.22023809523809523], \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}",
+        "MIX_SHARE: {\"id\": \"MIX_SHARE\", \"formula\": \"ServiceMix!B5:B7 / sum(ServiceMix!B5:B7)\", \"input_ids\": [\"MIX\"], \"result\": [0.7, 0.2, 0.1], \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}"
+      ]
+    },
+    {
+      "title": "Investment highlights",
+      "background": "#FFFFFF",
+      "elements": [
+        {
+          "id": "s3-section",
+          "type": "text",
+          "x": 60,
+          "y": 32,
+          "w": 1160,
+          "h": 22,
+          "text": "NORTHBRIDGE  /  INVESTMENT CASE",
+          "size": 14,
+          "color": "#117F79",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s3-title",
+          "type": "text",
+          "x": 60,
+          "y": 76,
+          "w": 1160,
+          "h": 65,
+          "text": "Investment highlights",
+          "size": 42,
+          "color": "#132E42",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s3-header-rule",
+          "type": "rule",
+          "x": 60,
+          "y": 154,
+          "w": 1160,
+          "h": 1,
+          "color": "#DCE4E8",
+          "fact_ids": []
+        },
+        {
+          "id": "s3-footer",
+          "type": "text",
+          "x": 60,
+          "y": 677,
+          "w": 1070,
+          "h": 21,
+          "text": "FICTIONAL TRAINING MATERIAL   •   Management information, January 2026",
+          "size": 13,
+          "color": "#586D7C",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s3-page",
+          "type": "text",
+          "x": 1170,
+          "y": 677,
+          "w": 50,
+          "h": 21,
+          "text": "03",
+          "size": 14,
+          "color": "#586D7C",
+          "bold": false,
+          "align": "right",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s3-num0",
+          "type": "text",
+          "x": 60,
+          "y": 185,
+          "w": 60,
+          "h": 45,
+          "text": "01",
+          "size": 30,
+          "color": "#117F79",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s3-head0",
+          "type": "text",
+          "x": 140,
+          "y": 185,
+          "w": 365,
+          "h": 67,
+          "text": "Contracted maintenance activity",
+          "size": 25,
+          "color": "#132E42",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [
+            "MIX",
+            "SERVICES"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s3-body0",
+          "type": "text",
+          "x": 535,
+          "y": 185,
+          "w": 685,
+          "h": 84,
+          "text": "Scheduled maintenance contributes 70% of FY2025 revenue. Contracts generally run for one to three years, with renewal by agreement.",
+          "size": 23,
+          "color": "#132E42",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "MIX",
+            "SERVICES"
+          ],
+          "calc_ids": [
+            "MIX_SHARE"
+          ]
+        },
+        {
+          "id": "s3-rule0",
+          "type": "rule",
+          "x": 140,
+          "y": 281,
+          "w": 1080,
+          "h": 1,
+          "color": "#DCE4E8",
+          "fact_ids": []
+        },
+        {
+          "id": "s3-num1",
+          "type": "text",
+          "x": 60,
+          "y": 297,
+          "w": 60,
+          "h": 45,
+          "text": "02",
+          "size": 30,
+          "color": "#117F79",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s3-head1",
+          "type": "text",
+          "x": 140,
+          "y": 297,
+          "w": 365,
+          "h": 67,
+          "text": "Historical revenue\ngrowth",
+          "size": 25,
+          "color": "#132E42",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [
+            "FIN23",
+            "FIN25"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s3-body1",
+          "type": "text",
+          "x": 535,
+          "y": 297,
+          "w": 685,
+          "h": 84,
+          "text": "Revenue increased from £18.0m in FY2023 to a provisional £25.0m in FY2025, a 17.9% CAGR.",
+          "size": 23,
+          "color": "#132E42",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "FIN23",
+            "FIN25"
+          ],
+          "calc_ids": [
+            "CAGR"
+          ]
+        },
+        {
+          "id": "s3-rule1",
+          "type": "rule",
+          "x": 140,
+          "y": 393,
+          "w": 1080,
+          "h": 1,
+          "color": "#DCE4E8",
+          "fact_ids": []
+        },
+        {
+          "id": "s3-num2",
+          "type": "text",
+          "x": 60,
+          "y": 409,
+          "w": 60,
+          "h": 45,
+          "text": "03",
+          "size": 30,
+          "color": "#117F79",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s3-head2",
+          "type": "text",
+          "x": 140,
+          "y": 409,
+          "w": 365,
+          "h": 67,
+          "text": "Technical delivery\ncapacity",
+          "size": 25,
+          "color": "#132E42",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [
+            "OPS"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s3-body2",
+          "type": "text",
+          "x": 535,
+          "y": 409,
+          "w": 685,
+          "h": 84,
+          "text": "85 field engineers support delivery from Birmingham, Manchester and Bristol. Total year-end headcount is 120.",
+          "size": 23,
+          "color": "#132E42",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "OPS"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s3-rule2",
+          "type": "rule",
+          "x": 140,
+          "y": 505,
+          "w": 1080,
+          "h": 1,
+          "color": "#DCE4E8",
+          "fact_ids": []
+        },
+        {
+          "id": "s3-num3",
+          "type": "text",
+          "x": 60,
+          "y": 521,
+          "w": 60,
+          "h": 45,
+          "text": "04",
+          "size": 30,
+          "color": "#117F79",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s3-head3",
+          "type": "text",
+          "x": 140,
+          "y": 521,
+          "w": 365,
+          "h": 67,
+          "text": "Identified expansion\npriorities",
+          "size": 25,
+          "color": "#132E42",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [
+            "GROWTH"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s3-body3",
+          "type": "text",
+          "x": 535,
+          "y": 521,
+          "w": 685,
+          "h": 84,
+          "text": "Management plans to add 20 net engineers by FY2027 and cross-sell maintenance to repair customers. Execution depends on hiring and renewals.",
+          "size": 23,
+          "color": "#132E42",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "GROWTH"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s3-caveat",
+          "type": "text",
+          "x": 60,
+          "y": 638,
+          "w": 1160,
+          "h": 25,
+          "text": "Revenue remains provisional. The growth plan is a management forecast, not contracted backlog.",
+          "size": 17,
+          "color": "#99621B",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "CONFLICT",
+            "FORECAST_BASIS"
+          ],
+          "calc_ids": []
+        }
+      ],
+      "notes": [
+        "FICTIONAL TRAINING CASE. All company and financial data are synthetic.",
+        "CONFLICT: FY2025 revenue difference [provisional_conflict]\n02_management_model.xlsx / PnL!D6 — 25\n01_company_brief.docx / paragraph 8 — The preliminary FY2025 revenue estimate is GBP 26.2 million. This briefing does not provide a reconciliation to the finance model. Financial years end on 31 December. All revenue figures exclude VAT.\n04_cfo_email.eml / line 8 — Please use the attached management model as the provisional basis for the draft. The GBP 1.2m difference against the briefing remains unresolved and must remain visible in the draft. This is not confirmation that the model has been audited.\nLimitations: Use model provisionally under CFO instruction; do not call reconciled.",
+        "FIN23: FY2023 financial statements [source_supported]\n02_management_model.xlsx / PnL!B5 — FY2023A\n02_management_model.xlsx / PnL!B6 — 18\n02_management_model.xlsx / PnL!B7 — -10.8\n02_management_model.xlsx / PnL!B8 — 7.199999999999999\n02_management_model.xlsx / PnL!B9 — -4.5\n02_management_model.xlsx / PnL!B10 — 2.6999999999999993\n02_management_model.xlsx / PnL!B11 — 0.14999999999999997\nLimitations: Unaudited management figures; FY2025 revenue conflict remains open.",
+        "FIN25: FY2025 financial statements [provisional_conflict]\n02_management_model.xlsx / PnL!D5 — FY2025A\n02_management_model.xlsx / PnL!D6 — 25\n02_management_model.xlsx / PnL!D7 — -14.5\n02_management_model.xlsx / PnL!D8 — 10.5\n02_management_model.xlsx / PnL!D9 — -5.5\n02_management_model.xlsx / PnL!D10 — 5\n02_management_model.xlsx / PnL!D11 — 0.2\nLimitations: Unaudited management figures; FY2025 revenue conflict remains open.",
+        "FORECAST_BASIS: Forecast bridge unavailable [missing]\n04_cfo_email.eml / line 12 — The model is version 2.0, dated 21 January 2026. The forecast is management's base case. There is no customer-level forecast bridge or recruitment cost schedule yet.",
+        "GROWTH: Management growth plan [source_supported]\n01_company_brief.docx / paragraph 12 — Management plans to add 20 net field engineers by the end of FY2027, cross-sell scheduled maintenance to repair customers and expand service coverage from existing hubs. The plan assumes sufficient technician recruitment and contract renewals. No signed pipeline or customer-cohort evidence accompanies this briefing.\n03_management_interview.txt / line 10 — [00:28] CEO: Growth depends on technician recruitment, renewals and converting more repair customers to maintenance contracts. We plan 20 net new engineers by FY2027.",
+        "MIX: FY2025 service revenue [source_supported]\n02_management_model.xlsx / ServiceMix!A5 — Scheduled maintenance\n02_management_model.xlsx / ServiceMix!B5 — 17500\n02_management_model.xlsx / ServiceMix!C5 — Annual service contracts\n02_management_model.xlsx / ServiceMix!A6 — Reactive repairs\n02_management_model.xlsx / ServiceMix!B6 — 5000\n02_management_model.xlsx / ServiceMix!C6 — Call-out and materials\n02_management_model.xlsx / ServiceMix!A7 — Installation projects\n02_management_model.xlsx / ServiceMix!B7 — 2500\n02_management_model.xlsx / ServiceMix!C7 — Project-based work",
+        "OPS: People, hubs and management [source_supported]\n01_company_brief.docx / paragraph 10 — At 31 December 2025, Northbridge has 120 employees including 85 field engineers. It operates hubs in Birmingham, Manchester and Bristol. Maya Reed is founder and CEO, Daniel Cole is CFO and Aisha Patel is COO. These names and all company details are fictitious. The founder continues to lead major customer relationships.",
+        "SERVICES: Services and contract terms [source_supported]\n01_company_brief.docx / paragraph 6 — The business supplies scheduled maintenance under annual service contracts, reactive repairs and installation projects. Contracts generally run for one to three years and renew by agreement. Scheduled maintenance provides the contracted revenue stream. No assumption should be made that renewals are automatic. Customers include logistics operators, manufacturers and facilities managers.",
+        "CAGR: {\"id\": \"CAGR\", \"formula\": \"(FY2025 revenue / FY2023 revenue)^(1/2) - 1\", \"input_ids\": [\"FIN23\", \"FIN25\"], \"result\": 0.17851130197757925, \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}",
+        "MIX_SHARE: {\"id\": \"MIX_SHARE\", \"formula\": \"ServiceMix!B5:B7 / sum(ServiceMix!B5:B7)\", \"input_ids\": [\"MIX\"], \"result\": [0.7, 0.2, 0.1], \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}"
+      ]
+    },
+    {
+      "title": "Business and revenue mix",
+      "background": "#FFFFFF",
+      "elements": [
+        {
+          "id": "s4-section",
+          "type": "text",
+          "x": 60,
+          "y": 32,
+          "w": 1160,
+          "h": 22,
+          "text": "NORTHBRIDGE  /  SERVICES",
+          "size": 14,
+          "color": "#117F79",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s4-title",
+          "type": "text",
+          "x": 60,
+          "y": 76,
+          "w": 1160,
+          "h": 65,
+          "text": "Business and revenue mix",
+          "size": 42,
+          "color": "#132E42",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s4-header-rule",
+          "type": "rule",
+          "x": 60,
+          "y": 154,
+          "w": 1160,
+          "h": 1,
+          "color": "#DCE4E8",
+          "fact_ids": []
+        },
+        {
+          "id": "s4-footer",
+          "type": "text",
+          "x": 60,
+          "y": 677,
+          "w": 1070,
+          "h": 21,
+          "text": "FICTIONAL TRAINING MATERIAL   •   Management information, January 2026",
+          "size": 13,
+          "color": "#586D7C",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s4-page",
+          "type": "text",
+          "x": 1170,
+          "y": 677,
+          "w": 50,
+          "h": 21,
+          "text": "04",
+          "size": 14,
+          "color": "#586D7C",
+          "bold": false,
+          "align": "right",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s4-intro",
+          "type": "text",
+          "x": 60,
+          "y": 181,
+          "w": 1160,
+          "h": 58,
+          "text": "Scheduled maintenance accounts for most revenue, supported by repairs and project work.",
+          "size": 25,
+          "color": "#132E42",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "MIX",
+            "SERVICES"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s4-table",
+          "type": "table",
+          "x": 60,
+          "y": 265,
+          "w": 1160,
+          "h": 245,
+          "rows": [
+            [
+              "Service",
+              "FY2025 £m",
+              "Share",
+              "Commercial basis"
+            ],
+            [
+              "Scheduled maintenance",
+              "17.5",
+              "70%",
+              "Annual service contracts"
+            ],
+            [
+              "Reactive repairs",
+              "5.0",
+              "20%",
+              "Call-out and materials"
+            ],
+            [
+              "Installation projects",
+              "2.5",
+              "10%",
+              "Project-based work"
+            ]
+          ],
+          "widths": [
+            3.4,
+            1.5,
+            1.1,
+            3
+          ],
+          "size": 22,
+          "fact_ids": [
+            "MIX",
+            "SERVICES"
+          ],
+          "calc_ids": [
+            "MIX_SHARE",
+            "NORMALIZE"
+          ]
+        },
+        {
+          "id": "s4-contract",
+          "type": "text",
+          "x": 60,
+          "y": 551,
+          "w": 560,
+          "h": 80,
+          "text": "Contract term\nTypically one to three years, with renewal by agreement.",
+          "size": 23,
+          "color": "#132E42",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "SERVICES"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s4-customer",
+          "type": "text",
+          "x": 700,
+          "y": 551,
+          "w": 520,
+          "h": 80,
+          "text": "Customer applications\nIndustrial sites, logistics operations and facilities management.",
+          "size": 23,
+          "color": "#132E42",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "SERVICES"
+          ],
+          "calc_ids": []
+        }
+      ],
+      "notes": [
+        "FICTIONAL TRAINING CASE. All company and financial data are synthetic.",
+        "MIX: FY2025 service revenue [source_supported]\n02_management_model.xlsx / ServiceMix!A5 — Scheduled maintenance\n02_management_model.xlsx / ServiceMix!B5 — 17500\n02_management_model.xlsx / ServiceMix!C5 — Annual service contracts\n02_management_model.xlsx / ServiceMix!A6 — Reactive repairs\n02_management_model.xlsx / ServiceMix!B6 — 5000\n02_management_model.xlsx / ServiceMix!C6 — Call-out and materials\n02_management_model.xlsx / ServiceMix!A7 — Installation projects\n02_management_model.xlsx / ServiceMix!B7 — 2500\n02_management_model.xlsx / ServiceMix!C7 — Project-based work",
+        "SERVICES: Services and contract terms [source_supported]\n01_company_brief.docx / paragraph 6 — The business supplies scheduled maintenance under annual service contracts, reactive repairs and installation projects. Contracts generally run for one to three years and renew by agreement. Scheduled maintenance provides the contracted revenue stream. No assumption should be made that renewals are automatic. Customers include logistics operators, manufacturers and facilities managers.",
+        "MIX_SHARE: {\"id\": \"MIX_SHARE\", \"formula\": \"ServiceMix!B5:B7 / sum(ServiceMix!B5:B7)\", \"input_ids\": [\"MIX\"], \"result\": [0.7, 0.2, 0.1], \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}",
+        "NORMALIZE: {\"id\": \"NORMALIZE\", \"formula\": \"GBP thousand / 1000\", \"input_ids\": [\"MIX\", \"CUSTOMERS\", \"UNITS\"], \"result\": {\"services_m\": [17.5, 5.0, 2.5], \"customers_m\": [3.0, 2.25, 2.0, 1.75, 1.5, 14.5]}, \"unit\": \"GBP million\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}"
+      ]
+    },
+    {
+      "title": "Customer concentration",
+      "background": "#FFFFFF",
+      "elements": [
+        {
+          "id": "s5-section",
+          "type": "text",
+          "x": 60,
+          "y": 32,
+          "w": 1160,
+          "h": 22,
+          "text": "NORTHBRIDGE  /  CUSTOMERS",
+          "size": 14,
+          "color": "#117F79",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s5-title",
+          "type": "text",
+          "x": 60,
+          "y": 76,
+          "w": 1160,
+          "h": 65,
+          "text": "Customer concentration",
+          "size": 42,
+          "color": "#132E42",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s5-header-rule",
+          "type": "rule",
+          "x": 60,
+          "y": 154,
+          "w": 1160,
+          "h": 1,
+          "color": "#DCE4E8",
+          "fact_ids": []
+        },
+        {
+          "id": "s5-footer",
+          "type": "text",
+          "x": 60,
+          "y": 677,
+          "w": 1070,
+          "h": 21,
+          "text": "FICTIONAL TRAINING MATERIAL   •   Management information, January 2026",
+          "size": 13,
+          "color": "#586D7C",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s5-page",
+          "type": "text",
+          "x": 1170,
+          "y": 677,
+          "w": 50,
+          "h": 21,
+          "text": "05",
+          "size": 14,
+          "color": "#586D7C",
+          "bold": false,
+          "align": "right",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s5-chart-title",
+          "type": "text",
+          "x": 60,
+          "y": 180,
+          "w": 700,
+          "h": 35,
+          "text": "FY2025 share of revenue by largest customer",
+          "size": 23,
+          "color": "#132E42",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [
+            "CUSTOMERS"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s5-chart",
+          "type": "chart",
+          "x": 60,
+          "y": 234,
+          "w": 725,
+          "h": 355,
+          "categories": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "values": [
+            0.12,
+            0.09,
+            0.08,
+            0.07,
+            0.06
+          ],
+          "series_name": "Share of FY2025 revenue",
+          "max": 0.16,
+          "format": "0.0%",
+          "unit": "Share of FY2025 revenue",
+          "color": "#117F79",
+          "fact_ids": [
+            "CUSTOMERS"
+          ],
+          "calc_ids": [
+            "TOP5",
+            "LARGEST"
+          ]
+        },
+        {
+          "id": "s5-top",
+          "type": "text",
+          "x": 850,
+          "y": 205,
+          "w": 350,
+          "h": 65,
+          "text": "42%",
+          "size": 54,
+          "color": "#117F79",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [
+            "CUSTOMERS"
+          ],
+          "calc_ids": [
+            "TOP5"
+          ]
+        },
+        {
+          "id": "s5-top-label",
+          "type": "text",
+          "x": 850,
+          "y": 280,
+          "w": 340,
+          "h": 55,
+          "text": "Top five customers",
+          "size": 24,
+          "color": "#132E42",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "CUSTOMERS"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s5-largest",
+          "type": "text",
+          "x": 850,
+          "y": 360,
+          "w": 350,
+          "h": 65,
+          "text": "12%",
+          "size": 54,
+          "color": "#117F79",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [
+            "CUSTOMERS"
+          ],
+          "calc_ids": [
+            "LARGEST"
+          ]
+        },
+        {
+          "id": "s5-largest-label",
+          "type": "text",
+          "x": 850,
+          "y": 435,
+          "w": 340,
+          "h": 50,
+          "text": "Largest customer",
+          "size": 24,
+          "color": "#132E42",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "CUSTOMERS"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s5-caveat",
+          "type": "text",
+          "x": 60,
+          "y": 608,
+          "w": 1160,
+          "h": 48,
+          "text": "The remaining 58% comprises multiple customers. The management retention estimate lacks\na defined basis and cohort data, so no verified retention metric is presented.",
+          "size": 18,
+          "color": "#99621B",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "CUSTOMERS",
+            "RETENTION"
+          ],
+          "calc_ids": []
+        }
+      ],
+      "notes": [
+        "FICTIONAL TRAINING CASE. All company and financial data are synthetic.",
+        "CUSTOMERS: FY2025 customer sales [source_supported]\n02_management_model.xlsx / CustomerSales!A5 — C001\n02_management_model.xlsx / CustomerSales!B5 — Customer A\n02_management_model.xlsx / CustomerSales!C5 — 3000\n02_management_model.xlsx / CustomerSales!A6 — C002\n02_management_model.xlsx / CustomerSales!B6 — Customer B\n02_management_model.xlsx / CustomerSales!C6 — 2250\n02_management_model.xlsx / CustomerSales!A7 — C003\n02_management_model.xlsx / CustomerSales!B7 — Customer C\n02_management_model.xlsx / CustomerSales!C7 — 2000\n02_management_model.xlsx / CustomerSales!A8 — C004\n02_management_model.xlsx / CustomerSales!B8 — Customer D\n02_management_model.xlsx / CustomerSales!C8 — 1750\n02_management_model.xlsx / CustomerSales!A9 — C005\n02_management_model.xlsx / CustomerSales!B9 — Customer E\n02_management_model.xlsx / CustomerSales!C9 — 1500\n02_management_model.xlsx / CustomerSales!A10 — OTHER\n02_management_model.xlsx / CustomerSales!B10 — All other customers (aggregate)\n02_management_model.xlsx / CustomerSales!C10 — 14500\nLimitations: OTHER is an aggregate.",
+        "RETENTION: Retention estimate lacks defined basis [management_unverified]\n03_management_interview.txt / line 7 — [00:17] CEO: We estimate customer retention at 94% in FY2025, but have not supplied the cohort calculation or defined whether that refers to customers or revenue.\nLimitations: No definition or cohort data; excluded from quantitative investment highlights.",
+        "LARGEST: {\"id\": \"LARGEST\", \"formula\": \"max(CustomerSales!C5:C9) / sum(CustomerSales!C5:C10)\", \"input_ids\": [\"CUSTOMERS\"], \"result\": 0.12, \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}",
+        "TOP5: {\"id\": \"TOP5\", \"formula\": \"sum(CustomerSales!C5:C9) / sum(CustomerSales!C5:C10)\", \"input_ids\": [\"CUSTOMERS\"], \"result\": 0.42, \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}"
+      ]
+    },
+    {
+      "title": "Operations and management",
+      "background": "#FFFFFF",
+      "elements": [
+        {
+          "id": "s6-section",
+          "type": "text",
+          "x": 60,
+          "y": 32,
+          "w": 1160,
+          "h": 22,
+          "text": "NORTHBRIDGE  /  OPERATING MODEL",
+          "size": 14,
+          "color": "#117F79",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s6-title",
+          "type": "text",
+          "x": 60,
+          "y": 76,
+          "w": 1160,
+          "h": 65,
+          "text": "Operations and management",
+          "size": 42,
+          "color": "#132E42",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s6-header-rule",
+          "type": "rule",
+          "x": 60,
+          "y": 154,
+          "w": 1160,
+          "h": 1,
+          "color": "#DCE4E8",
+          "fact_ids": []
+        },
+        {
+          "id": "s6-footer",
+          "type": "text",
+          "x": 60,
+          "y": 677,
+          "w": 1070,
+          "h": 21,
+          "text": "FICTIONAL TRAINING MATERIAL   •   Management information, January 2026",
+          "size": 13,
+          "color": "#586D7C",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s6-page",
+          "type": "text",
+          "x": 1170,
+          "y": 677,
+          "w": 50,
+          "h": 21,
+          "text": "06",
+          "size": 14,
+          "color": "#586D7C",
+          "bold": false,
+          "align": "right",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s6-count",
+          "type": "text",
+          "x": 60,
+          "y": 185,
+          "w": 520,
+          "h": 70,
+          "text": "120 employees",
+          "size": 44,
+          "color": "#117F79",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [
+            "OPS"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s6-engineers",
+          "type": "text",
+          "x": 60,
+          "y": 275,
+          "w": 520,
+          "h": 55,
+          "text": "Including 85 field engineers",
+          "size": 26,
+          "color": "#132E42",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "OPS"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s6-hubs-head",
+          "type": "text",
+          "x": 60,
+          "y": 365,
+          "w": 520,
+          "h": 38,
+          "text": "Three operating hubs",
+          "size": 27,
+          "color": "#132E42",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [
+            "OPS"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s6-hubs",
+          "type": "text",
+          "x": 60,
+          "y": 425,
+          "w": 520,
+          "h": 130,
+          "text": "Birmingham\nManchester\nBristol",
+          "size": 26,
+          "color": "#132E42",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "OPS"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s6-team",
+          "type": "table",
+          "x": 650,
+          "y": 190,
+          "w": 570,
+          "h": 245,
+          "rows": [
+            [
+              "Management",
+              "Role"
+            ],
+            [
+              "Maya Reed",
+              "Founder and CEO"
+            ],
+            [
+              "Daniel Cole",
+              "CFO"
+            ],
+            [
+              "Aisha Patel",
+              "COO"
+            ]
+          ],
+          "widths": [
+            1.1,
+            1.3
+          ],
+          "size": 22,
+          "fact_ids": [
+            "OPS"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s6-dependency",
+          "type": "text",
+          "x": 650,
+          "y": 485,
+          "w": 570,
+          "h": 125,
+          "text": "The founder leads major customer relationships. Management plans 20 net engineer hires by FY2027. Recruitment and relationship continuity require diligence.",
+          "size": 23,
+          "color": "#132E42",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "OPS",
+            "GROWTH"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s6-date",
+          "type": "text",
+          "x": 60,
+          "y": 631,
+          "w": 1160,
+          "h": 25,
+          "text": "Headcount as at 31 December 2025. Management information.",
+          "size": 17,
+          "color": "#586D7C",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "OPS"
+          ],
+          "calc_ids": []
+        }
+      ],
+      "notes": [
+        "FICTIONAL TRAINING CASE. All company and financial data are synthetic.",
+        "GROWTH: Management growth plan [source_supported]\n01_company_brief.docx / paragraph 12 — Management plans to add 20 net field engineers by the end of FY2027, cross-sell scheduled maintenance to repair customers and expand service coverage from existing hubs. The plan assumes sufficient technician recruitment and contract renewals. No signed pipeline or customer-cohort evidence accompanies this briefing.\n03_management_interview.txt / line 10 — [00:28] CEO: Growth depends on technician recruitment, renewals and converting more repair customers to maintenance contracts. We plan 20 net new engineers by FY2027.",
+        "OPS: People, hubs and management [source_supported]\n01_company_brief.docx / paragraph 10 — At 31 December 2025, Northbridge has 120 employees including 85 field engineers. It operates hubs in Birmingham, Manchester and Bristol. Maya Reed is founder and CEO, Daniel Cole is CFO and Aisha Patel is COO. These names and all company details are fictitious. The founder continues to lead major customer relationships."
+      ]
+    },
+    {
+      "title": "Historical financial performance",
+      "background": "#FFFFFF",
+      "elements": [
+        {
+          "id": "s7-section",
+          "type": "text",
+          "x": 60,
+          "y": 32,
+          "w": 1160,
+          "h": 22,
+          "text": "NORTHBRIDGE  /  FINANCIALS",
+          "size": 14,
+          "color": "#117F79",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s7-title",
+          "type": "text",
+          "x": 60,
+          "y": 76,
+          "w": 1160,
+          "h": 65,
+          "text": "Historical financial performance",
+          "size": 42,
+          "color": "#132E42",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s7-header-rule",
+          "type": "rule",
+          "x": 60,
+          "y": 154,
+          "w": 1160,
+          "h": 1,
+          "color": "#DCE4E8",
+          "fact_ids": []
+        },
+        {
+          "id": "s7-footer",
+          "type": "text",
+          "x": 60,
+          "y": 677,
+          "w": 1070,
+          "h": 21,
+          "text": "FICTIONAL TRAINING MATERIAL   •   Management information, January 2026",
+          "size": 13,
+          "color": "#586D7C",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s7-page",
+          "type": "text",
+          "x": 1170,
+          "y": 677,
+          "w": 50,
+          "h": 21,
+          "text": "07",
+          "size": 14,
+          "color": "#586D7C",
+          "bold": false,
+          "align": "right",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s7-unit",
+          "type": "text",
+          "x": 60,
+          "y": 180,
+          "w": 1160,
+          "h": 30,
+          "text": "GBP million unless stated. Year ending 31 December. Management actuals.",
+          "size": 20,
+          "color": "#586D7C",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "FIN23",
+            "FIN24",
+            "FIN25",
+            "UNITS"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s7-table",
+          "type": "table",
+          "x": 60,
+          "y": 230,
+          "w": 840,
+          "h": 338,
+          "rows": [
+            [
+              "",
+              "FY2023A",
+              "FY2024A",
+              "FY2025A"
+            ],
+            [
+              "Revenue",
+              "18.0",
+              "21.5",
+              "25.0"
+            ],
+            [
+              "Cost of services",
+              "(10.8)",
+              "(12.7)",
+              "(14.5)"
+            ],
+            [
+              "Gross profit",
+              "7.2",
+              "8.8",
+              "10.5"
+            ],
+            [
+              "Operating expenses",
+              "(4.5)",
+              "(4.9)",
+              "(5.5)"
+            ],
+            [
+              "EBITDA",
+              "2.7",
+              "3.9",
+              "5.0"
+            ],
+            [
+              "EBITDA margin",
+              "15.0%",
+              "18.1%",
+              "20.0%"
+            ]
+          ],
+          "widths": [
+            2.8,
+            1.4,
+            1.4,
+            1.4
+          ],
+          "size": 22,
+          "fact_ids": [
+            "FIN23",
+            "FIN24",
+            "FIN25"
+          ],
+          "calc_ids": [
+            "MARGINS"
+          ]
+        },
+        {
+          "id": "s7-cagr",
+          "type": "text",
+          "x": 960,
+          "y": 248,
+          "w": 260,
+          "h": 70,
+          "text": "17.9%",
+          "size": 51,
+          "color": "#117F79",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [
+            "FIN23",
+            "FIN25"
+          ],
+          "calc_ids": [
+            "CAGR"
+          ]
+        },
+        {
+          "id": "s7-cagr-label",
+          "type": "text",
+          "x": 960,
+          "y": 330,
+          "w": 250,
+          "h": 75,
+          "text": "FY2023–FY2025\nrevenue CAGR",
+          "size": 23,
+          "color": "#132E42",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "FIN23",
+            "FIN25"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s7-margin",
+          "type": "text",
+          "x": 960,
+          "y": 438,
+          "w": 250,
+          "h": 80,
+          "text": "20.0%\nFY2025 margin",
+          "size": 28,
+          "color": "#117F79",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [
+            "FIN25"
+          ],
+          "calc_ids": [
+            "MARGINS"
+          ]
+        },
+        {
+          "id": "s7-caveat",
+          "type": "text",
+          "x": 60,
+          "y": 598,
+          "w": 1160,
+          "h": 60,
+          "text": "FY2025 revenue is provisional: £25.0m model versus £26.2m briefing.\nManagement EBITDA is unaudited. No normalisation bridge or QoE report is available.",
+          "size": 18,
+          "color": "#99621B",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "CONFLICT",
+            "QOE"
+          ],
+          "calc_ids": []
+        }
+      ],
+      "notes": [
+        "FICTIONAL TRAINING CASE. All company and financial data are synthetic.",
+        "CONFLICT: FY2025 revenue difference [provisional_conflict]\n02_management_model.xlsx / PnL!D6 — 25\n01_company_brief.docx / paragraph 8 — The preliminary FY2025 revenue estimate is GBP 26.2 million. This briefing does not provide a reconciliation to the finance model. Financial years end on 31 December. All revenue figures exclude VAT.\n04_cfo_email.eml / line 8 — Please use the attached management model as the provisional basis for the draft. The GBP 1.2m difference against the briefing remains unresolved and must remain visible in the draft. This is not confirmation that the model has been audited.\nLimitations: Use model provisionally under CFO instruction; do not call reconciled.",
+        "FIN23: FY2023 financial statements [source_supported]\n02_management_model.xlsx / PnL!B5 — FY2023A\n02_management_model.xlsx / PnL!B6 — 18\n02_management_model.xlsx / PnL!B7 — -10.8\n02_management_model.xlsx / PnL!B8 — 7.199999999999999\n02_management_model.xlsx / PnL!B9 — -4.5\n02_management_model.xlsx / PnL!B10 — 2.6999999999999993\n02_management_model.xlsx / PnL!B11 — 0.14999999999999997\nLimitations: Unaudited management figures; FY2025 revenue conflict remains open.",
+        "FIN24: FY2024 financial statements [source_supported]\n02_management_model.xlsx / PnL!C5 — FY2024A\n02_management_model.xlsx / PnL!C6 — 21.5\n02_management_model.xlsx / PnL!C7 — -12.7\n02_management_model.xlsx / PnL!C8 — 8.8\n02_management_model.xlsx / PnL!C9 — -4.9\n02_management_model.xlsx / PnL!C10 — 3.9000000000000004\n02_management_model.xlsx / PnL!C11 — 0.1813953488372093\nLimitations: Unaudited management figures; FY2025 revenue conflict remains open.",
+        "FIN25: FY2025 financial statements [provisional_conflict]\n02_management_model.xlsx / PnL!D5 — FY2025A\n02_management_model.xlsx / PnL!D6 — 25\n02_management_model.xlsx / PnL!D7 — -14.5\n02_management_model.xlsx / PnL!D8 — 10.5\n02_management_model.xlsx / PnL!D9 — -5.5\n02_management_model.xlsx / PnL!D10 — 5\n02_management_model.xlsx / PnL!D11 — 0.2\nLimitations: Unaudited management figures; FY2025 revenue conflict remains open.",
+        "QOE: Financial diligence evidence unavailable [missing]\n03_management_interview.txt / line 11 — [00:31] CFO: EBITDA is management-reported and unaudited. No normalisation bridge or quality-of-earnings report is available. We have not supplied cash, debt or normalised working capital.\nLimitations: No QoE, cash, debt or working-capital evidence.",
+        "UNITS: Financial and sales schedule units [source_supported]\n04_cfo_email.eml / line 10 — The P&L tab is in GBP millions. The CustomerSales and ServiceMix tabs are in GBP thousands. They cover FY2025 recognised revenue, excluding VAT, for the same UK company. CustomerSales contains the five largest customers plus one aggregate row for all others. Do not treat that aggregate as a single customer.",
+        "CAGR: {\"id\": \"CAGR\", \"formula\": \"(FY2025 revenue / FY2023 revenue)^(1/2) - 1\", \"input_ids\": [\"FIN23\", \"FIN25\"], \"result\": 0.17851130197757925, \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}",
+        "MARGINS: {\"id\": \"MARGINS\", \"formula\": \"Each period EBITDA / same period revenue\", \"input_ids\": [\"FIN23\", \"FIN24\", \"FIN25\", \"FIN26\", \"FIN27\"], \"result\": [0.14999999999999997, 0.1813953488372093, 0.2, 0.21034482758620687, 0.22023809523809523], \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}"
+      ]
+    },
+    {
+      "title": "Growth plan and management outlook",
+      "background": "#FFFFFF",
+      "elements": [
+        {
+          "id": "s8-section",
+          "type": "text",
+          "x": 60,
+          "y": 32,
+          "w": 1160,
+          "h": 22,
+          "text": "NORTHBRIDGE  /  OUTLOOK",
+          "size": 14,
+          "color": "#117F79",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s8-title",
+          "type": "text",
+          "x": 60,
+          "y": 76,
+          "w": 1160,
+          "h": 65,
+          "text": "Growth plan and management outlook",
+          "size": 42,
+          "color": "#132E42",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s8-header-rule",
+          "type": "rule",
+          "x": 60,
+          "y": 154,
+          "w": 1160,
+          "h": 1,
+          "color": "#DCE4E8",
+          "fact_ids": []
+        },
+        {
+          "id": "s8-footer",
+          "type": "text",
+          "x": 60,
+          "y": 677,
+          "w": 1070,
+          "h": 21,
+          "text": "FICTIONAL TRAINING MATERIAL   •   Management information, January 2026",
+          "size": 13,
+          "color": "#586D7C",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s8-page",
+          "type": "text",
+          "x": 1170,
+          "y": 677,
+          "w": 50,
+          "h": 21,
+          "text": "08",
+          "size": 14,
+          "color": "#586D7C",
+          "bold": false,
+          "align": "right",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s8-chart-head",
+          "type": "text",
+          "x": 60,
+          "y": 180,
+          "w": 690,
+          "h": 35,
+          "text": "Revenue (£m), management base case",
+          "size": 23,
+          "color": "#132E42",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [
+            "FIN25",
+            "FIN26",
+            "FIN27"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s8-chart",
+          "type": "chart",
+          "x": 60,
+          "y": 230,
+          "w": 690,
+          "h": 300,
+          "categories": [
+            "FY2025A",
+            "FY2026F",
+            "FY2027F"
+          ],
+          "values": [
+            25.0,
+            29.0,
+            33.6
+          ],
+          "series_name": "GBP million",
+          "max": 40,
+          "format": "0.0",
+          "unit": "GBP million",
+          "color": "#117F79",
+          "fact_ids": [
+            "FIN25",
+            "FIN26",
+            "FIN27"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s8-ebitda",
+          "type": "table",
+          "x": 60,
+          "y": 550,
+          "w": 690,
+          "h": 95,
+          "rows": [
+            [
+              "",
+              "FY2025A",
+              "FY2026F",
+              "FY2027F"
+            ],
+            [
+              "EBITDA (£m)",
+              "5.0",
+              "6.1",
+              "7.4"
+            ]
+          ],
+          "widths": [
+            2.4,
+            1,
+            1,
+            1
+          ],
+          "size": 20,
+          "fact_ids": [
+            "FIN25",
+            "FIN26",
+            "FIN27"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s8-plan",
+          "type": "text",
+          "x": 820,
+          "y": 190,
+          "w": 400,
+          "h": 40,
+          "text": "Management priorities",
+          "size": 27,
+          "color": "#132E42",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [
+            "GROWTH"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s8-plan-body",
+          "type": "text",
+          "x": 820,
+          "y": 250,
+          "w": 400,
+          "h": 165,
+          "text": "Add 20 net engineers by FY2027.\n\nCross-sell maintenance to repair customers and extend coverage from existing hubs.",
+          "size": 23,
+          "color": "#132E42",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "GROWTH"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s8-caveat",
+          "type": "text",
+          "x": 820,
+          "y": 445,
+          "w": 400,
+          "h": 195,
+          "text": "Forecasts depend on hiring and renewals. No customer-level forecast bridge or signed pipeline is available.\n\nMarket size and share remain unsubstantiated.",
+          "size": 21,
+          "color": "#99621B",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "FORECAST_BASIS",
+            "GROWTH",
+            "MARKET"
+          ],
+          "calc_ids": []
+        }
+      ],
+      "notes": [
+        "FICTIONAL TRAINING CASE. All company and financial data are synthetic.",
+        "FIN25: FY2025 financial statements [provisional_conflict]\n02_management_model.xlsx / PnL!D5 — FY2025A\n02_management_model.xlsx / PnL!D6 — 25\n02_management_model.xlsx / PnL!D7 — -14.5\n02_management_model.xlsx / PnL!D8 — 10.5\n02_management_model.xlsx / PnL!D9 — -5.5\n02_management_model.xlsx / PnL!D10 — 5\n02_management_model.xlsx / PnL!D11 — 0.2\nLimitations: Unaudited management figures; FY2025 revenue conflict remains open.",
+        "FIN26: FY2026 financial statements [source_supported]\n02_management_model.xlsx / PnL!E5 — FY2026F\n02_management_model.xlsx / PnL!E6 — 29\n02_management_model.xlsx / PnL!E7 — -16.5\n02_management_model.xlsx / PnL!E8 — 12.5\n02_management_model.xlsx / PnL!E9 — -6.4\n02_management_model.xlsx / PnL!E10 — 6.1\n02_management_model.xlsx / PnL!E11 — 0.21034482758620687\nLimitations: Unaudited management figures; FY2025 revenue conflict remains open.",
+        "FIN27: FY2027 financial statements [source_supported]\n02_management_model.xlsx / PnL!F5 — FY2027F\n02_management_model.xlsx / PnL!F6 — 33.6\n02_management_model.xlsx / PnL!F7 — -18.6\n02_management_model.xlsx / PnL!F8 — 15\n02_management_model.xlsx / PnL!F9 — -7.6\n02_management_model.xlsx / PnL!F10 — 7.4\n02_management_model.xlsx / PnL!F11 — 0.22023809523809523\nLimitations: Unaudited management figures; FY2025 revenue conflict remains open.",
+        "FORECAST_BASIS: Forecast bridge unavailable [missing]\n04_cfo_email.eml / line 12 — The model is version 2.0, dated 21 January 2026. The forecast is management's base case. There is no customer-level forecast bridge or recruitment cost schedule yet.",
+        "GROWTH: Management growth plan [source_supported]\n01_company_brief.docx / paragraph 12 — Management plans to add 20 net field engineers by the end of FY2027, cross-sell scheduled maintenance to repair customers and expand service coverage from existing hubs. The plan assumes sufficient technician recruitment and contract renewals. No signed pipeline or customer-cohort evidence accompanies this briefing.\n03_management_interview.txt / line 10 — [00:28] CEO: Growth depends on technician recruitment, renewals and converting more repair customers to maintenance contracts. We plan 20 net new engineers by FY2027.",
+        "MARKET: Market size and share unavailable [missing]\n01_company_brief.docx / paragraph 16 — Management describes the UK equipment-maintenance market as fragmented. No independent market-size study, market-share estimate or competitor benchmarking has been provided.\nLimitations: Fragmentation is a management assertion without independent support."
+      ]
+    },
+    {
+      "title": "Proposed transaction",
+      "background": "#FFFFFF",
+      "elements": [
+        {
+          "id": "s9-section",
+          "type": "text",
+          "x": 60,
+          "y": 32,
+          "w": 1160,
+          "h": 22,
+          "text": "NORTHBRIDGE  /  TRANSACTION OVERVIEW",
+          "size": 14,
+          "color": "#117F79",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s9-title",
+          "type": "text",
+          "x": 60,
+          "y": 76,
+          "w": 1160,
+          "h": 65,
+          "text": "Proposed transaction",
+          "size": 42,
+          "color": "#132E42",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s9-header-rule",
+          "type": "rule",
+          "x": 60,
+          "y": 154,
+          "w": 1160,
+          "h": 1,
+          "color": "#DCE4E8",
+          "fact_ids": []
+        },
+        {
+          "id": "s9-footer",
+          "type": "text",
+          "x": 60,
+          "y": 677,
+          "w": 1070,
+          "h": 21,
+          "text": "FICTIONAL TRAINING MATERIAL   •   Management information, January 2026",
+          "size": 13,
+          "color": "#586D7C",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s9-page",
+          "type": "text",
+          "x": 1170,
+          "y": 677,
+          "w": 50,
+          "h": 21,
+          "text": "09",
+          "size": 14,
+          "color": "#586D7C",
+          "bold": false,
+          "align": "right",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s9-ownership",
+          "type": "table",
+          "x": 60,
+          "y": 205,
+          "w": 550,
+          "h": 245,
+          "rows": [
+            [
+              "Current shareholder",
+              "Ownership"
+            ],
+            [
+              "Founder",
+              "70%"
+            ],
+            [
+              "Management",
+              "20%"
+            ],
+            [
+              "Seed investor",
+              "10%"
+            ]
+          ],
+          "widths": [
+            2.3,
+            1
+          ],
+          "size": 23,
+          "fact_ids": [
+            "DEAL"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s9-sale",
+          "type": "text",
+          "x": 700,
+          "y": 195,
+          "w": 520,
+          "h": 78,
+          "text": "70%–100%",
+          "size": 58,
+          "color": "#117F79",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [
+            "DEAL"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s9-sale-label",
+          "type": "text",
+          "x": 700,
+          "y": 290,
+          "w": 520,
+          "h": 55,
+          "text": "Indicative equity sale perimeter",
+          "size": 25,
+          "color": "#132E42",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "DEAL"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s9-scope",
+          "type": "text",
+          "x": 700,
+          "y": 380,
+          "w": 520,
+          "h": 118,
+          "text": "The proposal covers the standalone UK company. Management rollover, valuation, timetable and financing remain to be agreed.",
+          "size": 24,
+          "color": "#132E42",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "DEAL",
+            "BUS"
+          ],
+          "calc_ids": []
+        },
+        {
+          "id": "s9-caveat",
+          "type": "text",
+          "x": 60,
+          "y": 550,
+          "w": 1160,
+          "h": 80,
+          "text": "Cash, debt and normalised working capital have not been supplied.\nAn enterprise-to-equity value bridge cannot yet be prepared.",
+          "size": 22,
+          "color": "#99621B",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [
+            "QOE",
+            "DEAL"
+          ],
+          "calc_ids": []
+        }
+      ],
+      "notes": [
+        "FICTIONAL TRAINING CASE. All company and financial data are synthetic.",
+        "BUS: Business and founding [source_supported]\n01_company_brief.docx / paragraph 4 — Northbridge Field Services Ltd was founded in 2012. The UK business provides equipment maintenance and technical field support to industrial and logistics customers. Its headquarters are in Birmingham. The transaction perimeter is the entire standalone UK company.",
+        "DEAL: Ownership and proposed sale [source_supported]\n01_company_brief.docx / paragraph 14 — The founder holds 70%, management holds 20% and a seed investor holds 10% of ordinary equity. Shareholders are considering a sale of 70% to 100% of the company. Management rollover, valuation, timing and financing remain to be agreed. No debt, cash or working-capital schedule has been provided.",
+        "QOE: Financial diligence evidence unavailable [missing]\n03_management_interview.txt / line 11 — [00:31] CFO: EBITDA is management-reported and unaudited. No normalisation bridge or quality-of-earnings report is available. We have not supplied cash, debt or normalised working capital.\nLimitations: No QoE, cash, debt or working-capital evidence."
+      ]
+    },
+    {
+      "title": "Key considerations and diligence",
+      "background": "#FFFFFF",
+      "elements": [
+        {
+          "id": "s10-section",
+          "type": "text",
+          "x": 60,
+          "y": 32,
+          "w": 1160,
+          "h": 22,
+          "text": "NORTHBRIDGE  /  REVIEW AGENDA",
+          "size": 14,
+          "color": "#117F79",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s10-title",
+          "type": "text",
+          "x": 60,
+          "y": 76,
+          "w": 1160,
+          "h": 65,
+          "text": "Key considerations and diligence",
+          "size": 42,
+          "color": "#132E42",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s10-header-rule",
+          "type": "rule",
+          "x": 60,
+          "y": 154,
+          "w": 1160,
+          "h": 1,
+          "color": "#DCE4E8",
+          "fact_ids": []
+        },
+        {
+          "id": "s10-footer",
+          "type": "text",
+          "x": 60,
+          "y": 677,
+          "w": 1070,
+          "h": 21,
+          "text": "FICTIONAL TRAINING MATERIAL   •   Management information, January 2026",
+          "size": 13,
+          "color": "#586D7C",
+          "bold": false,
+          "align": "left",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s10-page",
+          "type": "text",
+          "x": 1170,
+          "y": 677,
+          "w": 50,
+          "h": 21,
+          "text": "10",
+          "size": 14,
+          "color": "#586D7C",
+          "bold": false,
+          "align": "right",
+          "fact_ids": [],
+          "calc_ids": []
+        },
+        {
+          "id": "s10-table",
+          "type": "table",
+          "x": 60,
+          "y": 190,
+          "w": 1160,
+          "h": 390,
+          "rows": [
+            [
+              "Topic",
+              "Current position",
+              "Evidence required"
+            ],
+            [
+              "Revenue recognition",
+              "£25.0m model vs £26.2m briefing",
+              "Recognised revenue reconciliation"
+            ],
+            [
+              "Earnings and\nbalance sheet",
+              "Unaudited management EBITDA",
+              "QoE, normalisation, debt,\ncash and working capital"
+            ],
+            [
+              "Customer quality",
+              "Top five account for 42%\nof revenue",
+              "Contracts and defined\nretention cohorts"
+            ],
+            [
+              "Growth execution",
+              "Hiring and renewals\nunderpin forecast",
+              "Revenue bridge, pipeline\nand hiring costs"
+            ],
+            [
+              "Market positioning",
+              "No substantiated size or share",
+              "Independent market and competitor work"
+            ]
+          ],
+          "widths": [
+            2,
+            3,
+            3.5
+          ],
+          "size": 20,
+          "fact_ids": [
+            "CONFLICT",
+            "QOE",
+            "CUSTOMERS",
+            "RETENTION",
+            "GROWTH",
+            "FORECAST_BASIS",
+            "MARKET"
+          ],
+          "calc_ids": [
+            "TOP5"
+          ]
+        },
+        {
+          "id": "s10-close",
+          "type": "text",
+          "x": 60,
+          "y": 610,
+          "w": 1160,
+          "h": 44,
+          "text": "The investment case remains subject to financial and commercial diligence.",
+          "size": 24,
+          "color": "#132E42",
+          "bold": true,
+          "align": "left",
+          "fact_ids": [
+            "CONFLICT",
+            "QOE",
+            "MARKET",
+            "FORECAST_BASIS"
+          ],
+          "calc_ids": []
+        }
+      ],
+      "notes": [
+        "FICTIONAL TRAINING CASE. All company and financial data are synthetic.",
+        "CONFLICT: FY2025 revenue difference [provisional_conflict]\n02_management_model.xlsx / PnL!D6 — 25\n01_company_brief.docx / paragraph 8 — The preliminary FY2025 revenue estimate is GBP 26.2 million. This briefing does not provide a reconciliation to the finance model. Financial years end on 31 December. All revenue figures exclude VAT.\n04_cfo_email.eml / line 8 — Please use the attached management model as the provisional basis for the draft. The GBP 1.2m difference against the briefing remains unresolved and must remain visible in the draft. This is not confirmation that the model has been audited.\nLimitations: Use model provisionally under CFO instruction; do not call reconciled.",
+        "CUSTOMERS: FY2025 customer sales [source_supported]\n02_management_model.xlsx / CustomerSales!A5 — C001\n02_management_model.xlsx / CustomerSales!B5 — Customer A\n02_management_model.xlsx / CustomerSales!C5 — 3000\n02_management_model.xlsx / CustomerSales!A6 — C002\n02_management_model.xlsx / CustomerSales!B6 — Customer B\n02_management_model.xlsx / CustomerSales!C6 — 2250\n02_management_model.xlsx / CustomerSales!A7 — C003\n02_management_model.xlsx / CustomerSales!B7 — Customer C\n02_management_model.xlsx / CustomerSales!C7 — 2000\n02_management_model.xlsx / CustomerSales!A8 — C004\n02_management_model.xlsx / CustomerSales!B8 — Customer D\n02_management_model.xlsx / CustomerSales!C8 — 1750\n02_management_model.xlsx / CustomerSales!A9 — C005\n02_management_model.xlsx / CustomerSales!B9 — Customer E\n02_management_model.xlsx / CustomerSales!C9 — 1500\n02_management_model.xlsx / CustomerSales!A10 — OTHER\n02_management_model.xlsx / CustomerSales!B10 — All other customers (aggregate)\n02_management_model.xlsx / CustomerSales!C10 — 14500\nLimitations: OTHER is an aggregate.",
+        "FORECAST_BASIS: Forecast bridge unavailable [missing]\n04_cfo_email.eml / line 12 — The model is version 2.0, dated 21 January 2026. The forecast is management's base case. There is no customer-level forecast bridge or recruitment cost schedule yet.",
+        "GROWTH: Management growth plan [source_supported]\n01_company_brief.docx / paragraph 12 — Management plans to add 20 net field engineers by the end of FY2027, cross-sell scheduled maintenance to repair customers and expand service coverage from existing hubs. The plan assumes sufficient technician recruitment and contract renewals. No signed pipeline or customer-cohort evidence accompanies this briefing.\n03_management_interview.txt / line 10 — [00:28] CEO: Growth depends on technician recruitment, renewals and converting more repair customers to maintenance contracts. We plan 20 net new engineers by FY2027.",
+        "MARKET: Market size and share unavailable [missing]\n01_company_brief.docx / paragraph 16 — Management describes the UK equipment-maintenance market as fragmented. No independent market-size study, market-share estimate or competitor benchmarking has been provided.\nLimitations: Fragmentation is a management assertion without independent support.",
+        "QOE: Financial diligence evidence unavailable [missing]\n03_management_interview.txt / line 11 — [00:31] CFO: EBITDA is management-reported and unaudited. No normalisation bridge or quality-of-earnings report is available. We have not supplied cash, debt or normalised working capital.\nLimitations: No QoE, cash, debt or working-capital evidence.",
+        "RETENTION: Retention estimate lacks defined basis [management_unverified]\n03_management_interview.txt / line 7 — [00:17] CEO: We estimate customer retention at 94% in FY2025, but have not supplied the cohort calculation or defined whether that refers to customers or revenue.\nLimitations: No definition or cohort data; excluded from quantitative investment highlights.",
+        "TOP5: {\"id\": \"TOP5\", \"formula\": \"sum(CustomerSales!C5:C9) / sum(CustomerSales!C5:C10)\", \"input_ids\": [\"CUSTOMERS\"], \"result\": 0.42, \"unit\": \"ratio\", \"rounding\": \"Full precision internally; one decimal for GBP million and most percentages\"}"
+      ]
+    }
+  ]
+}
