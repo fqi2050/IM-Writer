@@ -9,3 +9,5 @@ Financial pages preserve periods, scale and basis. Show annual revenue, cost of 
 Use investment claims that are informative without erasing uncertainty. Keep material source conflicts on the relevant page. Put detailed tracing in speaker notes. Avoid adding generic market pages with unsourced statistics merely to complete a template.
 
 Choose a neutral unbranded style until a client or firm template is supplied. Existing files in the workspace are not automatically authorised design references. A subsequent template-matching task should inspect the selected reference explicitly.
+
+For the user's approved consulting-report direction, apply [advisory-design.md](advisory-design.md). Reduce generic promotional language by stating the period, metric, commercial mechanism and material qualification. Choose a comparison table when the reader needs to compare the same dimensions across services or companies. Put financial analysis next to the underlying table. More density means more useful evidence per page, not more adjectives or repeated conclusions.

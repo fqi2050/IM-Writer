@@ -8,7 +8,7 @@
 
 | 目的 | 从这里开始 | 需要什么 |
 | --- | --- | --- |
-| 查看 demo | 下载后打开 `START_HERE.html` | 浏览器；查看 PPT 需要 PowerPoint 或兼容软件 |
+| 查看新版三页样张或原始 10 页 demo | 下载后打开 `START_HERE.html` | 浏览器；查看 PPT 需要 PowerPoint 或兼容软件 |
 | 用自己的资料制作 IM | [Skill 安装与使用](docs/skill-usage.md) | Codex，以及文档与 PPT 生成所需运行环境 |
 | 修改程序或重跑模拟案例 | [开发与复跑说明](docs/development.md) | Python、Node、Codex 配套库及 Presentations skill |
 
@@ -51,15 +51,31 @@ demo-northbridge/
   README.md                     模拟案例与数据说明
   inputs/                       Word、Excel、访谈、邮件原始资料
   working/                      提取结果、事实库、冲突清单、故事板
-  outputs/                      HTML、可编辑 PPTX、复核说明
+  outputs/                      原始 10 页 HTML、可编辑 PPTX、复核说明
+  style-pilot/                  新版三页 HTML/PPT、故事板和来源映射
   scripts/                      仅用于该模拟案例的生成与复跑程序
   tests/                        检查程序和已保存的验证结果
 ```
 
 `inputs`、`working`、`outputs` 是同一流程的不同阶段；HTML 与 PPT 是不同交付格式，均需保留。通用转换程序放在 `skills/`，模拟案例的专用程序放在 `demo-northbridge/scripts/`。
 
+## 咨询报告式设计样张
+
+已完成投资亮点、业务概览、历史财务三页样张，使用 Northbridge 的虚构证据验证新版配色和阅读式布局。
+
+- [查看三页 HTML](demo-northbridge/style-pilot/northbridge-advisory.html)：下载后在浏览器打开。
+- [下载三页可编辑 PPT](demo-northbridge/style-pilot/northbridge-advisory-editable.pptx)：包含原生文字和 3 个表格。
+- [样张说明与来源映射](demo-northbridge/style-pilot/README.md)。
+- [设计规则](skills/mna-information-memo/references/advisory-design.md)与[配色配置](skills/mna-information-memo/assets/advisory-dense.json)。
+
+Skill 新增可选 `advisory-dense` 配置：在故事板中设置 `style_profile: "advisory-dense"`，并按设计规则编排内容。配置提供默认配色和表格样式，布局、文字与来源仍需编写。HTML 到 PPT 的表格转换保留填色、字重、数字对齐和内边距。
+
+样张参考用户选定报告的视觉特征，标题使用 Arial 替代专用字体；它是 PDF 参考样式，不是 KPMG 原始母版。原始报告、报告截图、Logo 和字体文件均未上传。原始 10 页 demo 保留为改版前基线。
+
+三页样张已完成视觉检查、表格样式/数值/来源映射检查与文件结构检查；旧版表格及图表转换已做回归验证。桌面 PowerPoint 编辑、保存、重开尚未实测。完整记录见 [检查结果](demo-northbridge/tests/advisory-test-results.json)。
+
 ## 后续模板改版
 
-当前版式用于验证流程。下一阶段使用团队提供的 KPMG 原始 PPTX 模板和获准使用的脱敏 IM 参考页，减少套话、调整版式及信息密度。详细需求见 [Issue #1](https://github.com/fqi2050/IM-Writer/issues/1)。模板尚未加入仓库，当前示例不代表 KPMG 官方模板或认可。
+三页样张已完成，风格确认及完整 10 页改版仍待推进。后续取得团队的 KPMG 原始 PPTX 模板后，将进一步匹配母版、字体和布局。详细需求见 [Issue #1](https://github.com/fqi2050/IM-Writer/issues/1)。模板尚未加入仓库，当前示例不代表 KPMG 官方模板或认可。
 
 本仓库仅包含虚构示范内容；真实客户资料和受限模板请保存在获准访问的位置。

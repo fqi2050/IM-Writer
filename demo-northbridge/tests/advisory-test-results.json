@@ -1,0 +1,22 @@
+{
+  "pilot_pages": 3,
+  "native_tables": 3,
+  "style_and_arithmetic_check": "pass",
+  "reference_visual_sample_pages": [
+    5,
+    8,
+    17,
+    35,
+    45,
+    49,
+    75,
+    139,
+    144,
+    153
+  ],
+  "legacy_table_chart_conversion": "pass",
+  "html_and_ppt_visual_review": "all 3 pages inspected",
+  "desktop_powerpoint_edit_save_reopen": "not tested",
+  "quick_validate": "unavailable: PyYAML missing; Ruby YAML parse, profile JSON and relative-link checks passed",
+  "reference_pdf_published": false
+}

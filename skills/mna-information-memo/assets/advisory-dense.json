@@ -1,0 +1,20 @@
+{
+  "name": "advisory-dense",
+  "basis": "User-selected July 2023 KPMG PDF; approximate styling, not an official template",
+  "font": "Arial",
+  "primary": "#00338D",
+  "secondary": "#1E49E2",
+  "cyan": "#00B8F5",
+  "purple": "#7213EA",
+  "text": "#000000",
+  "muted": "#595959",
+  "background": "#FFFFFF",
+  "table_header": "#00338D",
+  "table_header_text": "#FFFFFF",
+  "table_band": "#DBE8F8",
+  "table_border": "#B8C7DF",
+  "table_padding_x": 10,
+  "table_padding_y": 7,
+  "sizes": {"title": 34, "subheading": 21, "body": 18, "table": 17, "source": 12},
+  "frame": {"width": 1280, "height": 720, "margin": 72, "gutter": 28, "body_top": 144, "source_top": 654}
+}

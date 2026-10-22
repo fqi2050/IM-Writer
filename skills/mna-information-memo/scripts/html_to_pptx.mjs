@@ -14,6 +14,8 @@ try{
  context=await browser.newContext({viewport:{width:1920,height:1080},javaScriptEnabled:false});
  await context.route('**/*',route=>{const u=route.request().url();return /^(file:|data:|about:)/.test(u)?route.continue():route.abort();});
  const page=await context.newPage();await page.goto(pathToFileURL(path.resolve(htmlPath)).href);
+ // Disable transitions before measuring/capturing; otherwise later slides can be captured at opacity 0.
+ await page.evaluate(()=>document.querySelectorAll('.slide').forEach(s=>s.style.transition='none'));
  const data=await page.evaluate(()=>{
   const hex=c=>{const m=c.match(/\d+/g);if(!m)throw Error('Unsupported color '+c);return '#'+m.slice(0,3).map(v=>Number(v).toString(16).padStart(2,'0')).join('');};
   const slides=[...document.querySelectorAll('.slide')];
@@ -37,6 +39,11 @@ try{
     else if(t==='table'){
      const table=el.querySelector('table');if(!table)throw Error('No table in '+el.id);
      const rows=[...table.rows];e.rows=rows.map(r=>[...r.cells].map(c=>c.innerText));e.widths=[...rows[0].cells].map(c=>c.getBoundingClientRect().width/1.5);e.rowHeights=rows.map(r=>r.getBoundingClientRect().height/1.5);e.size=parseFloat(st.fontSize)/1.5;
+     e.cellStyles=rows.map(row=>[...row.cells].map(cell=>{
+      const cs=getComputedStyle(cell);
+      if(cell.scrollWidth>cell.clientWidth+2||cell.scrollHeight>cell.clientHeight+2)throw Error('Table cell overflow: '+el.id);
+      return {fill:cs.backgroundColor==='rgba(0, 0, 0, 0)'?'#FFFFFF':hex(cs.backgroundColor),color:hex(cs.color),bold:parseInt(cs.fontWeight)>=600,align:cs.textAlign,border:hex(cs.borderBottomColor),size:parseFloat(cs.fontSize)/1.5,insets:{left:parseFloat(cs.paddingLeft)/1.5,right:parseFloat(cs.paddingRight)/1.5,top:parseFloat(cs.paddingTop)/1.5,bottom:parseFloat(cs.paddingBottom)/1.5}};
+     }));
      if(e.rows.some(r=>r.length!==e.rows[0].length))throw Error('Ragged table');
      if(table.getBoundingClientRect().height>r.height+2)throw Error('Table overflow: '+el.id);
     }else{
@@ -67,11 +74,11 @@ try{
     slide.shapes.add({geometry:'rect',name:e.id,position,fill:e.color,line:{fill:'none',width:0}});
    }else if(e.type==='table'){
     const tb=slide.tables.add({rows:e.rows.length,columns:e.rows[0].length,left:e.x,top:e.y,width:e.w,height:e.h,values:e.rows,columnWidths:e.widths});
-    tb.borders.assign({fill:'#DCE4E8',width:1,style:'solid'});
+    tb.borders.assign({fill:e.cellStyles[0][0].border,width:1,style:'solid'});
     for(let r=0;r<e.rows.length;r++){
      tb.rows[r].height=e.rowHeights[r];
      for(let c=0;c<e.rows[r].length;c++){
-      const cell=tb.getCell(r,c);cell.fill=r===0?'#132E42':r%2===0?'#F2F6F7':'#FFFFFF';cell.text.style={fontSize:e.size,typeface:'Arial',color:r===0?'#FFFFFF':'#132E42',bold:r===0,verticalAlignment:'middle',insets:{left:12,right:12,top:8,bottom:8},autoFit:'none'};
+      const cell=tb.getCell(r,c),cs=e.cellStyles[r][c];cell.fill=cs.fill;cell.text.style={fontSize:cs.size,typeface:'Arial',color:cs.color,bold:cs.bold,alignment:cs.align,verticalAlignment:'middle',insets:cs.insets,autoFit:'none'};
      }
     }
    }else if(e.type==='chart'){

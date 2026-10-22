@@ -10,6 +10,8 @@ Northbridge Field Services 是虚构的英国 B2B 维护服务公司。本案例
 - [可编辑 PowerPoint](outputs/northbridge-im-editable.pptx)：下载后用 PowerPoint 打开。
 - [复核说明](outputs/review-notes.html)：数据问题及验证范围。
 
+新版咨询报告式布局见 [三页样张](style-pilot/README.md)，原始 10 页成品保留作对比。
+
 ## 文件如何对应
 
 | 目录 | 内容 | 用途 |

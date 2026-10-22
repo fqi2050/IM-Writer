@@ -17,6 +17,8 @@ Create an evidence-backed first draft for the deal team. Default to English, sel
 
 ## Render and convert
 
+When the user requests a consulting-report style, higher information density, or the supplied KPMG report as a visual reference, read [advisory-design.md](references/advisory-design.md). Use its measured palette, content-dependent layouts and density guidance. Set `style_profile: "advisory-dense"` in the storyboard to enable the shared rendering tokens; author the layout and evidence explicitly, because selecting a profile alone does not restructure a page. Follow a subsequently supplied native PPTX template over this PDF-derived approximation. Do not carry reference-company facts or source labels into a new client's IM.
+
 6. Run `scripts/render_html.py STORYBOARD_JSON OUTPUT_HTML`. It produces a standalone 16:9 reading deck with native HTML text/tables and data-driven charts. Preview every slide. The HTML includes optional text editing and save, navigation, and source notes.
 7. Use `scripts/html_to_pptx.mjs INPUT_HTML DRAFT_PPTX PREVIEW_DIR` with the bundled Node runtime, `@oai/artifact-tool` and Playwright. The converter reads actual DOM text, table cells and chart metadata. It supports only the documented semantic format, not arbitrary websites. It fails on unsupported element types, overflowing text, invalid chart data and unknown layout styles rather than silently taking screenshots.
 8. Use the installed Presentations skill's local finalizer and render workflow. Required text, tables and charts must remain native PPT objects. Review every page visually. Keep source locators in speaker notes. Chart workbooks are snapshots of the displayed data, not live links to the client workbook.

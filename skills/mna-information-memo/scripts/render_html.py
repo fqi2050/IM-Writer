@@ -18,10 +18,18 @@ def chart_svg(e):
  return ''.join(parts)+'</svg>'
 
 def render(data):
- base=(Path(__file__).resolve().parents[1]/'assets/viewport-base.css').read_text()
+ assets=Path(__file__).resolve().parents[1]/'assets'
+ base=(assets/'viewport-base.css').read_text()
+ profile=data.get('style_profile')
+ if profile not in (None,'advisory-dense'):raise ValueError('Unknown style_profile: '+str(profile))
+ theme=json.loads((assets/(profile+'.json')).read_text()) if profile else {}
+ default_text=theme.get('text','#132E42')
+ default_chart=theme.get('primary','#117F79')
  css='''/* === IM TYPOGRAPHY AND LAYOUT === */
 *{box-sizing:border-box} :root{--stage-bg:#081925;--slide-bg:#FFFFFF} body{font-family:Arial,sans-serif} .slide{transition:opacity .2s} [data-pptx]{position:absolute;margin:0} .text{white-space:pre-wrap;line-height:1.18;overflow:visible} table{border-collapse:collapse;table-layout:fixed;width:100%;height:100%;color:#132E42} th,td{padding:12px 18px;white-space:pre-wrap;border-bottom:1px solid #DCE4E8;text-align:left;vertical-align:middle;line-height:1.18} th{background:#132E42;color:white;font-weight:700} tr:nth-child(2n+1) td{background:#F2F6F7} .deck-controls{display:flex;flex-wrap:wrap;justify-content:center;max-width:calc(100vw - 20px);gap:10px;background:#132E42;padding:8px 12px;border-radius:6px;color:#FFF;font-size:13px;bottom:6px} button{cursor:pointer;background:transparent;border:1px solid #5A6D7D;color:white;padding:5px 9px} button:focus-visible{outline:2px solid #61D6C6} [contenteditable=true]{outline:2px dashed #117F79} #sourcePanel{position:fixed;right:16px;top:16px;max-width:480px;max-height:70vh;overflow:auto;background:#FFFFFF;color:#132E42;padding:22px;z-index:1001;white-space:pre-wrap;font-size:13px;box-shadow:0 8px 40px #0006} #sourcePanel[hidden]{display:none} @media print{#sourcePanel{display:none!important}.deck-controls{display:none!important}@page{size:16in 9in;margin:0}}
 '''
+ if theme:
+  css+=f'''table{{color:{theme['text']}}} th,td{{padding:{theme['table_padding_y']*1.5}px {theme['table_padding_x']*1.5}px;border-bottom-color:{theme['table_border']}}} th{{background:{theme['table_header']};color:{theme['table_header_text']}}} tr:nth-child(2n+1) td{{background:{theme['table_band']}}}'''
  sections=[]
  for i,s in enumerate(data['slides']):
   elems=[]
@@ -29,15 +37,24 @@ def render(data):
    pos=f'left:{e["x"]*1.5}px;top:{e["y"]*1.5}px;width:{e["w"]*1.5}px;height:{e["h"]*1.5}px;'
    attr=f'id="{E(e["id"])}" data-pptx="{e["type"]}" data-facts="{E(json.dumps(e.get("fact_ids",[])))}"'
    if e['type']=='text':
-    style=pos+f'font-size:{e.get("size",24)*1.5}px;color:{e.get("color","#132E42")};font-weight:{700 if e.get("bold") else 400};text-align:{e.get("align","left")};'
+    style=pos+f'font-size:{e.get("size",24)*1.5}px;color:{e.get("color",default_text)};font-weight:{700 if e.get("bold") else 400};text-align:{e.get("align","left")};'
     elems.append(f'<p {attr} class="text" style="{style}">{E(e["text"])}</p>')
    elif e['type']=='rule':elems.append(f'<div {attr} style="{pos}background:{e.get("color","#DCE4E8")}"></div>')
    elif e['type']=='table':
     widths=e.get('widths',[1]*len(e['rows'][0]));total=sum(widths)
     cols=''.join(f'<col style="width:{v/total*100}%">' for v in widths)
-    rows=''.join('<tr>'+''.join(f'<{"th" if ri==0 else "td"}>{E(str(c))}</{"th" if ri==0 else "td"}>' for c in row)+'</tr>' for ri,row in enumerate(e['rows']))
+    aligns=e.get('column_align',['left']*len(widths))
+    if len(aligns)!=len(widths) or any(a not in ['left','center','right'] for a in aligns):raise ValueError('Invalid column_align')
+    emphasis=e.get('emphasis_rows',[])
+    rows=''
+    for ri,row in enumerate(e['rows']):
+     if len(row)!=len(widths):raise ValueError('Ragged table')
+     tag='th' if ri==0 else 'td'
+     cells=''.join(f'<{tag} style="text-align:{aligns[ci]};'+('font-weight:700;' if ri in emphasis else '')+f'">{E(str(c))}</{tag}>' for ci,c in enumerate(row))
+     rows+='<tr>'+cells+'</tr>'
     elems.append(f'<div {attr} style="{pos}font-size:{e.get("size",20)*1.5}px"><table><colgroup>{cols}</colgroup><tbody>{rows}</tbody></table></div>')
    elif e['type']=='chart':
+    e=dict(e,color=e.get('color',default_chart))
     cfg={k:e[k] for k in ['categories','values','series_name','max','unit','format','color'] if k in e}
     elems.append(f'<div {attr} data-chart="{E(json.dumps(cfg))}" style="{pos}">{chart_svg(e)}</div>')
    else:raise ValueError('Unsupported element '+e['type'])
