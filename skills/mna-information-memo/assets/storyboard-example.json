@@ -1,0 +1,23 @@
+{
+  "title": "Semantic layout example — synthetic data",
+  "synthetic": true,
+  "style_profile": "advisory-dense",
+  "slides": [
+    {
+      "title": "Example table and chart",
+      "background": "#FFFFFF",
+      "notes": [
+        "FORMAT EXAMPLE ONLY. All labels and values are fictional; do not use in client work.",
+        "EXAMPLE-001: synthetic dataset defined in this file. Period A = 10, Period B = 15; unit = illustrative units. Both the table and chart use these same values. A real project must replace this with source-located evidence in its own ledger."
+      ],
+      "elements": [
+        {"id":"example-title","type":"text","x":72,"y":48,"w":1136,"h":60,"text":"Example table and chart","size":34,"color":"#00338D","bold":true,"fact_ids":[]},
+        {"id":"example-label","type":"text","x":72,"y":122,"w":1136,"h":45,"text":"Synthetic format example — illustrative units, not client data","size":18,"fact_ids":[]},
+        {"id":"example-rule","type":"rule","x":72,"y":184,"w":1136,"h":1,"color":"#00338D","fact_ids":[]},
+        {"id":"example-table","type":"table","x":72,"y":225,"w":460,"h":190,"rows":[["Period","Illustrative units"],["Period A","10"],["Period B","15"]],"widths":[1,1],"size":18,"column_align":["left","right"],"emphasis_rows":[],"fact_ids":["EXAMPLE-001"]},
+        {"id":"example-chart","type":"chart","x":600,"y":225,"w":608,"h":340,"categories":["Period A","Period B"],"values":[10,15],"series_name":"Illustrative units","max":20,"unit":"Illustrative units","format":"0.0","fact_ids":["EXAMPLE-001"]},
+        {"id":"example-source","type":"text","x":72,"y":640,"w":1136,"h":40,"text":"Source: synthetic dataset EXAMPLE-001 defined in this file. Format demonstration only.","size":12,"color":"#00338D","fact_ids":["EXAMPLE-001"]}
+      ]
+    }
+  ]
+}

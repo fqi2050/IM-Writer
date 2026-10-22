@@ -21,6 +21,8 @@
   scripts/
 ```
 
+`assets/storyboard-example.json` 是随 skill 安装的最小格式示例。完整的 `demo-northbridge/` 留在仓库中，不需要复制到 skills 目录；skill 不依赖其路径或业务数据。客户资料与生成结果也保存在独立项目目录。
+
 已有同名 skill 时先比较版本，避免形成多份同名安装。Codex 会自动发现变化；如果未显示，重启 Codex。目录与发现机制参见 [OpenAI 官方 skill 文档](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills)。
 
 安装的是工作流和程序文件，运行依赖仍需另行确认。仓库中的 `skills/` 是分发目录，单纯下载到这里不等于完成自动发现配置。

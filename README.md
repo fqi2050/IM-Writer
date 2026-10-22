@@ -30,7 +30,7 @@ GitHub 文件页显示 HTML 源码，下载到本地后才是演示页面。修�
 
 ## 使用 skill
 
-可复用部分是整个 [skills/mna-information-memo/](skills/mna-information-memo/) 文件夹，包括 `SKILL.md`、脚本、参考规范和样式资源。只复制 `SKILL.md` 会缺少运行文件。
+可复用部分是整个 [skills/mna-information-memo/](skills/mna-information-memo/) 文件夹，包括 `SKILL.md`、脚本、参考规范和样式资源。只复制 `SKILL.md` 会缺少运行文件。安装包内已包含 `assets/storyboard-example.json` 小型格式示例；完整 `demo-northbridge/` 仅用于查看和开发测试，不需要一起安装。
 
 按 [安装与使用指南](docs/skill-usage.md) 安装后，指定你的资料目录、输出目录、交易类型、语言、页数及适用模板。Skill 会组织以下流程：
 

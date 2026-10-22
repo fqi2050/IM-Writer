@@ -7,6 +7,12 @@ description: Draft a sell-side M&A information memorandum from mixed client docu
 
 Create an evidence-backed first draft for the deal team. Default to English, sell-side, reading-oriented IM content when those choices fit the request. Confirm only missing choices that materially affect the result. Respect the requested page count, transaction perimeter, source access and output destination. This skill is a local draft workflow, not an unattended publishing system.
 
+## Package scope
+
+Resolve `scripts/`, `assets/` and `references/` relative to this SKILL.md, not the client working directory. This folder is the complete installable skill package. Client inputs and run outputs live in a separate user-selected project directory. The repository demo is optional and is not installed or required by this skill. Runtime libraries and the Presentations finalizer remain external prerequisites.
+
+For a concrete semantic-format example, use [storyboard-example.json](assets/storyboard-example.json), bundled inside this skill. Its synthetic values demonstrate the schema only; do not reuse them in client work.
+
 ## Work from evidence
 
 1. Inventory supplied files. Run `scripts/extract_sources.py INPUT_DIR OUTPUT_JSON` for DOCX, XLSX, text, email, CSV, TSV and JSON. It records file hashes and locators. Use the environment's approved document/PDF tools for other formats and scans. List unsupported or unreadable files explicitly; never imply they were reviewed.
@@ -17,7 +23,7 @@ Create an evidence-backed first draft for the deal team. Default to English, sel
 
 ## Render and convert
 
-When the user requests a consulting-report style, higher information density, or the supplied KPMG report as a visual reference, read [advisory-design.md](references/advisory-design.md). Use its measured palette, content-dependent layouts and density guidance. Set `style_profile: "advisory-dense"` in the storyboard to enable the shared rendering tokens; author the layout and evidence explicitly, because selecting a profile alone does not restructure a page. Follow a subsequently supplied native PPTX template over this PDF-derived approximation. Do not carry reference-company facts or source labels into a new client's IM.
+When the user requests a consulting-report style, higher information density, or the bundled KPMG-report-inspired profile, read [advisory-design.md](references/advisory-design.md). Use its measured palette, content-dependent layouts and density guidance. Set `style_profile: "advisory-dense"` in the storyboard to enable the shared rendering tokens; author the layout and evidence explicitly, because selecting a profile alone does not restructure a page. Follow a subsequently supplied native PPTX template over this PDF-derived approximation. Do not carry reference-company facts or source labels into a new client's IM.
 
 6. Run `scripts/render_html.py STORYBOARD_JSON OUTPUT_HTML`. It produces a standalone 16:9 reading deck with native HTML text/tables and data-driven charts. Preview every slide. The HTML includes optional text editing and save, navigation, and source notes.
 7. Use `scripts/html_to_pptx.mjs INPUT_HTML DRAFT_PPTX PREVIEW_DIR` with the bundled Node runtime, `@oai/artifact-tool` and Playwright. The converter reads actual DOM text, table cells and chart metadata. It supports only the documented semantic format, not arbitrary websites. It fails on unsupported element types, overflowing text, invalid chart data and unknown layout styles rather than silently taking screenshots.
@@ -30,4 +36,4 @@ Resolve bundled runtimes using `load_workspace_dependencies`. Link the returned 
 
 The included converter deliberately supports a compact set of layouts. For unsupported charts, images or richer formatting, extend the renderer with a tested native mapping or use the presentation authoring tool directly and disclose the change. Re-run the affected checks after an edit. Rendering changes do not automatically update the evidence ledger. If users edit numbers in the HTML, reconcile those edits before delivering a new PPTX.
 
-The accompanying Northbridge example is synthetic and is a regression fixture, not a model for real claims. A new client requires a new inventory, fact ledger and storyboard. Do not reuse its financial numbers or company narrative.
+A new client requires a new inventory, fact ledger and storyboard. Use the supplied client evidence; never carry illustrative values or narrative from examples into production work.

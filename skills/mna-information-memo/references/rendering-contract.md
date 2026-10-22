@@ -15,9 +15,23 @@ Browser edits to text and table cells survive Save HTML and reconversion. Chart 
 CLI:
 
 ```text
-python3 scripts/extract_sources.py input_folder working/extracted.json
-python3 scripts/render_html.py working/storyboard.json outputs/im.html
-node scripts/html_to_pptx.mjs outputs/im.html .build/draft.pptx .build/previews
+"<python>" "<skill-directory>/scripts/extract_sources.py" "<client-input-directory>" "<run-directory>/working/extracted.json"
+"<python>" "<skill-directory>/scripts/render_html.py" "<run-directory>/working/storyboard.json" "<run-directory>/outputs/im.html"
+"<node>" "<skill-directory>/scripts/html_to_pptx.mjs" "<run-directory>/outputs/im.html" "<run-directory>/.build/draft.pptx" "<run-directory>/.build/previews"
 ```
 
-Use the host's bundled runtimes/package path. The converter defaults to an isolated headless Google Chrome process; set IM_BROWSER_PATH for another compatible Chromium executable. Set IM_PRESENTATIONS_SKILL to the installed Presentations skill folder so chart fonts use its shared helper. The demo contains its own rebuild script and authored evidence/storyboard generator. Those scripts replay the fixture and do not implement a universal autonomous extraction-to-narrative engine.
+Use the host's bundled runtimes/package path. The converter defaults to an isolated headless Google Chrome process; set IM_BROWSER_PATH for another compatible Chromium executable. Set IM_PRESENTATIONS_SKILL to the installed Presentations skill folder so chart fonts use its shared helper. Build a fresh evidence ledger and storyboard from the client inputs. The skill does not require a repository demo or a demo rebuild script.
+
+## Bundled format example
+
+[storyboard-example.json](../assets/storyboard-example.json) is included in the installed skill. It demonstrates text, a rule, a table, a chart, source notes and the advisory profile on one synthetic page. It is a schema/rendering example, not an IM or a client evidence ledger. All example values are fictional.
+
+From any working directory, use absolute paths (replace placeholders):
+
+```sh
+"<python>" "<skill-directory>/scripts/render_html.py" \
+  "<skill-directory>/assets/storyboard-example.json" \
+  "<new-run-directory>/format-example.html"
+```
+
+The renderer reads its CSS and design profile from the installed skill assets. The generated HTML is standalone. Do not write run outputs into the installed skill folder.

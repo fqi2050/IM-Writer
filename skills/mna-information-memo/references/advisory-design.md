@@ -1,10 +1,10 @@
 # Consulting report design: PDF-derived profile
 
-Use this reference when the user requests the supplied KPMG report's colors, information density or reading-oriented layout. It is an optional design profile, not a universal rule for all clients or a KPMG brand manual. A native approved template takes precedence.
+Use this reference when the user requests the bundled KPMG-report-inspired palette, information density or reading-oriented layout. The rules and profile are included in this skill; the original reference PDF and repository pilot are not required at runtime. It is an optional design profile, not a universal rule for all clients or a KPMG brand manual. A native approved template takes precedence.
 
 ## What was observed
 
-The user supplied `230718_PJ IONCHI_Benchmark study_Full deck_vDRAFT.pdf` (July 2023, 189 pages, 960 × 540 PDF points, 16:9). Visual sampling covered PDF pages 5, 8, 17, 35, 45, 49, 75, 139, 144 and 153. These are page indices, not an assertion of reviewing all 189 pages. Reference PDF/images and business text are not bundled with this skill.
+The design profile was derived from a user-selected July 2023 benchmark-study PDF (July 2023, 189 pages, 960 × 540 PDF points, 16:9). Visual sampling covered PDF pages 5, 8, 17, 35, 45, 49, 75, 139, 144 and 153. These are page indices, not an assertion of reviewing all 189 pages. Reference PDF/images and business text are not bundled with this skill.
 
 - Pages 8 and 49: charts with direct data labels, an explanatory title and nearby analysis; color differentiates series rather than decorating every block.
 - Pages 35, 45 and 144: comparison matrices, aligned columns, selective light-blue row fills, narrow rules and specific commercial details.
@@ -28,7 +28,7 @@ Colors below are rounded RGB values extracted from PDF vector/text objects. They
 
 The executable defaults are in `assets/advisory-dense.json`. At this project's 1280 × 720 design scale, start with Arial title 32–36, body/table 16–19, subsection 20–22, source notes 12–13. These are implementation choices for an available substitute, not measured KPMG font sizes. Keep the header within about the top 18% and reserve a source/footer band. Use 64–80 side margins and 24–32 gutters as starting points. Allow a supported takeaway title two lines; don't force every title to be a claim.
 
-Never extract or distribute proprietary fonts from a PDF. Use a supplied authorized font when available, otherwise disclose the substitute. Do not invent a KPMG logo, confidentiality wording, copyright footer or claim of approval. The synthetic demo remains visibly labeled as fictional.
+Never extract or distribute proprietary fonts from a PDF. Use a supplied authorized font when available, otherwise disclose the substitute. Do not invent a KPMG logo, confidentiality wording, copyright footer or claim of approval. Label any synthetic examples visibly as fictional.
 
 ## Choose a layout by the question
 
@@ -53,4 +53,4 @@ For each page, ask: what can the reader verify, compare or decide? Remove repeat
 
 Set storyboard `style_profile` to `advisory-dense`; use the profile's roles for explicit text colors/sizes and chart colors. The renderer uses the profile for default table styling and otherwise unspecified text/chart colors. It does not replace explicit old colors, move objects, write analysis or populate source footers automatically.
 
-First validate investment case, business overview and financial analysis layouts against the user's materials. The Northbridge style pilot demonstrates these with synthetic evidence and a separate storyboard. Inspect rendered HTML and native PPT at the intended reading size. Before shrinking text, shorten repetition or rebalance columns. Keep all important financial rows, qualifications and source mappings. Native PPTX master matching remains a separate task once the original template is available.
+First validate investment case, business overview and financial analysis layouts against the user's materials. Use the bundled [format example](../assets/storyboard-example.json) when checking the semantic schema; author actual project layouts from the client evidence. Inspect rendered HTML and native PPT at the intended reading size. Before shrinking text, shorten repetition or rebalance columns. Keep all important financial rows, qualifications and source mappings. Native PPTX master matching remains a separate task once the original template is available.
