@@ -10,3 +10,6 @@ runs/
 .env
 .env.*
 !.env.example
+
+# Use GitHub's source download instead of committing a duplicate demo archive.
+/mna-im-starter-kit.zip
